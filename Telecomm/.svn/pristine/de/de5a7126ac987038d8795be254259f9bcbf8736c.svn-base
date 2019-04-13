@@ -1,0 +1,46 @@
+//
+//  WalletDetailController.m
+//  Watch Extension
+//
+//  Created by 王胜利 on 2019/3/11.
+//  Copyright © 2019 pansoft. All rights reserved.
+//
+
+#import "WalletDetailController.h"
+
+@interface WalletDetailController ()
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *walletInfo;
+
+@end
+
+@implementation WalletDetailController
+
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
+
+    NSString *wallet = [NSString stringWithFormat:@"钱包类型:%@\n钱包地址:%@\n钱包私钥:%@\n用户ID:%@",context[@"chainId"],context[@"addr"],context[@"privkey"],context[@"account"]];
+
+    [self.walletInfo setText:wallet];
+
+
+    // Configure interface objects here.
+}
+
+- (void)willActivate {
+    // This method is called when watch view controller is about to be visible to user
+    [super willActivate];
+}
+
+- (void)didDeactivate {
+    // This method is called when watch view controller is no longer visible
+    [super didDeactivate];
+}
+- (IBAction)deleteAction {
+
+
+}
+
+@end
+
+
+

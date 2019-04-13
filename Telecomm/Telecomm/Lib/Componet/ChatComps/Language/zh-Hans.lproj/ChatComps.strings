@@ -1,0 +1,707 @@
+/*
+  ChatComps.strings
+  ChatComps
+
+  Created by 赵洪壮 on 2018/9/10.
+  Copyright © 2018年 Javor Feng. All rights reserved.
+*/
+// Chatlist-> EFChatListViewController
+"chatHaveNoMessageData" = "您还没有任何消息!";
+"chatAnythingCanHappen" = "任何事情都有可能发生!";
+"chatIsDelete" = "是否删除?";
+"chatMarkedAsRead" = "标为已读";
+
+// chat-> EFChatStartGounpChatViewController
+"chatSelectContacts" = "选择联系人";
+"chatDeleteMember" = "删除成员";
+"chatNoContactsWere" = "没有选中任何联系人";
+"chatGroupStart" = "请稍候...";
+"chatAddingGroupMembers" = "正在添加群成员...";
+"chatFailedToAddMember" = "添加成员失败";
+"chatInvite" = "邀请了";
+"chatJoinTheTribe" = "加入部落";
+"chatCreateGroupFailed" = "创建群失败";
+"chatDeleteMemberFailed" = "删除群成员失败";
+
+// ChatAnimationView
+"chatGoldCoin" = "发金币";
+
+// EFMessageService
+"chatOfflineNotice" = "下线通知";
+"chatYourAccountIsForcedToGoOffline" = "您的账号被强制下线";
+"chatOriginalImage" = "原图";
+"chatPhotos" = "张照片";
+"chatUnableToRecord" = "无法录音";
+"chatAllowAccessToTheMicrophone" = "请在“设置-隐私-麦克风”中允许访问麦克风。";
+"chatTalk" = "按住说话";
+"chatRecording" = "点击录音";
+"chatChangeSound" = "按住变声";
+"chatReleaseToListen" = "松手试听";
+"chatUnlockToSend" = "松手取消发送";
+"chatTalkingTimeIsTooShort" = "说话时间太短";
+"chatEveryoneCanNotTalk" = "全员禁言中";
+
+// JFChatTipsContentUtil
+"chatTheOtherPartyHasSuccessfullyReceivedFile" = "对方已成功接收文件";
+"chatYouHaveSuccessfullyReceivedTheFile" = "您已成功接收文件";
+"chatSelfRecallMessage" = "您撤回了一条消息";
+"chatSomeOneRecallMessage" = "撤回了一条消息";
+
+// SendArticleController
+"chatAnnouncement" = "通告";
+"chatClickTeSelectImage" = "点击选择图片";
+"chatPleaseEnterAPictureTitle" = "请输入图片标题";
+"chatPleaseEnterAPageTitle" = "请输入网页标题";
+"chatPleaseEnterAWebLink" = "请输入网页链接";
+"chatSelectImageSource" = "选择图片来源";
+"chatBackgroundImageCannotBeEmpty" = "背景图片不能为空";
+"chatTheTitleCanNotBeBlank" = "标题不能为空";
+"chatInformedLinkFormatError" = "通告链接格式错误";
+
+// EFMessageWebItem
+"chatPageTitle" = "网页主题";
+
+// JFVoiceAudioPlayer
+"chatAnErrorOccurredWhileCreatingAPlaybackObjectErrorMessage" = "创建播放对象时发生错误，错误信息";
+
+// JFSpeechRecognitionItem
+"chatUnrecognized" = "(未识别)";
+
+// JFSecretManager
+"chatBasePasswordIsUsedToDecryptThePasswordOfTheMessage" = "基地密码用于解密消息的密码";
+"chatDecrypting" = "正在解密";
+
+// JFTransferDetailsController
+"chatInterstellarID" = "对方星际ID:";
+"chatexchangeID" = "交换ID:";
+
+// JFTransferItem
+"chatTransactionTransfer" = "交易转入";
+"chatHasBeenTransferredToYourBase" = "已转入你的基地";
+"chatTransactionOut" = "交易转出";
+"chatHasBeenTransferredToTheOtherBase" = "已转入对方基地";
+
+// SelectRecentFriendController
+"chatSendTo" = "发送给";
+"chatForwardTo" = "转发给";
+"chatShareTo" = "分享给";
+"chatShareTo2" = "分享到";
+
+// JFChatListCluesStatement
+"chatYouWereMentioned" = "[有人@我]";
+
+// EFChatAddFriendDetailViewController
+"chatPersonalDetails" = "个人详情";
+"chatAddToAddressBook" = "添加到通讯录";
+"chatUnableToAddYourselfToYourContacts" = "自己不能添加自己为好友";
+"chatTheOtherPartyIsAlreadyYourFriend" = "对方已经是您的好友";
+"chatFriendRequestIsBeingSent" = "好友请求发送中...";
+"chatFriendRequestSentSuccessfully" = "好友请求发送成功";
+"chatFriendRequestFailedToSendReason" = "好友请求发送失败 原因";
+
+// EFChatAddFriendViewController
+"chatAddFriends" = "添加朋友";
+"chatUsernameOrMobileNumber" = "用户名/手机号";
+"chatFindTheTribe" = "查找部落";
+"chatScanQRCodeBusinessCard" = "扫描二维码名片";
+"chatGetMoreInformationAndServices" = "获取更多资讯和服务";
+"chatFindMoreTribes" = "查找更多的部落";
+"chatSearch" = "搜索:";
+"chatSearchCriteriaCannotBeEmpty" = "搜索条件不能为空!";
+"chatLookingForContacts" = "正在查找联系人...";
+"chatFindFailure" = "查找失败";
+"chatUnableToFindUser" = "无法找到用户";
+
+// EFChatAddGroupViewController
+"chatTribeIDAndTribeName" = "部落ID/部落名称";
+"chatLookingForTribes" = "正在查找部落....";
+"chatUnableToFindTribe" = "无法找到部落";
+"chatTheDataServiceCannotBeAccessedPleaseContactTheAdministrator" = "数据服务不能访问，请联系管理员！";
+
+// EFChatAddServiceAndApplicationViewController
+"chatSearchForApplicationAccountsAndServiceAccounts" = "搜索应用号和服务号";
+"chatTheApplicationAccountsDoesNotExist" = "该应用号不存在！";
+
+// ServiceAndApplicationInfoViewController
+"chatFeatures" = "功能介绍：";
+"chatConsumerTel" = "客服电话：";
+"chatViewHistoryNews" = "查看历史消息";
+"chatAttention" = "关注";
+"chatFollowing" = "正在关注...";
+"chatFollowed" = "关注成功";
+"chatFollwedApplicationSucdessfulTip" = "发送申请成功，请等待管理员审核，审核通过后将自动关注该应用号";
+"chatFollowedFailure" = "关注失败...";
+
+// GroupChatViewController
+"chatInterPlanetTribe" = "星际部落";
+"chatInterPlanetTribeNumber" = "个星际部落";
+
+// GroupNoticeViewController
+"chatNotice" = "通知";
+
+// NewFriendViewController
+"chatNewFriend" = "新的朋友";
+"chatThisUserDoesNotExist" = "该用户不存在";
+"chatYouCanNotAddYourselfToYourContacts" = "你不能添加自己到通讯录";
+"chatAdded" = "已添加";
+"chatWeAreAlreadyFriendsChatTogether" = "我们已经是好友了，一起聊天吧！";
+
+// JFGroupNoticeCell
+"chatNoVerificationInformation" = "无验证信息";
+"chatApplicationsForMembership" = "申请加入";
+"chatAgree" = "同意";
+"chatApproved" = "已同意";
+"chatRejected" = "已拒绝";
+"chatBeRejected" = "被拒绝";
+
+// JFGroupNoticeController
+"chatAgreed2" = "同意了";
+"chatJoinTheTribeApplication" = "加入部落的申请";
+"chatTribalApplication" = "部落申请";
+
+// JFGroupNoticeDetailController
+"chatAdditionalMessage" = "附加消息";
+
+// JFNewFriendCell
+"chatRefuse" = "拒绝";
+"chatAgreedToTheApplication" = "已同意该申请";
+"chatSentTheApplication" = "已发送该申请";
+"chatTheApplicationHasBeenRejected" = "已拒绝该申请";
+"chatTheApplicationWasRejected" = "该申请被拒绝";
+"chatYouHaveDeclinedTheRequest" = "您已拒绝了该请求";
+"chatFriendRequests" = "好友申请";
+
+// JFNewFriendDetailController
+"chatYouHaveRejectedThisFriendRequest" = "您已拒绝了该好友申请";
+"chatNumber" = "号码";
+"chatNickname" = "昵称";
+"chatChangeRemark" = "修改备注名";
+"chatAddRemark" = "请输入备注名";
+
+// NewFriendDetailCellOthers
+"chatDoShareMyMoments" = "不让他看我的朋友圈";
+"chatHideHisMoments" = "不看他的朋友圈";
+
+// NewFriendDetailViewController
+"chatDetails" = "详细资料";
+"chatBlock" = "加入黑名单";
+"chatApprovedd" = "通过验证";
+
+// DetailViewController
+"chatSignature" = "个性签名";
+"chatSetRemark" = "设置备注";
+"chatDeleteFriend" = "删除好友";
+"chatSetGroupNickname" = "设置群昵称";
+"chatDeletingFriendFailed" = "删除好友失败";
+"chatAddFriend" = "添加好友";
+"chatSendMessage" = "发送消息";
+
+// RemarkFriendNameViewController
+"chatRemarks" = "备注信息";
+"chatAddRemarks" = "添加备注名称";
+"chatRemarksTip" = "备注名(名称不要太长，十个汉字以内~)";
+"chatRemarksAreTooLong" = "备注名过长";
+"chatModifyingGroupNickname" = "正在修改群昵称";
+"chatModifyGroupNicknameFailed" = "修改群昵称失败";
+"chatRemarkNameCantNotBeEmpty" = "备注名不能为空";
+"chatModifyingRemarkName" = "正在修改备注";
+"chatModifyRemarkNameFailed" = "修改备注失败";
+
+// AddressPersonDeailCell
+"chatBaseCoordinatesHaveBeenCopied" = "基地坐标已复制";
+"chatGroup" = "群";
+
+// JoinGroupRequestUserCell
+"chatJoined" = "已加入";
+"chatWaitingForVerification" = "等待验证";
+"chatAgree3" = "接受";
+"chatRequestToAddYouAsFriend" = "请求添加您为好友";
+
+// NewFriendCell
+"chatHaveBecomeFriendsWithYou" = "与您已成为好友";
+"chatFriendRequestHasBeenSent" = "好友请求已发送";
+"chatHasBeenSent" = "已发送";
+"chatDownloadTheApplicationAccountsResourceFile" = "下载应用号资源文件";
+
+// EFApplicationJumpUtil
+"chatDownload" = "立即下载";
+"chatFailedToDownloadResourceFileCanNotEnterApplicationAccounts" = "下载资源文件失败，无法进入应用号，请重试";
+"chatDownloadingMasterData" = "正在下载主数据";
+"chatMasterDataDownloadFailed" = "主数据下载失败，请重试";
+
+// DetailedInfomationViewController
+"chatReceiveMessage" = "接收消息";
+"chatTopApplicationAccounts" = "置顶应用号";
+"chatEnterTheApplicationAccounts" = "进入应用号";
+"chatUnsubscribe" = "取消关注";
+"chatAreYouSureYouWantToCancelTheApplicationAccounts" = "确定取消关注应用号？";
+"chatUnfollowSuccess" = "取消关注成功";
+"chatUnfollowFailure" = "取消关注失败";
+
+// ChatInterstellarApplication
+"chatInterstellarApplication" = "星际应用";
+
+// EFApplicationSidebarViewController
+"chatMuteNotifications" = "消息免打扰";
+"chatVersionUpDate" = "检测新版本";
+"chatResourceFileUpdate" = "资源文件更新";
+
+// ChatDetailViewController
+"chatChatDetails" = "聊天详情";
+"chatTopChat" = "置顶聊天";
+"chatPleaseEnterInformation" = "请输入信息";
+"chatExpression" = "表情";
+
+// EFChatViewController
+"chatSkipUpToCancelSending" = "手指上滑，取消发送";
+"chatResendTheMessage" = "重发该消息？";
+"chatResend" = "重发";
+
+// chatNetworkUnavailable
+"chatNetworkUnavailable" = "(网络不可用)";
+
+// JFChatViewController
+"chatUnreadMessage" = "条未读消息";
+
+// JFPersonChatViewController
+"chatTyping" = "对方正在输入...";
+
+// EFMessageListCell
+"chatDraft" = "草稿";
+
+// EFChatListViewController
+"chatCurrentAccountIsInOther" = "当前账户在其它%@台设备登录";
+
+// JFChatSearchResultListController
+"chatContact" = "联系人";
+
+// JFChatSearchGroupCell
+"chatTribeID" = "部落ID：";
+
+// BTCTransferOutController
+"chatFailedToGetFriendInformationPleaseTryAgain" = "好友信息获取失败，请重试";
+
+// EFChatStartGounpChatViewController 转账controller相关
+"chatFaceToFaceGrouping" = "面对面建群";
+"chatChooseGroup" = "选择一个群";
+"chatMakeSureYouWantToDeleteTheGroupMember" = "确定要删除群成员";
+"chatWhetherToRemove" = "是否将";
+"chatFromTheGroup" = "从群中移除";
+
+// GroupIntroduceCell
+"chatThisGroupWasCreatedIn" = "本群创建于";
+
+// GroupApplicantViewController
+"chatGettingTribalData" = "正在获取部落数据..";
+"chatTribalIntroduction" = "部落介绍";
+"chatGroupOwnerAndAdministrator" = "群主/管理员";
+"chatApplyToJoinTheTribe" = "申请加入部落";
+"chatEnterTheTribeToChat" = "进入部落聊天";
+"chatJoiningTheTribe" = "正在加入部落";
+"chatYouHaveJoinedThisTribe" = "您已加入本部落";
+"chatAddGroupFailed" = "加群失败，请稍候再试";
+"chatJoinedTheTribe" = "加入了部落";
+
+// GroupMemberListViewController
+"chatTribalMember" = "部落成员";
+"chatGroupOwner" = "    群主";
+"chatAdministrator" = "    管理员";
+"chatSetUpTribalAdministrator" = "设置部落管理员";
+"chatDeleteTribalMembers" = "删除部落成员";
+"chatCancelTribalAdministrator" = "取消部落管理员";
+"chatDeleteTribalMembersFailed" = "删除部落成员失败";
+"chatSettingUpAdministrator" = "正在设置管理员";
+"chatSettingAdministratorFailed" = "设置管理员失败";
+"chatUnregisteringAdministrator" = "正在取消管理员身份";
+"chatCancellationOfAdministratorStatusFailed" = "取消管理员身份失败";
+
+// GroupQRCodeCardViewController
+"chatQRCodeBusinessCard" = "二维码名片";
+"chatTribalName" = "部落名";
+"chatSweepTheQRCodeAboveAndJoinTheTribe" = "扫一扫上面的二维码,加入该部落";
+
+// JFAddGroupController
+"chatJoinTheTribeToApplySuccessfully" = "加入部落申请成功";
+"chatTheApplicationFailedPleaseTryAgainLater" = "申请失败，请稍候再试";
+"chatFillInTheVerificationInformation" = "填写验证信息";
+"chatIAm" = "我是";
+
+// JFGroupDetailController
+"chatFailedToGetGroupMember" = "获取群成员失败";
+"chatFailedToGetAddress" = "工作地址加载失败";
+"chatOnlyOwnersAndManagersCanDoThis" = "只有群主和管理员才能进行此操作";
+"chatPleaseEnterANewTribalName" = "请输入新的部落名";
+"chatModifyingTheTribalNameFailed" = "修改部落名失败";
+"chatTribalEnglishName" = "部落英文名称";
+"chatPleaseEnterAnEnglishName" = "请输入英文名称";
+"chatSettingEnglishNameFailed" = "设置英文名称失败";
+"chatPleaseEnterTheCorrectEnglishCharacters" = "请输入正确的英文字符";
+"chatMyAliasInGroup" = "我在本部落的昵称";
+"chatPleaseEnterANewTribalNickname" = "请输入新的部落昵称";
+"chatModifyingTheNoteNameFailed" = "修改备注名失败!";
+"chatTribalAddressAlreadyExists" = "部落地址已存在";
+"chatAddTribalAddressSuccessfully" = "添加部落地址成功";
+"chatAddingTribalAddressFailed" = "添加部落地址失败";
+"chatMakeSureDelete" = "确定删除";
+"chatMakeSureDelete2" = "吗？";
+"chatComeJoinThe" = "快来加入";
+"chatTribe" = "部落吧";
+"chatMakeSureToDissolveTheTribe" = "确定解散本部落";
+"chatMakeSureToQuitTheTribe" = "确定退出本部落";
+"chatDissolvingTheTribe" = "正在解散本部落";
+"chatExitingTheTribe" = "正在退出本部落";
+
+// JFInputController
+"chatSetupFailedPleaseTryAgainLater" = "设置失败，请稍后重试";
+
+// JFGroupDetailManager
+"chatTribalName2" = "部落名称";
+"chatFreeGroup" = "自由进群";
+"chatAllMembersAreBanned" = "全员禁言";
+"chatTribalWorkAddress" = "部落工作地址";
+"chatCreationTime" = "创建时间";
+"chatSharingTribe" = "分享部落";
+"chatNotSet" = "暂未设置";
+
+// DeleteTableViewCell
+"chatDeleteAndExit" = "删除并退出";
+
+// GroupMemberCell
+"chatGroupMember" = "群成员";
+
+// GroupMemberDetailCell
+"chatGroupOwner2" = "群  主";
+"chatAdministrator2" = "管理员";
+
+// ChangeNickNameViewController
+"chatPleaseEnterNewNickname" = "请输入新的昵称";
+"chatGoodNamesCanMakeItEasierForYourFriendsToRememberYou" = "好名字可以让你的好朋友更容易记住你";
+"chatChangeNickname" = "更改昵称";
+"chatSubmitting" = "正在提交...";
+"chatNicknameModifiedSuccessfully" = "昵称修改成功";
+"chatNicknameModificationFailed" = "昵称修改失败";
+
+// MineInformationViewController
+"chatPersonalInformation" = "个人信息";
+"chatUnfilled" = "未填写";
+"chatReceiveStrangerNews" = "接收陌生人消息";
+"chatMyReceiptCode" = "我的收款码";
+"chatUnderRevision" = "正在修改...";
+
+// SigNatureViewController
+"chatPleaseEnterNewSignature" = "请输入新的个性签名";
+"chatPersonalSignatureChangedSuccessfully" = "个性签名修改成功";
+"chatPersonalSignatureModificationFailed" = "个性签名修改失败";
+
+// MyLoginDeviceController
+"chatGoingOffline" = "正在下线";
+"chatSendOfflineMessageSuccessfully" = "发送下线消息成功";
+"chatDownlineFailed" = "下线失败，请稍后再试";
+"chatUnderline" = "下线";
+
+// JFCheckPaymentCodeController
+"chatTheOtherPartyHasNotSetTheReceiptCode" = "对方暂未设置收款码";
+"chatRemindHim" = "提醒他";
+// 的
+"chatHas" = "的";
+"chatCollectionCode" = "收款码";
+"chatIdentificationReceiptCode" = "识别收款码";
+"chatSaveTheReceiptCode" = "保存收款码";
+"chatTheRecognitionResultHasBeenCopiedToTheClipboard" = "已复制识别结果到剪切板";
+"chatScanResult" = "扫描结果";
+"chatYouHaveNotYetGeneratedQRCode" = "您还没有生成二维码";
+
+// JFMyPaymentCodeController
+"chatSetMyWeChatCollectionCode" = "设置我的微信收款码";
+"chatSetMyAlipayCollectionCode" = "设置我的支付宝收款码";
+"chatThisImageDoesNotContainQRCode" = "该图片没有包含一个二维码！";
+"chatFailedToSetThePaymentCodePleaseTryAgain" = "设置收款码失败，请重试";
+
+// EFMyQRCodeViewController
+"chatScanQRCodeAndAddMeAsFriend" = "扫描二维码，加我为好友";
+
+// EFQRCodeViewController
+"chatCurrentVersion" = "当前版本";
+"chatScanTheQRCodeAboveToDownload" = "扫描上方二维码，下载";
+
+// EnergyExchangeViewController
+"chatScanQRCodeForEnergyExchange" = "扫描二维码进行能量交换";
+"chatSeTheNumberOfExchanges" = "设置交换数量";
+"chatPleaseEnterTheCorrectEnergy" = "请输入正确的能量";
+
+// ExchangeRecordCell
+"chatTransferEnergy" = "转入能量";
+"chatTransferOutEnergy" = "转出能量";
+
+// QRCodeCardViewController
+"chatSweepTheQRCodeAboveAndFollowTheApplicationAccounts" = "扫一扫上面的二维码图案,关注该应用号";
+"chatSweepTheQRCodeOnTheTopAndAddMeAsFriend" = "扫一扫上面的二维码图案,加我为好友";
+
+// RichScanResultViewController
+"chatQRCodeScanResult" = "二维码扫描结果";
+"chatTheFollowingContentIsTheScanResultPleaseClickIfYouWantToUse" = "以下内容为扫描结果，如需使用请点击";
+
+// RichScanViewController
+"chatAutomaticallyScanTheQRCodeByPlacingItInTheViewfinder" = "将二维码放入取景框中即可自动扫描";
+"chatTheDeviceDoesNotSupportAccessToTheAlbum" = "设备不支持访问相册，请在设置->隐私->照片中进行设置！";
+
+// SetExchangeCountViewController
+"chatExchangeQuantity" = "交换数量";
+"chatPleaseEnterTheNumberOfExchanges" = "请输入交换数量";
+
+// ShowWebViewController
+"chatWebsiteLoading" = "网页加载中...";
+
+// RecentFileController
+"chatRecentFile" = "最近文件";
+
+// RecentFileListController
+"chatCanOnlyChooseAfterDownloadingTheFile" = "文件下载后才能选择";
+"chatGoDowmload" = "去下载";
+"chatAreYouSureToDeleteTheFile" = "确定删除文件？";
+
+// RecommedFriendController
+"chatReferralContact" = "推荐联系人";
+"chatTribalBusinessCard" = "部落名片";
+"chatPersonalBusinessCard" = "个人名片";
+
+// JFCoinChosenController
+"chatSelectCurrency" = "选择币种";
+
+// JFMyRedPacketController
+"chatMyReceived" = "我收到的";
+"chatMySentOut" = "我发出的";
+
+// JFRedPacketPosterController
+"chatRedEnvelopePoster" = "红包海报";
+"chatBlockchainBasedInstantMessagingAndDigitalAssetOpenPlatform" = "基于区块链的即时通讯与数字资产开放平台";
+"chatScanCodeImmediatelyLeadRedPacket" = "扫码立即领红包";
+"chatHowToGetRedPacket" = "如何领取红包";
+"chatScanCodeToReceiveRedPacket" = "1.扫码领取红包\n2.下载“星际通讯”APP\n3.进入“资产”页面，点击“托管账户”菜单，查看获取的红包";
+"chatSendYouRedPacket" = "送你一个红包";
+
+// JFTokenChosenController
+"chatChooseRedPacketTokens" = "选择红包代币";
+
+// PostRedPacketController
+"chatRedPacketRecord" = "红包记录";
+"chatRedPacketToken" = "红包代币";
+"chatEscrowBalance" = "托管余额";
+"chatTotalCurrency" = "总币数";
+"charCurrentlyHandyRedPacket" = "当前为拼手气红包，";
+"chatChangeToOrdinaryRedPacket" = "改为普通红包";
+"chatNumberOfRedPackets" = "红包个数";
+// 不确定是否需要翻译
+"chatCount" = "个";
+"chatEnterNumber" = "填写个数";
+"chatLeaveMessage" = "留言";
+"chatCongratulationsToGetRich" = "星际通讯，恭喜发财";
+"chatTotalCurrency2" = "塞币总额";
+
+// RedPacketController
+"chatRedPacketDetail" = "红包详情";
+
+// JFAddAccountController
+"chatAddAccountTitle" = "添加资产";
+
+// JFAccountDetailController
+"chatAccountDetailRecharge" = "充值";
+"chatAccountDetailWithdraw" = "提现";
+"chatAccountWalletBalance" = "钱包余额";
+"chatAccountWalletBalanceInsufficient" = "钱包余额不足";
+"chatAccountEnterAmout" =  "请输入充值金额";
+"chatAccountRecharging" =  "正在充值";
+"chatAccountRechargeSuccessful" = "充值成功";
+"chatAccountDetailRechargeRetry" = "充值失败，请稍后再试";
+"chatAccountDetailSignFail" = "签名失败";
+"chatAccountDetailAvailable" = "托管账户可用";
+"chatAccountDetailInsufficientFee" = "手续费不足";
+"chatAccountDetailToWallet" = "转出到钱包";
+"chatAccountDetailWithDrawFailed" = "提现失败，请稍后再试";
+"chatAccountDetailWithDrawSuccess" = "提现成功";
+"chatAccountDetailFullWithdrawal" = "全部提现";
+"chatAccountTransferOut" = "请输入转出数量";
+"chatAccountTransferOutTip" = "请输入转出数量";
+"chatAccountDetailExtracting" = "正在提现";
+"chatPutCoinInTheRedPacket" = "塞币进红包";
+"chatUnclaimedRedPacketWillBeRefundedAfter24Hours" = "未领取的红包，将在24小时后发起退款";
+"chatTotalAmount" = "总金额";
+"chatAmount" = "金额";
+"chatASingleAmountOfAtLeast" = "单个金额最少为0.00001";
+"chatInsufficientBalance" = "余额不足";
+"chatPleaseEnterTheAmount" = "请输入金额";
+"chatRedPacketAmountCannotBe0" = "红包金额不能为0";
+"chatPleaseEnterTheCorrectNumberOfRedPacket" = "请输入正确的红包个数";
+"chatFailingToPutMoneyIntoTheRedPacketPleaseTryAgainLater" = "塞钱进红包失败，请稍候再试";
+"chatRedPacket" = "个红包";
+"chatTheRedPacketIsReady" = "红包已备好";
+"chatFrom" = "来自";
+
+// JFAccountDetailcell
+"chatConfirmed" = "已确认";
+"chatReceiveRedPacket" = "收红包";
+"chatRedPacketReturned" = "红包退回";
+
+// JFMyRedPacketRecordHeaderView
+"chatTheRedPacketReceivedHasBeenDepositedIntoYourEscrowAccountAndCanBeTransferredToYourLocalWallet" = "收到的红包已存入您的托管账户，可转出到本地钱包";
+
+// JFRedPackedISendCell
+"chatFightingRedPacket" = "拼手气红包";
+"chatOrdinaryRedPacket" = "普通红包";
+
+// OpenRedPacketView
+"chatSentARedPacket" = "发了一个红包";
+"chatCheckEveryoneLuck" = "查看大家的手气>";
+"chatRedPacketHasExpired" = "红包已过期";
+"chatTheHandIsSlowTheRedPacketIsFinished" = "手慢了，红包派完了";
+
+// PostRedPacketChooseView
+"chatWallet" = "钱包";
+
+// PostRedPacketWriteView // 不确定是否需要翻译
+"chatLuck" = "拼";
+"chatSingleCurrency" = "单个币数";
+"chatCurrentlyACommonRedPacket" = "当前为普通红包，";
+"chatChangeToAHandRedPacket" = "改为拼手气红包";
+
+// RedPacketCell
+"chatBestLuck" = "手气最佳";
+
+// RedPacketHeaderView
+"chatReceived" = "已领取";
+
+// RedPacketHistoryHeader
+"chatReceivedARedPacket" = "收到红包";
+
+// EFAdaptationAlert
+"chatForcedUpgrade" = "强制升级";
+"chatPauseDownload" = "暂停下载";
+"chatDownloadCompletedExtracting" = "下载完成 正在解压 ... ";
+"chatDecompressionSucceeded" = "解压成功";
+"chatDecompressionError" = "解压错误";
+"chatFileOpenError" = "文件打开错误";
+"chatDownloadFileSuccessfully" = "下载文件成功";
+
+// JFSecretFileDisplayController
+"chatViewThePrivateFile" = "查看密件";
+"chatPrivateFileDownload" = "密件下载";
+
+// JFSecretBaseDisplayController
+"chatDecryptionFailed" = "解密失败";
+
+// JFSecretInputPasswordController
+"chatEnterYourPasswordToViewTheContent" = "输入密码查看内容";
+
+// JFSecretPasswordController
+"chatViewPassword" = "查看密码";
+"chatPleaseRememberThePassword" = "请您牢记密码,系统不会保存该密码";
+
+// JFSecretPasswordTipController
+"chatSafetyWarning" = "安全提示";
+"chatchatSafetyWarningDetail" = "查看密码前请注意观察周边环境，避免泄漏您的密码。密码只显示一次，请务必保存好密码";
+
+// JFSecretWordController
+"chatAFriendDoesNotHavePublicKeyInformationAndCannotSendEncryptedMessages" = "好友没有公钥信息，无法发送加密消息";
+"chatPleaseEnterTheContentOfThePrivateMessage" = "请输入密信内容";
+"chatPleaseEnterYourPassword" = "请输入密码";
+"chatEncryptingPassword" = "正在加密密码";
+
+// JFSecretImageController
+"chatPleaseSelectAnImage" = "请选择图片";
+"chatPleaseSelectTheFileYouWantToSend" = "请选择所需要发送的文件";
+"chatUpTo9PicturesCanBeSelected" = "图片最多可以选择9张";
+
+// JFSecretFileController
+"chatAddPrivateFile" = "添加密件";
+
+// JFSecretBaseSendController
+"chatGettingFriendPublicKey" = "正在获取好友公钥";
+
+// AboutMeViewController
+"chatFunctionIntroduction" = "功能介绍 >";
+"chatFullChain" = "全链";
+"chatFullPlatform" = "全平台";
+"chatMining" = "挖矿";
+"chatEncryptedCommunication" = "加密通信";
+"chatDigitalAssets" = "数字资产";
+
+// EFChatLeftViewController
+"themeLight" = "日间模式";
+"themeDark" = "夜间模式";
+"chatClearCache" = "清除缓存";
+"chatClearCacheSuccess" = "清除缓存成功!";
+"chatClearCacheFail" = "清除缓存失败!";
+"chatCheckUpdate" = "检查新版本";
+"chatSignOut" = "退 出 登 录";
+"chatIsTheCacheCleared" = "是否清除缓存?";
+"chatTesting" = "正在检测...";
+"chatAreYouSureToQuitTheCurrentUser" = "确定退出当前用户？";
+"chatSigningOut" = "正在退出登录...";
+"chatSignOutFailedPleaseTryAgain" = "退出当前用户失败请重试。";
+
+
+
+// EFLeftOperationView
+"chatCircular" = "圆形";
+"chatSquare" = "方形";
+
+// chataccount
+"chatAccountAvailabel" = "可用";
+"chatAccountFreeze" = "冻结";
+"chatAccountAllRecords" = "全部记录";
+"chatAccountOther" = "其他";
+"chatAccountAddress" = "地址";
+"chatAccountManagedAddress" = "托管地址";
+"chatAccountPleasechoose" = "请选择";
+"chatAccountLocalwallet" = "本地钱包";
+"chatAccountTransferQuantity" = "转出数量";
+"chatAccountHandlingFee" = "手续费";
+"chatAccountTotalAssets" = "总资产";
+"chatShareContact" = "分享联系人";
+"chatProfile" = "用户详情";
+
+// chatUpLoad
+"chatUpLoad" = "上传影像";
+"chatUpLoadTips" = "检测到PC端星际通讯不在线，每张影像上传只能获得50积分，登录PC端星际通讯后每张影像上传可获得100积分";
+"chatUpLoadFail" = "上传失败";
+"chatUpLoadSuccess" = "上传成功";
+"chatUpLoadDocumentNumber" = "单据编号";
+"chatUpLoadSliverScore" = "银钻积分";
+"chatUpLoadSelect" = "请选择上传影像";
+"chatUpLoadUnuse" = "当前网络不可用";
+"chatUploadGetError" = "获取银钻失败";
+
+// smallVideo
+"chatSamllVideo" = "小视频";
+"chatSmallVideoDLRwetry" = "下载失败,是否重新下载？";
+
+// speech
+"chatSpeechTooShort" = "说话声音过短";
+"chatSpeechRecoding" = "正在识别语音";
+"chatSpeechAgain" = "您还能再说%ld秒钟";
+"chatSpeechWrong" = "语音听写出错：%@";
+"chatSpeechFail" = "语音听写开启失败";
+"chatSpeechEnd" = "语音识别已结束";
+"chatCopied" = "已复制";
+
+// JFMessageCell
+"chatWhetherToResendTheMessage" = "是否重发消息?";
+
+// JFRecentFileManager
+"chatNotDownloaded" = "未下载";
+"chatDownloaded" = "已下载";
+"chatDownloading" = "正在下载";
+"chatDownloadFailed" = "下载失败";
+"chatTo" = "发给";
+"chatFrom" = "来自";
+"chatToGroup" = "发给群";
+"chatFromGroup" = "来自群";
+
+
+"chatNoWifiLoadimage" = "非Wi-Fi,点击下载";
+"stayTuned" = "敬请期待";
+
+//JFSlideSetting
+"chatSetting" = "设置";
+"chatUnit" = "货币单位";
+"chatExchange" = "默认交易所";

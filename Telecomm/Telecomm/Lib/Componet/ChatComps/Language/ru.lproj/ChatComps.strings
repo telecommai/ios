@@ -1,0 +1,704 @@
+/*
+ ChatComps.strings
+ ChatComps
+ 
+ Created by 赵洪壮 on 2018/9/10.
+ Copyright © 2018年 Javor Feng. All rights reserved.
+ */
+// Chatlist-> EFChatListViewController
+"chatHaveNoMessageData" = "У вас еще нет сообщений!";
+"chatAnythingCanHappen" = "Все может случиться!";
+"chatIsDelete" = "Вы хотите удалить?";
+"chatMarkedAsRead" = "Пометить как прочитанное";
+
+// chat-> EFChatStartGounpChatViewController
+"chatSelectContacts" = "Выбрать контакт";
+"chatDeleteMember" = "Удалить участника";
+"chatNoContactsWere" = "Нет выбранных контактов";
+"chatGroupStart" = "пожалуйста, подождите...";
+"chatAddingGroupMembers" = "Добавление участников группы ...";
+"chatFailedToAddMember" = "Ошибка добавления участника";
+"chatInvite" = "Приглашение";
+"chatJoinTheTribe" = "Вступай в Орду";
+"chatCreateGroupFailed" = "Ошибка создания группы";
+"chatDeleteMemberFailed" = "Не удалось удалить участника группы";
+
+// ChatAnimationView
+"chatGoldCoin" = "Золотые монеты";
+
+// EFMessageService
+"chatOfflineNotice" = "Уведомление офлайн";
+"chatYourAccountIsForcedToGoOffline" = "Ваш аккаунт вынужден отключиться";
+"chatOriginalImage" = "Исходное изображение";
+"chatPhotos" = "фото";
+"chatUnableToRecord" = "Невозможно записать";
+"chatAllowAccessToTheMicrophone" = "Пожалуйста, разрешите доступ к микрофону в« Настройки - Конфиденциальность - Микрофон ».";
+"chatTalk" = "держи и говори";
+"chatRecording" = "Нажмите, чтобы записать";
+"chatChangeSound" = "удерживать звук";
+"chatReleaseToListen" = "Давайте попробуем";
+"chatUnlockToSend" = "Удалить, чтобы отменить отправку";
+"chatTalkingTimeIsTooShort" = "Время разговора слишком короткое";
+"chatEveryoneCanNotTalk" = "Все участники забанены";
+
+// JFChatTipsContentUtil
+"chatTheOtherPartyHasSuccessfullyReceivedFile" = "Другой участник успешно получил файл";
+"chatYouHaveSuccessfullyReceivedTheFile" = "Вы успешно получили файл";
+"chatSelfRecallMessage" = "Вы отозвали сообщение";
+"chatSomeOneRecallMessage" = "Отзыв сообщения";
+
+// SendArticleController
+"chatAnnouncement" = "Объявление";
+"chatClickTeSelectImage" = "Нажмите, чтобы выбрать изображение";
+"chatPleaseEnterAPictureTitle" = "Пожалуйста, введите название картинки";
+"chatPleaseEnterAPageTitle" = "Пожалуйста, введите заголовок страницы";
+"chatPleaseEnterAWebLink" = "Пожалуйста, введите веб-ссылку";
+"chatSelectImageSource" = "Выбрать источник изображения";
+"chatBackgroundImageCannotBeEmpty" = "Фоновое изображение не может быть пустым";
+"chatTheTitleCanNotBeBlank" = "Заголовок не может быть пустым";
+"chatInformedLinkFormatError" = "Неверный формат ссылки на уведомление";
+
+// EFMessageWebItem
+"chatPageTitle" = "тема страницы";
+
+// JFVoiceAudioPlayer
+"chatAnErrorOccurredWhileCreatingAPlaybackObjectErrorMessage" = "Произошла ошибка при создании объекта воспроизведения, сообщение об ошибке";
+
+// JFSpeechRecognitionItem
+"chatUnrecognized" = "(нераспознанный)";
+
+// JFSecretManager
+"chatBasePasswordIsUsedToDecryptThePasswordOfTheMessage" = "Пароль, используемый базовым паролем для расшифровки сообщения";
+"chatDecrypting" = "Расшифровка";
+
+// JFTransferDetailsController
+"chatInterstellarID" = "Межзвездный идентификатор другой стороны:";
+"chatexchangeID" = "Обмен ID:";
+
+// JFTransferItem
+"chatTransactionTransfer" = "Перевод транзакции";
+"chatHasBeenTransferredToYourBase" = "был перенесен в вашу базу";
+"chatTransactionOut" = "транзакция вышла";
+"chatHasBeenTransferredToTheOtherBase" = "перенесено в другую базу";
+
+// SelectRecentFriendController
+"chatSendTo" = "отправить";
+"chatForwardTo" = "Переслать";
+"chatShareTo" = "Поделиться с";
+"chatShareTo2" = "Поделиться с";
+
+// JFChatListCluesStatement
+"chatYouWereMentioned" = "[Кто-то @ Я]";
+
+// EFChatAddFriendDetailViewController
+"chatPersonalDetails" = "Личные данные";
+"chatAddToAddressBook" = "Добавить в адресную книгу";
+"chatUnableToAddYourselfToYourContacts" = "Вы не можете добавить себя в друзья";
+"chatTheOtherPartyIsAlreadyYourFriend" = "Другой участник уже является вашим другом";
+"chatFriendRequestIsBeingSent" = "Запрос на добавление в друзья отправляется ...";
+"chatFriendRequestSentSuccessfully" = "Запрос на дружбу успешно отправлен";
+"chatFriendRequestFailedToSendReason" = "Запрос дружбы не смог отправить причину";
+
+// chat-> EFChatStartGounpChatViewController
+"chatAddFriends" = "Добавить друга";
+"chatUsernameOrMobileNumber" = "имя пользователя / номер телефона";
+"chatFindTheTribe" = "Найди Орду";
+"chatScanQRCodeBusinessCard" = "Сканировать QR-код карты";
+"chatGetMoreInformationAndServices" = "Получить больше информации и услуг";
+"chatFindMoreTribes" = "Найти больше племен";
+"chatSearch" = "Поиск:";
+"chatSearchCriteriaCannotBeEmpty" = "Критерии поиска не могут быть пустыми!";
+"chatLookingForContacts" = "Поиск контактов ...";
+"chatFindFailure" = "Найти не удалось";
+"chatUnableToFindUser" = "Невозможно найти пользователя";
+
+// EFChatAddGroupViewController
+"chatTribeIDAndTribeName" = "ID племени / племенное имя";
+"chatLookingForTribes" = "В поисках Орды ....";
+"chatUnableToFindTribe" = "Невозможно найти племя";
+"chatTheDataServiceCannotBeAccessedPleaseContactTheAdministrator" = "Невозможно получить доступ к службе данных, обратитесь к администратору!";
+
+// EFChatAddServiceAndApplicationViewController
+"chatSearchForApplicationAccountsAndServiceAccounts" = "Поиск номера приложения и номера службы";
+"chatTheApplicationAccountsDoesNotExist" = "Номер приложения не существует!";
+
+// ServiceAndApplicationInfoViewController
+"chatFeatures" = "Введение в функцию:";
+"chatConsumerTel" = "Телефон службы поддержки клиентов:";
+"chatViewHistoryNews" = "Просмотреть историю сообщений";
+"chatAttention" = "внимание";
+"chatFollowing" = "Внимание ...";
+"chatFollowed" = "Следить за успехом";
+"chatFollwedApplicationSucdessfulTip" = "Отправьте заявку успешно, пожалуйста, подождите, пока администратор ее рассмотрит, после заявки будет автоматически указан номер заявки";
+"chatFollowedFailure" = "Отслеживать ошибки ...";
+
+// GroupChatViewController
+"chatInterPlanetTribe" = "межзвездное племя";
+"chatInterPlanetTribeNumber" = "Межзвездное племя";
+
+// GroupNoticeViewController
+"chatNotice" = "Уведомление";
+
+// NewFriendViewController
+"chatNewFriend" = "новый друг";
+"chatThisUserDoesNotExist" = "Этот пользователь не существует";
+"chatYouCanNotAddYourselfToYourContacts" = "Вы не можете добавить себя в адресную книгу";
+"chatAdded" = "Добавлено";
+"chatWeAreAlreadyFriendsChatTogether" = "Мы уже друзья, общаемся вместе!";
+
+// JFGroupNoticeCell
+"chatNoVerificationInformation" = "Нет информации для проверки";
+"chatApplicationsForMembership" = "Подать заявку на присоединение";
+"chatAgree" = "Согласен";
+"chatApproved" = "Уже согласовано";
+"chatRejected" = "Отклонено";
+"chatBeRejected" = "Отклонено";
+
+// JFGroupNoticeController
+"chatAgreed2" = "Согласен";
+"chatJoinTheTribeApplication" = "Заявка на вступление в племя";
+"chatTribalApplication" = "Племенное приложение";
+
+// JFGroupNoticeDetailController
+"chatAdditionalMessage" = "Дополнительное сообщение";
+
+// JFNewFriendCell
+"chatRefuse" = "Отклонить";
+"chatAgreedToTheApplication" = "Уже согласен с приложением";
+"chatSentTheApplication" = "Заявка отправлена";
+"chatTheApplicationHasBeenRejected" = "Приложение было отклонено";
+"chatTheApplicationWasRejected" = "Приложение было отклонено";
+"chatYouHaveDeclinedTheRequest" = "Вы отклонили запрос";
+"chatFriendRequests" = "Приложение для друзей"; // 不确定翻译是否准确
+
+// JFNewFriendDetailController
+"chatYouHaveRejectedThisFriendRequest" = "Вы отклонили запрос на добавление в друзья";
+"chatNumber" = "номер";
+"chatNickname" = "ник";
+"chatChangeRemark" = "Изменить имя напоминания";
+"chatAddRemark" = "Пожалуйста, введите имя заметки";
+
+// NewFriendDetailCellOthers
+"chatDoShareMyMoments" = "Не позволяйте ему видеть мой круг друзей";
+"chatHideHisMoments" = "Не смотрите на его круг друзей";
+
+// NewFriendDetailViewController
+"chatDetails" = "Подробности";
+"chatBlock" = "Добавить черный список";
+"chatApprovedd" = "пройдена проверка";
+
+// DetailViewController
+"chatSignature" = "личная подпись";
+"chatSetRemark" = "Установить заметки";
+"chatDeleteFriend" = "Удалить друга";
+"chatSetGroupNickname" = "Установить псевдоним группы";
+"chatDeletingFriendFailed" = "Ошибка удаления друга";
+"chatAddFriend" = "Добавить друга";
+"chatSendMessage" = "отправить сообщение";
+
+// RemarkFriendNameViewController
+"chatRemarks" = "Замечания";
+"chatAddRemarks" = "Добавить имя заметки";
+"chatRemarksTip" = "Имя замечания (имя не должно быть слишком длинным, в пределах десяти китайских символов ~)";
+"chatRemarksAreTooLong" = "Имя заметки слишком длинное";
+"chatModifyingGroupNickname" = "Изменение псевдонима группы";
+"chatModifyGroupNicknameFailed" = "Ошибка изменения псевдонима группы";
+"chatRemarkNameCantNotBeEmpty" = "Имя заметки не может быть пустым";
+"chatModifyingRemarkName" = "Изменение заметок";
+"chatModifyRemarkNameFailed" = "Не удалось изменить заметки";
+
+// AddressPersonDeailCell
+"chatBaseCoordinatesHaveBeenCopied" = "Базовые координаты были скопированы";
+"chatGroup" = "группы";
+
+// JoinGroupRequestUserCell
+"chatJoined" = "присоединен";
+"chatWaitingForVerification" = "Ожидание подтверждения";
+"chatAgree3" = "Принять";
+"chatRequestToAddYouAsFriend" = "Запрос на добавление вас в друзья";
+
+// NewFriendCell
+"chatHaveBecomeFriendsWithYou" = "Уже стань твоим другом";
+"chatFriendRequestHasBeenSent" = "Запрос на добавление в друзья отправлен";
+"chatHasBeenSent" = "отправлено";
+"chatDownloadTheApplicationAccountsResourceFile" = "Загрузить файл ресурса номера приложения"; // 不确定翻译是否准确
+
+// EFApplicationJumpUtil
+"chatDownload" = "Загрузить сейчас";
+"chatFailedToDownloadResourceFileCanNotEnterApplicationAccounts" = "Не удалось загрузить файл ресурса, невозможно ввести номер приложения, повторите попытку";
+"chatDownloadingMasterData" = "Загрузка основных данных";
+"chatMasterDataDownloadFailed" = "Ошибка загрузки основных данных, повторите попытку";
+
+// DetailInfomationViewController
+"chatReceiveMessage" = "Получить сообщение";
+"chatTopApplicationAccounts" = "Топ номер заявки";
+"chatEnterTheApplicationAccounts" = "Введите номер приложения";
+"chatUnsubscribe" = "Отписаться";
+"chatAreYouSureYouWantToCancelTheApplicationAccounts" = "Вы действительно хотите отписаться от номера приложения?";
+"chatUnfollowSuccess" = "Отписаться от успеха";
+"chatUnfollowFailure" = "Ошибка отказа от подписки";
+
+// ChatInterstellarApplication
+"chatInterstellarApplication" = "межзвездное приложение";
+
+// EFApplicationSidebarViewController
+"chatMuteNotifications" = "Сообщение не беспокоить";
+"chatVersionUpDate" = "Определить новую версию";
+"chatResourceFileUpdate" = "обновление файла ресурса";
+
+// ChatDetailViewController
+"chatChatDetails" = "Детали чата";
+"chatTopChat" = "топ чат";
+"chatPleaseEnterInformation" = "Пожалуйста, введите информацию";
+"chatExpression" = "выражение";
+
+// EFChatViewController
+"chatSkipUpToCancelSending" = "Скольжение по пальцу, отмена отправки";
+"chatResendTheMessage" = "Отправить сообщение?";
+"chatResend" = "Повторная";
+
+// chatNetworkUnavailable
+"chatNetworkUnavailable" = "(сеть недоступна)";
+
+// JFChatViewController
+"chatUnreadMessage" = "запретить непрочитанное сообщение";
+
+// JFPersonChatViewController
+"chatTyping" = "Другой участник печатает ...";
+
+// EFMessageListCell
+"chatDraft" = "проект";
+
+// EFChatListViewController
+"chatCurrentAccountIsInOther" = "Текущая учетная запись авторизована на других %@ устройствах.";
+
+// JFChatSearchResultListController
+"chatContact" = "контакт";
+
+// JFChatSearchGroupCell
+"chatTribeID" = "Племенной ID:";
+
+// BTCTransferOutController
+"chatFailedToGetFriendInformationPleaseTryAgain" = "Ошибка получения сообщения веры, повторите попытку";
+
+// EFChatStartGounpChatViewController контроллер передачи, связанный
+"chatFaceToFaceGrouping" = "группировка лицом к лицу";
+"chatChooseGroup" = "Выбрать группу";
+"chatMakeSureYouWantToDeleteTheGroupMember" = "Подтвердите, что вы хотите удалить участника группы";
+"chatWhetherToRemove" = "Будет ли это";
+"chatFromTheGroup" = "Удалить из группы";
+
+// GroupIntroduceCell
+"chatThisGroupWasCreatedIn" = "Эта группа была создана в";
+
+// GroupApplicantViewController
+"chatGettingTribalData" = "Получение племенных данных ..";
+"chatTribalIntroduction" = "Племенное знакомство";
+"chatGroupOwnerAndAdministrator" = "Владелец группы / администратор";
+"chatApplyToJoinTheTribe" = "Подать заявку на вступление в племя";
+"chatEnterTheTribeToChat" = "Войдите в чат племени";
+"chatJoiningTheTribe" = "Вступление в Орду";
+"chatYouHaveJoinedThisTribe" = "Вы присоединились к этому племени";
+"chatAddGroupFailed" = "Добавление не выполнено, повторите попытку позже";
+"chatJoinedTheTribe" = "Вступай в Орду";
+
+// GroupMemberListViewController
+"chatTribalMember" = "члены племени";
+"chatGroupOwner" = "владелец группы";
+"chatAdministrator" = "Администратор";
+"chatSetUpTribalAdministrator" = "Установить администратора племени";
+"chatDeleteTribalMembers" = "Удалить членов племени";
+"chatCancelTribalAdministrator" = "Отменить администратор племени";
+"chatDeleteTribalMembersFailed" = "Ошибка удаления членов племени";
+"chatSettingUpAdministrator" = "Настройка администратора";
+"chatSettingAdministratorFailed" = "Установить администратора не удалось";
+"chatUnregisteringAdministrator" = "Создание статуса администратора";
+"chatCancellationOfAdministratorStatusFailed" = "Ошибка отмены идентификации администратора";
+
+// GroupQRCodeCardViewController
+"chatQRCodeBusinessCard" = "QR код визитной карточки";
+"chatTribalName" = "племенное имя";
+"chatSweepTheQRCodeAboveAndJoinTheTribe" = "Смахните QR-код выше и присоединитесь к племени";
+
+// JFAddGroupController
+"chatJoinTheTribeToApplySuccessfully" = "Присоединиться к племенному приложению успешно";
+"chatTheApplicationFailedPleaseTryAgainLater" = "Приложение не удалось, повторите попытку позже";
+"chatFillInTheVerificationInformation" = "Заполнить информацию для проверки";
+"chatIAm" = "Я есть";
+
+// JFGroupDetailController
+"chatFailedToGetGroupMember" = "Ошибка получения члена группы";
+"chatFailedToGetAddress" = "Не удалось получить адрес";
+"chatOnlyOwnersAndManagersCanDoThis" = "Это могут делать только владельцы и администраторы";
+"chatPleaseEnterANewTribalName" = "Пожалуйста, введите новое племенное имя";
+"chatModifyingTheTribalNameFailed" = "Не удалось изменить имя племени";
+"chatTribalEnglishName" = "племенное английское имя";
+"chatPleaseEnterAnEnglishName" = "Пожалуйста, введите английское имя";
+"chatSettingEnglishNameFailed" = "Не удалось установить английское имя";
+"chatPleaseEnterTheCorrectEnglishCharacters" = "Пожалуйста, введите правильные английские символы";
+"chatMyAliasInGroup" = "Мой ник в этом племени";
+"chatPleaseEnterANewTribalNickname" = "Пожалуйста, введите новый племенной ник";
+"chatModifyingTheNoteNameFailed" = "Не удалось изменить имя заметки!";
+"chatTribalAddressAlreadyExists" = "Племенной адрес уже существует";
+"chatAddTribalAddressSuccessfully" = "Успешно добавить племенной адрес";
+"chatAddingTribalAddressFailed" = "Не удалось добавить племенной адрес";
+"chatMakeSureDelete" = "Подтвердите удаление";
+"chatMakeSureDelete2" = "?";
+"chatComeJoinThe" = "Давай";
+"chatTribe" = "Племя";
+"chatMakeSureToDissolveTheTribe" = "Определение расформирования Орды";
+"chatMakeSureToQuitTheTribe" = "Подтверждение выхода из племени";
+"chatDissolvingTheTribe" = "Растворение Орды";
+"chatExitingTheTribe" = "Выход из этого племени";
+
+// JFInputController
+"chatSetupFailedPleaseTryAgainLater" = "Не удалось выполнить настройку, повторите попытку позже";
+
+// JFGroupDetailManager
+"chatTribalName2" = "племенное имя";
+"chatFreeGroup" = "Бесплатно войти в группу";
+"chatAllMembersAreBanned" = "Все участники забанены";
+"chatTribalWorkAddress" = "Племенной рабочий адрес";
+"chatCreationTime" = "Создать время";
+"chatSharingTribe" = "Раздели Орду";
+"chatNotSet" = "Пока не установлено";
+
+// DeleteTableViewCell
+"chatDeleteAndExit" = "Удалить и выйти";
+
+// GroupMemberCell
+"chatGroupMember" = "участник группы";
+
+// GroupMemberDetailCell
+"chatGroupOwner2" = "владелец группы";
+"chatAdministrator2" = "Администратор";
+
+// ChangeNickNameViewController
+"chatPleaseEnterNewNickname" = "Пожалуйста, введите новый ник";
+"chatGoodNamesCanMakeItEasierForYourFriendsToRememberYou" = "Доброе имя помогает вашим хорошим друзьям запомнить вас";
+"chatChangeNickname" = "Изменить ник";
+"chatSubmitting" = "Отправка ...";
+"chatNicknameModifiedSuccessfully" = "Псевдоним был успешно изменен";
+"chatNicknameModificationFailed" = "Ошибка изменения псевдонима";
+
+// MineInformationViewController
+"chatPersonalInformation" = "Личная информация";
+"chatUnfilled" = "не заполнено";
+"chatReceiveStrangerNews" = "Получать посторонние сообщения";
+"chatMyReceiptCode" = "Код моей коллекции";
+"chatUnderRevision" = "Изменение ...";
+
+// SigNatureViewController
+"chatPleaseEnterNewSignature" = "Пожалуйста, введите новую подпись";
+"chatPersonalSignatureChangedSuccessfully" = "Изменение личной подписи выполнено успешно";
+"chatPersonalSignatureModificationFailed" = "Ошибка изменения личной подписи";
+
+// MyLoginDeviceController
+"chatGoingOffline" = "Под линией";
+"chatSendOfflineMessageSuccessfully" = "Успешно отправить автономное сообщение";
+"chatDownlineFailed" = "Ошибка подчеркивания, повторите попытку позже";
+"chatUnderline" = "выход"; // 不确定翻译是否准确
+
+// JFCheckPaymentCodeController
+"chatTheOtherPartyHasNotSetTheReceiptCode" = "Другая сторона еще не установила код квитанции";
+"chatRemindHim" = "Напомнить ему";
+// 's
+"chatHas" = "из";
+"chatCollectionCode" = "Код квитанции";
+"chatIdentificationReceiptCode" = "Определить код квитанции";
+"chatSaveTheReceiptCode" = "Сохранить код квитанции";
+"chatTheRecognitionResultHasBeenCopiedToTheClipboard" = "Результат распознавания был скопирован в буфер обмена";
+"chatScanResult" = "результат сканирования";
+"chatYouHaveNotYetGeneratedQRCode" = "Вы еще не создали QR-код";
+
+// JFMyPaymentCodeController
+"chatSetMyWeChatCollectionCode" = "Установить мой код коллекции WeChat";
+"chatSetMyAlipayCollectionCode" = "Установить мой код коллекции Alipay";
+"chatThisImageDoesNotContainQRCode" = "Изображение не содержит QR-код!";
+"chatFailedToSetThePaymentCodePleaseTryAgain" = "Не удалось установить код квитанции, повторите попытку";
+
+// EFMyQRCodeViewController
+"chatScanQRCodeAndAddMeAsFriend" = "Сканировать QR-код, добавить меня в друзья";
+
+// EFQRCodeViewController
+"chatCurrentVersion" = "текущая версия";
+"chatScanTheQRCodeAboveToDownload" = "Сканировать указанный выше QR-код, загрузить";
+
+// EnergyExchangeViewController
+"chatScanQRCodeForEnergyExchange" = "Сканировать QR-код для обмена энергией";
+"chatSeTheNumberOfExchanges" = "Установить количество обменов";
+"chatPleaseEnterTheCorrectEnergy" = "Пожалуйста, введите правильную энергию";
+
+// ExchangeRecordCell
+"chatTransferEnergy" = "передача энергии";
+"chatTransferOutEnergy" = "получи энергию";
+
+// QRCodeCardViewController
+"chatSweepTheQRCodeAboveAndFollowTheApplicationAccounts" = "Сканировать вышеуказанный QR-код и следовать номеру приложения";
+"chatSweepTheQRCodeOnTheTopAndAddMeAsFriend" = "Очистить приведенный выше QR-код и добавить меня в друзья";
+
+// RichScanResultViewController
+"chatQRCodeScanResult" = "Результат сканирования QR-кода";
+"chatTheFollowingContentIsTheScanResultPleaseClickIfYouWantToUse" = "Следующее содержимое является результатом сканирования, пожалуйста, нажмите Если вам нужно использовать »";
+
+// RichScanViewController
+"chatAutomaticallyScanTheQRCodeByPlacingItInTheViewfinder" = "Автоматически сканировать QR-код в видоискатель";
+"chatTheDeviceDoesNotSupportAccessToTheAlbum" = "Устройство не поддерживает доступ к альбому, установите его в« Настройки »->« Конфиденциальность »->« Фотографии! »";
+
+// SetExchangeCountViewController
+"chatExchangeQuantity" = "Количество обмена";
+"chatPleaseEnterTheNumberOfExchanges" = "Пожалуйста, введите количество обменов";
+
+// ShowWebViewController
+"chatWebsiteLoading" = "Загрузка страницы ...";
+
+// RecentFileController
+"chatRecentFile" = "Последние файлы";
+
+// RecentFileListController
+"chatCanOnlyChooseAfterDownloadingTheFile" = "Выбрать файл после загрузки";
+"chatGoDowmload" = "Перейти к загрузке";
+"chatAreYouSureToDeleteTheFile" = "Вы уверены, что хотите удалить файл?";
+
+// RecommedFriendController
+"chatReferralContact" = "Рекомендуемый контакт";
+"chatTribalBusinessCard" = "Племенная визитная карточка";
+"chatPersonalBusinessCard" = "Личная визитная карточка";
+
+// JFCoinChosenController
+"chatSelectCurrency" = "Выбрать валюту";
+
+// JFMyRedPacketController
+"chatMyReceived" = "Я получил";
+"chatMySentOut" = "Я отправил";
+
+// JFRedPacketPosterController
+"chatRedEnvelopePoster" = "Плакат с красным конвертом";
+"chatBlockchainBasedInstantMessagingAndDigitalAssetOpenPlatform" = "Платформа обмена мгновенными сообщениями на основе блокчейнов и открытая платформа цифровых активов";
+"chatScanCodeImmediatelyLeadRedPacket" = "Код сканирования сразу приводит к красному конверту";
+"chatHowToGetRedPacket" = "Как получить красные пакеты";
+"chatScanCodeToReceiveRedPacket" = "1. Отсканируйте код, чтобы получить красный конверт. \n2. Загрузите приложение «IPCom». \n3. Перейдите на страницу «Активы» и щелкните меню «Размещенная учетная запись», чтобы просмотреть полученные красные конверты."; // 不确定翻译是否准确 （应用名称待定）
+"chatSendYouRedPacket" = "Отправить вам красный конверт";
+
+// JFTokenChosenController
+"chatChooseRedPacketTokens" = "Выбрать токен красного пакета";
+
+// PostRedPacketController
+"chatRedPacketRecord" = "запись красного конверта";
+"chatRedPacketToken" = "жетон красного конверта";
+"chatEscrowBalance" = "Размещенный баланс";
+"chatTotalCurrency" = "общая валюта";
+"charCurrentlyHandyRedPacket" = "В настоящее время заклинание красный конверт";
+"chatChangeToOrdinaryRedPacket" = "Изменить на обычный красный конверт";
+"chatNumberOfRedPackets" = "количество красных пакетов";
+// 不确定是否需要翻译
+"chatCount" = "один";
+"chatEnterNumber" = "заполнить номер";
+"chatLeaveMessage" = "Оставьте сообщение";
+"chatCongratulationsToGetRich" = "Межзвездное общение, поздравляем, чтобы разбогатеть";
+"chatTotalCurrency2" = "Общая валюта";
+
+// RedPacketController
+"chatRedPacketDetail" = "детали красного конверта";
+
+// JFAddAccountController
+"chatAddAccountTitle" = "Добавить актив";
+
+// JFAccountDetailController
+"chatAccountDetailRecharge" = "перезарядка";
+"chatAccountDetailWithdraw" = "отзывать";
+"chatAccountWalletBalance" = "баланс кошелька";
+"chatAccountWalletBalanceInsufficient" = "Недостаточный баланс кошелька";
+"chatAccountEnterAmout" = "Пожалуйста, введите сумму пополнения";
+"chatAccountRecharging" = "Перезарядка";
+"chatAccountRechargeSuccessful" = "Пополнение счета успешно";
+"chatAccountDetailRechargeRetry" = "Не удалось пополнить счет, повторите попытку позже";
+"chatAccountDetailSignFail" = "Сбой подписи";
+"chatAccountDetailAvailable" = "Эскроу-счет доступен";
+"chatAccountDetailInsufficientFee" = "Недостаточно сборов";
+"chatAccountDetailToWallet" = "Перевод на кошелек";
+"chatAccountDetailWithDrawFailed" = "Снятие средств не удалось, повторите попытку позже";
+"chatAccountDetailWithDrawSuccess" = "Выплата наличными успешна";
+"chatAccountDetailFullWithdrawal" = "Все выводы";
+"chatAccountTransferOut" = "Пожалуйста, введите количество переводов";
+"chatAccountTransferOutTip" = "Пожалуйста, введите количество переводов";
+"chatAccountDetailExtracting" = "Извлечение наличных";
+"chatPutCoinInTheRedPacket" = "Положить деньги в красный конверт";
+"chatUnclaimedRedPacketWillBeRefundedAfter24Hours" = "Неполученный красный конверт будет возвращен через 24 часа";
+"chatTotalAmount" = "общая сумма";
+"chatAmount" = "сумма";
+"chatASingleAmountOfAtLeast" = "Одна сумма не менее 0,00001";
+"chatInsufficientBalance" = "Недостаточный баланс";
+"chatPleaseEnterTheAmount" = "Пожалуйста, введите сумму";
+"chatRedPacketAmountCannotBe0" = "Сумма красного конверта не может быть 0";
+"chatPleaseEnterTheCorrectNumberOfRedPacket" = "Пожалуйста, введите правильное количество красных пакетов";
+"chatFailingToPutMoneyIntoTheRedPacketPleaseTryAgainLater" = "Не удалось перевести деньги в красный конверт, повторите попытку позже";
+"chatRedPacket" = "Красный конверт";
+"chatTheRedPacketIsReady" = "Красный конверт готов";
+"chatFrom" = "от";
+
+// JFAccountDetailcell
+"chatConfirmed" = "подтверждено";
+"chatReceiveRedPacket" = "Красный пакет";
+"chatRedPacketReturned" = "возвращен красный конверт";
+
+// JFMyRedPacketRecordHeaderView
+"chatTheRedPacketReceivedHasBeenDepositedIntoYourEscrowAccountAndCanBeTransferredToYourLocalWallet" = "Полученный красный конверт был помещен на вашу учетную запись хостинга и может быть переведен в локальный кошелек";
+
+// JFRedPackedISendCell
+"chatFightingRedPacket" = "подмена красных пакетов";
+"chatOrdinaryRedPacket" = "Обычный красный пакет";
+
+// OpenRedPacketView
+"chatSentARedPacket" = "Отправить красный конверт";
+"chatCheckEveryoneLuck" = "Просмотреть всеобщую удачу>";
+"chatRedPacketHasExpired" = "Срок действия красного конверта истек";
+"chatTheHandIsSlowTheRedPacketIsFinished" = "Рука медленная, красный конверт закончен";
+
+// PostRedPacketChooseView
+"chatWallet" = "кошелек";
+
+// PostRedPacketWriteView // 不确定是否需要翻译
+"chatLuck" = "правописание";
+"chatSingleCurrency" = "единая валюта";
+"chatCurrentlyACommonRedPacket" = "В настоящее время нормальный красный конверт";
+"chatChangeToAHandRedPacket" = "Изменить на красный заклинание";
+
+// RedPacketCell
+"chatBestLuck" = "Удачи";
+
+// RedPacketHeaderView
+"chatReceived" = "Получено";
+
+// RedPacketHistoryHeader
+"chatReceivedARedPacket" = "полученный красный конверт";
+
+// EFAdaptationAlert
+"chatForcedUpgrade" = "принудительное обновление";
+"chatPauseDownload" = "Приостановить загрузку";
+"chatDownloadCompletedExtracting" = "Загрузка завершена Распаковка ...";
+"chatDecompressionSucceeded" = "Распаковка успешна";
+"chatDecompressionError" = "Ошибка распаковки";
+"chatFileOpenError" = "Ошибка открытия файла";
+"chatDownloadFileSuccessfully" = "Загрузка файла выполнена успешно";
+
+// JFSecretFileDisplayController
+"chatViewThePrivateFile" = "Просмотр скрытой копии";
+"chatPrivateFileDownload" = "Скрытая загрузка";
+
+// JFSecretBaseDisplayController
+"chatDecryptionFailed" = "Ошибка расшифровки";
+
+// JFSecretInputPasswordController
+"chatEnterYourPasswordToViewTheContent" = "Введите пароль для просмотра содержимого";
+
+// JFSecretPasswordController
+"chatViewPassword" = "Просмотреть пароль";
+"chatPleaseRememberThePassword" = "Пожалуйста, запомните пароль, система не сохранит пароль";
+
+// JFSecretPasswordTipController
+"chatSafetyWarning" = "Советы по безопасности";
+"chatchatSafetyWarningDetail" = "Пожалуйста, соблюдайте окружающую среду перед просмотром пароля, чтобы избежать утечки пароля. Пароль отображается только один раз, обязательно сохраните пароль";
+
+// JFSecretWordController
+"chatAFriendDoesNotHavePublicKeyInformationAndCannotSendEncryptedMessages" = "Друзья не имеют информации открытого ключа и не могут отправлять зашифрованные сообщения";
+"chatPleaseEnterTheContentOfThePrivateMessage" = "Пожалуйста, введите пароль содержимого";
+"chatPleaseEnterYourPassword" = "Пожалуйста, введите пароль";
+"chatEncryptingPassword" = "Шифрование пароля";
+
+// JFSecretImageController
+"chatPleaseSelectAnImage" = "Пожалуйста, выберите изображение";
+"chatPleaseSelectTheFileYouWantToSend" = "Пожалуйста, выберите файл, который вы хотите отправить";
+"chatUpTo9PicturesCanBeSelected" = "Можно выбрать до 9 изображений";
+
+// JFSecretFileController
+"chatAddPrivateFile" = "Добавить скрытую копию";
+
+// JFSecretBaseSendController
+"chatGettingFriendPublicKey" = "Получение открытого ключа друга";
+
+// AboutMeViewController
+"chatFunctionIntroduction" = "Введение в функцию>";
+"chatFullChain" = "полная цепочка";
+"chatFullPlatform" = "полная платформа";
+"chatMining" = "майнинг";
+"chatEncryptedCommunication" = "Зашифрованная связь";
+"chatDigitalAssets" = "Цифровые активы";
+
+// EFChatLeftViewController
+"themeLight" = "Дневной режим";
+"themeDark" = "Ночной режим";
+"chatClearCache" = "Очистить кэш";
+"chatClearCacheSuccess" = "Очистить кеш успешно!";
+"chatClearCacheFail" = "Очистить кэш не удалось!";
+"chatCheckUpdate" = "Проверить наличие новой версии";
+"chatSignOut" = "Выйти из системы";
+"chatIsTheCacheCleared" = "Вы хотите очистить кеш?";
+"chatTesting" = "Обнаружение ...";
+"chatAreYouSureToQuitTheCurrentUser" = "Вы уверены, что хотите выйти из текущего пользователя?";
+"chatSigningOut" = "Выход из системы ...";
+"chatSignOutFailedPleaseTryAgain" = "Не удалось выйти из текущего пользователя, повторите попытку.";
+
+// EFLeftOperationView
+"chatCircular" = "круглый";
+"chatSquare" = "площадь";
+
+// chataccount
+"chatAccountAvailabel" = "Доступен";
+"chatAccountFreeze" = "замерзать";
+"chatAccountAllRecords" = "Все записи";
+"chatAccountOther" = "Другое";
+"chatAccountAddress" = "адрес";
+"chatAccountManagedAddress" = "Размещенный адрес";
+"chatAccountPleasechoose" = "Пожалуйста, выберите";
+"chatAccountLocalwallet" = "Местный кошелек";
+"chatAccountTransferQuantity" = "Количество на выходе";
+"chatAccountHandlingFee" = "Плата за обработку";
+"chatAccountTotalAssets" = "всего активов";
+"chatShareContact" = "Поделиться контактом";
+"chatProfile" = "Данные пользователя";
+
+// chatUpLoad
+"chatUpLoad" = "Загрузить изображение";
+"chatUpLoadTips" = "Обнаружено, что межспутниковая связь на ПК не подключена к сети, можно получить только 50 баллов за каждую загрузку изображения и 100 баллов можно получить за каждую загрузку изображения после входа в межзвездную связь на стороне ПК";
+"chatUpLoadFail" = "Ошибка загрузки";
+"chatUpLoadSuccess" = "Загрузка успешно завершена";
+"chatUpLoadDocumentNumber" = "номер документа";
+"chatUpLoadSliverScore" = "Серебряные бриллиантовые очки";
+"chatUpLoadSelect" = "Пожалуйста, выберите изображение для загрузки";
+"chatUpLoadUnuse" = "Текущая сеть недоступна";
+"chatUploadGetError" = "Ошибка получения серебряного бриллианта";
+
+// smallVideo
+"chatSamllVideo" = "Небольшое видео";
+"chatSmallVideoDLRwetry" = "Ошибка загрузки, повторная загрузка?";
+
+// speech
+"chatSpeechTooShort" = "Говоря слишком коротко";
+"chatSpeechRecoding" = "Голос распознается";
+"chatSpeechAgain" = "Вы все еще можете сказать% ld секунд";
+"chatSpeechWrong" = "Ошибка голосовой диктовки:%@";
+"chatSpeechFail" = "Не удалось открыть голосовую диктовку";
+"chatSpeechEnd" = "Распознавание голоса завершено";
+"chatCopied" = "скопированный";
+
+// JFMessageCell
+"chatWhetherToResendTheMessage" = "Хотите отправить сообщение?";
+
+// JFRecentFileManager
+"chatNotDownloaded" = "Не загружено";
+"chatDownloaded" = "загруженный";
+"chatDownloading" = "Загрузка";
+"chatDownloadFailed" = "Загрузка не удалась";
+"chatTo" = "выдано";
+"chatFrom" = "от";
+"chatToGroup" = "отправить в группу";
+"chatFromGroup" = "из группы";
+
+"chatNoWifiLoadimage" = "Не Wi-Fi, нажмите, чтобы загрузить";
+"stayTuned" = "Оставайтесь с нами";
+
+//JFSlideSetting
+"chatSetting" = "устанавливать";
+"chatUnit" = "Денежная единица";
+"chatExchange" = "Обмен по умолчанию";

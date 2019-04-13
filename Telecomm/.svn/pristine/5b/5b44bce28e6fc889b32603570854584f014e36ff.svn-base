@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 wsl. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "星际通讯";
+
+"NSCameraUsageDescription" = "是否允许此App获取打开摄像头权限？以便于上传头像";
+"NSContactsUsageDescription" = "是否允许此App获取联系人权限？通讯录数据将上传到服务器，以便于获取推荐好友";
+"NSLocationWhenInUseUsageDescription" = "是否允许此App获取你的定位？以便于给好友发送位置";
+"NSMicrophoneUsageDescription" = "是否允许此App获取语音权限?以便于给好友发送语音信息";
+"NSPhotoLibraryAddUsageDescription" = "是否允许此App获取相册权限？以便于上传头像或者给好友发送图片信息";
+"NSPhotoLibraryUsageDescription" = "是否允许此App获取相册权限？以便于上传头像或者给好友发送图片信息";

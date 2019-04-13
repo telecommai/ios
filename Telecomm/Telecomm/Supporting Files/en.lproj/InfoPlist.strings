@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 wsl. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Telecomm";
+
+"NSCameraUsageDescription" = "Do you allow this app to get open camera permissions? To upload avatars";
+"NSContactsUsageDescription" = "Do you allow this app to get contact permissions? Contacts data will be uploaded to the server for easy referrals";
+"NSLocationWhenInUseUsageDescription" = "Do you allow this app to get your location? In order to send a location to a friend";
+"NSLocationAlwaysUsageDescription" = "Do you allow this app to get your location? In order to send a location to a friend";
+
+"NSMicrophoneUsageDescription" = "Do you allow this app to get voice permissions? In order to send voice messages to friends";
+"NSPhotoLibraryAddUsageDescription" = "Is this app allowed to get album permissions? It is easy to upload avatars or send photo messages to friends";
+"NSPhotoLibraryUsageDescription" = "Is this app allowed to get album permissions? It is easy to upload an avatar or send a photo message to a friend";
+"NSBluetoothPeripheralUsageDescription"="Is this app allowed to get Bluetooth permissions? In order to connect to the smart card reader device for information";

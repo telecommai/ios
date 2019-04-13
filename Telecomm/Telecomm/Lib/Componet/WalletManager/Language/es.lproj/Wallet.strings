@@ -1,0 +1,388 @@
+/* 
+  Wallet.strings
+  WalletManager
+
+  Created by 赵洪壮 on 2018/12/17.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+// JFCardListController
+"walletCard" = "tarjeta de puntos";
+"balance" = "balance";
+"walletCardRecharge" = "para recargar";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "Método de pago";
+"walletCardRechargeAmount" = "Número de recargas";
+"walletCardRechargeAliPay" = "Alipay";
+"walletCardRechargeWechat" = "WeChat";
+"walletCardRechargeMethodSelect" = "Seleccione el método de recarga";
+"walletCardRechargeNeetToPay" = "necesidad de pagar";
+"walletCardRechargeNext" = "Siguiente paso";
+"walletCardRechargePaySuccess" = "El pago se realizó correctamente";
+"walletCardRechargePayFailure" = "¡Falló el pago!";
+"walletCardRechargeWrongMoney" = "El monto ingresado es incorrecto";
+"walletCardRechargeUndone" = "Unfilled";
+"walletCardRechargeAgain" = "Recarga";
+"walletCardRechargeRequest" = "Error en la solicitud, verifique la configuración de la red";
+"walletCardRechargeGiveUp" = "Abandonar";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "Confirme su mnemotécnico de cartera";
+"walletBTCCheckAddSuccess" = "Agregar éxito de billetera";
+"walletBTCCheckBackUpFail" = "Error en la copia de seguridad, verifique su mnemotécnico";
+"walletBTCCheckConfirmOrder" = "Haga clic en el mnemónico para confirmar que su mnemotécnico es correcto";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "Crear cartera";
+"walletBTCCreateBackUpTip" = "La cuenta de billetera es su dirección única en la cadena de bloques. Realice una copia de seguridad del mnemotécnico y la billetera después de crear la billetera";
+"walletBTCCreateStayTip" = "Guarde la información generada durante el proceso de creación";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "Palabras clave de respaldo";
+"walletBTCCreateSaveTip" = "El mnemotécnico se usa para restaurar la cuenta de la billetera o restablecer la contraseña de la billetera, copiarla al papel con precisión y almacenarla en un lugar seguro que solo usted sepa";
+"walletBTCCreateWriteDown" = "Copie el mnemónico de su cuenta de cartera";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "Restaurar billetera";
+"walletBTCPaperRecoveryChectFail" = "Falló la recuperación, verifique el mnemónico";
+"walletBTCPaperRecoveryExistFail" = "Falló la recuperación, la cartera ya existe";
+"walletBTCPaperRcoveryWithWords" = "Restaura tu billetera con mnemónicos";
+"walletBTCImport" = "Importar";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "Dirección de transferencia no válida";
+"walletBTCTransferNotSupport" = "Este modo no es compatible";
+"walletBTCTransferAlreadyExists" = "La billetera ya contiene esta dirección";
+"walletBTCTransferLessThan" = "El importe del pago no puede ser inferior a";
+"walletBTCTransferError" = "Falló la transferencia";
+"walletBTCTransferUTFOFail" = "Falló la solicitud UTFO";
+"walletBTCTransferBalanceNotEnough" = "Balance insuficiente";
+"walletBTCTransferSignError" = "Error de firma de transacción";
+
+// DropCell
+"walletDropmsq" = "Atrapar de inmediato";
+"walletDropyq" = "Retired";
+"walletDropyqguo" = "ha sido robado";
+"walletDropyqguang" = "La luz ha sido robada";
+"walletDropwks" = "no iniciado";
+"walletDropjks" = "Desde el inicio";
+"walletDropjjs" = "from end";
+"walletDropyjs" = "Terminado";
+"walletDropday" = "day";
+"walletDrophour" = "horas";
+"walletDropmin" = "minutos";
+"walletDropktjj" = "Introducción al corto";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "Todavía queda al final";
+"walletDropjlkshs" = "La distancia queda";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "Aún no tiene";
+"walletDropDetailCreateWallet" = "Billetera, primero cree una billetera";
+"walletDropDetailChooseWallet" = "Seleccionar billetera";
+"walletDropDetailTilte" = "Detalles del lanzamiento aéreo";
+"walletDropDetaildbmc" = "Nombre del token";
+"walletDropDetailktzz" = "organización de lanzamiento desde el aire";
+"walletDropDetailhydz" = "dirección del contrato";
+"walletDropDetailktjs" = "Introduction to Airdrop";
+
+// DropTransferController
+"walletDropTransferSuccess" = "Éxito de lanzamiento aéreo";
+"walletDropTransferReceived" = "Ha recibido correctamente";
+"walletDropTransferAttension" = "Las gotas de aire se emitirán después de que termine el evento, preste atención a la billetera";
+"walletDropTransferGet" = "Has recibido esta gota de aire";
+"walletDropTransferFail" = "Falló el lanzamiento de aire";
+"walletDropTransfering" = "Airdrop";
+
+// DropViewController
+"walletDropMyTitle" = "Mi airdrop";
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "Debe registrar la cuenta EOS (12 caracteres) con las dos claves públicas que se han generado. Este proceso consumirá el token EOS. Piense en el nombre de la cuenta y busque a alguien que lo ayude a registrarse.";
+"walletEOSCreateTipActive" = "La cuenta EOS no se activa, se envía a un amigo o se comparte con un código QR para encontrar un amigo que active esta cuenta";
+"walletEOSCreateShareSuccess" = "Compartir el éxito";
+"walletEOSCreateShareFailure" = "Error al compartir";
+"walletEOSCreatePK" = "clave pública";
+"walletEOSCreatePrivateK" = "Clave privada";
+"walletEOSCreateCorrentAddress" = "¡Complete la dirección de cuenta correcta!";
+"walletEOSCreateCreateRequest" = "EOS Create Account Request";
+"walletEOSCreateCorrectName" = "Introduzca un nombre de cuenta válido (combinación de 12 caracteres de a-z y 1-5)";
+"walletEOSCreateNameStyle" = "El nombre de la cuenta EOS es a-z y 1-5, que consta de caracteres de 12 bits";
+"walletEOSCreateAccountAddress" = "Dirección de cuenta";
+"wannetEOSCreateSendToFriend" = "Enviar a un amigo";
+"wannetEOSCreateSendToQRCode" = "Compartir código QR";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "Crear cartera EOS";
+"walletEOSCreateFeeFail" = "Falló la solicitud para crear la tarifa de la cuenta";
+"walletEOSCreateIsAvailable" = "Comprobando si el nombre de la cuenta está disponible";
+"walletEOSCreateChange" = "Esta cuenta ya existe, cambie el nombre de la cuenta";
+"walletEOSCreateAvailabel" = "Nombre de cuenta disponible";
+"walletEOSCreateCheckFail" = "Error al verificar";
+"walletEOSCreateAbnormal" = "Excepción de manejo";
+"walletEOSCreateNoLocalWallet" = "No hay una billetera EOS local activada";
+"walletEOSCreateCreating" = "Creando";
+"walletEOSCreateSuccess" = "Creado con éxito";
+"walletEOSCreateFailure" = "Error al crear";
+"walletEOSCreateSelectAccount" = "Seleccionar cuenta";
+"walletEOSCreateNoActiveWallet" = "No hay una cartera EOS local activa";
+"walletEOSCreate" = "Crear";
+"walletEOSCreateAccountName" = "Nombre de cuenta";
+"walletEOSCreateRAM" = "memory";
+"walletEOSCreateCost" = "cost";
+"walletEOSCreateStyle" = "Crea una cuenta EOS con una combinación de 12 caracteres de a-z y 1-5";
+
+// EOSImportController
+"walletEOSImportReply" = "Complete la información antes de responder";
+"walletEOSImportErongFormatter" = "¡El formato de la clave privada es incorrecto!";
+"walletEOSImporting" = "introducción";
+"walletEOSImportSuccess" = "Importado correctamente";
+"walletEOSImportRecoveryWithPrivateKey" = "Restaure su cuenta de billetera con una clave privada";
+"walletEOSImportActivePrivateKey" = "Introduzca una clave privada activa";
+"walletEOSImportOwnerPrivateKey" = "Introduzca la clave privada del propietario";
+"walletEOSImportDone" = "Completar";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "La cuenta de billetera es su dirección única en la cadena de bloques. Se genera basándose en su clave privada. Haga una copia de seguridad de la clave privada y la cuenta base después de crear la cuenta base";
+"walletETHSign" = "firma autorizada";
+"walletETHAddressEmpty" = "La dirección no puede estar vacía";
+"walletETHWtch" = "observando la billetera";
+"walletETHComplete" = "Autorización completa";
+"walletETHWarning" = "1. Actualmente, solo los usuarios pueden observar su billetera para formar una billetera fría más segura con la billetera fuera de línea; la importación debe firmarse una vez. \n2. Almacene mucho dinero y recomiende el uso de la billetera fría";
+"walletORCode" = "Use la billetera de observación correspondiente para escanear el código QR a continuación para completar la autorización";
+"walletDataNomMatch" = "los datos no coinciden";
+"walletDataImporting" = "Importando";
+"wallerSignDetail" = "detalles de la firma autorizada";
+"wallerSignAddress" = "dirección autorizada";
+"walletSignData" = "data";
+"walletScan" = "Escanear el código QR de la página de billetera autorizada, importar firma";
+"walletImportSign" = "Importar firma";
+"walletEnterAddress" = "Introduzca la dirección del monedero";
+
+// change
+"walletChangeCurrent" = "Switch%@wallet";
+
+// NewWalletInfoController
+"walletNewWalletInfoSetAvatar" = "Establecer el avatar y el nombre de la cartera";
+"walletNewWalletInfoUploadAvatar" = "Cargando avatar";
+"walletNewWalletInfoUploadAvatarFail" = "Error al cargar la imagen";
+"walletNewWalletInfoName" = "nombre de cuenta de billetera";
+"walletNewWalletInfoAddAvatar" = "Haga clic en el icono de la cámara para agregar un avatar de cuenta de cartera";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "Obteniendo el ID de la base";
+"walletOldWalletOutGettingIdRetry" = "Falló la adquisición de ID base, inténtelo de nuevo";
+"walletOldWalletCorrectEnergy" = "Ingrese la energía correcta";
+"walletOldWalletOutEnergy" = "Energy";
+"walletOldWalletOtherPlanetId" = "Introduzca la ID interestelar de la otra parte";
+"walletOldWalletNumberOfEnergy" = "Introduzca el número de energías";
+"walletOldWalletOtherBaseId" = "Introduzca la ID base de la otra parte";
+"walletOldWalletOtherPanetId" = "Recibir ID interestelar:";
+"walletOldWalletRecevingBaseId" = "ID de base de recepción:";
+"walletOldWalletTransferBaseId" = "ID de base de salida:";
+"walletTradeMinerFee" = "Costo del minero";
+"walletOldWalletEnergyExchange" = "Intercambio de energía";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "Detalles de la transacción";
+"walletOldResultSuccess" = "Transacción exitosa";
+"walletOldResultId" = "ID de transacción";
+"walletOldResultTime" = "tiempo de transacción";
+"walletOldResultToId" = "Transferir a la ID base";
+"walletOldResultOutId" = "resulta la ID de la base";
+"walletOldResultFailure" = "Falló el intercambio";
+"walletOldResultTransing" = "en la transacción";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "Introduzca la contraseña base";
+"walletEnterPassword" = "Introduzca una contraseña";
+"walletWrongPassword" = "Error de contraseña";
+"walletForgetPassword" = "Olvidé mi contraseña";
+
+// WalletCardView
+"walletCardAssets" = "elementos";
+"walletCardNoActive" = "para ser activado";
+"walletCardSenfCoin" = "Un botón para enviar monedas";
+"walletCardCopied" = "Copiado";
+"walletCardTransfer" = "se convirtió en";
+"walletCardDetail" = "detalles";
+"walletCardTransferout" = "Traslado fuera";
+"walletImportWallet" = "Importar billetera";
+"walletWatchNotSupport" = "La billetera no admite la función de despliegue";
+
+// WalletInfoController
+"walletInfoTitle" = "Administración";
+"walletChangeAvatar" = "Cambiar avatar";
+"walletInfoChangeWalletName" = "Replace Wallet Name";
+"walletInfoSwitchaccount" = "Cambiar cuenta";
+"walletInfoActivation" = "Activate";
+"walletInfoModifyWalletName" = "Modificar el nombre de la cartera";
+"walletInfoEnterWalletName" = "Introduzca el nombre de la cartera";
+"walletInfoModificationFailed" = "Falló la modificación, inténtelo de nuevo";
+"walletInfoCannotDeleted" = "La billetera principal no se puede eliminar";
+"walletInfoToDelete" = "¿Desea eliminar esta cartera?";
+"walletInfoDeleteFaild" = "Error al eliminar, inténtelo de nuevo";
+"walletInfoSettingAvatar" = "Configurando avatar";
+"walletInfoSettingFaild" = "Error al configurar el avatar, inténtelo de nuevo";
+"walletInfoUploadFaild" = "Error al cargar el avatar, inténtalo de nuevo";
+"walletInfoPKPK" = "Clave privada del propietario:\n%@\nClave privada activa:\n%@";
+"walletUnfoDeleteWallet" = "Delete Wallet";
+"walletInfoChooseMain" = "Seleccionar cuenta principal";
+"WalletModifyingWalletname" = "Modificando el nombre de la billetera";
+
+// WalletAllTokenController
+"walletTypeHide" = "Ocultar activos sin saldo";
+"walletTypeSort" = "Ordenar por balance";
+"walletTypeAlphabetically" = "en orden alfabético";
+"walletTypeRemoveAssets" = "Eliminar activos";
+"walletTypeEnterToken" = "Ingrese el nombre del token o la dirección del contrato";
+"walletMyassets" = "Mis activos";
+
+// WalletInCoinController
+"WalletInTransfer" = "Por favor, vaya";
+"walletInTransferEnter" = "Ingrese la cantidad";
+"WalletInTransferPlzEnter" = "Ingrese la cantidad";
+"walletInChangeAssets" = "Reemplazar activos";
+"walletInSpecAmount" = "cantidad especificada";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "Comentarios";
+"WalletCoinOutOptional" = "Opcional";
+"WalletCoinOutEnterAddress" = "Ingrese la dirección de pago";
+"WalletCoinOutCanNotNull" = "La cantidad no puede estar vacía";
+"WalletCoinOutAddressNotNull" = "La dirección de pago no puede estar vacía";
+"WalletCoinOutPaymentDetail" = "Detalles de pago";
+"WalletCoinOutRetry" = "Falló la publicación de una solicitud de transacción, inténtelo de nuevo";
+"walletCoinUnlockFail" = "Falló el desbloqueo de la cartera";
+"walletCinOutoperation" = "En la transaccion";
+"walletGetCurrentFail" = "Falló la cartera actual";
+"walletNoData" = "Sin datos";
+"walletPaymentSuccess" = "Recibo exitoso";
+"walletTransferSuccess" = "Transferencia exitosa";
+"walletCollectionFailure" = "Fallo en la recepción";
+"walletTransferFailed" = "Falló la transferencia";
+
+// WalletTradeResultController
+"walletTradeBlock" = "bloque";
+"walletTradeAmount" = "Importe";
+"walletTradeTrade no" = "número de transacción";
+"walletTradeContact" = "contrato";
+"walletTradeType" = "Tipo de transferencia";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "Copia correcta";
+"walletChainInquirySure" = "Confirmar y firmar";
+"walletChainInquiryResult" = "Ingrese el resultado de la verificación";
+"walletChainInquiryToSign" = "La firma está pendiente de firma";
+"walletChainInquiryCompanyToSign" = "Empresa pendiente de firma";
+"walletChainInquiryBankReply" = "Banco pendiente de respuesta";
+"walletChainInquiryBackRelied" = "El banco ha respondido";
+"walletChainInquiryBlockInfo" = "Información de bloque";
+"walletChainInquiryEdit" = "Editing";
+"walletChainInquiryProcessed" = "Processed";
+"walletChainInquiryToBeProcessed" = "Pending";
+"walletChainInquiryChaininquiry" = "encadenamiento de la cadena";
+"walletChainInquiryInquiryDetails" = "Solicitar detalles";
+"walletChainInquiryAgreeandSign" = "Aceptar y firmar";
+"walletChainInquiryViewReply" = "Ver respuesta";
+"walletChainInquiryReply" = "Responder";
+"walletChainInquiryDoesNotMatch" = "La información no coincide";
+"walletChainInquiryMatch" = "coincidencias de información";
+"walletChainInquiryAuditId" = "ID de transacción de firma de auditoría";
+"walletChainInquiryTradeId" = "ID de transacción de firma empresarial";
+"walletChainInquiryBankId" = "ID de transacción de firma bancaria";
+"walletChainInquirySubSus" = "Enviar con éxito";
+"walletChainInquiryInfoFail" = "Error en la adquisición de información";
+"walletChainInquiryNo" = "número de consulta";
+"walletChainInquiryAuditUnit" = "Audit Unit";
+"walletChainInquiryCompany" = "Empresa de consulta";
+"walletChainInquiryBank" = "Banco de consultas";
+"walletChainInquiryState" = "Estado";
+"walletChainInquiryContact" = "Volver al contacto";
+"walletChainInquiryPhone" = "Teléfono de contacto";
+"walletChainInquirymail" = "email";
+"walletChainInquiryAccountName" = "Nombre de cuenta";
+"walletChainInquiryBankNo" = "Número de cuenta bancaria";
+"walletChainInquiryCurrency" = "Currency";
+"walletChainInquiryRate" = "tasa de interés";
+"walletChainInquiryType" = "Tipo de cuenta";
+"walletChainInquiryBalance" = "saldo insuficiente";
+"walletChainInquiryStartandenddate" = "fecha de inicio y finalización";
+"walletChainInquiryLimit" = "Ya sea por garantía u otras restricciones de uso";
+"walletChainInquiryBanksavings" = "Depósitos bancarios";
+"walletSwitchWallet" = "Cambiar billetera (%ld)";
+"walletUtilAdding" = "Adding";
+"walletCardTop" = "Recarga";
+"WalletPayInfo" = "Información de pago";
+
+
+//Assets
+"walletTransaction" = "transaction";
+"WalletAirdrop" = "Airdrop";
+"WalletPay" = "Pagar dinero";
+"WalletCollect" = "Recibir dinero";
+"WalletAddDevice" = "Agregar dispositivo";
+"WalletCardPackage" = "Paquete de tarjetas";
+"WalletAddCard" = "Agregar tarjeta";
+"WalletNoCard" = "Sin tarjeta";
+"WalletNoDevice" = "Sin equipo";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(mantenga pulsado y arrastre para ajustar la clasificación)";
+"WalletMyApplication" = "Mis aplicaciones";
+"WalletCommon" = "Común";
+"WalletOther" = "Otro";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "Crea una billetera fría";
+"WalletConverting" = "Convertir";
+"WalletSuccessfulConversion" = "Conversión exitosa";
+"WalletSwitchToHotWallet" = "Cambiar a billetera caliente";
+"WalletSwitchToColdWallet" = "Conviértete en una billetera fría.";
+
+// BluetoothController
+"deviceList" = "Lista de dispositivos";
+"deviceMismatch" = "El tipo de dispositivo no coincide";
+"WalletNewColdWallet" = "New Cold Wallet";
+"WalletConnecting" = "Connected";
+"WalletCertifyingDevice" = "Dispositivo de autenticación";
+"WalletAuthenticationDeviceFailed" = "Falló el dispositivo autenticado";
+"WalletCertifiedDeviceSuccess" = "El dispositivo autenticado tuvo éxito";
+"WalletReading" = "Reading";
+"WalletReadSuccessfully" = "Leer con éxito";
+"WalletReadFailed" = "Error de lectura";
+"WalletWriting" = "Escritura";
+"WalletSuccessfullyWritten" = "Write success";
+"WalletWriteFailure" = "Error de escritura";
+"WalletCardRemoval" = "Extracción de la tarjeta";
+"WalletDeviceDisconnected" = "Dispositivo desconectado";
+"WalletCardHasContent" = "La tarjeta actual tiene contenido, ¿desea continuar escribiendo?";
+"WalletNewlyCreatedSuccessfully" = "Nuevo éxito";
+"WalletCardDataIsInvalid" = "Los datos de la tarjeta no son válidos";
+
+// 我的智能设备
+"WalletSmartWatch" = "Reloj inteligente";
+"WalletSmartWristband" = "Pulsera inteligente";
+"WalletSmartRunningShoes" = "Smart Running Shoes";
+"WalletIntelligentBodyFatScale" = "Smart Body Fat Scale";
+
+// 首页总资产
+"AssetHomeRequestFail"="Solicitud fallida";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "Seleccionar tipo de cartera";
+"WalletColdWallet" = "Cold Wallet";
+"WalletHotWallet" = "Hot Wallet";
+"WalletChoseWalletType" = "Seleccione el tipo de cartera";
+"WalletBuyColdWallet" = "Comprar monedero frío";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "¿Qué es una billetera fría?";
+"WalletHotWalletDescription" = "¿Qué es una billetera caliente?";
+"WalletColdWalletInfo" = "Cold Wallet, que corresponde a una billetera caliente, también conocida como una billetera fuera de línea o una billetera rota, es uno de los tipos de billeteras de blockchain, lo que significa que la red no puede acceder a la billetera de la clave privada del usuario. Las billeteras frías usualmente se basan en dispositivos \"fríos\" (computadoras, teléfonos móviles, etc. que no están conectados a la red) para garantizar la seguridad de la clave privada de Bitcoin. El uso de la comunicación con código QR permite que la clave privada no toque la red, evitando el riesgo de ser hackeado para robar claves privadas Puede enfrentar riesgos de seguridad física (como pérdida de la computadora, daños, etc.). \n Almacene la clave privada en dispositivos que no estén conectados a la red, incluida la impresión, escritura a mano (billetera de papel) o incluso piggybacking (billetera de cerebro) para garantizar una seguridad absoluta durante el almacenamiento. Sin embargo, cuando la billetera anterior está en proceso de negociación, la clave privada aún debe ingresarse en la billetera de software general, y la billetera fría estándar más alta también debe poder firmarse fuera de línea, y solo se enviará la transacción firmada. \n Almacene la clave privada en un dispositivo de hardware especial adicional. Al usar la transacción, la transacción debe firmarse y enviarse dentro del hardware. Mientras el hardware no esté descifrado, es absolutamente seguro. Si este dispositivo de hardware está completamente fuera de línea y solo envía mensajes de transacción firmados, también es la billetera fría más alta.";
+"WalletHotWalletInfo" = "Hot Wallet, que corresponde a una billetera fría, también conocida como billetera en línea o billetera en línea, es uno de los tipos de carteras blockchain, es decir, una billetera en la que la red puede acceder a la clave privada del usuario. Debido a sus características de red, las billeteras calientes pueden acceder a la clave privada del usuario a través de Internet, por lo que la seguridad es más baja que la billetera fría, pero más conveniente que la billetera fría. Además, ya sea que use una billetera fría o una billetera caliente, la clave privada es la clave.";
+
+// JFWalletMoreController
+"WalletApplicationEdit" = "App Edit";

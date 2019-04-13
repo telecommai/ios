@@ -1,0 +1,26 @@
+/* 
+  ShareComps.strings
+  ShareComps
+
+  Created by 赵洪壮 on 2018/12/21.
+  Copyright © 2018 childs. All rights reserved.
+*/
+
+//UMShareManager
+"shareCopy" = "คัดลอกลิงก์";
+"shareSystem" = "การแบ่งปันระบบ";
+"shareSafari" = "Safari เปิด";
+"shareCopyToClipboard" = "คัดลอกไปยังคลิปบอร์ด";
+"shareTribe" = "แบ่งปันจำนวนมาก";
+"shareFriends" = "ที่อยู่ติดต่อ";
+"shareGravitationalFieldy" = "ฟิลด์ความโน้มถ่วง";
+"shareCancelSharing" = "ยกเลิกการแบ่งปัน";
+"shareChoosePlatform" = "";
+
+// UMShareView
+"shareSina" = "微博";
+"shareWechat" = "WeChat";
+"shareMoments" = "แวดวงเพื่อน";
+"shareWechatFavorites" = "WeChat Collection";
+"shareQQ" = "QQ";
+"shareQzone" = "QQ space";

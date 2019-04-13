@@ -1,0 +1,286 @@
+//
+//  InterfaceController.m
+//  WatchApp Extension
+//
+//  Created by 王胜利 on 2019/3/15.
+//  Copyright © 2019 wsl. All rights reserved.
+//
+
+#import "InterfaceController.h"
+#import "WalletRow.h"
+#import "WalletDetailController.h"
+#import <WatchConnectivity/WatchConnectivity.h>
+#import "CoreDataManager.h"
+#import "Wallet+CoreDataClass.h"
+#import "Wallet+CoreDataProperties.h"
+
+@interface InterfaceController ()<WCSessionDelegate>
+
+@property (weak, nonatomic) IBOutlet WKInterfaceTable *table;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceLabel *tipLabel;
+@property (strong, nonatomic) NSMutableArray *wallets;
+@property (nonatomic,strong) WCSession *session;
+
+@end
+
+
+@implementation InterfaceController
+
+//init和awakeWithContext:方法是用来加载页面所必须的数据和初始化页面配置的。 而不要在willActivate方法中去初始化页面配置, 但它可以做一些页面更新的事情。
+//willActivate:程序激活
+//didAppear: 页面已经显
+//willDisappear: 页面将要消失
+//didDeactivate: 这个方法与willActivate是相反的, 页面失活。它需要注意的是, 当此方法被调用时Controller已经失活了, 且不在安全了, 所以不要再进行页面上的更新等操作了。但它负责一些像NSTimer停用之类的处理是最合适不过了。
+
+// WatchOS控制器生命周期
+//当你进入一个页面时, 设备会经历init->awakeWithContext->willActivate->didAppear。
+//当你退出当前页面时, 设备会经历willDisappear->didDeactivate->deinit。
+//再举个例子, 当你进入一个页面时, 设备会经历init->awakeWithContext->willActivate->didAppear。然后停止所有用户交互使其进入失活状态, 设备会经历didDeactivate。直到你再次与其交互, 设备会经历willActivate。所以, 这才是它们本质的区别。
+
+
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
+    
+    [self reloadData];
+    
+    WCSession *session = [WCSession defaultSession];
+    session.delegate = self;
+    [session activateSession];
+    self.session = session;
+}
+
+- (void)reloadData{
+    NSFetchRequest *request = [Wallet fetchRequest];
+    NSArray<Wallet*> *arr = [kCoreDataManager.persistentContainer.viewContext executeFetchRequest:request error:nil];
+    
+    
+    [self.tipLabel setHidden:arr.count != 0];
+    [self.table setHidden:arr.count == 0];
+    
+    self.wallets = arr.mutableCopy;
+    
+    [self.table setNumberOfRows:self.wallets.count withRowType:@"WalletRow"];
+    
+    
+    for (int i = 0; i < self.wallets.count; i++) {
+        Wallet *obj = self.wallets[i];
+        WalletRow *cell = [self.table rowControllerAtIndex:i];
+        [cell.name setText:obj.addr];
+        [cell.subName setText:obj.chainId];
+    }
+}
+
+
+- (void)willActivate {
+    // This method is called when watch view controller is about to be visible to user
+    [super willActivate];
+    
+}
+
+- (void)didDeactivate {
+    // This method is called when watch view controller is no longer visible
+    [super didDeactivate];
+}
+
+- (void)didAppear{
+    [super didAppear];
+    [self reloadData];
+}
+
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex{
+    Wallet *dict = self.wallets[rowIndex];
+    [self pushControllerWithName:@"WalletDetailController" context:dict];
+}
+
+
+
+
+/** Called when the session has completed activation. If session state is WCSessionActivationStateNotActivated there will be an error with more details. */
+- (void)session:(WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error{
+    NSLog(@"Watch-activationDidCompleteWithState");
+}
+
+
+
+// MARK: apple watch 收到消息
+- (void)session:(WCSession *)session didReceiveMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    
+    NSString *msgType = message[@"type"];
+    if ([msgType isEqualToString:@"saveWallet"]) {
+        [self saveWalletWithMessage:message replyHandler:replyHandler];
+    }else if ([msgType isEqualToString:@"readWallet"]){
+        [self readWalletWithMessage:message replyHandler:replyHandler];
+    }else if ([msgType isEqualToString:@"deleteWallet"]){
+        [self deleteWalletWithMessage:message replyHandler:replyHandler];
+    }else if([msgType isEqualToString:@"getWatchInfo"]){
+        [self getWatchInfoReplyHandler:replyHandler];
+    }else{
+        NSDictionary *result = @{
+                                 @"result":@"0",
+                                 @"msg":@"Watch暂不支持改功能"
+                                 };
+        if (replyHandler) replyHandler(result);
+    }
+}
+
+
+- (void)saveWalletWithMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    
+    NSFetchRequest *request = [Wallet fetchRequest];
+    NSDictionary *content = message[@"content"];
+    //2.创建查询谓词（查询条件）
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"addr == %@",content[@"addr"]];
+    //3.给查询请求设置谓词
+    request.predicate = predicate;
+    //4.查询数据
+    NSArray<Wallet*> *arr = [kCoreDataManager.persistentContainer.viewContext executeFetchRequest:request error:nil];
+    
+    if (arr.count > 0) {
+        
+        NSDictionary *result = @{
+                                 @"result":@"0",
+                                 @"msg":@"钱包已存在"
+                                 };
+        if (replyHandler) replyHandler(result);
+        return;
+    }
+    
+    
+    WKAlertAction *action1 = [WKAlertAction actionWithTitle:@"取消" style:WKAlertActionStyleCancel handler:^{
+        NSDictionary *result = @{
+                                 @"result":@"0",
+                                 @"msg":@"Watch取消存储"
+                                 };
+        if (replyHandler) replyHandler(result);
+    }];
+    
+    WKAlertAction *action2 = [WKAlertAction actionWithTitle:@"保存" style:WKAlertActionStyleDefault handler:^{
+        Wallet *wallet = [NSEntityDescription insertNewObjectForEntityForName:@"Wallet" inManagedObjectContext:kCoreDataManager.persistentContainer.viewContext];
+        NSDictionary *content = message[@"content"];
+        //赋值
+        wallet.chainId = content[@"chainId"];
+        wallet.addr = content[@"addr"];
+        wallet.privKey = content[@"privkey"];
+        wallet.account = content[@"account"];
+        //保存到数据库
+        [kCoreDataManager save];
+        
+        [self reloadData];
+        
+        NSDictionary *result = @{
+                                 @"result":@"1",
+                                 @"msg":@"保存成功"
+                                 };
+        
+        if (replyHandler) replyHandler(result);
+    }];
+    
+    
+    [self presentAlertControllerWithTitle:@"是否保存钱包？" message:content[@"addr"] preferredStyle:WKAlertControllerStyleActionSheet actions:@[action1,action2]];
+}
+
+- (void)readWalletWithMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    NSDictionary *content = message[@"content"];
+    WKAlertAction *action1 = [WKAlertAction actionWithTitle:@"取消" style:WKAlertActionStyleCancel handler:^{
+        NSDictionary *result = @{
+                                 @"result":@"0",
+                                 @"msg":@"Watch拒绝读取"
+                                 };
+        if (replyHandler) replyHandler(result);
+    }];
+    
+    WKAlertAction *action2 = [WKAlertAction actionWithTitle:@"允许" style:WKAlertActionStyleDestructive handler:^{
+        NSFetchRequest *request = [Wallet fetchRequest];
+        
+        //2.创建查询谓词（查询条件）
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"addr == %@",content[@"addr"]];
+        //3.给查询请求设置谓词
+        request.predicate = predicate;
+        //4.查询数据
+        NSArray<Wallet*> *arr = [kCoreDataManager.persistentContainer.viewContext executeFetchRequest:request error:nil];
+        
+        if (arr.count > 0) {
+            NSDictionary *data = @{
+                                   @"chainId":arr.firstObject.chainId,
+                                   @"addr":arr.firstObject.addr,
+                                   @"privkey":arr.firstObject.privKey,
+                                   @"account":arr.firstObject.account
+                                   };
+            
+            NSDictionary *result = @{
+                                     @"result":@"1",
+                                     @"msg":@"保存成功",
+                                     @"data":data
+                                     };
+            
+            if (replyHandler) replyHandler(result);
+        }else{
+            NSDictionary *result = @{
+                                     @"result":@"0",
+                                     @"msg":@"Watch中没有此钱包信息"
+                                     };
+            if (replyHandler) replyHandler(result);
+        }
+        
+        
+    }];
+    
+    NSString *msg = [NSString stringWithFormat:@"是否允许请求读取钱包%@私钥信息",content[@"addr"]];
+    
+    [self presentAlertControllerWithTitle:nil message:msg preferredStyle:WKAlertControllerStyleSideBySideButtonsAlert actions:@[action1,action2]];
+}
+
+- (void)deleteWalletWithMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    NSFetchRequest *request = [Wallet fetchRequest];
+    NSDictionary *content = message[@"content"];
+    //2.创建查询谓词（查询条件）
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"addr == %@",content[@"addr"]];
+    //3.给查询请求设置谓词
+    request.predicate = predicate;
+    //4.查询数据
+    NSArray<Wallet*> *arr = [kCoreDataManager.persistentContainer.viewContext executeFetchRequest:request error:nil];
+    
+    if (arr.count >= 0) {
+        for (Wallet *w in arr) {
+            [kCoreDataManager.persistentContainer.viewContext deleteObject:w];
+        }
+        [kCoreDataManager save];
+        
+        [self reloadData];
+        // 不存在此钱包
+        NSDictionary *result = @{
+                                 @"result":@"1",
+                                 @"msg":@"钱包已删除"
+                                 };
+        if (replyHandler) replyHandler(result);
+        return;
+    }else{
+        // 不存在此钱包
+        NSDictionary *result = @{
+                                 @"result":@"0",
+                                 @"msg":@"钱包不存在"
+                                 };
+        if (replyHandler) replyHandler(result);
+    }
+    // 删除钱包
+    
+}
+
+// 获取watch信息
+- (void)getWatchInfoReplyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    WKInterfaceDevice *device = [WKInterfaceDevice currentDevice];
+    NSMutableDictionary *infoDic = [[NSMutableDictionary alloc] init];
+    [infoDic setObject:@"1" forKey:@"result"];
+    [infoDic setObject:device.name forKey:@"name"];
+    [infoDic setObject:device.systemName forKey:@"systemName"];
+    [infoDic setObject:device.systemVersion forKey:@"systemVersion"];
+    if (replyHandler) {
+        replyHandler(infoDic);
+    }
+    
+}
+
+@end
+
+
+

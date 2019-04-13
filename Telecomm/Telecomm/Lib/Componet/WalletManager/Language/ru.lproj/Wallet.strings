@@ -1,0 +1,388 @@
+/*
+ Wallet.strings
+ WalletManager
+ 
+ Created by 赵洪壮 on 2018/12/17.
+ Copyright © 2018 pansoft. All rights reserved.
+ */
+
+// JFCardListController
+"walletCard" = "точечная карта";
+"balance" = "баланс";
+"walletCardRecharge" = "перезарядить";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "Способ пополнения счета";
+"walletCardRechargeAmount" = "Количество пополнений";
+"walletCardRechargeAliPay" = "Alipay";
+"walletCardRechargeWechat" = "WeChat";
+"walletCardRechargeMethodSelect" = "Пожалуйста, выберите способ пополнения счета";
+"walletCardRechargeNeetToPay" = "необходимо оплатить";
+"walletCardRechargeNext" = "Далее";
+"walletCardRechargePaySuccess" = "Платеж успешно завершен!";
+"walletCardRechargePayFailure" = "Платеж не прошел!";
+"walletCardRechargeWrongMoney" = "Введена неправильная сумма";
+"walletCardRechargeUndone" = "Незаполненный";
+"walletCardRechargeAgain" = "Пополнить";
+"walletCardRechargeRequest" = "Запрос не выполнен, проверьте настройки сети!";
+"walletCardRechargeGiveUp" = "Отменить";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "Подтвердите мнемонику своего кошелька";
+"walletBTCCheckAddSuccess" = "Добавить успех кошелька";
+"walletBTCCheckBackUpFail" = "Ошибка резервного копирования, проверьте мнемонику";
+"walletBTCCheckConfirmOrder" = "Пожалуйста, нажмите на мнемонику, чтобы подтвердить, что ваша мнемоника верна";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "Создать кошелек";
+"walletBTCCreateBackUpTip" = "Учетная запись кошелька - это ваш уникальный адрес в блокчейне. Пожалуйста, сделайте резервную копию мнемоники и кошелька после создания кошелька";
+"walletBTCCreateStayTip" = "Пожалуйста, сохраняйте информацию, сгенерированную в процессе создания";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "Ключевые слова для резервного копирования";
+"walletBTCCreateSaveTip" = "Мнемоника используется для восстановления учетной записи кошелька или сброса пароля кошелька, точного копирования на бумажный носитель и хранения в безопасном месте, которое известно только вам";
+"walletBTCCreateWriteDown" = "Скопировать мнемонику своей учетной записи кошелька";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "Восстановить кошелек";
+"walletBTCPaperRecoveryChectFail" = "Восстановление не удалось, проверьте мнемонику";
+"walletBTCPaperRecoveryExistFail" = "Восстановление не удалось, кошелек уже существует";
+"walletBTCPaperRcoveryWithWords" = "Восстановить ваш кошелек с помощью мнемоники";
+"walletBTCImport" = "Импорт";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "Неверный адрес перевода";
+"walletBTCTransferNotSupport" = "Этот режим не поддерживается";
+"walletBTCTransferAlreadyExists" = "Кошелек уже содержит этот адрес";
+"walletBTCTransferLessThan" = "Сумма платежа не может быть меньше чем";
+"walletBTCTransferError" = "Ошибка передачи";
+"walletBTCTransferUTFOFail" = "Запрос UTFO не выполнен";
+"walletBTCTransferBalanceNotEnough" = "Недостаточный баланс";
+"walletBTCTransferSignError" = "Ошибка подписи транзакции";
+
+// DropCell
+"walletDropmsq" = "Лови немедленно";
+"walletDropyq" = "Пенсионер";
+"walletDropyqguo" = "был ограблен";
+"walletDropyqguang" = "Свет был ограблен";
+"walletDropwks" = "не запущено";
+"walletDropjks" = "С самого начала";
+"walletDropjjs" = "Конец расстояния";
+"walletDropyjs" = "Завершено";
+"walletDropday" = "день";
+"walletDrophour" = "часы";
+"walletDropmin" = "минуты";
+"walletDropktjj" = "Введение в краткое";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "Там все еще осталось в конце";
+"walletDropjlkshs" = "Расстояние осталось";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "Вы еще не сделали";
+"walletDropDetailCreateWallet" = "Кошелек, сначала создайте кошелек";
+"walletDropDetailChooseWallet" = "Выбрать кошелек";
+"walletDropDetailTilte" = "Детали Airdrop";
+"walletDropDetaildbmc" = "Имя токена";
+"walletDropDetailktzz" = "Авиа-организация";
+"walletDropDetailhydz" = "адрес договора";
+"walletDropDetailktjs" = "Введение в Airdrop";
+
+// DropTransferController
+"walletDropTransferSuccess" = "Эрдроп успех";
+"walletDropTransferReceived" = "Вы успешно получили";
+"walletDropTransferAttension" = "Airdrops будет выдан после окончания мероприятия, обратите внимание на кошелек";
+"walletDropTransferGet" = "Вы получили эту воздушную каплю";
+"walletDropTransferFail" = "Ошибка Airdrop";
+"walletDropTransfering" = "зайти";
+
+// DropViewController
+"walletDropMyTitle" = "Мой взлет";
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "Вам необходимо зарегистрировать учетную запись EOS (12 символов) с двумя сгенерированными открытыми ключами. Этот процесс будет использовать токен EOS. Подумайте над именем учетной записи и найдите кого-нибудь, кто поможет вам зарегистрироваться.";
+"walletEOSCreateTipActive" = "Учетная запись EOS не активирована, не отправлена другу или не передана с QR-кодом, чтобы найти друга для активации этой учетной записи";
+"walletEOSCreateShareSuccess" = "Поделиться успехом";
+"walletEOSCreateShareFailure" = "Поделиться не удалось";
+"walletEOSCreatePK" = "открытый ключ";
+"walletEOSCreatePrivateK" = "Закрытый ключ";
+"walletEOSCreateCorrentAddress" = "Пожалуйста, введите правильный адрес аккаунта!";
+"walletEOSCreateCreateRequest" = "Запрос создания учетной записи EOS";
+"walletEOSCreateCorrectName" = "Пожалуйста, введите действительное имя учетной записи (комбинация из 12 символов a-z и 1-5)";
+"walletEOSCreateNameStyle" = "Имя учетной записи EOS - это a-z и 1-5, состоящие из 12-битных символов";
+"walletEOSCreateAccountAddress" = "Адрес учетной записи";
+"wannetEOSCreateSendToFriend" = "Отправить другу";
+"wannetEOSCreateSendToQRCode" = "Поделиться QR-кодом";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "Создать кошелек EOS";
+"walletEOSCreateFeeFail" = "Запрос на создание учетной записи не выполнен";
+"walletEOSCreateIsAvailable" = "Проверка доступности имени учетной записи";
+"walletEOSCreateChange" = "Эта учетная запись уже существует, пожалуйста, измените имя учетной записи";
+"walletEOSCreateAvailabel" = "Доступно имя учетной записи";
+"walletEOSCreateCheckFail" = "Проверка не удалась";
+"walletEOSCreateAbnormal" = "Обработка исключений";
+"walletEOSCreateNoLocalWallet" = "Нет активированного локального кошелька EOS";
+"walletEOSCreateCreating" = "Создание";
+"walletEOSCreateSuccess" = "Создан успешно";
+"walletEOSCreateFailure" = "Создать не удалось";
+"walletEOSCreateSelectAccount" = "Выбрать учетную запись";
+"walletEOSCreateNoActiveWallet" = "Нет активного локального кошелька EOS";
+"walletEOSCreate" = "Создать";
+"walletEOSCreateAccountName" = "Имя учетной записи";
+"walletEOSCreateRAM" = "память";
+"walletEOSCreateCost" = "стоимость";
+"walletEOSCreateStyle" = "Создать учетную запись EOS с комбинацией из 12 символов a-z и 1-5";
+
+// EOSImportController
+"walletEOSImportReply" = "Пожалуйста, заполните информацию, прежде чем ответить";
+"walletEOSImportErongFormatter" = "Неверный формат закрытого ключа!";
+"walletEOSImporting" = "введение";
+"walletEOSImportSuccess" = "Импортировано успешно";
+"walletEOSImportRecoveryWithPrivateKey" = "Восстановление учетной записи кошелька с помощью закрытого ключа";
+"walletEOSImportActivePrivateKey" = "Пожалуйста, введите активный закрытый ключ";
+"walletEOSImportOwnerPrivateKey" = "Пожалуйста, введите личный ключ владельца";
+"walletEOSImportDone" = "полный";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "Учетная запись кошелька - это ваш уникальный адрес в цепочке блоков. Он создается на основе вашего личного ключа. Пожалуйста, сделайте резервную копию личного ключа и базовой учетной записи после создания базовой учетной записи";
+"walletETHSign" = "авторизованная подпись";
+"walletETHAddressEmpty" = "Адрес не может быть пустым";
+"walletETHWtch" = "наблюдение за кошельком";
+"walletETHComplete" = "Полная авторизация";
+"walletETHWarning" = "1. В настоящее время только пользователи могут наблюдать за тем, как их кошелек формирует более безопасный холодный кошелек с автономным кошельком; импорт необходимо подписать один раз. \n2. Храните много денег и рекомендуем использовать холодный кошелек";
+"walletORCode" = "Используйте соответствующий кошелек для наблюдения, чтобы отсканировать QR-код ниже для завершения авторизации";
+"walletDataNomMatch" = "данные не совпадают";
+"walletDataImporting" = "Импорт";
+"wallerSignDetail" = "данные авторизованной подписи";
+"wallerSignAddress" = "авторизованный адрес";
+"walletSignData" = "data";
+"walletScan" = "Сканировать QR-код авторизованной страницы кошелька, импортировать подпись";
+"walletImportSign" = "Импортировать подпись";
+"walletEnterAddress" = "Пожалуйста, введите адрес кошелька";
+
+// change
+"walletChangeCurrent" = "переключатель%@бумажник";
+
+// NewWalletInfoController
+"walletNewWalletInfoSetAvatar" = "Установить аватар и имя кошелька";
+"walletNewWalletInfoUploadAvatar" = "Загрузка аватара";
+"walletNewWalletInfoUploadAvatarFail" = "Не удалось загрузить изображение";
+"walletNewWalletInfoName" = "имя учетной записи кошелька";
+"walletNewWalletInfoAddAvatar" = "Нажмите значок камеры, чтобы добавить аватар для учетной записи кошелька";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "Получение базового идентификатора";
+"walletOldWalletOutGettingIdRetry" = "Не удалось получить базовый идентификатор, пожалуйста, попробуйте еще раз";
+"walletOldWalletCorrectEnergy" = "Пожалуйста, введите правильную энергию";
+"walletOldWalletOutEnergy" = "Энергия";
+"walletOldWalletOtherPlanetId" = "Пожалуйста, введите межзвездный идентификатор другой стороны";
+"walletOldWalletNumberOfEnergy" = "Пожалуйста, введите количество энергий";
+"walletOldWalletOtherBaseId" = "Пожалуйста, введите базовый идентификатор другой стороны";
+"walletOldWalletOtherPanetId" = "Получить межзвездный идентификатор:";
+"walletOldWalletRecevingBaseId" = "Получить базовый идентификатор:";
+"walletOldWalletTransferBaseId" = "Исходящий базовый идентификатор:";
+"walletTradeMinerFee" = "Стоимость майнера";
+"walletOldWalletEnergyExchange" = "Обмен энергией";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "Детали транзакции";
+"walletOldResultSuccess" = "Транзакция выполнена успешно";
+"walletOldResultId" = "идентификатор транзакции";
+"walletOldResultTime" = "время транзакции";
+"walletOldResultToId" = "Перевести на базовый идентификатор";
+"walletOldResultOutId" = "выключить базовый идентификатор";
+"walletOldResultFailure" = "Обмен не выполнен";
+"walletOldResultTransing" = "в транзакции";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "Пожалуйста, введите базовый пароль";
+"walletEnterPassword" = "Пожалуйста, введите пароль";
+"walletWrongPassword" = "Ошибка пароля";
+"walletForgetPassword" = "Забыли пароль";
+
+// WalletCardView
+"walletCardAssets" = "активы";
+"walletCardNoActive" = "быть активированным";
+"walletCardSenfCoin" = "Одна кнопка для отправки монет";
+"walletCardCopied" = "Copyed";
+"walletCardTransfer" = "обернулся";
+"walletCardDetail" = "детали";
+"walletCardTransferout" = "Трансфер из";
+"walletImportWallet" = "Импорт кошелька";
+"walletWatchNotSupport" = "Кошелек не поддерживает функцию развертывания";
+
+// WalletInfoController
+"walletInfoTitle" = "Управление";
+"walletChangeAvatar" = "Изменить аватар";
+"walletInfoChangeWalletName" = "Заменить имя кошелька";
+"walletInfoSwitchaccount" = "Сменить аккаунт";
+"walletInfoActivation" = "Активировать";
+"walletInfoModifyWalletName" = "Изменить имя кошелька";
+"walletInfoEnterWalletName" = "Пожалуйста, введите имя кошелька";
+"walletInfoModificationFailed" = "Модификация не удалась, повторите попытку";
+"walletInfoCannotDeleted" = "Основной кошелек не может быть удален";
+"walletInfoToDelete" = "Вы хотите удалить этот кошелек?";
+"walletInfoDeleteFaild" = "Удалить не удалось, повторите попытку";
+"walletInfoSettingAvatar" = "Настройка аватара";
+"walletInfoSettingFaild" = "Не удалось установить аватар, повторите попытку";
+"walletInfoUploadFaild" = "Не удалось загрузить аватар, повторите попытку";
+"walletInfoPKPK" = "Закрытый ключ владельца:\n%@\nАктивный закрытый ключ:\n%@";
+"walletUnfoDeleteWallet" = "Удалить кошелек";
+"walletInfoChooseMain" = "Выбрать основную учетную запись";
+"WalletModifyingWalletname" = "Изменение имени кошелька";
+
+// WalletAllTokenController
+"walletTypeHide" = "Скрыть активы без баланса";
+"walletTypeSort" = "Сортировать по балансу";
+"walletTypeAlphabetically" = "в алфавитном порядке";
+"walletTypeRemoveAssets" = "Удалить активы";
+"walletTypeEnterToken" = "Введите имя токена или адрес договора";
+"walletMyassets" = "Мои активы";
+
+// WalletInCoinController
+"WalletInTransfer" = "Пожалуйста, войдите";
+"walletInTransferEnter" = "Введите сумму";
+"WalletInTransferPlzEnter" = "Пожалуйста, введите сумму";
+"walletInChangeAssets" = "Заменить активы";
+"walletInSpecAmount" = "указанное количество";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "Замечания";
+"WalletCoinOutOptional" = "Необязательно";
+"WalletCoinOutEnterAddress" = "Введите адрес платежа";
+"WalletCoinOutCanNotNull" = "Сумма не может быть пустой";
+"WalletCoinOutAddressNotNull" = "Адрес оплаты не может быть пустым";
+"WalletCoinOutPaymentDetail" = "Детали платежа";
+"WalletCoinOutRetry" = "Не удалось опубликовать запрос на транзакцию, повторите попытку";
+"walletCoinUnlockFail" = "Ошибка разблокировки кошелька";
+"walletCinOutoperation" = "В сделке";
+"walletGetCurrentFail" = "Не удалось получить текущий кошелек";
+"walletNoData" = "Нет данных";
+"walletPaymentSuccess" = "Успех получения";
+"walletTransferSuccess" = "Перевод успешно";
+"walletCollectionFailure" = "Ошибка при получении";
+"walletTransferFailed" = "Ошибка передачи";
+
+// WalletTradeResultController
+"walletTradeBlock" = "блок";
+"walletTradeAmount" = "Сумма";
+"walletTradeTradeNo" = "номер транзакции";
+"walletTradeContact" = "контракт";
+"walletTradeType" = "Тип передачи";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "Копирование успешно";
+"walletChainInquirySure" = "Подтвердить и подписать";
+"walletChainInquiryResult" = "Пожалуйста, введите результат проверки";
+"walletChainInquiryToSign" = "Фирма ожидает подписания";
+"walletChainInquiryCompanyToSign" = "Корпоративная ожидающая подпись";
+"walletChainInquiryBankReply" = "Банк ожидает ответа";
+"walletChainInquiryBackRelied" = "Банк ответил";
+"walletChainInquiryBlockInfo" = "Информация о блоке";
+"walletChainInquiryEdit" = "Редактирование";
+"walletChainInquiryProcessed" = "Обработано";
+"walletChainInquiryToBeProcessed" = "в ожидании";
+"walletChainInquiryChaininquiry" = "цепочка запросов";
+"walletChainInquiryInquiryDetails" = "Запросить информацию";
+"walletChainInquiryAgreeandSign" = "Принять и подписать";
+"walletChainInquiryViewReply" = "Просмотреть ответ";
+"walletChainInquiryReply" = "Ответить";
+"walletChainInquiryDoesNotMatch" = "Не совпадает";
+"walletChainInquiryMatch" = "соответствовать";
+"walletChainInquiryAuditId" = "Аудит идентификатора транзакции подписи";
+"walletChainInquiryTradeId" = "Идентификатор транзакции подписи предприятия";
+"walletChainInquiryBankId" = "Идентификатор банковской подписи транзакции";
+"walletChainInquirySubSus" = "Отправить успешно";
+"walletChainInquiryInfoFail" = "Ошибка получения информации";
+"walletChainInquiryNo" = "номер запроса";
+"walletChainInquiryAuditUnit" = "Блок аудита";
+"walletChainInquiryCompany" = "Справочная компания";
+"walletChainInquiryBank" = "Банк запросов";
+"walletChainInquiryState" = "Статус";
+"walletChainInquiryContact" = "Вернуться к контакту";
+"walletChainInquiryPhone" = "Контактный телефон";
+"walletChainInquirymail" = "электронная почта";
+"walletChainInquiryAccountName" = "Имя учетной записи";
+"walletChainInquiryBankNo" = "Номер банковского счета";
+"walletChainInquiryCurrency" = "Валюта";
+"walletChainInquiryRate" = "процентная ставка";
+"walletChainInquiryType" = "Тип учетной записи";
+"walletChainInquiryBalance" = "Недостаточный баланс";
+"walletChainInquiryStartandenddate" = "дата начала и окончания";
+"walletChainInquiryLimit" = "Для гарантии или других ограничений использования";
+"walletChainInquiryBanksavings" = "Банковские депозиты";
+"walletSwitchWallet" = "Переключить кошелек(%ld)";
+"walletUtilAdding" = "Добавление";
+"walletCardTop" = "Пополнить";
+"WalletPayInfo" = "Информация об оплате";
+
+
+//Assets
+"walletTransaction" = "транзакция";
+"WalletAirdrop" = "выброска десанта";
+"WalletPay" = "Платить деньги";
+"WalletCollect" = "Получение денег";
+"WalletAddDevice" = "Добавить устройство";
+"WalletCardPackage" = "Пакет карт";
+"WalletAddCard" = "Добавить карту";
+"WalletNoCard" = "Нет карты";
+"WalletNoDevice" = "Нет оборудования";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(удерживайте и перетащите, чтобы настроить сортировку)";
+"WalletMyApplication" = "Мои приложения";
+"WalletCommon" = "Общий";
+"WalletOther" = "Другое";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "Создать холодный кошелек";
+"WalletConverting" = "преобразование";
+"WalletSuccessfulConversion" = "Успешное преобразование";
+"WalletSwitchToHotWallet" = "Переключиться на горячий кошелек";
+"WalletSwitchToColdWallet" = "Превратиться в холодный кошелек";
+
+// BluetoothController
+"deviceList" = "Список устройств";
+"deviceMismatch" = "Тип устройства не совпадает";
+"WalletNewColdWallet" = "Новый холодный кошелек";
+"WalletConnecting" = "Подключен";
+"WalletCertifyingDevice" = "Устройство аутентификации";
+"WalletAuthenticationDeviceFailed" = "Ошибка аутентифицированного устройства";
+"WalletCertifiedDeviceSuccess" = "Устройство, прошедшее проверку подлинности, успешно";
+"WalletReading" = "Чтение";
+"WalletReadSuccessfully" = "Читать успешно";
+"WalletReadFailed" = "Сбой чтения";
+"WalletWriting" = "Запись";
+"WalletSuccessfullyWritten" = "Успешная запись";
+"WalletWriteFailure" = "Ошибка записи";
+"WalletCardRemoval" = "Удаление карты";
+"WalletDeviceDisconnected" = "Устройство отключено";
+"WalletCardHasContent" = "На текущей карте есть содержимое, хотите продолжить запись?";
+"WalletNewlyCreatedSuccessfully" = "Новый успех";
+"WalletCardDataIsInvalid" = "Данные карты недействительны";
+
+// 我的智能设备
+"WalletSmartWatch" = "Умные часы";
+"WalletSmartWristband" = "Умный браслет";
+"WalletSmartRunningShoes" = "Умные кроссовки";
+"WalletIntelligentBodyFatScale" = "Smart Body Fat Scale";
+
+// 首页总资产
+"AssetHomeRequestFail"="Запрос не выполнен";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "Выбрать тип кошелька";
+"WalletColdWallet" = "Холодный кошелек";
+"WalletHotWallet" = "Горячий кошелек";
+"WalletChoseWalletType" = "Пожалуйста, выберите тип кошелька";
+"WalletBuyColdWallet" = "Купить холодный кошелек";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "Что такое холодный кошелек?";
+"WalletHotWalletDescription" = "Что такое горячий кошелек?";
+"WalletColdWalletInfo" = "Cold Wallet, соответствующий горячему кошельку, также известному как автономный кошелек или сломанный кошелек, является одним из типов кошельков с цепочкой блоков, что означает, что сеть не может получить доступ к кошельку личного ключа пользователя. Холодные кошельки обычно полагаются на «холодные» устройства (компьютеры, мобильные телефоны и т. Д., Которые не подключены к сети) для обеспечения безопасности закрытого ключа Биткойна.Использование связи с QR-кодом позволяет закрытому ключу не касаться сети, избегая риска взлома для кражи закрытых ключей, но также Может подвергаться угрозе физической безопасности (например, потеря компьютера, повреждение и т. Д.). \n Храните закрытый ключ на устройствах, которые не подключены к сети, включая печать, рукописный ввод (бумажный кошелек) или даже копирование (мозговой кошелек), чтобы обеспечить абсолютную безопасность при хранении. Однако, когда вышеуказанный кошелек находится в процессе торговли, закрытый ключ все равно должен быть введен в общий кошелек программного обеспечения, и холодный кошелек самого высокого стандарта также должен иметь возможность подписываться в автономном режиме, и только подписанная транзакция будет отправлена. \n Храните закрытый ключ на дополнительном специальном аппаратном устройстве. При использовании транзакции транзакция должна быть подписана и отправлена ​​в аппаратном обеспечении. Пока аппаратное обеспечение не взломано, оно абсолютно безопасно. Если это аппаратное устройство полностью автономно и отправляет только подписанные сообщения о транзакциях, это также самый холодный кошелек самого высокого стандарта.";
+"WalletHotWalletInfo" = "Горячий кошелек, который соответствует холодному кошельку, также известному как онлайн-кошелек или онлайн-кошелек, является одним из типов кошельков с цепочкой блоков, то есть кошелька, в котором сеть может получить доступ к закрытому ключу пользователя. Благодаря своим сетевым функциям, горячие кошельки могут получить доступ к закрытому ключу пользователя через Интернет, поэтому безопасность ниже, чем у холодного кошелька, но удобнее, чем у холодного кошелька. Кроме того, используется ли холодный кошелек или горячий кошелек, секретный ключ является ключом.";
+
+// JFWalletMoreController
+"WalletApplicationEdit" = "Редактирование приложения";

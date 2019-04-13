@@ -1,0 +1,22 @@
+/*
+ ShareComps.strings
+ ShareComps
+ 
+ Created by 赵洪壮 on 2018/12/21.
+ Copyright © 2018 childs. All rights reserved.
+ */
+
+//JFPayUtil 葡萄牙语
+"payOrderPaymentSuccess" = "Ordenar o sucesso do pagamento";
+"payBeingProcessed" = "Sendo processado, o resultado do pagamento é desconhecido (pode ter sido pago com sucesso), verifique o status de pagamento do pedido na lista de ordem do comerciante";
+"payOrderPaymentFailed" = "O pagamento do pedido falhou";
+"payUserCanceledHalfway" = "Usuário cancelado";
+"payNetworkConnectionError" = "Erro de conexão de rede";
+"payRepeatRequest" = "Repetir pedido";
+"payThePaymentResultUnknown" = "O resultado do pagamento é desconhecido (pode ter sido pago com sucesso), verifique o status do pagamento do pedido na lista de ordem do comerciante.";
+"payOtherPaymentErrors" = "Outros erros de pagamento";
+"payPaymentResult" = "Resultado do pagamento";
+"payPaymentResultSuccess" = "Resultado do pagamento: sucesso!";
+"payPaymentResultFailure" = "Resultado do pagamento: falha!";
+"payUserAlreadyQuitPayment" = "O usuário já desistiu do pagamento!";
+

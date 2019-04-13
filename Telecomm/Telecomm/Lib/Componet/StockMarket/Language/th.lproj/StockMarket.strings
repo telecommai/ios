@@ -1,0 +1,172 @@
+/*
+ StockMarket.strings
+ StockMarket
+ 
+ Created by 赵洪壮 on 2018/12/10.
+ Copyright © 2018 SpiderMan. All rights reserved.
+ */
+
+"stockSelectCurrency" = "เลือกสกุลเงิน";
+"stockSelectExchange" = "เลือกการแลกเปลี่ยน";
+
+//JFStockMarketHomeController
+"stockCustom" = "ตัวเลือก";
+"stockMarketCap" = "มูลค่าตลาด";
+"stockChg" = "อัพและดาวน์";
+"stockExchange" = "แลกเปลี่ยน";
+"stockReload" = "โหลดซ้ำ";
+
+//JFStockRiseFallController
+"stockGainers" = "เพิ่มรายการ";
+"stockLosers" = "รายชื่อที่ตกลง";
+
+//JFStockSelfSelectCell
+"stockVol" = "ปริมาณ";
+"stockB" = "100 ล้าน";
+"stockM" = "10,000";
+
+//JFStockExchangeHeader
+"stockRank" = "อันดับ";
+"stockName" = "ชื่อ";
+"stockTurnover" = "เลี้ยว";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "เงินไหลเข้าสุทธิในวันนี้";
+
+// JFStockAllCoinFristCell
+"stockHigh" = "สูง";
+"stockLow" = "ต่ำ";
+
+// JFExchangeHomeController
+"stockAll" = "ทั้งหมด";
+
+// JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "เพิ่มในการเลือกด้วยตนเอง";
+"stockAddedCustomFailure" = "เข้าร่วมความล้มเหลวเพิ่มเติม";
+"stockDeleteCustomSuccessful" = "ลบความสำเร็จของการเลือกตนเอง";
+"stockDeleteCustomFailure" = "ลบความล้มเหลวในการเลือก";
+
+// JFStockShareController
+"stockSharePicture" = "แบ่งปันรูปภาพ";
+"stockCancel" = "ยกเลิก";
+"stockSave" = "บันทึก";
+"stockSavedToAlbum" = "บันทึกไปยังอัลบั้ม";
+"stockSavedToAlbumFailed" = "บันทึกไปยังอัลบั้มล้มเหลว";
+
+// JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "จำนวนเงินคอมมิชชั่น";
+"stockBid" = "ซื้อหนึ่งราคา";
+"stockAsk" = "ขายหนึ่งราคา";
+
+// JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "จำนวนคำสั่งซื้อที่รอดำเนินการ";
+"stockBidScale10" = "ซื้อ 10 ไฟล์";
+"stockAskScale10" = "ขาย 10 ไฟล์";
+
+// JFStockAnalysisVolumeHeaderView
+"stockVolume" = "ปริมาณ";
+"stockTime" = "เวลาธุรกรรม";
+"stockStrike" = "ราคาธุรกรรม";
+
+// JFDepthChartCell
+"stockDepthChart" = "แผนที่ความลึกของตลาด";
+
+// JFCoinCapitalController
+"stockTurnoverDistribution" = "การกระจายเงิน";
+"stockMoneyFlowTrend" = "แนวโน้มเงินไหล";
+"stockMoneyFlowWithin5Days" = "เงินไหลเข้าสุทธิใน 5 วันที่ผ่านมา";
+"stockBigOrdersMonitor" = "เสร็จสิ้นการตรวจสอบตั๋วเงิน";
+"stockBuy" = "ซื้อ";
+"stockSell" = "ขาย";
+"stockNetInflow" = "การไหลเข้าสุทธิ";
+"stockToday" = "วันนี้";
+"stock3minAgo" = "3 นาที";
+"stock10minAgo" = "10 นาที";
+"stock1hAgo" = "1 ชั่วโมง";
+"stock24hAgo" = "24 ชั่วโมง";
+"stockAmount" = "จำนวน";
+"stockPrice" = "ราคา";
+"stockNumber" = "ปริมาณ";
+"stockCoinTime" = "เวลา";
+
+// JFCoinSimpleIntroController
+"stockRecommendMarkets" = "แนะนำตลาด";
+
+// JFCoinSimpleIntroManager
+"stockChineseName" = "ชื่อภาษาจีน";
+"stockEnglishName" = "ชื่อภาษาอังกฤษ";
+"stockType" = "ประเภท";
+"stockIssueTime" = "เวลาปล่อย";
+"stockCirculatingSupply" = "ยอดจำหน่ายรวม";
+"stockTotalSupply" = "ปัญหาทั้งหมด";
+"stockGlobalMarketCapShare" = "% ของส่วนแบ่งการตลาดทั่วโลกทั้งหมด";
+"stockCirculatingRate" = "อัตราการไหล";
+"stockTurnoverRate" = "อัตราการส่งมอบ";
+"stockICOCost" = "ค่าใช้จ่าย ICO";
+"stockFundRaising" = "ระดมทุน";
+"stockTokenDistribution" = "การจัดสรรโทเค็น";
+"stockWhitePaper" = "เอกสารทางเทคนิค";
+"stockNumberOfOnlineExchanges" = "จำนวนของการแลกเปลี่ยนแลกเปลี่ยน";
+"stockWEBSite" = "เว็บไซต์อย่างเป็นทางการ";
+
+// RecommendMarketCell
+"stockVolume" = "ปริมาณธุรกรรม";
+
+// JFDepthChartView
+"stockDepthAsk" = "กำลังขาย";
+"stockDepthBid" = "ซื้อ";
+
+// JFPieChartView
+"stockInflow" = "การไหลเข้า";
+"stockOutflow" = "ไหลออก";
+"stockUnit" = "หน่วย";
+"stockCNY" = "หยวน";
+"stockUSD" = "ดอลลาร์สหรัฐ";
+"stockVOL" = "การกระจายธุรกรรม";
+
+// JFStockMarketController
+"stockMoneyFlow" = "เงินทุน";
+"stockAnalysis" = "การวิเคราะห์";
+"stockIntroduction" = "โปรไฟล์";
+"stockCustomAdd" = "เพิ่มไปยังทางเลือก";
+"stockCustomRemove" = "ลบทางเลือก";
+
+// BottomOperationView
+"stockAdd" = "เพิ่มเติม";
+"stockAlerts" = "เตือนความจำ";
+"stockOrginal" = "ต้นฉบับ";
+"stockShare" = "แชร์";
+
+// JFStockMarketCurrentInfoView
+"stockInfoHigh" = "สูงสุด";
+"stockInfoLow" = "ต่ำที่สุด";
+"stockInfoBid" = "ซื้อหนึ่ง";
+"stockInfoAsk" = "ขายหนึ่ง";
+"stockInfoFee" = "อัตรา";
+
+// JFStockChartToolbar
+"stockChartLine" = "timeshare";
+"stockChart15mins" = "15 นาที";
+"stockChart1hour" = "1 ชั่วโมง";
+"stockChart1day" = "วัน K";
+"stockChart3days" = "3 วัน K";
+"stockChart1min" = "1 นาที K";
+"stockChart3mins" = "3 คะแนน K";
+"stockChart5mins" = "5 คะแนน K";
+"stockChart10mins" = "10 คะแนน K";
+"stockChart30mins" = "30 คะแนน K";
+"stockChart2hours" = "2 ชั่วโมง K";
+"stockChart4hours" = "4 ชั่วโมง K";
+"stockChart6hours" = "6 ชั่วโมง K";
+"stockChart12hours" = "12 ชั่วโมง K";
+"stockChart1week" = "สัปดาห์ K";
+"stockChart1mon" = "เดือน K";
+"stockChartIndex" = "ตัวบ่งชี้";
+"stockChartMajor" = "ภาพหลัก";
+"stockChartMinor" = "ไดอะแกรมรอง";
+
+// JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "ไม่สามารถรับข้อมูลตลาดปัจจุบัน";
+
+
+

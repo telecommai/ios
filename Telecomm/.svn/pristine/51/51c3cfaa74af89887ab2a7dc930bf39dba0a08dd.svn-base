@@ -1,0 +1,486 @@
+//
+//  AppDelegate.m
+//  OSPMobile
+//
+//  Created by Javor on 16/3/16.
+//  Copyright (c) 2016年 Pansoft. All rights reserved.
+//
+
+#import "AppDelegate.h"
+#import <UserNotifications/UserNotifications.h>
+#import <Bugly/Bugly.h>
+#import <UMSocialCore/UMSocialCore.h>
+#import "MainTabBarController.h"
+#import "EnvironmentVariable.h"
+#import "FileUtil.h"
+#import "Registry.h"
+#import "ViewControllerManager.h"
+#import "JFMessageManager.h"
+#import "EFChatLeftViewController.h"
+#import "EFChatHttpManager.h"
+#import "Constant.h"
+#import "EFMessageService.h"
+#import "AFNetworkReachabilityManager.h"
+#import "SettingFileManager.h"
+#import "EFXHNavigationController.h"
+#import "TalkChainHeader.h"
+#import "TCTools.h"
+#import "EFCheckVersionUtil.h"
+#import "YYRSACrypto.h"
+#import "UMShareManager.h"
+#import "SystemShareController.h"
+#import "TCLoginPhoneEmailController.h"
+#import "TCUploadAvatarController.h"
+#import "TCUploadFansController.h"
+#import "NotificationUtil.h"
+#import "SystemShareUtil.h"
+#import "AppearanceUtil.h"
+#import "AmapUtil.h"
+#import "WalletUtil.h"
+#import "GuideViewUtil.h"
+#import "ResourceUtil.h"
+#import "EnvironmentUtil.h"
+#import "ZoneBadgeUtil.h"
+#import "GroupApplicantViewController.h"
+#import "JFiFlyService.h"
+#import "SideslipViewController.h"
+#import "EFXHNavigationController.h"
+#import "PayCompsHeader.h"
+#import "UITabBar+Badge.h"
+#import "PlistUtil.h"
+#import "EFNewsWebviewController.h"
+//#import "JFChatTabBadgeManager.h"
+#import "ScreenshotManager.h"
+#import "SDImageCache.h"
+#import "EFAlertManager.h"
+
+@interface AppDelegate ()<UNUserNotificationCenterDelegate, UIAlertViewDelegate>
+
+@property (nonatomic, strong) EFChatHttpManager   *offlineHttpManager;
+
+@property (nonatomic, strong) EFAlertManager      *alertManager;
+@end
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //设置默认展示推荐页，默认YES，展示
+    _isAlertShow = YES;
+    [EnvironmentVariable setProperty:@"OpenPlanet" forKey:@"APPBUNDLE"];
+    [EnvironmentVariable setProperty:@"" forKey:@"APPBUNDLE"];
+    // 拷贝bundle里面的plist到本地
+    [ResourceUtil copyBundleResourcePlistToSanbox];
+    // 拷贝资源文件到沙盒
+    [SettingFileManager copyConfigSettinBundleToDefaultPath];
+    // 获取Package
+    [FileUtil getPackageFiles];
+    // 1.注册推送
+    [NotificationUtil registerNotificationWithApplication:application notificationDelagte:self];
+    // 2.注册友盟分享
+    [UMShareManager registerUMShareWithOpenLog:YES appName:@"KFXQ"];
+    // 3.注册bugly
+    [Bugly startWithAppId:@"08c0e19ba5"];
+    // 4.注册地图
+    [AmapUtil registerMap:MapActiveWithAMap];
+    // 5.tableView全局设置
+    [AppearanceUtil tableViewAppearance];
+    // 注册讯飞
+    [JFiFlyService iFlyInitializeStartService];
+    // 注册支付
+    [[JFPayUtil sharedUtil] paySignature];
+    // 设置环境变量
+    [EnvironmentUtil setupEnvironmentVariable];
+    // 保存是否是ipx
+    [EnvironmentUtil saveIsIphoneX];
+    // 社会化分享
+    [EnvironmentVariable setVersionPath:@"Package"];
+    // 设置SDWebImage的图片缓存时间
+    [self moveSdwebimageCacheFile];
+    [SDImageCache sharedImageCache].config.maxCacheAge = 60 * 60 * 24 * 30 * 3;
+    // 设置socketImUrl
+    [self setSocketImageUrl];
+    // 截屏
+    [self shareScreenshotManager];
+    
+    // 懒加载并设置rootVc
+    self.window.rootViewController = [UIViewController new];
+    self.window.theme_backgroundColor = [UIColor theme_tabBarColorForKey:@"barTintColor"];
+    // 引导页
+    [GuideViewUtil showGuideView];
+    
+    return YES;
+}
+
+#pragma mark - 将SDWebimage放在Library/Caches中的文件夹移动到Documents中
+- (void)moveSdwebimageCacheFile {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        // 旧路径
+        NSString *oldRootPath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
+        NSString *oldCacheFilePath = [oldRootPath stringByAppendingPathComponent:@"default"];
+        
+        // 新路径
+        NSString *newRootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+        NSString *newCacheFilePath = [[newRootPath stringByAppendingPathComponent:@"SDCache"] stringByAppendingPathComponent:@"default"];
+        if (![[NSFileManager defaultManager] fileExistsAtPath:newCacheFilePath]) {
+            // 新路径没有文件，旧文件移动过来
+            if ([[NSFileManager defaultManager] fileExistsAtPath:oldCacheFilePath]) {
+                [[NSFileManager defaultManager] createDirectoryAtPath:[newRootPath stringByAppendingPathComponent:@"SDCache"] withIntermediateDirectories:YES attributes:nil error:nil
+                 ];
+                BOOL result = [[NSFileManager defaultManager] moveItemAtPath:oldCacheFilePath toPath:newCacheFilePath error:nil];
+                Log(@"%d", result);
+            }
+        }
+    });
+}
+
+
+#pragma mark - 设置socketImUrl
+- (void)setSocketImageUrl{
+    [JFSocketManager sharedSocketManager].imURL = [PlistUtil IMBaseUrl];
+}
+
+#pragma mark - 根据登录步骤去上次没完成的界面
+- (void)goLastStepControllerByLoginStep{
+    LoginStep step = [[EnvironmentVariable getPropertyForKey:LOGIN_STEP WithDefaultValue:@"0"] integerValue];
+    switch (step) {
+        case LoginStepDefault:{
+            APPLICATION.statusBarStyle = UIStatusBarStyleLightContent;
+            TCLoginPhoneEmailController *loginVc = [[TCLoginPhoneEmailController alloc] init];
+            [self goStepController:loginVc];
+        }
+            break;
+        case LoginStepNoAvatar:{
+            APPLICATION.statusBarStyle = UIStatusBarStyleLightContent;
+            TCUploadAvatarController *uploadAvatarVc = [[TCUploadAvatarController alloc] init];
+            [self goStepController:uploadAvatarVc];
+        }
+            break;
+        case LoginStepNoFans:{
+            APPLICATION.statusBarStyle = UIStatusBarStyleLightContent;
+            TCUploadFansController *uploadFansVc = [[TCUploadFansController alloc] init];
+            uploadFansVc.type = UploadFansTypeRegister;
+            [self goStepController:uploadFansVc];
+        }
+            break;
+        case LoginStepLoginSuccess:{
+            [self goMainView];
+            [SystemShareUtil showShareController];
+        }
+            break;
+        default:
+            break;
+    }
+}
+
+
+#pragma mark - 设置到指定的控制器为RootController
+- (void)goStepController:(UIViewController *)vc{
+    EFXHNavigationController *nvc = [[EFXHNavigationController alloc] initWithRootViewController:vc];
+    nvc.navigationBar.theme_barStyle = [NSString theme_stringForKey:@"barStyle" from:@"navigationBar"];
+    nvc.navigationBar.theme_tintColor = [UIColor theme_navigationBarColorForKey:@"tintColor"];
+    nvc.navigationBar.theme_barTintColor = [UIColor theme_navigationBarColorForKey:@"barTintColor"];
+    nvc.navigationBar.translucent = NO;
+    self.window.rootViewController = nvc;
+}
+
+
+#pragma mark - 截屏
+- (void)shareScreenshotManager {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidTakeScreenshot:) name:UIApplicationUserDidTakeScreenshotNotification object:nil];
+}
+
+- (void)userDidTakeScreenshot:(NSNotification *)notification {
+    LoginStep step = [[EnvironmentVariable getPropertyForKey:LOGIN_STEP WithDefaultValue:@"0"] integerValue];
+    if ([self.window.rootViewController isKindOfClass:[SideslipViewController class]] && step == LoginStepLoginSuccess) {
+        [ScreenshotManager shareManager];
+    }
+}
+
+#pragma mark - 退出登录
+- (void)logout{
+    [USERDEFAULT removeObjectForKey:@"updateHint"];
+    [WalletManager setSharedWallet:nil];
+    [EnvironmentVariable removePropertyForKey:@"access_token"];
+    [EnvironmentVariable setProperty:@(LoginStepDefault) forKey:LOGIN_STEP];
+    TCLoginPhoneEmailController *loginVc = [[TCLoginPhoneEmailController alloc] init];
+    [self goStepController:loginVc];
+}
+
+#pragma mark - 进入主界面
+- (void)goMainViewWithAlertShow:(BOOL)isAlertShow {
+    _isAlertShow = isAlertShow;
+    [self goMainView];
+}
+
+-(void)goMainView {
+    //option.xml自定义颜色
+    NSString *colorString = [[[Registry getStubObjectForKey:@"customColor"] getStubTable] objectForKey:@"color"];
+    if (colorString != nil) {
+        [EnvironmentVariable setProperty:colorString forKey:@"customColor"];
+    }
+    self.left = [[EFChatLeftViewController alloc] init];
+    
+    //确保先执行service中消息的代理方法
+    EFMessageService *service = [EFMessageService sharedMessageService];
+    [service connectManager];
+    [service prepareOpeartion];
+    [[JFMessageManager sharedMessageManager] addMessageDelegate:service];
+    
+    // 默认铃声、震动设置
+    // 免打扰
+    NSString *bother = [EnvironmentVariable getPropertyForKey:EF_DISTURB WithDefaultValue:@""];
+    // 播放声音
+    NSString *playsound = [EnvironmentVariable getPropertyForKey:EF_PLAYSOUND WithDefaultValue:@""];
+    // 播放震动
+    NSString *playVibrate = [EnvironmentVariable getPropertyForKey:EF_PLAYVIBRATE WithDefaultValue:@""];
+    if ([bother isEqualToString:@""] && [playsound isEqualToString:@""] && [playVibrate isEqualToString:@""]) {
+        [EnvironmentVariable setProperty:@"YES" forKey:EF_PLAYVIBRATE];
+        [EnvironmentVariable setProperty:@"YES" forKey:EF_PLAYSOUND];
+        [EnvironmentVariable setProperty:@"NO" forKey:EF_DISTURB];
+    }
+    
+    [[JFMessageManager sharedMessageManager] addMessageDelegate:self];
+    [[JFMessageManager sharedMessageManager].messageDBManager updateDataBaseTablesInfo];
+    
+    // 发送上线消息
+    [[JFMessageManager sharedMessageManager] doConnect];
+    
+    //网络监控句柄
+    AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
+    //要监控网络连接状态，必须要先调用单例的startMonitoring方法
+    [manager startMonitoring];
+    
+    // 兼容旧版本没有通讯公钥
+    [WalletUtil compatibleComPrivateKey];
+    
+    Wallet *wallet = [WalletManager sharedWallet];
+    if(wallet.accounts == 0) {
+        [self logout];
+    }else {
+        self.tabbarController = [[MainTabBarController alloc] init];
+        SideslipViewController *sideslipController = [SideslipViewController new];
+        sideslipController.leftViewController = _left;
+        sideslipController.mainViewController = _tabbarController;
+        
+        //        _tabbarController.leftView = _left.view;
+        _tabbarController.selectedIndex = [self selectedIndex];
+        self.window.rootViewController = nil;
+        self.window.rootViewController = sideslipController;//_tabbarController;
+        [ViewControllerManager setMainTabbarController:_tabbarController];
+        [service unreadcountRefresh];
+//        [JFChatTabBadgeManager tabUnreadCountRefresh];
+        // 将基地钱包添加到数据库
+        [WalletUtil addMainWalletToWalletsDB];
+    }
+    
+    if (_isAlertShow) {
+        [self showAlertView];
+    }
+}
+
+-(void)showAlertView {
+    [self.alertManager recommendAlertView];
+}
+
+-(EFAlertManager *)alertManager {
+    if (!_alertManager) {
+        _alertManager = [[EFAlertManager alloc]init];
+    }
+    return _alertManager;
+}
+
+- (NSInteger)selectedIndex {
+    NSString *selectIndex = [EnvironmentVariable getPropertyForKey:@"defaultDisplay" WithDefaultValue:nil];
+    if (selectIndex) {
+        return [selectIndex integerValue];
+    }
+    NSMutableArray *array = [Registry getRegEntryListWithKey:@"menuRoot"];
+    for (NSInteger i = 0; i<array.count; i++) {
+        StubObject *stub = array[i];
+        if ([[stub.stubTable objectForKey:@"defaultDisplay"] isEqualToString:@"true"]) {
+            return i;
+        }
+    }
+    return 0;
+}
+
+-(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    const unsigned *tokenBytes = [deviceToken bytes];
+    NSString *hexToken = [NSString stringWithFormat:@"%08x%08x%08x%08x%08x%08x%08x%08x",
+                          ntohl(tokenBytes[0]), ntohl(tokenBytes[1]), ntohl(tokenBytes[2]),
+                          ntohl(tokenBytes[3]), ntohl(tokenBytes[4]), ntohl(tokenBytes[5]),
+                          ntohl(tokenBytes[6]), ntohl(tokenBytes[7])];
+    [EnvironmentVariable setDeviceToken:hexToken];
+}
+
+// iOS 10收到通知
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler{
+    
+    NSDictionary * userInfo = notification.request.content.userInfo;
+    UNNotificationRequest *request = notification.request; // 收到推送的请求
+    UNNotificationContent *content = request.content; // 收到推送的消息内容
+    NSNumber *badge = content.badge;  // 推送消息的角标
+    NSString *body = content.body;    // 推送消息体
+    UNNotificationSound *sound = content.sound;  // 推送消息的声音
+    NSString *subtitle = content.subtitle;  // 推送消息的副标题
+    NSString *title = content.title;  // 推送消息的标题
+    
+    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+        //        NSLog(@"iOS10 前台收到远程通知:%@", [self logDic:userInfo]);
+    }
+    else {
+        // 判断为本地通知
+        NSLog(@"iOS10 前台收到本地通知:{\nbody:%@，\ntitle:%@,\nsubtitle:%@,\nbadge：%@，\nsound：%@，\nuserInfo：%@\n}",body,title,subtitle,badge,sound,userInfo);
+    }
+    completionHandler(UNNotificationPresentationOptionAlert); // 需要执行这个方法，选择是否提醒用户，有Badge、Sound、Alert三种类型可以设置
+}
+
+// 通知的点击事件
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler{
+    NSDictionary * userInfo = response.notification.request.content.userInfo;
+    UNNotificationRequest *request = response.notification.request; // 收到推送的请求
+    UNNotificationContent *content = request.content; // 收到推送的消息内容
+    NSNumber *badge = content.badge;  // 推送消息的角标
+    NSString *body = content.body;    // 推送消息体
+    UNNotificationSound *sound = content.sound;  // 推送消息的声音
+    NSString *subtitle = content.subtitle;  // 推送消息的副标题
+    NSString *title = content.title;  // 推送消息的标题
+    
+    if([response.notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+        //        NSLog(@"iOS10 收到远程通知:%@", [self logDic:userInfo]);
+    } else {
+        // 判断为本地通知
+        NSLog(@"iOS10 收到本地通知:{\nbody:%@，\ntitle:%@,\nsubtitle:%@,\nbadge：%@，\nsound：%@，\nuserInfo：%@\n}",body,title,subtitle,badge,sound,userInfo);
+    }
+    completionHandler();
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    if(![EnvironmentVariable getPropertyForKey:@"access_token" WithDefaultValue:nil]) {
+        [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+        return;
+    }
+    NSString *badge = [NSString stringWithFormat:@"%ld", (long)[self unreadcountRefresh]];
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = [badge integerValue];
+    [[JFSocketManager sharedSocketManager] stopConnect];
+    NSString *userId = [EnvironmentVariable getIMUserID];
+    NSString *pwd = [EnvironmentVariable getIMPassword];
+    NSString *token = [EnvironmentVariable getDeviceToken];
+    NSString *deviceId = [EnvironmentVariable getPropertyForKey:@"UUID" WithDefaultValue:@""];
+    NSString *disturb = [EnvironmentVariable getPropertyForKey:EF_DISTURB WithDefaultValue:@""];
+    NSString *apnsPush = @"";
+    if ([disturb isEqualToString:@"YES"]) {
+        apnsPush = @"0";
+    } else if ([disturb isEqualToString:@"NO"] || [disturb isEqualToString:@""]) {
+        apnsPush = @"1";
+    }
+    [self.offlineHttpManager HttpRequestForOfflineWithUserId:userId userPassword:pwd deviceToken:token badge:badge deviceId:deviceId apnsPush:apnsPush];
+}
+
+- (NSInteger)unreadcountRefresh {
+    MainTabBarController *tab = [ViewControllerManager getMainTabbarController];
+    NSMutableArray *array = [Registry getRegEntryListWithKey:@"menuRoot"];
+    NSInteger badge=0;
+    for (NSInteger i = 0; i<array.count; i++) {
+        if (i == 0) {
+            badge = [[tab.tabBar getBubbleBadgeAtIndex:i] integerValue];
+        }else {
+            badge = badge + [[tab.tabBar.items objectAtIndex:i].badgeValue integerValue];
+        }
+    }
+    return badge;
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    if(![EnvironmentVariable getPropertyForKey:@"access_token" WithDefaultValue:nil])  return;
+    [[JFSocketManager sharedSocketManager] startConnect];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    [[JFPayUtil sharedUtil] applicationDidBecomeActivePayOperation];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    NSLog(@"I‘m died");
+}
+
+#pragma mark - 其他软件跳转进来
+// NOTE: 9.0以前使用API接口
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    [[JFPayUtil sharedUtil] wxHandleOpenURL:url];
+    [[JFPayUtil sharedUtil] alipayProcessOrderWithPaymentResult:url];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [[JFPayUtil sharedUtil] wxHandleOpenURL:url];
+    [[JFPayUtil sharedUtil] alipayProcessOrderWithPaymentResult:url];
+    return YES;
+}
+
+// NOTE: 9.0以后使用新API接口
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    LoginStep step = [[EnvironmentVariable getPropertyForKey:LOGIN_STEP WithDefaultValue:@"0"] integerValue];
+    if ([url.absoluteString isEqualToString:AppKey]) {
+        self.isSystemShare = YES;
+        if ([self.window.rootViewController isKindOfClass:[SideslipViewController class]] && step == LoginStepLoginSuccess) {
+            [SystemShareUtil showShareController];
+        }
+    }else if([[url.absoluteString substringWithRange:NSMakeRange(0, 8)]isEqualToString:@"ipcom://"]){
+        //    ipcom://ipcom.io/g?groupKey=3100
+        if ([self.window.rootViewController isKindOfClass:[SideslipViewController class]] && step == LoginStepLoginSuccess) {
+            NSString *funcString = [url.absoluteString substringWithRange:NSMakeRange(17, 1)];
+            if ([funcString isEqualToString:@"g"]) {
+                NSString *groupKey = [url.absoluteString substringFromIndex:28];
+                GroupApplicantViewController *gr = [[GroupApplicantViewController alloc]init];
+                gr.groupKey = groupKey;
+                [ViewControllerManager pushViewController:gr animated:YES];
+            }else if ([funcString isEqualToString:@"n"]) {
+                //    ipcom://ipcom.io/n?newsid=11   26
+                NSString *newsId = [url.absoluteString substringFromIndex:26];
+                EFNewsWebviewController *newsWebViewController = [[EFNewsWebviewController alloc]initWithNewsId:newsId];
+                [ViewControllerManager pushViewController:newsWebViewController animated:YES];
+            }
+        }
+    }else if ([url.host isEqualToString:@"safepay"]) {
+        //跳转支付宝钱包进行支付，处理支付结果
+        [[JFPayUtil sharedUtil] alipayProcessOrderWithPaymentResult:url];
+    }else if ([options[UIApplicationOpenURLOptionsSourceApplicationKey] isEqualToString:@"com.tencent.xin"] && [url.absoluteString containsString:@"pay"]) {
+        [[JFPayUtil sharedUtil] wxHandleOpenURL:url];
+    }else{
+        [[UMSocialManager defaultManager] handleOpenURL:url];
+    }
+    return YES;
+}
+
+// 横竖屏
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    if (_allowRotate) {
+        return UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskLandscapeRight;
+    } else {
+        return (UIInterfaceOrientationMaskPortrait);
+    }
+}
+
+#pragma mark - 懒加载
+
+- (EFChatHttpManager *)offlineHttpManager {
+    if (!_offlineHttpManager) {
+        _offlineHttpManager = [[EFChatHttpManager alloc] init];
+    }
+    return _offlineHttpManager;
+}
+
+- (UIWindow *)window{
+    if (!_window) {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _window.backgroundColor = [UIColor theme_tabBarColorForKey:@"barTintColor"]();//cWhiteColor;
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
+
+@end
+

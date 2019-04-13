@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--我的钱包-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="我的钱包" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="1" height="1" alignment="left" hidden="YES" text="暂无钱包" textAlignment="center" id="AN1-tb-d27"/>
+                        <table alignment="left" id="fW9-8i-jtB">
+                            <items>
+                                <tableRow identifier="WalletRow" id="hhd-Zs-Oim" customClass="WalletRow">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="pmO-kk-S7b">
+                                        <items>
+                                            <label width="1" alignment="left" verticalAlignment="bottom" text="钱包地址" numberOfLines="0" id="GKa-sE-W40">
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
+                                            <label width="1" alignment="left" verticalAlignment="bottom" text="钱包类型" id="inF-ZJ-VtX" colorLabel="IBBuiltInLabel-Red">
+                                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                            </label>
+                                        </items>
+                                        <edgeInsets key="margins" left="5" right="5" top="5" bottom="5"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="name" destination="GKa-sE-W40" id="Kmn-5I-zsh"/>
+                                        <outlet property="subName" destination="inF-ZJ-VtX" id="hBA-M4-jMR"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="fW9-8i-jtB" id="AEf-3B-vUM"/>
+                        <outlet property="tipLabel" destination="AN1-tb-d27" id="xH2-yp-fly"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="291.5"/>
+        </scene>
+        <!--钱包-->
+        <scene sceneID="E8h-p1-wdd">
+            <objects>
+                <controller identifier="WalletDetailController" title="钱包" id="hRW-5B-c0L" customClass="WalletDetailController">
+                    <items>
+                        <label width="1" alignment="left" text="钱包信息" numberOfLines="0" id="ej6-gb-xUk">
+                            <fontDescription key="font" type="italicSystem" pointSize="14"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="PSI-KR-cWs">
+                        <items>
+                            <menuItem title="删除" icon="trash" id="ngY-JB-TxI">
+                                <connections>
+                                    <action selector="deleteAction" destination="hRW-5B-c0L" id="9ch-kt-4nv"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="walletInfo" destination="ej6-gb-xUk" id="Q88-TX-ECS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="406" y="286"/>
+        </scene>
+    </scenes>
+</document>

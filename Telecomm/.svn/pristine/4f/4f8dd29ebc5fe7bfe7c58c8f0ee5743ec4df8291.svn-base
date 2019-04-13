@@ -1,0 +1,13 @@
+//
+//  ExtensionDelegate.h
+//  WatchApp Extension
+//
+//  Created by 王胜利 on 2019/3/15.
+//  Copyright © 2019 wsl. All rights reserved.
+//
+
+#import <WatchKit/WatchKit.h>
+
+@interface ExtensionDelegate : NSObject <WKExtensionDelegate>
+
+@end

@@ -1,0 +1,304 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏 泰语
+"EShopGoods" = "สินค้า";
+"EShopEvaluation" = "ประเมินผล";
+"EShopDetail" = "รายละเอียด";
+"EShopGoodsSku" = "กรุณาเลือกสเปค";
+"EShopProductReview" = "การประเมินผลิตภัณฑ์";
+"EShopPraise" = "คำนิยม";
+
+//底部工具栏
+
+"EShopCollection" = "เก็บ";
+"EShopCollected" = "คอลเลกชันที่มี";
+"EShopService" = "การบริการลูกค้า";
+"EShopCart" = "ตะกร้าสินค้า";
+"EShopAddCart" = "เพิ่มใส่ตะกร้า";
+"EShopBuyNow" = "ซื้อเลย";
+"EShopNoStart" = "ยังไม่ได้เริ่ม";
+"EShopHaveEnd" = "สิ้นสุดแล้ว";
+
+//分享相关
+"EShopSharFriends" = "แบ่งปันให้เพื่อน";
+"EShopShareGrivitationField" = "แบ่งปันไปที่สนามโน้มถ่วง";
+
+//购物车
+"EShopDeleteCell" = "ลบ";
+"EShopEdit" = "แก้ไข";
+"EShopComplete" = "สมบูรณ์";
+"EShopSettleAccounts" = "การตั้งถิ่นฐาน";
+"EShopTotal" = "ทั้งหมด";
+"EShopNoGoods" = "ไม่มีสินค้าในรถเข็น";
+"EShopSelected" = "เลือก";
+"EShopPurchaseAmount" = "ปริมาณการสั่งซื้อ";
+
+//我的商城
+"EShopMyMall" = "ห้างสรรพสินค้าของฉัน";
+"EShopMyOrder" = "คำสั่งของฉัน";
+"EShopMyAddress" = "ที่อยู่จัดส่งของฉัน";
+"EShopMyService" = "บริการของฉัน";
+"EShopScanAll" = "ดูทั้งหมด";
+"EShopAttention" = "ความสนใจ";
+"EShopFootprint" = "รอยพระบาท";
+"EShopExperience"="ประสบการณ์";
+"EShopOrderAll" = "สมบูรณ์";
+"EShopPendingPayment"="รอการชำระเงิน";
+"EShopToBeDelivered"="รอการจัดส่ง";
+"EShopRefundSuccess" = "คืนเงินสำเร็จ";
+"EShopPendingReceipt"="รอการรับสินค้า";
+"EShopComment"="รอการประเมิน";
+"EShopCompleted" = "เสร็จ";
+"EShopCanceled" = "ได้ถูกยกเลิกแล้ว";
+"EShopClosed" = "ปิด";
+"EShopRefound"="คืนเงินคืน";
+"EShopDeleted" = "ที่ถูกลบ";
+"EShopOrderWinTreasurePaySuccess" = "สั่งซื้อการชำระเงินสำเร็จ";
+"EShopOrderPayFail" = "การชำระเงินตามคำสั่งซื้อล้มเหลว";
+"EShopOrderWinTreasureWin" = "สมบัติได้รับรางวัล";
+"EShopOrderWinTreasurePaying" = "สั่งจ่ายเงิน";
+"EShopOrderWinTreasurePaying2" = "คำสั่งซื้อกำลังได้รับการชำระโปรดรอสักครู่";
+"EShopOrderSubmitted" = "ส่งคำสั่งซื้อของคุณแล้วโปรดชำระเงินให้เสร็จโดยเร็วที่สุด";
+"EShopOrderDelivering"="คำสั่งซื้อของคุณกำลังเตรียมพร้อมสำหรับการจัดส่งโปรดรอสักครู่";
+"EShopOrderDelivered"="ใบสั่งซื้อของคุณได้รับการจัดส่งแล้วโปรดรอการยืนยันการรับสินค้า";
+"EShopOrderRecieved" = "ใบสั่งซื้อของคุณได้รับการลงนามแล้วโปรดให้คะแนน";
+"EShopOrderRecieved2" = "กรุณาให้คะแนน";
+"EShopOrderCompleted"="การทำธุรกรรมเสร็จสมบูรณ์";
+"EShopOrderCancelled"="การทำธุรกรรมถูกยกเลิก";
+"EShopOrderReasonForShutdown"="เหตุผลในการปิด: ผู้ใช้ปิดอย่างแข็งขัน";
+"EShopOrderDeleted" = "ลบคำสั่งแล้ว";
+
+//收藏
+"EShopMyCollection"="ของสะสม";
+"EShopNoCollection" = "ไม่มีรายการรวบรวม";
+"EShopAddCartSuccessfully" = "เข้าร่วมตะกร้าสินค้าเรียบร้อยแล้ว";
+"EShopAddCartFail" = "การเข้าร่วมรถเข็นล้มเหลว";
+"EShopChooseDeteted" = "โปรดเลือกรายการที่จะลบ";
+"EShopDeteleExpiredFail" = "ไม่สามารถลบรายการที่หมดอายุ";
+"EShopNoExpired" = "ไม่มีสินค้าที่หมดอายุ";
+"EShopChooseCollectionItem" = "โปรดเลือกรายการที่คุณต้องการรวบรวม";
+"EShopCanceledCollection" = "การรวบรวมถูกยกเลิก";
+"EShopCancelCollection" = "การยกเลิกการรวบรวมล้มเหลว";
+"EShopAddCollection" = "เพิ่มคอลเล็กชัน";
+"EShopCollectionSuccess" = "เพิ่มความสำเร็จในการสะสม!";
+"EShopCollectionFail" = "การเพิ่มคอลเล็กชันล้มเหลว!";
+
+//收货地址
+"EShopChooseAddress" = "โปรดเลือกที่อยู่จัดส่ง";
+"EShopAddress" = "รับที่อยู่";
+"EShopAddNewAddress" = "เพิ่มที่อยู่ใหม่";
+"EShopEditAddress" = "ปรับเปลี่ยนที่อยู่จัดส่ง";
+"EShopAddAddress" = "เพิ่มที่อยู่จัดส่ง";
+"EShopSave" = "บันทึก";
+"EShopConsigneeName" = "ชื่อผู้รับ (กรุณาใช้ชื่อจริงของคุณ)";
+"EShopConsigneeNameTip" = "กรุณากรอกชื่อ";
+"EShopPhoneNumber" = "เบอร์มือถือ";
+"EShopPhoneNumberTip" = "กรุณากรอกหมายเลขโทรศัพท์";
+"EShopCorrectPhoneNumberTip" = "กรุณาใส่หมายเลขโทรศัพท์ที่ถูกต้อง";
+"EShopArea" = "ภูมิภาค";
+"EShopAreaTip" = "กรุณากรอกในพื้นที่";
+"EShopDetailAddress" = "ที่อยู่โดยละเอียดของถนนหมายเลขบ้านชุมชน ฯลฯ";
+"EShopDetailAddressTip" = "กรุณากรอกที่อยู่เต็ม";
+"EShopSetDefaultAddress" = "ตั้งเป็นที่อยู่เริ่มต้น";
+"EShopInfomationUnsaved" = "ยังไม่ได้บันทึกข้อมูลที่คุณกรอกคุณแน่ใจที่จะกลับมาตอนนี้";
+"EShopFailedUpdate" = "การอัปเดตล้มเหลวโปรดลองอีกครั้ง";
+"EShopProvince" = "จังหวัด";
+"EShopCity" = "เมือง";
+"EShopArea2" = "โซน";
+
+//我的订单
+"EShopCancelOrder" = "ยกเลิกคำสั่งซื้อ";
+"EShopPayNow" = "จ่ายตอนนี้";
+"EShopBuyAgain" = "ซื้ออีกครั้ง";
+"EShopConfirmReceipt" = "ยืนยันใบเสร็จรับเงิน";
+"EShopSureConfirmReceipt" = "คุณยืนยันใบเสร็จรับเงินหรือไม่?";
+"EShopCommentNow"="แสดงความคิดเห็นทันที";
+"EShopDeleteOrder" = "ลบคำสั่ง";
+"EShopTreasureDetails" = "รายละเอียดสมบัติ";
+
+//订单详情
+"EShopOrderDetail" = "รายละเอียดการสั่งซื้อ";
+"EShopTotalAmount" = "ยอดรวมเจ้าหนี้";
+"EShopTotalPayment" = "รวมการจ่ายเงิน";
+"EShopMessage" = "ข้อความธุรกิจ:";
+"EShopTradingHash" = "แฮชซื้อขาย:";
+"EShopShipmentNumber" = "หมายเลขใบสั่งลอจิสติกส์";
+"EShopOrderNumber" = "หมายเลขสั่งซื้อ";
+"EShopOrderTime" = "เวลาสั่งซื้อ";
+"EShopLogisticsCompany" = "บริษัท โลจิสติกส์";
+"EShopConfirmReceiptSuccess" = "ใบเสร็จรับเงินที่ประสบความสำเร็จ";
+"EShopEnsureDeleteOrder" = "คุณแน่ใจที่จะลบคำสั่งซื้อหรือไม่";
+"EShopDeleteOrderSuccess" = "ลบคำสั่งซื้อสำเร็จ";
+"EShopEnsureCancelOrder" = "คุณแน่ใจที่จะยกเลิกคำสั่งซื้อของคุณ?";
+"EShopCancelOrderSuccess" = "ยกเลิกคำสั่งซื้อสำเร็จ";
+"EShopToCart" = "ไปที่ตะกร้าสินค้า";
+"EShopAddedCart" = "เพิ่มสินค้าลงในรถเข็นแล้ว";
+"EShopFaiedToAddCart" = "สั่งซื้อล้มเหลวโปรดลองอีกครั้ง";
+"EShopCopySuccessfully" = "คัดลอกสำเร็จ";
+"EShopClose" = "ใกล้";
+"EShopSum" = "โดยสิ้นเชิง";
+"EShopPiece"="ชิ้น";
+"EShopNoOrder" = "ไม่มีคำสั่งซื้อที่เกี่ยวข้อง";
+"EShopMoveToCollection" = "ย้ายเข้าไปที่คอลเล็กชันของฉัน";
+"EShopRemove" = "ลบรายการ";
+"EShopRemoveExpiered" = "ลบรายการที่หมดอายุ";
+"EShopDeleteFailed" = "การลบล้มเหลว";
+"EShopUpdateFailed" = "การอัปเดตล้มเหลว";
+
+//付款
+"EShopPayMent" = "การชำระเงิน";
+"EShopAliPay" = "Alipay";
+"EShopWeChat" = "WeChat";
+"EShopNeedToPay" = "การชำระเงินที่รอดำเนินการ";
+"EShopInsufficientBalance" = "ยอดเงินไม่เพียงพอ";
+"EShopRecharge" = "การเติมเงิน";
+"EShopPaymentMethods" = "วิธีการชำระเงิน";
+"EShopOtherPaymentMethods" = "วิธีการชำระเงินอื่น ๆ";
+"EShopPaymentAlert1" = "ส่งคำสั่งซื้อแล้ว กรุณา";
+"EShopPaymentAlert2" = "ภายใน ชำระเงินให้เสร็จสิ้น";
+"EShopToBePaied" = "รอการชำระเงิน";
+"EShopPaymentHour" = "ชั่วโมง";
+"EShopPaymentMinute" = "นาที";
+"EShopPaymentSecond" = "วินาที";
+"EShopRMB" = "¥";
+"EShopPay" = "จ่ายเงิน";
+"EShopNeedToPay"="ต้องจ่าย";
+"EShopRemain" = "ส่วนเกิน";
+"EShopRemainRequestFail" = "คำขอยอดเงินล้มเหลว";
+"EShopReorderAlert" = "คำสั่งซื้อถูกปิดเนื่องจากการหมดเวลาโปรดสั่งซื้ออีกครั้ง";
+"EShopChoosePayWay" = "โปรดเลือกวิธีการชำระเงิน";
+"EShopPayWay" = "วิธีการชำระเงิน";
+"EShopChooseOtherPayWay" = "วิธีการชำระเงินอื่น ๆ";
+"EShopPayUnfinished" = "การชำระเงินยังไม่เสร็จ!";
+"EShopPayAbundon" = "ยอมแพ้";
+"EShopRechargeAgain" = "Re-จ่าย";
+"EShopPaySuccess" = "ชำระเงินสำเร็จ!";
+"EShopPayFail" = "การชำระเงินล้มเหลว!";
+"EShopCondirmOrder" = "ยืนยันการสั่งซื้อ";
+"EShopReciever" = "ผู้รับของ";
+"EShopRecieverAddress" = "รับที่อยู่";
+"EShopBuyerMessage" = "ฝากข้อความไว้";
+"EShopBuyerMessageAlert" = "โปรดป้อนสิ่งที่คุณต้องการพูดกับผู้ขาย(ภายใน 50 คำ)";
+"EShopTotalAmount2" = "จำนวนเงินรวม";
+"EShopOrderSubmit" = "ส่งคำสั่งซื้อ";
+"EShopOrderAlert3" = "การส่งคำสั่งซื้อสำเร็จในขณะนี้ร้านค้าหลายแห่งไม่สนับสนุนการชำระเงินแบบรวมโปรดไปที่หน้า“ คำสั่งซื้อของฉัน” -“ การชำระเงินที่รอดำเนินการ”";
+"EShopGoPay" = "เพื่อชำระ";
+"EShopAddressAlert" = "โปรดตั้งที่อยู่สำหรับจัดส่ง";
+"EShopNoAddressAlert" = "คุณยังไม่มีที่อยู่จัดส่งโปรดคลิกเพิ่ม";
+"EShopAdd" = "เพิ่ม";
+"EShopCurrent" = "ปัจจุบัน";
+"EShopGet" = "ได้รับ";
+"EShopFail" = "ความล้มเหลว";
+"EShopChoose" = "กรุณาเลือก";
+"EShopCurrentLess" = "ข้อมูลจำเพาะสต็อคปัจจุบันไม่เพียงพอ";
+"EShopOrderBlank" = "หมายเลขคำสั่งซื้อว่างเปล่า";
+"EShopMaxGoods" = "ถึงขีด จำกัด การซื้อสูงสุดแล้ว";
+"EShopAmount" = "ปริมาณ";
+"EShopFullAmount" = "สินค้าคงคลังเพียงพอ";
+"EShopTreasureNow" = "สมบัติทันที";
+"EShopChooseArea" = "กรุณาเลือกภูมิภาค";
+"EShopSend" = "การจัดส่งสินค้า";
+"EShopSendTo" = "จัดส่งไปที่";
+"EShopTo" = "ไปยัง";
+"EShopUnknownArea" = "พื้นที่ที่ไม่รู้จัก";
+
+//一元夺宝
+"EShopTreasure" = "การแย่งสมบัติ";
+"EShopGoodsRelated" = "สินค้าที่เกี่ยวข้อง";
+"EShopGoodsPrice" = "ราคาสินค้า";
+"EShopGoodsTitle" = "ชื่อผลิตภัณฑ์";
+"EShopGoodsSoldOut" = "ขายหมดแล้ว";
+"EShopEnterBrand" = "เข้าไปในแบรนด์";
+"EShopSellingGoods" = "ในการขายสินค้า";
+"EShopSolded" = "ขายไปแล้ว";
+"EShopValue" = "ค่าที่";
+"EShopShareEvluate" = "การประเมินผลของดวงอาทิตย์เดียว";
+"EShopCommentFailed" = "การอัปโหลดความคิดเห็นล้มเหลว";
+"EShopUrFeel" = "บอกฉันเกี่ยวกับความรู้สึกของคุณ";
+"EShopNilCommentAlert" = "เนื้อหาความคิดเห็นต้องไม่ว่างเปล่า";
+"EShopEvaluateVeryPoor" = "แย่มาก ๆ";
+"EShopEvaluatePoor" = "ไม่ดี";
+"EShopEvaluateGeneral" = "ทั่วไป";
+"EShopEvaluateGood" = "ดี";
+"EShopEvaluateVeryGood" = "ดีมาก";
+"EShopScore" = "คะแนน";
+"EShopNoComment" = "ยังไม่มีการประเมินผลิตภัณฑ์";
+"EShopScanMore" = "ดูเพิ่มเติม";
+"EShopStartOfActivity" = "เหตุการณ์ระยะทางเริ่มต้นขึ้น";
+"EShopApplyRefound" = "สมัครเพื่อชำระเงิน";
+"EShopGoodsState" = "สถานะสินค้า";
+"EShopNoRecieved" ="ไม่ได้รับ";
+"EShopRecievedGoods" = "รับสินค้า";
+"EShopRefoundReason" ="เหตุผลในการคืนสินค้า";
+"EShopRefoundWithoutReason" = "เจ็ดวันโดยไม่มีเหตุผลคืนเงิน";
+"EShopRefoungNotLike" = "การซื้อผิด/ผลลัพธ์ที่น่าสงสาร/ไม่ชอบ";
+"EShopRefoundSize" = "ปัญหาขนาด";
+"EShopRefoundQuantity" = "ปัญหาคุณภาพ";
+"EShopRefoundNoLovely" = "การบริการลูกค้าแย่";
+"EShopRefoundDeicribe" = "ไม่ตรงกับคำอธิบาย";
+"EShopRefoundSellerSendFault" = "ผู้ขายจะส่งสินค้าผิด";
+"EShopRefoundGoodsFake" = "ผลิตภัณฑ์ปลอม";
+"EShopRefoundEmpty" = "บรรจุภัณฑ์ที่ว่างเปล่า";
+"EShopRefoundOther" = "อื่น ๆ";
+"EShopAddDescriptions" = "เพิ่มคำอธิบาย";
+"EShopRefoundMoney" = "จำนวนเงินคืน";
+"EShopRefoundDescriptions" = "คำแนะนำการคืนเงิน";
+"EShopOptional" = "ไม่จำเป็น";
+"EShopPhotoFail" = "มีรูปถ่ายล้มเหลวในการอัพโหลด";
+"EShopSenDdirectly" = "ส่งโดยตรง";
+"EShopMaxPhotoAlert" = "คุณสามารถเพิ่มได้สูงสุด 6 ภาพ";
+"EShopUploadDocuments" = "อัปโหลดข้อมูลรับรอง";
+"EShopChooseWayOfService" = "เลือกประเภทบริการ";
+"EShopRefoundOnly" = "คืนเงินเท่านั้น";
+"EShopNorecievedAndAgreed" = "หากไม่ได้รับสินค้า (รวมถึงแบบไม่ได้ลงนาม) หรือผู้ขายตกลงที่จะยอมรับ";
+"EShopRefoundMoney" = "สินค้ากลับการคืนเงิน";
+"EShopRecieveAndRefound" = "ได้รับสินค้าที่จะต้องมีการกลับมาเราได้รับสินค้า";
+"EShopUse" = "ใช้";
+"EShopCanUse" = "สามารถใช้ได้";
+"EShopPressure" = "หักลดหย่อน";
+"EShopEnterNum" = "กรุณากรอกปริมาณ";
+"EShopBeyondRemain" = "เกินจำนวนที่เหลือ";
+"EShopBeyondMax" = "เกินการใช้งานสูงสุด";
+"EShopMaxNum" = "จำนวนสูงสุดของการใช้งาน";
+"EShopProprietary" = "รับจ้างตนเอง";
+"EShopLuckyNum" = "เลขนำโชคของปัญหานี้";
+"EShopNoGuess" = "ยังไม่มีการวาดโปรดกลับมาใหม่ในภายหลัง";
+"EShopHexadecimal" = "เลขฐานสิบหก 8 ตัวสุดท้าย";
+"EShopGetGuess" = "ขอแสดงความยินดีกับชัยชนะของคุณโปรดทำงานอย่างหนักต่อไป!";
+"EShopNoGetGuess" = "แต่น่าเสียดายที่คุณไม่ชนะโปรดยังคงทำงานอย่างหนัก!";
+"EShopSoldOutTime" = "ขายหมดเวลา:";
+"EShopSoldOutBlock" = "บล็อกหมายเลขในเวลาที่ขาย:";
+"EShopSoldOutNumber" = "หมายเลขโชคดี Blockchain:";
+"EShopSoldOutHash" = "แฮ็คบล็อก Lucky:";
+"EShopSoldOutPeople" = "จำนวนสมบัติทั้งหมด:";
+"EShopCurrentNumber" = "เลขนำโชคของปัญหานี้:";
+"EShopMoreThan" = "เหลือ";
+"EShopTreasurePeople" = "จำนวนสมบัติทั้งหมด";
+"EShopLuckyNumber" = "เลขนำโชค";
+"EShopTheDecimal" = "แปลงเป็นทศนิยม";
+"ESShopSelectall" = "เลือกทั้งหมด";
+"ESShopOperationFailed" = "การดำเนินการล้มเหลวโปรดลองอีกครั้ง";
+"ESShopNeedToPay" = "คุณยังคงต้องชำระเงิน";
+"ESShopSignature" = " ลายเซ็น";
+"ESShopSignComplete" = "การเซ็นชื่อเสร็จสมบูรณ์อยู่ในขั้นตอนการสั่งซื้อ";
+"ESShopResultConfirm" = "การยืนยันผลการชำระเงิน\nโปรดป้อนรายการสั่งซื้อของฉันในภายหลัง";
+"ESShopTransionFailAgain" = "ธุรกรรมล้มเหลวโปรดลองอีกครั้ง";
+"ESShopSignFailAgain" = "ลายเซ็นล้มเหลวโปรดลองอีกครั้ง";
+"ESShopRechargeFailed" = "การเติมเงินล้มเหลว";
+"ESShopHome" = "บ้าน";
+"EShopDefault" = "[ผิดนัด]";
+"EShopYHHD" = "โปรโมชั่น:";
+"EShopInvalid" = "ล้มเหลว";
+"EShopPaymentError" = "ข้อผิดพลาดการชำระเงิน";
+"EShopPayNotItem" = "ไม่ได้รับรายการ";
+
+// 请求失败提示
+"EShopRequestError" = "คำขอผิดพลาด";
+"EShopReload" = "โหลด";
+"EShopStartTime" = "เวลาเริ่มต้น:";
+"EShopEndTime" = "เวลาสิ้นสุด:";

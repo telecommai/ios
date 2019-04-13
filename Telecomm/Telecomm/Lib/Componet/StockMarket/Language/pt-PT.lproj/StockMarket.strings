@@ -1,0 +1,169 @@
+/*
+ StockMarket.strings
+ StockMarket
+ 
+ Created by 赵洪壮 on 2018/12/10.
+ Copyright © 2018 SpiderMan. All rights reserved.
+ */
+
+"stockSelectCurrency" = "Selecione a moeda";
+"stockSelectExchange" = "Selecione a troca";
+
+//JFStockMarketHomeController
+"stockCustom" = "opcional";
+"stockMarketCap" = "valor de mercado";
+"stockChg" = "altos e baixos";
+"stockExchange" = "Troca";
+"stockReload" = "Recarregar";
+
+//JFStockRiseFallController
+"stockGainers" = "aumentar lista";
+"stockLosers" = "lista de queda";
+
+//JFStockSelfSelectCell
+"stockVol" = "quantidade";
+"stockB" = "100 milhões";
+"stockM" = "10.000";
+
+//JFStockExchangeHeader
+"stockRank" = "classificação";
+"stockName" = "Nome";
+"stockTurnover" = "virar";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "Entrada líquida de fundos hoje";
+
+//JFStockAllCoinFristCell
+"stockHigh" = "alto";
+"stockLow" = "baixo";
+
+//JFExchangeHomeController
+"stockAll" = "todos";
+
+//JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "Adicionar à auto-seleção";
+"stockAddedCustomFailure" = "Participar de falha opcional";
+"stockDeleteCustomSuccessful" = "Excluir sucesso da auto-seleção";
+"stockDeleteCustomFailure" = "Apagar a falha de seleção";
+
+//JFStockShareController
+"stockSharePicture" = "Compartilhar imagem";
+"stockCancel" = "Cancelar";
+"stockSave" = "Salvar";
+"stockSavedToAlbum" = "Salvo no álbum";
+"stockSavedToAlbumFailed" = "Salvar no álbum falhou";
+
+//JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "valor da comissão";
+"stockBid" = "compre um preço";
+"stockAsk" = "vender um preço";
+
+//JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "número de pedidos pendentes";
+"stockBidScale10" = "Compre 10 arquivos";
+"stockAskScale10" = "vender 10 arquivos";
+
+//JFStockAnalysisVolumeHeaderView
+"stockVolume" = "volume";
+"stockTime" = "tempo de transação";
+"stockStrike" = "preço de transação";
+
+//JFDepthChartCell
+"stockDepthChart" = "Mapa da profundidade do mercado";
+
+//JFCoinCapitalController
+"stockTurnoverDistribution" = "distribuição de fundos";
+"stockMoneyFlowTrend" = "tendência de fluxo de dinheiro";
+"stockMoneyFlowWithin5Days" = "entrada líquida de fundos nos últimos 5 dias";
+"stockBigOrdersMonitor" = "Monitoramento de Faturas Completas";
+"stockBuy" = "comprar";
+"stockSell" = "vender";
+"stockNetInflow" = "entrada líquida";
+"stockToday" = "hoje";
+"stock3minAgo" = "3 minutos";
+"stock10minAgo" = "10 minutos";
+"stock1hAgo" = "1 hora";
+"stock24hAgo" = "24 horas";
+"stockAmount" = "quantidade";
+"stockPrice" = "preço";
+"stockNumber" = "quantidade";
+"stockCoinTime" = "tempo";
+
+//JFCoinSimpleIntroController
+"stockRecommendMarkets" = "Recomendado pelo mercado";
+
+//JFCoinSimpleIntroManager
+"stockChineseName" = "nome chinês";
+"stockEnglishName" = "nome em inglês";
+"stockType" = "tipo";
+"stockIssueTime" = "tempo de liberação";
+"stockCirculatingSupply" = "Circulação total";
+"stockTotalSupply" = "problema total";
+"stockGlobalMarketCapShare" = "% da quota global de mercado";
+"stockCirculatingRate" = "taxa de fluxo";
+"stockTurnoverRate" = "Taxa de handover";
+"stockICOCost" = "custo da OIC";
+"stockFundRaising" = "fundos levantados";
+"stockTokenDistribution" = "alocação de token";
+"stockWhitePaper" = "Livro Branco";
+"stockNumberOfOnlineExchanges" = "número de trocas na bolsa";
+"stockWEBSite" = "site oficial";
+
+//RecommendMarketCell
+"stockVolume" = "volume de transações";
+
+//JFDepthChartView
+"stockDepthAsk" = "venda";
+"stockDepthBid" = "Comprar";
+
+//JFPieChartView
+"stockInflow" = "entrada";
+"stockOutflow" = "saída";
+"stockUnit" = "unit";
+"stockCNY" = "yuan";
+"stockUSD" = "Dólar norte-americano";
+"stockVOL" = "distribuição de transação";
+
+//JFStockMarketController
+"stockMoneyFlow" = "fundos";
+"stockAnalysis" = "análise";
+"stockIntroduction" = "perfil";
+"stockCustomAdd" = "Adicionar ao opcional";
+"stockCustomRemove" = "excluir opcional";
+
+//BottomOperationView
+"stockAdd" = "Adicional";
+"stockAlerts" = "lembrete";
+"stockOrginal" = "original";
+"stockShare" = "share";
+
+//JFStockMarketCurrentInfoView
+"stockInfoHigh" = "mais alto";
+"stockInfoLow" = "menor";
+"stockInfoBid" = "compre um";
+"stockInfoAsk" = "vender um";
+"stockInfoFee" = "taxa";
+
+//JFStockChartToolbar
+"stockChartLine" = "timeshare";
+"stockChart15mins" = "15 minutos";
+"stockChart1hour" = "1 hora";
+"stockChart1day" = "dia K";
+"stockChart3days" = "3 dias K";
+"stockChart1min" = "1 minuto K";
+"stockChart3mins" = "3 pontos K";
+"stockChart5mins" = "5 pontos K";
+"stockChart10mins" = "10 pontos K";
+"stockChart30mins" = "30 pontos K";
+"stockChart2hours" = "2 horas K";
+"stockChart4hours" = "4 horas K";
+"stockChart6hours" = "6 horas K";
+"stockChart12hours" = "12 horas K";
+"stockChart1week" = "semana K";
+"stockChart1mon" = "mês K";
+"stockChartIndex" = "indicador";
+"stockChartMajor" = "imagem principal";
+"stockChartMinor" = "diagrama adjunto";
+
+//JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "Falha ao obter os dados atuais do mercado";

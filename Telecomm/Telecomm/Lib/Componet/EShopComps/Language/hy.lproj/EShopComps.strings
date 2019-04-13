@@ -1,0 +1,304 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏
+"EShopGoods" = "Ապրանք";
+"EShopEvaluation" = "Գնահատում";
+"EShopDetail" = "Մանրամասներ";
+"EShopGoodsSku" = "Խնդրում ենք ընտրել բնութագրերը";
+"EShopProductReview" = "Ապրանքի գնահատումը";
+"EShopPraise" = "գովասանքի";
+
+//底部工具栏
+
+"EShopCollection" = "Ընտրյալներ";
+"EShopCollected" = "Հավաքված";
+"EShopService" = "Հաճախորդների սպասարկում";
+"EShopCart" = "Գնումների զամբյուղ";
+"EShopAddCart" = "Ավելացնել զամբյուղի մեջ";
+"EShopBuyNow" = "Գնել հիմա";
+"EShopNoStart" = "Չի սկսվել";
+"EShopHaveEnd" = "Ավարտվեց";
+
+//分享相关
+"EShopSharFriends" = "Ուղարկել ընկերոջը";
+"EShopShareGrivitationField" = "Տարածեք գրավիտացիոն դաշտում";
+
+//购物车
+"EShopDeleteCell" = "Ջնջել";
+"EShopEdit" = "Խմբագրել";
+"EShopComplete" = "Լրացրեք";
+"EShopSettleAccounts" = "Վճարում";
+"EShopTotal" = "Ընդամենը";
+"EShopNoGoods" = "Զամբյուղում չկա նյութ";
+"EShopSelected" = "Ընտրված";
+"EShopPurchaseAmount" = "Գնման քանակ";
+
+//我的商城
+"EShopMyMall" = "Իմ խանութը";
+"EShopMyOrder" = "Իմ պատվերը";
+"EShopMyAddress" = "Իմ առաքման հասցեն";
+"EShopMyService" = "Իմ ծառայությունը";
+"EShopScanAll" = "Դիտել բոլորը";
+"EShopAttention" = "Հետեւեք";
+"EShopFootprint" = "ոտնահետք";
+"EShopExperience"="Փորձը";
+"EShopOrderAll" = "Բոլորը";
+"EShopPendingPayment" = "Վճարման սպասում";
+"EShopToBeDelivered" = "Փոխանցել";
+"EShopRefundSuccess" = "Վերադարձի հաջողություն";
+"EShopPendingReceipt" = "Սպասվող ապրանքներ";
+"EShopComment" = "գնահատվելու համար";
+"EShopCompleted" = "Ավարտված";
+"EShopCanceled" = "Չեղարկված";
+"EShopClosed" = "փակ";
+"EShopRefound" = "Վերադարձի վերադարձ";
+"EShopDeleted" = "Ջնջված";
+"EShopOrderWinTreasurePaySuccess" = "Պատվերի վճարման հաջողությունը";
+"EShopOrderPayFail" = "Պատվերի վճարումը ձախողվեց";
+"EShopOrderWinTreasureWin" = "Գանձը հաղթել է";
+"EShopOrderWinTreasurePaying" = "Պատվերի վճարում";
+"EShopOrderWinTreasurePaying2" = "Պատվերը վճարվում է, խնդրում ենք համբերատար լինել";
+"EShopOrderSubmitted" = "Ձեր պատվերը ներկայացվել է, հնարավորինս շուտ ավարտեք վճարումը";
+"EShopOrderDelivering" = "Ձեր պատվերը առաքվում է, խնդրում ենք համբերատար լինել";
+"EShopOrderDelivered" = "Ձեր պատվերը առաքվել է, խնդրում ենք սպասել ստացական հաստատման համար";
+"EShopOrderRecieved" = "Ձեր պատվերը ստորագրվել է, խնդրում ենք գնահատել";
+"EShopOrderRecieved2" = "Խնդրում ենք գնահատել";
+"EShopOrderCompleted" = "Գործարքի ավարտը";
+"EShopOrderCancelled" = "Գործարքը չեղարկվել է";
+"EShopOrderReasonForShutdown" = "Փակեք պատճառը` օգտագործողի կանխարգելումը ";
+"EShopOrderDeleted" = "Պատվիրել ջնջված է";
+
+//收藏
+"EShopMyCollection" = "Իմ ընտրյալներ";
+"EShopNoCollection" = "Սիրված իրեր չկան";
+"EShopAddCartSuccessfully" = "Միացեք զամբյուղը հաջողությամբ";
+"EShopAddCartFail" = "Չհաջողվեց միանալ զամբյուղին";
+"EShopChooseDeteted" = "Խնդրում ենք ընտրել ընտրած տարրը";
+"EShopDeteleExpiredFail" = "Ժամկետանց տարրերը ջնջվել է";
+"EShopNoExpired" = "Ոչ ժամկետանց նյութեր";
+"EShopChooseCollectionItem" = "Խնդրում ենք ընտրել հավաքելու տարրը";
+"EShopCanceledCollection" = "Չեղարկված հավաքածու";
+"EShopCancelCollection" = "Չեղարկել ընտրվածները";
+"EShopAddCollection" = "Ավելացնել ընտրվածներ";
+"EShopCollectionSuccess" = "Ավելացնել ընտրված հաջողություններ.";
+"EShopCollectionFail" = "Ավելացնել ընտրված ձախողումներ.";
+
+//收货地址
+"EShopChooseAddress" = "Խնդրում ենք ընտրել առաքման հասցեն";
+"EShopAddress" = "Ստացողի հասցեն";
+"EShopAddNewAddress" = "Ավելացնել նոր հասցե";
+"EShopEditAddress" = "Փոփոխել առաքման հասցեն";
+"EShopAddAddress" = "Ավելացնել առաքման հասցե";
+"EShopSave" = "Պահել";
+"EShopConsigneeName" = "Բեռնակիրի անուն (խնդրում ենք օգտագործել իրական անունը)";
+"EShopConsigneeNameTip" = "Խնդրում ենք լրացնել անունը";
+"EShopPhoneNumber" = "Բջջային համարը";
+"EShopPhoneNumberTip" = "Խնդրում ենք լրացնել հեռախոսահամարը";
+"EShopCorrectPhoneNumberTip" = "Խնդրում ենք մուտքագրել ճիշտ հեռախոսահամարը";
+"EShopArea" = "Որտեղից";
+"EShopAreaTip" = "Խնդրում ենք լրացնել տարածքը";
+"EShopDetailAddress" = "Մանրամասն հասցեն, փողոց, համայնքային տան համար";
+"EShopDetailAddressTip" = "Խնդրում ենք լրացնել լրիվ հասցեով";
+"EShopSetDefaultAddress" = "Սահմանեք որպես լռելյայն հասցե";
+"EShopInfomationUnsaved" = "Ձեր լրացված տեղեկատվությունը չի պահպանվել: Վստահ եք վերադառնալու հիմա";
+"EShopFailedUpdate" = "Թարմացումը չհաջողվեց, կրկին փորձեք";
+"EShopProvince" = "նահանգ";
+"EShopCity" = "Քաղաք";
+"EShopArea2" = "Թաղամաս";
+
+//我的订单
+"EShopCancelOrder" = "Չեղարկել կարգը";
+"EShopPayNow" = "Անմիջական վճար";
+"EShopBuyAgain" = "Գնել նորից";
+"EShopConfirmReceipt" = "Ստուգեք անդորրագիրը";
+"EShopSureConfirmReceipt" = "Դուք հաստատում եք ստացականը";
+"EShopCommentNow" = "Անմիջական գնահատական";
+"EShopDeleteOrder" = "Ջնջել պատվեր";
+"EShopTreasureDetails" = "Սատանի մանրամասները";
+
+//订单详情
+"EShopOrderDetail" = "Պատվերի կարգավիճակը";
+"EShopTotalAmount" = "վճարման ընդհանուր գումարը";
+"EShopTotalPayment" = "Ընդհանուր վճարում";
+"EShopShipmentNumber" = "Լոգիստիկա համարը";
+"EShopMessage" = "Հաղորդագրություն：";
+"EShopTradingHash" = "Առեւտրային խառնուրդ：";
+"EShopOrderNumber" = "Պատվերի թիվը";
+"EShopOrderTime" = "Պատվերի ժամանակ";
+"EShopLogisticsCompany" = "Լոգիստիկա ընկերություն";
+"EShopConfirmReceiptSuccess" = "Ապրանքների անդորրագիր";
+"EShopEnsureDeleteOrder" = "Դուք համոզված եք ջնջել կարգը";
+"EShopDeleteOrderSuccess" = "Ջնջել կարգի հաջողությունը";
+"EShopEnsureCancelOrder" = "Դուք համոզված եք, որ կարգը չեղարկեք";
+"EShopCancelOrderSuccess" = "Չեղարկել կարգը հաջողությամբ";
+"EShopToCart" = "Գնալ դեպի զամբյուղ";
+"EShopAddedCart" = "Ապրանքը ավելացվել է զամբյուղում";
+"EShopFaiedToAddCart" = "Ավելացնել զամբյուղը ձախողվեց, կրկին փորձեք";
+"EShopCopySuccessfully" = "Պատճենել հաջողությունը";
+"EShopClose" = "Փակել";
+"EShopSum" = "ընդհանուր";
+"EShopPiece"="Կտոր";
+"EShopNoOrder" = "Ոչ պատվերային պատվերներ";
+"EShopMoveToCollection" = "Տեղափոխել իմ հավաքածուն";
+"EShopRemove" = "Ջնջել տարրը";
+"EShopRemoveExpiered" = "Ջնջել ժամկետանց նյութերը";
+"EShopDeleteFailed" = "Ջնջել ձախողվեց";
+"EShopUpdateFailed" = "Նորացնելը ձախողվեց";
+
+//付款
+"EShopPayMent" = "Վճարում";
+"EShopAliPay" = "Alipay";
+"EShopWeChat" = "WeChat";
+"EShopNeedToPay" = "Վճարման սպասում";
+"EShopInsufficientBalance" = "Անբավարար հավասարակշռություն";
+"EShopRecharge" = "Գնալ վերալիցքավորելու համար";
+"EShopPaymentMethods" = "Վճարման եղանակը";
+"EShopOtherPaymentMethods" = "Այլ վճարման մեթոդներ";
+"EShopPaymentAlert1" = "Պատվերը ներկայացվել է, խնդրում ենք";
+"EShopPaymentAlert2" = "Ամբողջական վճարում";
+"EShopToBePaied" = "Վճարման սպասում";
+"EShopPaymentHour" = "ժամեր";
+"EShopPaymentMinute" = "րոպե";
+"EShopPaymentSecond" = "վայրկյան";
+"EShopRMB" = "¥";
+"EShopPay" = "Վճարում";
+"EShopNeedToPay" = "վճարման պարտադիր է";
+"EShopRemain" = "մնացորդ";
+"EShopRemainRequestFail" = "Հաշվի մնացորդի ձախողումը ձախողվեց";
+"EShopReorderAlert" = "Պատվերը փակվել է ժամանակի ընթացքում, խնդրում ենք կրկին պատվիրել";
+"EShopChoosePayWay" = "Խնդրում ենք ընտրել վճարման եղանակը";
+"EShopPayWay" = "Վճարման եղանակը";
+"EShopChooseOtherPayWay" = "Այլ վճարման մեթոդներ";
+"EShopPayUnfinished" = "Անավարտ վճարում";
+"EShopPayAbundon" = "Լքել";
+"EShopRechargeAgain" = "Վճարել";
+"EShopPaySuccess" = "Վճարը հաջողվեց";
+"EShopPayFail" = "Վճարումը ձախողվեց";
+"EShopCondirmOrder" = "Հաստատեք կարգը";
+"EShopReciever" = "Վերադարձող";
+"EShopRecieverAddress" = "Ստացողի հասցեն";
+"EShopBuyerMessage" = "Հաղորդագրություն";
+"EShopBuyerMessageAlert" = "Հաղորդագրություն (50 բառի սահմաններում)";
+"EShopTotalAmount2" = "Ընդհանուր գումարը";
+"EShopOrderSubmit" = "Ուղարկել պատվեր";
+"EShopOrderAlert3" = "Պատվերը հաջողությամբ ներկայացվեց: Ներկայիս բազմաբնակարան խանութը չի աջակցում համակցված վճարին: Խնդրում ենք գնալ« Իմ պատվերները »-« Վճարում սպասում »էջը` վճարումը կատարելու համար ";
+"EShopGoPay" = "Գնալ վճարել";
+"EShopAddressAlert" = "Խնդրում ենք առաքման հասցեը սահմանել";
+"EShopNoAddressAlert" = "Դուք դեռ առաքման հասցե չունեք, խնդրում ենք սեղմել Ավելացնել";
+"EShopAdd" = "Ավելացնել";
+"EShopCurrent" = "ընթացիկ";
+"EShopGet" = "Ստանալ";
+"EShopFail" = "Չհաջողվեց";
+"EShopChoose" = "Խնդրում ենք ընտրել";
+"EShopCurrentLess" = "Պահեստում առկա անբավարար ընթացիկ բաժնետոմսեր";
+"EShopOrderBlank" = "Պատվերի համարը դատարկ է";
+"EShopMaxGoods" = "Գնման առավելագույն սահմանը հասել է";
+"EShopAmount" = "քանակ";
+"EShopFullAmount" = "Անբավարար գույքագրում";
+"EShopTreasureNow" = "Անմիջապես հաղթելու գանձը";
+"EShopChooseArea" = "Խնդրում ենք ընտրել տարածաշրջան";
+"EShopSend" = "Բաշխում";
+"EShopSendTo" = "Առաքում դեպի";
+"EShopTo" = "Դեպի";
+"EShopUnknownArea" = "Անհայտ տարածք";
+
+//一元夺宝
+"EShopTreasure" = "Վերականգնման";
+"EShopGoodsRelated" = "Ապրանքների հետ կապված";
+"EShopGoodsPrice" = "Ապրանքների գին";
+"EShopGoodsTitle" = "Ապրանքի անվանումը";
+"EShopGoodsSoldOut" = "Վաճառված է";
+"EShopEnterBrand" = "Մուտքագրեք բրենդը";
+"EShopSellingGoods" = "Ապրանքների վաճառք";
+"EShopSolded" = "վաճառված";
+"EShopValue" = "արժեք";
+"EShopShareEvluate" = "Արեւի գնահատումը";
+"EShopCommentFailed" = "Մեկնաբանություն վերբեռնումը ձախողվեց";
+"EShopUrFeel" = "Խոսեք ձեր զգացմունքների մասին";
+"EShopNilCommentAlert" = "Մեկնաբանության բովանդակությունը չի կարող դատարկ լինել";
+"EShopEvaluateVeryPoor" = "շատ վատ";
+"EShopEvaluatePoor" = "Վատ";
+"EShopEvaluateGeneral" = "Ընդհանուր";
+"EShopEvaluateGood" = "Լավ";
+"EShopEvaluateVeryGood" = "Շատ լավ";
+"EShopScore" = "Վարկանիշ";
+"EShopNoComment" = "Ոչ ապրանքի գնահատումը";
+"EShopScanMore" = "Դիտել ավելի շատ";
+"EShopStartOfActivity" = "Գործունեության սկզբից";
+"EShopApplyRefound" = "վճարման դիմում";
+"EShopGoodsState" = "Ապրանքի կարգավիճակը";
+"EShopNoRecieved" = "Անհայտ ապրանքներ";
+"EShopRecievedGoods" = "ստացված ապրանքներ";
+"EShopRefoundReason" = "Վերադարձի պատճառ";
+"EShopRefoundWithoutReason" = "Յոթ օր ետ վերադարձնելու պատճառ չկա";
+"EShopRefoungNotLike" = "Կրակելու սխալ / վատ ազդեցություն / դավաճանություն";
+"EShopRefoundSize" = "Չափերի խնդիր";
+"EShopRefoundQuantity" = "Որակի հարց";
+"EShopRefoundNoLovely" = "Հաճախորդը բավարար չէ սեր";
+"EShopRefoundDeicribe" = "Չի համապատասխանում նկարագրությանը";
+"EShopRefoundSellerSendFault" = "Վաճառողը սխալ ապրանքներ է ուղարկել";
+"EShopRefoundGoodsFake" = "Fake and shoddy products";
+"EShopRefoundEmpty" = "դատարկ փաթեթ";
+"EShopRefoundOther" = "Այլ";
+"EShopAddDescriptions" = "Ավելացնել նկարագրություն";
+"EShopRefoundMoney" = "Վերադարձման գումարը";
+"EShopRefoundDescriptions" = "Վերադարձի հրահանգներ";
+"EShopOptional" = "Լրացուցիչ";
+"EShopPhotoFail" = "Կան վերբեռնման ձախողված լուսանկարներ";
+"EShopSenDdirectly" = "Ուղղակի ուղարկվել է";
+"EShopMaxPhotoAlert" = "Դուք կարող եք ավելացնել մինչեւ 6 պատկերներ";
+"EShopUploadDocuments" = "Վերբեռնել հավաստագրերը";
+"EShopChooseWayOfService" = "Ընտրեք Ծառայության տեսակը";
+"EShopRefoundOnly" = "Վերադարձման միայն";
+"EShopNorecievedAndAgreed" = "Ճանաչված ապրանքներ (ներառյալ չստորագրված), կամ վաճառողը համաձայնում է համաձայնեցնել";
+"EShopRefoundMoney" = "Վերադարձի վերադարձ";
+"EShopRecieveAndRefound" = "Ստացված ապրանքները ստացվել եւ պետք է վերադարձվեն ապրանքների համար";
+"EShopUse" = "Օգտագործել";
+"EShopCanUse" = "մատչելի";
+"EShopPressure" = "Համաձայնվել";
+"EShopEnterNum" = "Խնդրում ենք մուտքագրել քանակ";
+"EShopBeyondRemain" = "գերազանցեց մնացած համարը";
+"EShopBeyondMax" = "գերազանցել է առավելագույն օգտագործումը";
+"EShopMaxNum" = "Առավելագույն օգտագործման";
+"EShopProprietary" = "Ինքնազբաղված";
+"EShopLuckyNum" = "Այս բախտավոր թիվը";
+"EShopNoGuess" = "Դեռ բաց չէ, խնդրում եմ վերադառնալ ավելի ուշ";
+"EShopHexadecimal" = "hex- ի վերջին 8 նիշերը";
+"EShopGetGuess" = "Շնորհավորում ենք, հաղթեցիք մրցանակին, խնդրում եմ պահել:";
+"EShopNoGetGuess" = "Դժբախտաբար, դուք չեք հաղթել, խնդրում եմ պահել:";
+"EShopSoldOutTime" = "Վաճառված ժամանակ.";
+"EShopSoldOutBlock" = "Վաճառքի ժամանակի բլոկի համարը";
+"EShopSoldOutNumber" = "Lucky Block Number:";
+"EShopSoldOutHash" = "Lucky բլոկի hash արժեքը";
+"EShopSoldOutPeople" = "հաղթողների ընդհանուր թիվը";
+"EShopCurrentNumber" = "Այս բախտավոր թիվը";
+"EShopMoreThan" = "Մնացյալ";
+"EShopTreasurePeople" = "հաղթողների ընդհանուր թիվը";
+"EShopLuckyNumber" = "Lucky Number";
+"EShopTheDecimal" = "դիմել տասնորդական";
+"ESShopSelectall" = "Ընտրեք բոլորը";
+"ESShopOperationFailed" = "Գործարկումը ձախողվեց, կրկին փորձեք";
+"ESShopNeedToPay" = "Վճարման սպասում, դուք դեռ վճարում եք";
+"ESShopSignature" = "Ստորագրություն";
+"ESShopSignComplete" = "Ստորագրության ավարտը ձեռք է բերվում";
+"ESShopResultConfirm" = "Վճարման արդյունքների հաստատում \n Խնդրում եմ մուտքագրել իմ հերթական ցուցակը ավելի ուշ";
+"ESShopTransionFailAgain" = "Գործարքը ձախողվեց, կրկին փորձեք";
+"ESShopSignFailAgain" = "Ստորագրությունը ձախողվեց, կրկին փորձեք";
+"ESShopRechargeFailed" = "Վերալիցքավորել է";
+"ESShopHome" = "Տուն";
+"EShopDefault" = "[լռելյայն]";
+"EShopYHHD" = "Առաջարկ.";
+"EShopInvalid" = "Չհաջողվեց";
+"EShopPaymentError" = "Վճարման սխալ";
+"EShopPayNotItem" = "Նյութը չի ստացվում";
+
+// 请求失败提示
+"EShopRequestError" = "Հարցման սխալ";
+"EShopReload" = "Վերբեռնեք";
+"EShopStartTime" = "Սկիզբ ժամանակ:";
+"EShopEndTime" = "Վերջնական ժամ:";

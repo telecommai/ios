@@ -1,0 +1,154 @@
+/* 
+  OpenPlanet.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/9/7.
+  Copyright © 2018年 wsl. All rights reserved.
+*/
+
+// SystemShare
+"openPlanetLoading" = "Բեռնվում է";
+"openPlanetSendFriend" = "Ուղարկել ընկերոջը";
+"openPlanetShareGravitationalField" = "Տարածեք գրավիտացիոն դաշտում";
+"openPlanetShareBack" = "ետ";
+
+// login-> TCInputPhoneController
+"openPlanetWelcomeTo" = "Բարի գալուստ ";
+"openPlanetLoginTip" = "Որպեսզի ձեզ ավելի լավ ծառայություն մատուցելու համար, խնդրում ենք մուտքագրել ձեր հաշվի համարը:";
+"openPlanetPleaseEnterPhoneNumber" = "Խնդրում ենք մուտքագրել ձեր բջջային համարը";
+
+// login-> TCInputPasswordController
+"openPlanetLoggedIn" = "Մուտք գործելը";
+"openPlanetLoginFailure" = "Մուտք գործելը ձախողվեց";
+"openPlanetSynchronizingWalletInformation" = "Համաժամեցման մասին տեղեկությունների համաժամեցում";
+"openPlanetSynchronizingWalletFailed" = "Համաժամեցման դրամապանակը ձախողվեց";
+"openPlanetFailureToUnlockWallet" = "Հիմնական դրամապանակի բացումը ձախողվեց";
+"openPlanetNoMainWalletWasObtained" = "Չստացվեց հիմնական դրամապանակը";
+"openPlanetEnterPasswordToLogin" = "Մուտքագրեք ձեր գաղտնաբառը, մուտք գործելու համար";
+"openPlanetPleaseEnterEmail" = " Խնդրում ենք մուտքագրել ձեր բջջային հեռախոսահամարը կամ էլեկտրոնային հասցեն";
+"openPlanetPleaseEnterPassword" = "Խնդրում ենք մուտքագրել ձեր գաղտնաբառը";
+"openPlanetResetPassword" = "Վերականգնել գաղտնաբառը";
+"openPlanetResetPasswordBeing" = "Վերականգնել գաղտնաբառը";
+"openPlanetResetPasswordResetSuccessful" = "Գաղտնաբառը հաջողությամբ վերականգնել, նորից մուտքագրեք";
+"openPlanetLoginUsingVerificationCode" = "Մուտք գործեք SMS հաստատման կոդը";
+
+// Wallet-> TCWalletTipController
+"openPlanetRestoreBaseAccount" = "Վերականգնել բազային հաշիվը";
+"openPlanetCreateBaseAccount" = "Ստեղծեք բազային հաշիվ";
+"openPlanetHasBeenCreatedAlert" = "Հաշիվը ստեղծվել է, նոր բազան ստեղծվում է, եւ նախկինում ստեղծված եւ ներկրված դրամապանակը անվավեր է:";
+"openPlanetRestoreYourBaseAccount" = "Վերականգնել ձեր բազային հաշիվը";
+"openPlanetWalleAlertString" = "Խնդրում ենք լրացնել ձեր «մնեմոնիկ» ձեր բազային հաշիվը, առանց նրանց, ձեր հաշիվը չի կարողանա վերականգնել: Խնդրում ենք պահպանել ձեր mnemonic- ը:";
+"openPlanetCarefulSurroundingEnvironment" = "Լրացրեք մնոմոնիկին, խնդրում ենք ուշադրություն դարձնել շրջակա միջավայրին";
+"openPlanetCreateYourBaseAccount2" = "Ստեղծեք ձեր բազային հաշիվը";
+"openPlanetWalleAlertString2" = "Բազային հաշիվը ձեր եզակի հասցեն է բլոկչինում, որը ստեղծվում է ձեր անձնական բանալինի հիման վրա: Հիմնական հաշվի ստեղծումից հետո կատարեք անձնական պահքի եւ բազային հաշվի կրկնօրինակ:";
+"openPlanetKeepInformation" = "Խնդրում ենք պահպանել ստեղծման ընթացքում առաջացած տեղեկությունները";
+
+// Wallet-> TCInputMemoryWordController
+"openPlanetRestoreBase" = "Վերականգնման բազան";
+"openPlanetRestoreBaseFailed" = "Վերականգնումը ձախողվեց, խնդրում ենք ստուգել մնեմոնիկան";
+"openPlanetRestoreBaseFailed2" = "Վերականգնումը ձախողվեց, խնդրում ենք ստուգել բանալին";
+"openPlanetRestoreBaseFailed3" = "Վերականգնումը ձախողվեց, հաշվի հետ կապված միայն բազան կարող է վերականգնվել:";
+"openPlanetRestoringBaseAccount" = "Վերականգնել բազային հաշիվը ...";
+"openPlanetFailureToUnlockMainWallet" = "Հիմնական դրամապանակի բացումը ձախողվեց";
+
+"openPlanetSynchronizingWalletInformation" = "Համաժամեցման մասին տեղեկությունների համաժամեցում";
+"openPlanetRecoverySuccessful" = "Հաջող վերականգնումը";
+"openPlanetMnemonic" = "Mnemonic";
+"openPlanetRestoreBaseByMnemonic" = "Վերականգնել ձեր բազային հաշիվը mnemonics- ով";
+"openPlanetUsePrivateKeyToRestoreBase" = "Վերականգնել ձեր բազային հաշիվը անձնական բանալիով";
+"openPlanetSavePrivateKeyFailedTryAgain" = "Չհաջողվեց պահպանել կապի մասնավոր բանալին, կրկին փորձեք";
+"openPlanetPleaseEnterPriviteKey" = "Մուտքագրեք բազային հաշվի անձնական բանալին";
+"openPlanetImportingFans" = "Ներմուծող երկրներ";
+"openPlanetSkipUploadFans" = "Բաց թողնել";
+"openPlanetReadingAddressBook" = "Գրքերի ընթերցանության ընկերների ընթերցում";
+"openPlanetReadAddressBookFiled" = "Չհաջողվեց կարդալ հասցեագիրք ընկերներին";
+"openPlanetImport" = "Ներմուծում";
+"openPlanetReadAddressBookToImportFans" = "Ներմուծեք ձեր հեռախոսի կոնտակտները եւ ավտոմատ կերպով շփումները կոնտակտներում ձեր երկրպագուներին";
+"openPlanetShouldImportFansToGetsilverDiamondReward" = "Սեղմիր Ներմուծման երկրպագուներին `« Արծաթե ադամանդ »մրցանակ ստանալու համար";
+"openPlanetHaveReadAndAgreed" = "Ես կարդացել եւ համաձայնվել եմ";
+"openPlanetServiceAndPrivacyPolicy" = "Ծառայություն եւ գաղտնիության քաղաքականություն";
+"openPlanetSelectThePlanet" = "Խնդրում ենք ընտրել մոլորակը, որը ցանկանում եք մնալ:";
+"openPlanetSelectionCanNotChange" = "(Ընտրությունը հետագայում չի փոխվի)";
+"openPlanetStayingOnThePlanet" = "Մնալով մոլորակի վրա";
+"openPlanetAlready" = "Արդեն";
+"openPlanetSentVerificationCode" = "Ուղարկված է SMS- ի հաստատման կոդը";
+"openPlanetSendVerificationCodeTo" = "Սեղմելով «Ստուգեք Ստուգման կոդ» կոճակը,";
+"openPlanetSendingTextVerifyCode" = "Ուղարկեք SMS հաստատման կոդը";
+"openPlanetVerifyPhoneNumber" = "Հաստատեք հեռախոսահամարը";
+"openPlanetEnterVerificationCode" = "Մուտքագրեք SMS հաստատման կոդը";
+"openPlanetCreateSecureAccount" = "Ստեղծեք անվտանգ հաշիվ";
+"openPlanetRegisteredUserFailed" = "Գրանցված օգտվողը ձախողվեց";
+"openPlanetSetPasswordDescribe" = "Գաղտնաբառը օգտագործվում է մուտք գործելու համար, պաշտպանելու անձնական բանալին եւ գործարքի թույլտվությունը, եւ ուժը շատ կարեւոր է: Համակարգը չի պահում գաղտնաբառերը եւ չի կարող դրանք վերբեռնել: Խնդրում ենք հաշվի առնել:";
+"openPlanetUserNickname" = "Օգտագործողի մականունը";
+"openPlanetResetFailedTryAgain" = "Վերակայումը ձախողվեց, կրկին փորձեք";
+"openPlanetSetAvtar" = "Սահմանել avatar";
+"openPlanetUploadingAvatar" = "Վերբեռնված avatar";
+"openPlanetSettingAvatarFailed" = "Անցանց կարգավորումը ձախողվեց";
+"openPlanetUploadingAvatarFailed" = "Ավատարի վերբեռնումը ձախողվեց";
+"openPlanetNickname" = "Նիկնան";
+"openPlanetSetPictureAsAvatar" = "Սահմանեք ձեր նկարը որպես ձեր avatar";
+"openPlanetSetAvatarAndGetSilverDiamondReward" = "Սահմանել օգտագործողի avatar եւ ստանալ արծաթե ադամանդի պարգեւ";
+"openPlanetFailedToDecryptWalletTryAgain" = "Չհաջողվեց վերծանել ներդիրի դրամարկղը, կրկին փորձեք";
+"openPlanetBackupMnemonic" = "Backup mnemonic- ը";
+"openPlanetDescribeOfMnemonic" = "Mnemonic- ը օգտագործվում է բազային հաշիվը վերականգնելու կամ բազային գաղտնաբառը վերակայելու համար, պատճենը ճշգրտորեն թղթի վրա եւ պահեք այն անվտանգ վայրում, որը միայն գիտեք:";
+"openPlanetCopyDownYourBaseAccountMnemonic" = "Պատճենեք ձեր բազային հաշիվը mnemonic";
+"openPlanetCopyTheAboveMnemonicAndGetSilverDiamondReward" = "Պատկերացրեք վերոնշյալ վերոնշյալը եւ ստացեք արծաթե ադամանդի պարգեւ";
+"openPlanetConfirmYourBaseMnemonic" = "Հաստատեք ձեր բազայի mnemonic";
+"openPlanetBackingUpTheBase" = "Պաշտպանել բազան";
+"openPlanetBackupFailedPleaseCheckYourMnemonic" = "Կրկնօրինակումը ձախողվեց, խնդրում ենք ստուգել ձեր mnemonic";
+"openPlanetSavingBaseAccountFailedTryAgain" = "Խնայեք բազային հաշիվը չհաջողվեց, կրկին փորձեք";
+"openPlanetBaseAccountAddedSuccessfully" = "Հիմնական հաշիվը հաջողությամբ ավելացվեց";
+"openPlanetClickOnTheMnemonicInOrderToConfirmYourMnemonicIsCorrect" = "Խնդրում ենք սեղմեք մնեմոնի վրա, որպեսզի հաստատեք, որ ձեր mnemonic- ը ճիշտ է";
+"openPlanetBackupPrivateKey" = "Կրկնօրինակեք անձնական բանալին";
+"openPlanetDescribeOfPrivateKey" = "Անվտանգության նախազգուշացում. Մասնավոր բանալին չի ծածկագրված, արտահանումը ռիսկային է: Խորհուրդ է տրվում օգտագործել կրկնօրինակը:";
+"openPlanetPrivateKeyHasBeenCopied" = "Անձնական բանալին պատճենվել է";
+"openPlanetsilverDiamondRecord" = "Արծաթագույն ալմաստի ռեկորդ";
+"openPlanetInvitationCode" = "Հրավերի կոդը";
+"openPlanetInvitationCodeIsEmpty" = "Հրավերի կոդը դատարկ է";
+"openPlanetIAm" = "Ես եմ ";
+"openPlanetInviteYouToJoin" = "Հրավիրեք ձեզ միանալ";
+"openPlanetILookForwardToYourJoining" = "Ես անհամբերությամբ սպասում եմ ձեր միանալու ~~";
+"openPlanetInvitationCodeHasBeenCopied" = "Հրավերի կոդը պատճենված է";
+"openPlanetYourInvitationCode" = "Ձեր հրավերի կոդը";
+"openPlanetAfterYouInviteFriendToRegisterYouWillReceiveSilverDiamondAwards" = "Գրանցվելուց ընկերոջից հետո դուք կստանաք 1000 Արծաթե ադամանդի պարգեւ:";
+"openPlanetScanCodeDownload" = "Սխալ կոդ ստանալ";
+"openPlanetFailedToGetBaseLogInAgain" = "Անհաջող հիմք ստանալու համար խնդրում ենք մուտք գործել նորից";
+"openPlanetFailedGetEnergyTryAgain" = "Չհաջողվեց ստանալ էներգիա, կրկին փորձեք";
+"openPlanetPleaseWaitForTheAnnouncement" = "Խնդրում ենք սպասել հայտարարությանը";
+"openPlanetBaseIDHasBeenCopied" = "Base ID- ն պատճենահանված է";
+
+//+弹出框
+"openPlanetcreateTribe" = "Ստեղծեք ցեղ";
+"openPlanetAddFriend" = "Ավելացնել ընկեր";
+"openPlanetScan" = "Ստուգեք կոդը";
+"openPlanetEnergyExchange" = "Էներգետիկ փոխանակում";
+
+//
+"openPlanetUpdatingResourceFile" = "Թարմացվում է ռեսուրսի ֆայլը ...";
+
+// 选择星球
+"水星" = "Մերկուրի";
+"英文名：Mercury\n最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。\n公转轨道：距太阳57,910,000 千米 (0.387天文单位)\n水星直径：4,880 千米\n质量：3.30e23 千克" = "Անգլերենի անունը. Մերկուրին \n արեւի մոտ է եւ արեւի ամենափոքր մոլորակն է: Mercury- ն ավելի փոքր է տրամագծից քան Ganymede- ի եւ Titan- ի, բայց դա մեծ զանգված է: \n Ճառագայթային ուղի: 57,910,000 կմ արեւի (0,387 աստղադիտակի միավոր) \n Մերկուրի տրամագիծը `4,880 կմ \n Քարթրիջ` 3.30E23 կգ";
+"金星" = "Վեներա";
+"英文名：Venus\n是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。\n轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）\n行星直径：12,103.6 千米\n质量：4.869e24 千克" = "Անգլերենի անունը. Վեներան \n sun- ը երկրորդն է արեւի, արեւային համակարգում վեցերորդ խոշորագույն մոլորակը: Բոլոր մոլորակներից Վեներայի ուղեծրը ամենամոտ է շրջագծին, որը շեղում է 1% -ից պակաս: \n Orbital radius: 108,200,000 կմ արեւի (0,723 աստղաֆիզիկական միավոր) \n Մոլորակի տրամագիծը `12,103.6 կմ \n Որակի: 4.869e24 կգ";
+"地球" = "Երկրի վրա";
+"英文名：Earth\n我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。\n轨道半径：149,600,000 千米 （离太阳1.00 天文单位）\n行星直径：12,742千米\n质量：5.9736e24 千克" = "Անգլերենի անունը `Երկրի \n Մեր տունը արեւային համակարգում երրորդ մոլորակն է, ներսից դեպի արտաքին, եւ արեւային համակարգում հինգերորդ ամենամեծ մոլորակը: \n Orbital radius: 149,600,000 կմ (1.00 ԱՀ աստղաֆիզիկական միավոր) \n Մոլորակի տրամագիծը `12,742 կմ \n Որակ: 5.9736e24 կգ";
+"火星" = "Մարս";
+"英文名：Mars\n为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。\n公转轨道：离太阳227,940,000 千米 (1.52 天文单位）\n行星直径：6,794 千米\n质量：6.4219e23 千克" = "Անգլերենի անունը `Մարսը, արեւից չորրորդն է եւ արեգակնային համակարգում յոթերորդ խոշորագույն մոլորակը, որը կոչվում է նաեւ հնագույն Չինաստանի հրդեհ: Քանի որ Մարսը կարմիր է, ֆլուորեսցենտ կերպարը կրակի նման է, պայծառությունը հաճախ փոխվում է, եւ այն շարժվում է երկնքում, երբեմն Արեւմուտքից դեպի արեւելք, իսկ երբեմն `արեւելքից արեւմուտք, իրավիճակը բարդ եւ շփոթեցնող է: Հետեւաբար, հին Չինաստանում այն կոչվում էր« ջրհեղեղ », եւ« բորբոքում էր ֆլուորեսինգը, թողնելով քաոսը »: \n Revolution: 227,940,000 կմ արեւից (1.52 աստղանի միավոր) \n Մոլորակի տրամագիծը `6,794 կմ \n Որակի: 6,4219e23 կգ";
+"木星" = "Յուպիտեր";
+"英文名：Jupiter\n是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。\n公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）\n行星直径：142,984 千米 (赤道)\n质量：1.900e27 千克" = "Յուպիտեր անունը, Յուպիտերը, արեւից հինգերորդ մոլորակն է, իսկ ամենամեծը, 2,5 անգամ ավելի մեծ է, քան մյուս բոլոր մոլորակները (318 անգամ Երկրի): \n Ճառագայթային ուղին `778,330,000 կմ արեւի վրա (5.20 աստղանի միավոր) \n Մոլորակի տրամագիծը` 142,984 կմ (կուտակիչ) \n Որակ: 1,900e27 կգ";
+"土星" = "Սատուրն";
+"英文名：Saturn\n是离太阳第六远的行星，也是八大行星中第二大的行星。\n公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）\n行星直径：120,536 千米 （赤道）\n质量：5.68e26 千克" = "Սատուրնը `արեւից, վեցերորդն է եւ ութ մոլորակների երկրորդ խոշորագույնը: \n հեղափոխության ուղի: 1429,400,000 կմ արեւի վրա (9,54 աստղանի միավոր) \n Մոլորակի տրամագիծը `120,536 կմ (էկոտոր) \n Որակի: 5.68e26 կգ";
+"天王星" = "Ուրանը";
+"英文名：Uranus\n是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。\n公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）\n行星直径：51,118 千米（赤道）\n质量：8.683e25 千克" = "Ուրանի անունը `Ուրանը, արեւի արեւային համակարգում յոթերորդ խոշորագույն մոլորակն է արեւի տակ: Դիմանայի տեսանկյունից դա արեգակնային համակարգի երրորդ խոշորագույն մոլորակն է: Ուրանը Նեպտունից ավելի մեծ է, բայց դրա որակը փոքր է: 2.870.990.000 կմ արեւից (19.218 աստղանի միավոր) \n մոլորակի տրամագիծը `51,118 կմ (էկոտոր) \n որակի` 8.683e25 կգ";
+"海王星" = "Նեպտուն";
+"英文名：Neptune\n是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。\n公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）\n行星直径：49,532 千米（赤道）\n质量：1.0247e26 千克" = "Նեպտունը `Neptune- ն ութերորդ մոլորակն է, որն ուղեծրում է արեւը եւ արեւի համակարգում չորրորդ ամենամեծ օբյեկտը (տրամագծի վրա): Նեպտունը փոքր է Ուրանից տրամագծով, սակայն նրա զանգվածը մեծ է: \n Հեղափոխության ուղի: 4,504,000,000 կմ արեւից (30,10 աստղանի միավոր) \n Մոլորակի տրամագիծը `49,532 կմ (էկոտորական) \n Որակ: 1,0247e26 կգ";
+"冥王星" = "Պլուտոն";
+"英文名：Pluto\nPluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）\n历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。\n太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。\n公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)\n直径：2370 千米\n质量：1.27e22 千克" = "Պլուտոն `Պլուտոն Հռոմեական դիցաբանության հինավուրց դիցաբանությունը Պլուտոն (Հադիս Հադես հունական դիցաբանության մեջ): Պատմականորեն, Պլուտոն համարվում էր արեւի ամենաերկար եւ ամենափոքր մոլորակը` խորհրդանշելով Պլուտոն հունական դիցաբանության մեջ: Զեւսի եղբայր Հադսը, կրտսեր եղբոր կողմից տարելուց հետո ընկել է գետնին: Պլուտոն ունի երեք արբանյակ: Արեգակնային համակարգում յոթ արբանյակներ կան, որոնք ավելի մեծ են, քան Պլուտոնն (Lunar, Io, Europa, Ganymede, Ganymede, Titan եւ Triton): \n հեղափոխական ուղին `արեւից միջին հեռավորությունը 5,913,520,000 կմ (39,5 աստղանի միավոր) \n տրամագիծ` 2370 կմ \n զանգված `1.27e22 կգ";
+
+// tab
+"titleSpace" = "տարածություն";
+"titleExplore" = "Հետազոտել";
+"titleInter" = "Starcraft";
+"titleBase" = "Base";
+"titleNews" = "Տեղեկատվություն";

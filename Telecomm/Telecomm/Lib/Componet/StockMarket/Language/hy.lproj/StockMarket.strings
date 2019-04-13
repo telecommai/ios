@@ -1,0 +1,170 @@
+/* 
+  StockMarket.strings
+  StockMarket
+
+  Created by 赵洪壮 on 2018/12/10.
+  Copyright © 2018 SpiderMan. All rights reserved.
+*/
+
+"stockSelectCurrency" = "Ընտրեք արժույթը";
+"stockSelectExchange" = "Ընտրեք փոխանակումը";
+
+//JFStockMarketHomeController
+"stockCustom" = "Լրացուցիչ";
+"stockMarketCap" = "շուկայական արժեք";
+"stockChg" = "Ուժ եւ անկում";
+"stockExchange" = "Փոխանակում";
+"stockReload" = "Վերբեռնել";
+
+//JFStockRiseFallController
+"stockGainers" = "մեծացնել ցանկը";
+"stockLosers" = "նվազման ցուցակ";
+
+//JFStockSelfSelectCell
+"stockVol" = "քանակ";
+"stockB" = "Միլիարդ";
+"stockM" = "տասը հազար";
+
+//JFStockExchangeHeader
+"stockRank" = "Դասակարգում";
+"stockName" = "Անուն";
+"stockTurnover" = "Շրջանառությունը";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "Զուտ կապիտալ ներհոսք այսօր";
+
+//JFStockAllCoinFristCell
+"stockHigh" = "Բարձր";
+"stockLow" = "Ցածր";
+
+//JFExchangeHomeController
+"stockAll" = "Բոլորը";
+
+//JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "Ավելացնել ինքնորոշման ընտրություն";
+"stockAddedCustomFailure" = "Միանալու պարտադիր ձախողում";
+"stockDeleteCustomSuccessful" = "Ջնջել ինքնակառավարման ընտրության հաջողությունը";
+"stockDeleteCustomFailure" = "Ջնջել ընտրության ձախողումը";
+
+//JFStockShareController
+"stockSharePicture" = "Համօգտագործել նկարը";
+"stockCancel" = "Չեղարկել";
+"stockSave" = "Պահել";
+"stockSavedToAlbum" = "Պահված է ալբոմում";
+"stockSavedToAlbumFailed" = "Պահել ալբոմի ձախողվեց";
+
+//JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "միջնորդավճարը";
+"stockBid" = "գնել մեկ գին";
+"stockAsk" = "վաճառել մեկ գին";
+
+//JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "սպասվող պատվերների քանակը";
+"stockBidScale10" = "Գնել 10 ֆայլեր";
+"stockAskScale10" = "վաճառել 10 ֆայլեր";
+
+//JFStockAnalysisVolumeHeaderView
+"stockVolume" = "Ծավալը";
+"stockTime" = "գործարքի ժամանակը";
+"stockStrike" = "գործարքի գինը";
+
+//JFDepthChartCell
+"stockDepthChart" = "Շուկայի խորությունը քարտեզ";
+
+//JFCoinCapitalController
+"stockTurnoverDistribution" = "ֆոնդերի բաշխում";
+"stockMoneyFlowTrend" = "Կապիտալի հոսքի միտում";
+"stockMoneyFlowWithin5Days" = "վերջին 5 օրվա ընթացքում միջոցների զուտ ներհոսքը";
+"stockBigOrdersMonitor" = "Ամբողջական հաշիվների մոնիտորինգ";
+"stockBuy" = "գնել";
+"stockSell" = "վաճառել";
+"stockNetInflow" = "զուտ ներհոսք";
+"stockToday" = "այսօր";
+"stock3minAgo" = "3 րոպե";
+"stock10minAgo" = "10 րոպե";
+"stock1hAgo" = "1 ժամ";
+"stock24hAgo" = "24 ժամ";
+"stockAmount" = "գումարը";
+"stockPrice" = "գին";
+"stockNumber" = "քանակ";
+"stockCoinTime" = "ժամանակ";
+
+
+//JFCoinSimpleIntroController
+"stockRecommendMarkets" = "Շուկայական առաջարկված";
+
+//JFCoinSimpleIntroManager
+"stockChineseName" = "չինարեն անունը";
+"stockEnglishName" = "Անգլերեն անունը";
+"stockType" = "տեսակը";
+"stockIssueTime" = "թողարկման ժամանակ";
+"stockCirculatingSupply" = "Ընդհանուր շրջանառություն";
+"stockTotalSupply" = "ընդհանուր թողարկում";
+"stockGlobalMarketCapShare" = "համաշխարհային շուկայի ընդհանուր մասնաբաժինը";
+"stockCirculationRate" = "հոսքի դրույքաչափ";
+"stockTurnoverRate" = "Դեպի փոխարժեքի փոխարժեք";
+"stockICOCost" = "ICO արժեքը";
+"stockFundRaising" = "բարձրացնել ֆոնդերը";
+"stockTokenDistribution" = "նշանի տեղաբաշխում";
+"stockWhitePaper" = "Սպիտակ թուղթ";
+"stockNumberOfOnlineExchanges" = "բորսայական բորսաների քանակը";
+"stockWEBSite" = "պաշտոնական կայք";
+
+//RecommendMarketCell
+"stockVolume" = "գործարքի ծավալը";
+
+//JFDepthChartView
+"stockDepthAsk" = "վաճառք";
+"stockDepthBid" = "Գնել";
+
+//JFPieChartView
+"stockInflow" = "ներհոսք";
+"stockOutflow" = "արտահոսք";
+"stockUnit" = "միավոր";
+"stockCNY" = "Յունան";
+"stockUSD" = "Դոլար";
+"stockVOL" = "գործարքի բաշխում";
+
+//JFStockMarketController
+"stockMoneyFlow" = "Ֆոնդեր";
+"stockAnalysis" = "վերլուծություն";
+"stockIntroduction" = "պրոֆիլ";
+"stockCustomAdd" = "Ավելացնել ընտրովի";
+"stockCustomRemove" = "ջնջել ցանկալի";
+
+//BottomOperationView
+"stockAdd" = "Լրացուցիչ";
+"stockAlerts" = "հիշեցում";
+"stockOrginal" = "բնօրինակ";
+"stockShare" = "Բաժնետոմս";
+
+//JFStockMarketCurrentInfoView
+"stockInfoHigh" = "ամենաբարձր";
+"stockInfoLow" = "ամենացածր";
+"stockInfoBid" = "գնել մեկ";
+"stockInfoAsk" = "վաճառել մեկը";
+"stockInfoFee" = "տոկոսադրույքը";
+
+//JFStockChartToolbar
+"stockChartLine" = "timeshare";
+"stockChart15mins" = "15 րոպե";
+"stockChart1hour" = "1 ժամ";
+"stockChart1day" = "օր K";
+"stockChart3days" = "3 օր K";
+"stockChart1min" = "1 րոպե K";
+"stockChart3mins" = "3 միավոր K";
+"stockChart5mins" = "5 միավոր K";
+"stockChart10mins" = "10 միավոր K";
+"stockChart30mins" = "30 միավոր K";
+"stockChart2hours" = "2 ժամ K";
+"stockChart4hours" = "4 ժամ K";
+"stockChart6hours" = "6 ժամ K";
+"stockChart12hours" = "12 ժամ K";
+"stockChart1week" = "շաբաթ K";
+"stockChart1mon" = "ամիս K";
+"stockChartIndex" = "ցուցանիշը";
+"stockChartMajor" = "հիմնական պատկերը";
+"stockChartMinor" = "պատգամավորի դիագրամ";
+
+//JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "Չհաջողվեց ստանալ ընթացիկ շուկայական տվյալներ";

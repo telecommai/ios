@@ -1,0 +1,148 @@
+/* 
+  Zone.strings
+  Zone
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+//ZoneAboutMeCell
+"zoneLikedMe" = "赞了我";
+"zoneForwardedWave" = "转发了您的引力波";
+
+//ZoneAboutMeCellView
+"zoneLaunchedWave" = "发射了一条引力波";
+
+//ZoneAboutMeController
+"zoneMessage" = "消息";
+
+//ZoneBlackListCell
+"zoneInterstellarID" = "星际ID";
+"zoneRemove" = "移除";
+"zoneBlacklist" = "黑名单";
+
+//ZoneBlackListController
+"zoneRemoving" = "正在移除";
+
+//ZoneManager
+"zoneOriginalDeleted" = "原引力波已删除";
+"zoneEtc" = "等";
+"zoneFeelGood" = "人觉得很赞";
+"zoneReply" = "回复";
+"zoneLikeFailure" = "点赞失败";
+"zoneCommentSuccessful" = "评论成功";
+"zoneCommentFailed" = "评论失败";
+"zoneReplySuccessfully" = "回复成功";
+"zoneReplyFailed" = "回复失败";
+
+//ZoneNetworkManager
+"zoneIncorrectDataFormat" = "数据格式不正确";
+
+//ZoneCellOptionAlert
+"zoneDelete" = "删除";
+"zoneUnsubscribe" = "取消关注";
+"zoneAddAttention" = "添加关注";
+"zoneAttention" = "关注";
+"zoneAddToBlacklist" = "加入黑名单";
+
+//ZoneAddCommentController
+"zoneComment" = "评论";
+"zoneReasonForForwarding" = "转发理由";
+"zoneAddUpToThreeImages" = "最多添加三张图片";
+
+//ZoneImageCollectionView
+"zonePrompt" = "提示";
+"zoneThereIsAnUploadFailurePhoto" = "存在上传失败照片";
+"zoneCancel" = "取消";
+"zoneSendDirectly" = "忽略，直接发送";
+"zoneAddUpTo9Images" = "您最多可添加9张图片";
+
+//ZoneSendVideoManager
+"zoneGravitationalWaveFailure" = "发射引力波失败";
+
+//ZoneSendWebView
+"zoneDetectedURL" = "检测到的网址";
+"zoneEnterURL" = "请输入网址";
+"zonePreview" = "预览：";
+
+//ZoneSendController
+"zoneLaunchingGravitationalWaves" = "发射引力波";
+"zoneGravitationalWaveIsEmpty" = "引力波为空";
+"zoneLaunching" = "正在发射";
+"zoneWebPageAddressCannotBeEmpty" = "网页地址不能为空";
+"zoneWebPageAddressFormatIsIncorrect" = "网页地址格式不正确";
+"zoneLaunchedGravitationalWaveSuccessfully" = "发射引力波成功";
+"zoneEmission" = "发射";
+"zoneShooting" = "拍摄";
+"zoneAlbum" = "相册";
+"zoneSaySomething" = "说点什么吧...";
+"zoneTheMaximumVideoCannotExceed" = "视频最大不能超过";
+
+//SystemShareToZoneController
+"zoneShareToTheGravitationalField" = "分享到引力场";
+"zoneSend" = "发送";
+"zoneIsLaunchingGravitationalWaves" = "正在发射引力波";
+"zoneUploadingImage" = "正在上传图片";
+"zoneDetermine" = "确定";
+
+//ZoneUtil
+"zoneJust" = "刚刚";
+"zoneMinutesAgo" = "分钟前";
+
+//ZoneAuthorHeaderView
+"zoneSilverDiamond" = "银钻";
+
+//ZoneCellTextView
+"zoneCopy" = "复制";
+
+//ZoneSectionHeaderView
+"zoneAlreadyInTheBlacklist" = "对方已在黑名单中，请移除后操作";
+"zoneCollapse" = "收起";
+"zoneExpand" = "展开";
+
+//ZoneCellFootView
+"zoneBrowse" = "浏览";
+"zoneTimes" = "次";
+
+//ZoneBaseController
+"zoneDeleteOrNot" = "是否删除？";
+
+//ZoneBaseController+EventManager
+"zoneGravitationalWaveHasBeenDeleted" = "原引力波已删除，不能转发";
+"zoneForwardedSuccessfully" = "转发成功";
+"zoneForwardingFailed" = "转发失败";
+"zoneGravitationalWaveDeletedSuccessfully" = "引力波删除成功";
+"zoneGravitationalWaveDeletionFailed" = "引力波删除失败";
+"zoneSuccess" = "成功";
+"zoneFailure" = "失败";
+"zoneJoinedTheBlacklistSuccessfully" = "加入黑名单成功";
+"zoneTheOtherPartyIsAlreadyOnTheBlacklist" = "对方已在黑名单";
+"zoneFailedToJoinTheBlacklist" = "加入黑名单失败";
+
+//ZoneController
+"zoneGravitationalField" = "引力场";
+"zoneAll" = "全部";
+"zoneFriend" = "好友";
+"zoneGravitationalFieldAll" = "引力场(全部)";
+"zoneGravitationalFieldFriend" = "引力场(好友)";
+"zoneGravitationalFieldConcern" = "引力场(关注)";
+
+//ZonePersonController
+"zoneMy" = "我的";
+"zoneAddFriend" = "添加好友";
+
+//ZoneDetialController
+"zoneDetails" = "详情";
+"zoneGettingGravitationalWaveFailure" = "获取引力波失败";
+"zoneLoading" = "正在加载";
+"zoneLoadFailedOrGravitationalWaveHasBeenDeleted" = "加载失败或引力波已删除";
+
+//ZoneHeaderView.h
+"zoneNewNews" = "条新消息";
+"zoneChangeBackgroundImage" = "更改背景图片";
+"zoneTakePhoto" = "拍照";
+"zoneErrorMessage" = "错误信息";
+"zoneTheCurrentDeviceDoesNotSupportShooting" = "当前设备不支持拍摄功能";
+"zoneFailedToReplaceBackgroundImage" = "更换背景图片失败";
+
+

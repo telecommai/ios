@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  OpenPlanet
+
+  Created by 谢虎 on 2019/2/12.
+  Copyright © 2019 wsl. All rights reserved.
+*/
+"MJRefreshHeaderIdleText" = "Քաշեք ներքեւը կարող է թարմացնել";
+"MJRefreshHeaderPullingText" = "Ազատ արձակել եւ անմիջապես թարմացնել";
+"MJRefreshHeaderRefreshingText" = "Թարմացվող տվյալներ...";
+
+"MJRefreshAutoFooterIdleText" = "Սեղմեք կամ քաշեք մինչեւ ավելի շատ բեռնելու համար";
+"MJRefreshAutoFooterRefreshingText" = "Ավելի տվյալների բեռնում...";
+"MJRefreshAutoFooterNoMoreDataText" = "Արդեն բեռնված է";
+
+"MJRefreshBackFooterIdleText" = "Քաշեք մինչեւ ավելի շատ բեռնելու համար";
+"MJRefreshBackFooterPullingText" = "Ազատեք եւ բեռնեք հիմա";
+"MJRefreshBackFooterRefreshingText" = "Ավելի տվյալների բեռնում...";
+"MJRefreshBackFooterNoMoreDataText" = "Արդեն բեռնված է";
+
+"MJRefreshHeaderLastTimeText" = "Վերջին թարմացումը：";
+"MJRefreshHeaderDateTodayText" = "Այսօր";
+"MJRefreshHeaderNoneLastDateText" = "Ոչ մի գրառում";

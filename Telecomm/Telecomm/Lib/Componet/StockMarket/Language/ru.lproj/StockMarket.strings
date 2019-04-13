@@ -1,0 +1,169 @@
+/* 
+  StockMarket.strings
+  StockMarket
+
+  Created by 赵洪壮 on 2018/12/10.
+  Copyright © 2018 SpiderMan. All rights reserved.
+*/
+
+"stockSelectCurrency" = "Выберите валюту";
+"stockSelectExchange" = "Выберите обмен";
+
+//JFStockMarketHomeController
+"stockCustom" = "необязательно";
+"stockMarketCap" = "рыночная стоимость";
+"stockChg" = "взлеты и падения";
+"stockExchange" = "Обмен";
+"stockReload" = "Перезагрузить";
+
+//JFStockRiseFallController
+"stockGainers" = "увеличить список";
+"stockLosers" = "падающий список";
+
+//JFStockSelfSelectCell
+"stockVol" = "количество";
+"stockB" = "100 миллионов";
+"stockM" = "10000";
+
+//JFStockExchangeHeader
+"stockRank" = "ранжирование";
+"stockName" = "имя";
+"stockTurnover" = "поворот";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "Чистый приток средств сегодня";
+
+// JFStockAllCoinFristCell
+"stockHigh" = "высокий";
+"stockLow" = "низкий";
+
+// JFExchangeHomeController
+"stockAll" = "все";
+
+//JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "Добавить к самостоятельному выбору";
+"stockAddedCustomFailure" = "Присоединиться к необязательной ошибке";
+"stockDeleteCustomSuccessful" = "Удалить успех самостоятельного выбора";
+"stockDeleteCustomFailure" = "Удалить ошибку выбора";
+
+//JFStockShareController
+"stockSharePicture" = "Поделиться картинкой";
+"stockCancel" = "Отмена";
+"stockSave" = "Сохранить";
+"stockSavedToAlbum" = "Сохранено в альбом";
+"stockSavedToAlbumFailed" = "Ошибка сохранения в альбоме";
+
+//JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "сумма комиссии";
+"stockBid" = "купить одну цену";
+"stockAsk" = "продать одну цену";
+
+//JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "количество отложенных ордеров";
+"stockBidScale10" = "Купить 10 файлов";
+"stockAskScale10" = "продать 10 файлов";
+
+//JFStockAnalysisVolumeHeaderView
+"stockVolume" = "объем";
+"stockTime" = "время транзакции";
+"stockStrike" = "цена сделки";
+
+//JFDepthChartCell
+"stockDepthChart" = "Карта глубины рынка";
+
+//JFCoinCapitalController
+"stockTurnoverDistribution" = "распределение средств";
+"stockMoneyFlowTrend" = "Тренд денежного потока";
+"stockMoneyFlowWithin5Days" = "чистый приток средств за последние 5 дней";
+"stockBigOrdersMonitor" = "Полный мониторинг счетов";
+"stockBuy" = "купить";
+"stockSell" = "продать";
+"stockNetInflow" = "чистый приток";
+"stockToday" = "сегодня";
+"stock3minAgo" = "3 минуты";
+"stock10minAgo" = "10 минут";
+"stock1hAgo" = "1 час";
+"stock24hAgo" = "24 часа";
+"stockAmount" = "сумма";
+"stockPrice" = "цена";
+"stockNumber" = "количество";
+"stockCoinTime" = "время";
+
+//JFCoinSimpleIntroController
+"stockRecommendMarkets" = "Рекомендуемый рынок";
+
+//JFCoinSimpleIntroManager
+"stockChineseName" = "китайское имя";
+"stockEnglishName" = "Английское имя";
+"stockType" = "тип";
+"stockIssueTime" = "время выпуска";
+"stockCirculationSupply" = "Общая циркуляция";
+"stockTotalSupply" = "общая проблема";
+"stockGlobalMarketCapShare" = "% от общей доли мирового рынка";
+"stockCirculationRate" = "скорость потока";
+"stockTurnoverRate" = "Скорость передачи обслуживания";
+"stockICOCost" = "Стоимость ICO";
+"stockFundRaising" = "привлеченные средства";
+"stockTokenDistribution" = "распределение токенов";
+"stockWhitePaper" = "Белая книга";
+"stockNumberOfOnlineExchanges" = "количество биржевых бирж";
+"stockWEBSite" = "официальный сайт";
+
+//RecommendMarketCell
+"stockVolume" = "объем транзакции";
+
+// JFDepthChartView
+"stockDepthAsk" = "продажа";
+"stockDepthBid" = "Купить";
+
+//JFPieChartView
+"stockInflow" = "приток";
+"stockOutflow" = "отток";
+"stockUnit" = "блок";
+"stockCNY" = "юань";
+"stockUSD" = "Доллар США";
+"stockVOL" = "распределение транзакций";
+
+//JFStockMarketController
+"stockMoneyFlow" = "Фонды";
+"stockAnalysis" = "анализ";
+"stockIntroduction" = "профиль";
+"stockCustomAdd" = "Добавить в опционально";
+"stockCustomRemove" = "удалить необязательно";
+
+//BottomOperationView
+"stockAdd" = "Дополнительно";
+"stockAlerts" = "напоминание";
+"stockOrginal" = "оригинал";
+"stockShare" = "поделиться";
+
+//JFStockMarketCurrentInfoView
+"stockInfoHigh" = "самый высокий";
+"stockInfoLow" = "самый низкий";
+"stockInfoBid" = "купить один";
+"stockInfoAsk" = "продать один";
+"stockInfoFee" = "оценить";
+
+//JFStockChartToolbar
+"stockChartLine" = "Таймшер";
+"stockChart15mins" = "15 минут";
+"stockChart1hour" = "1 час";
+"stockChart1day" = "день K";
+"stockChart3days" = "3 дня К";
+"stockChart1min" = "1 минута К";
+"stockChart3mins" = "3 балла К";
+"stockChart5mins" = "5 баллов К";
+"stockChart10mins" = "10 баллов К";
+"stockChart30mins" = "30 баллов К";
+"stockChart2hours" = "2 часа К";
+"stockChart4hours" = "4 часа К";
+"stockChart6hours" = "6 часов К";
+"stockChart12hours" = "12 часов K";
+"stockChart1week" = "неделя К";
+"stockChart1mon" = "месяц К";
+"stockChartIndex" = "индикатор";
+"stockChartMajor" = "основная картинка";
+"stockChartMinor" = "заместитель диаграммы";
+
+//JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "Не удалось получить текущие рыночные данные";

@@ -1,0 +1,388 @@
+/* 
+  Wallet.strings
+  WalletManager
+
+  Created by 赵洪壮 on 2018/12/17.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+// JFCardListController
+"walletCard" = "կետի քարտ";
+"balance" = "հավասարակշռություն";
+"walletCardRecharge" = "վերալիցքավորել";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "Վճարման եղանակը";
+"walletCardRechargeAmount" = "Վերալիցքավորման քանակը";
+"walletCardRechargeAliPay" = "Alipay";
+"walletCardRechargeWechat" = "WeChat";
+"walletCardRechargeMethodSelect" = "Խնդրում ենք ընտրել վերալիցքավորման մեթոդը";
+"walletCardRechargeNeetToPay" = "պետք է վճարել";
+"walletCardRechargeNext" = "Հաջորդ";
+"walletCardRechargePaySuccess" = "Վճարը հաջողվեց.";
+"walletCardRechargePayFailure" = "Վճարումը ձախողվեց";
+"walletCardRechargeWrongMoney" = "Մուտքագրված գումարը սխալ է";
+"walletCardRechargeUndone" = "Լրացված չէ";
+"walletCardRechargeAgain" = "Վերալիցքավորել";
+"walletCardRechargeRequest" = "Հարցումը ձախողվեց, ստուգեք ցանցի կարգավորումները";
+"walletCardRechargeGiveUp" = "Լքել";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "Վստահեցնում ձեր դրամապանակի mnemonic";
+"walletBTCCheckAddSuccess" = "Ավելացնել դրամապանակի հաջողություն";
+"walletBTCCheckBackUpFail" = "Կրկնօրինակումը ձախողվեց, խնդրում ենք ստուգել ձեր mnemonic";
+"walletBTCCheckConfirmOrder" = "Խնդրում ենք սեղմել mnemonic- ին, հաստատելու, որ ձեր mnemonic- ը ճիշտ է";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "Ստեղծել դրամապանակ";
+"walletBTCCreateBackUpTip" = "Դրամապանակի հաշիվը ձեր եզակի հասցեն է թղթապանակում: Խնդրում ենք կատարել մոնտաժի եւ դրամապանակի կրկնօրինակը դրամաստեղծ ստեղծումից հետո";
+"walletBTCCreateStayTip" = "Խնդրում ենք պահպանել ստեղծման ընթացքում առաջացած տեղեկությունները";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "Backup Keywords";
+"walletBTCCreateSaveTip" = "The mnemonic- ը օգտագործվում է դրամապանակի հաշիվը վերականգնելու կամ դրամապանակի գաղտնաբառը վերականգնելու, այն թղթի վրա ճշգրիտ պատճենելու եւ պահելու այն միայն այն վայրում, որը միայն գիտեք";
+"walletBTCCreateWriteDown" = "Պատկերացրեք ձեր դրամապանակի հաշիվը mnemonic";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "Վերականգնել դրամապանակ";
+"walletBTCPaperRecoveryChectFail" = "Վերականգնումը ձախողվեց, խնդրում ենք ստուգել mnemonic- ը";
+"walletBTCPaperRecoveryExistFail" = "Վերականգնումը չի հաջողվել, դրամապանակը արդեն գոյություն ունի";
+"walletBTCPaperRcoveryWithWords" = "Վերականգնել ձեր դրամապանակը mnemonics";
+"walletBTCImport" = "Ներմուծում";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "Անվավեր փոխանցման հասցեն";
+"walletBTCTransferNotSupport" = "Այս ռեժիմը չի աջակցվում";
+"walletBTCTransferAlreadyExists" = "Դրամապանակն արդեն պարունակում է այս հասցեն";
+"walletBTCTransferLessThan" = "Վճարման գումարը չի կարող պակաս լինել";
+"walletBTCTransferError" = "Փոխանցում չի կատարվել";
+"walletBTCTransferUTFOFail" = "UTFO- ի հարցում ձախողվեց";
+"walletBTCTransferBalanceNotEnough" = "Անբավարար հավասարակշռություն";
+"walletBTCTransferSignError" = "Գործարքի ստորագրության սխալ";
+
+// DropCell
+"walletDropmsq" = "Անմիջապես բռնել";
+"walletDropyq" = "Պահեստավորված";
+"walletDropyqguo" = "թալանվել է";
+"walletDropyqguang" = "Լույսը թալանվել է";
+"walletDropwks" = "չսկսված";
+"walletDropjks" = "Սկսած";
+"walletDropjjs" = "վերջից";
+"walletDropyjs" = "Ավարտվեց";
+"walletDropday" = "օր";
+"walletDrophour" = "ժամեր";
+"walletDropmin" = "րոպե";
+"walletDropktjj" = "Ներածություն դեպի կարճ";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "Վերջում դեռ մնացել է";
+"walletDropjlkshs" = "Հեռավորությունը մնացել է";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "Դուք դեռ չեք";
+"walletDropDetailCreateWallet" = "Դրամապանակ, նախապես ստեղծեք դրամապանակ";
+"walletDropDetailChooseWallet" = "Ընտրեք դրամապանակ";
+"walletDropDetailTilte" = "Airdrop Details";
+"walletDropDetaildbmc" = "Token անունը";
+"walletDropDetailktzz" = "Օդերեւութաբանական կազմակերպություն";
+"walletDropDetailhydz" = "պայմանագրի հասցեն";
+"walletDropDetailktjs" = "Ներածություն դեպի Airdrop";
+
+// DropTransferController
+"walletDropTransferSuccess" = "Airdrop- ի հաջողությունը";
+"walletDropTransferReceived" = "Դուք հաջողությամբ ստացել եք";
+"walletDropTransferAttension" = "Միջոցառումը ավարտվելուց հետո թողարկվի աէրոդրոպներ, խնդրում ենք ուշադրություն դարձնել դրամապանակին";
+"walletDropTransferGet" = "Դուք ստացել եք այս օդը";
+"walletDropTransferFail" = "Airdrop ձախողվեց";
+"walletDropTransfering" = "Airdrop";
+
+// DropViewController
+"walletDropMyTitle" = "Իմ Airdrop";
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "Դուք պետք է գրանցեք EOS- ի հաշիվը (12 նիշ), որոնք ստեղծվել են երկու հրապարակային ստեղներով: Այս գործընթացը կկիրառի EOS նշանը: Մտածեք հաշվի անունը եւ գտնեք այն, ինչն օգնում է ձեզ գրանցվել";
+"walletEOSCreateTipActive" = "EOS- ի հաշիվը չի ակտիվացված, ուղարկվում է ընկերոջը կամ կիսում է QR կոդով ընկերոջը, այս հաշիվը ակտիվացնելու համար";
+"walletEOSCreateShareSuccess" = "Համօգտագործման հաջողությունը";
+"walletEOSCreateShareFailure" = "Բաժնետոմսը ձախողվեց";
+"walletEOSCreatePK" = "հանրային բանալի";
+"walletEOSCreatePrivateK" = "Անձնական բանալի";
+"walletEOSCreateCorrentAddress" = "Խնդրում ենք լրացնել ճիշտ հաշվի հասցեն";
+"walletEOSCreateCreateRequest" = "EOS Ստեղծել հաշվի պահանջ";
+"walletEOSCreateCorrectName" = "Խնդրում ենք մուտքագրել վավեր հաշվի անունը (a-z- ի 12-նիշային համադրություն եւ 1-5)";
+"walletEOSCreateNameStyle" = "EOS հաշվի անունը a-z եւ 1-5, որը բաղկացած է 12-բիթանոց նիշերից";
+"walletEOSCreateAccountAddress" = "Հաշվի հասցե";
+"wannetEOSCreateSendToFriend" = "Ուղարկել ընկերոջը";
+"wannetEOSCreateSendToQRCode" = "Բաժնի QR կոդ";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "Ստեղծել EOS դրամապանակ";
+"walletEOSCreateFeeFail" = "Հաշվի բացման մասին պահանջը չի հաջողվել";
+"walletEOSCreateIsAvailable" = "Հաշվի անունը հասանելի է ստուգել";
+"walletEOSCreateChange" = "Այս հաշիվը արդեն գոյություն ունի, խնդրում ենք փոխել հաշվի անունը";
+"walletEOSCreateAvailabel" = "Հաշվի անունը հասանելի է";
+"walletEOSCreateCheckFail" = "Չհաջողվեց ստուգել";
+"walletEOSCreateAbnormal" = "Վերանայելու բացառություն";
+"walletEOSCreateNoLocalWallet" = "Չկա ակտիվացված տեղական EOS դրամապանակ";
+"walletEOSCreateCreating" = "Ստեղծում";
+"walletEOSCreateSuccess" = "Ստեղծվել է հաջողությամբ";
+"walletEOSCreateFailure" = "Ստեղծել ձախողվեց";
+"walletEOSCreateSelectAccount" = "Ընտրեք հաշիվը";
+"walletEOSCreateNoActiveWallet" = "Չկա ակտիվ տեղական EOS դրամապանակ";
+"walletEOSCreate" = "Ստեղծել";
+"walletEOSCreateAccountName" = "Հաշվի անունը";
+"walletEOSCreateRAM" = "հիշողություն";
+"walletEOSCreateCost" = "արժեքը";
+"walletEOSCreateStyle" = "Ստեղծեք EOS- ի հաշիվ` 12-նիշի եւ 1-5-ի համակցությամբ ";
+
+// EOSImportController
+"walletEOSImportReply" = "Խնդրում ենք լրացնել տեղեկությունները նախքան պատասխանել";
+"walletEOSImportErongFormatter" = "Անձնական բանալին ձեւաչափը սխալ է";
+"walletEOSImporting" = "ներդրում";
+"walletEOSImportSuccess" = "Ներմուծված հաջողությամբ";
+"walletEOSImportRecoveryWithPrivateKey" = "Վերականգնել ձեր դրամապանակի հաշիվը մասնավոր բանալիով";
+"walletEOSImportActivePrivateKey" = "Խնդրում ենք մուտքագրել ակտիվ ակտիվ բանալի";
+"walletEOSImportOwnerPrivateKey" = "Խնդրում ենք մուտքագրել սեփականատիրոջ անձնական բանալին";
+"walletEOSImportDone" = "Լրացրեք";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "Դրամապանակի հաշիվը ձեր եզակի հասցեն է բլոկխարի վրա, որը ստեղծվում է ձեր անձնական բանալինի հիման վրա: Հիմնական հաշվի ստեղծումից հետո կատարեք անձնական պահքի եւ բազային հաշվի կրկնօրինակը";
+"walletETHSign" = "լիազորված ստորագրություն";
+"walletETHAddressEmpty" = "Հասցեը չի կարող դատարկ լինել";
+"walletETHWtch" = "դրամապանակի դիտում";
+"walletETHComplete" = "Լրիվ թույլտվություն";
+"walletETHWarning" = "1. Ներկայումս օգտվողները կարող են դիտարկել իրենց դրամապանակը, որպեսզի անմիջապես դրամապանակով ավելի անվտանգ սառը կաշվե իրեր ստեղծվեն, ներմուծումը պետք է միանգամից ստորագրվի: \n2: Խնայեք մեծ գումար եւ առաջարկեք օգտագործել ցուրտ դրամապանակ";
+"walletORCode" = "Օգտագործեք համապատասխան դիտորդական դրամապանակը, թույլտվությունը լրացնելու համար ստորեւ նշված QR կոդով սկանավորելու համար";
+"walletDataNomMatch" = "տվյալներ չեն համապատասխանում";
+"walletDataImporting" = "Ներմուծման";
+"wallerSignDetail" = "լիազորված ստորագրության մանրամասները";
+"wallerSignAddress" = "լիազորված հասցեն";
+"walletSignData" = "տվյալների";
+"walletScan" = "Թղթապանակի թույլտվության էջի սկավառակի QR կոդը, ներմուծման ստորագրություն";
+"walletImportSign" = "Ներմուծման ստորագրություն";
+"walletEnterAddress" = "Խնդրում ենք մուտքագրել դրամապանակի հասցեն";
+
+// փոփոխություն
+"walletChangeCurrent" = "Անջատեք%@ դրամապանակ";
+
+// NewWalletInfoController- ը
+"walletNewWalletInfoSetAvatar" = "Ստեղծել դրամապանակի avatar եւ անունը";
+"walletNewWalletInfoUploadAvatar" = "Վերբեռնել avatar";
+"walletNewWalletInfoUploadAvatarFail" = "Չհաջողվեց բեռնել պատկերը";
+"walletNewWalletInfoName" = "դրամապանակի հաշվի անունը";
+"walletNewWalletInfoAddAvatar" = "Սեղմեք դրամապանակի հաշվի avatar ավելացնել տեսախցիկի պատկերակը ";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "Ստանալ բազային ID";
+"walletOldWalletOutGettingIdRetry" = "Base ID- ի ձեռքբերումը ձախողվեց, խնդրում ենք նորից փորձել";
+"walletOldWalletCorrectEnergy" = "Խնդրում ենք մուտքագրել ճիշտ էներգիա";
+"walletOldWalletOutEnergy" = "Էներգիա.";
+"walletOldWalletOtherPlanetId" = "Խնդրում ենք մուտքագրել մյուս կողմի միջակայքային ID- ն";
+"walletOldWalletNumberOfEnergy" = "Մուտքագրեք էներգիայի քանակը";
+"walletOldWalletOtherBaseId" = "Խնդրում ենք մուտքագրել այլ կողմի բազային ID";
+"walletOldWalletOtherPanetId" = "Ստանալ միջաստղային ID:";
+"walletOldWalletRecevingBaseId" = "Ստանալ բազային ID:";
+"walletOldWalletTransferBaseId" = "Մուտքի բազայի ID.";
+"walletTradeMinerFee" = "Շինանյութի արժեքը";
+"walletOldWalletEnergyExchange" = "Էներգետիկ փոխանակում";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "Գործարքի մանրամասներ";
+"walletOldResultSuccess" = "Գործարքը հաջողվեց";
+"walletOldResultId" = "գործարքի ID";
+"walletOldResultTime" = "գործարքի ժամանակը";
+"walletOldResultToId" = "Փոխանցել բազային ID";
+"walletOldResultOutId" = "վերածել բազային ID- ն";
+"walletOldResultFailure" = "Exchange չհաջողվեց";
+"walletOldResultTransing" = "գործարքում";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "Խնդրում ենք մուտքագրել բազային գաղտնաբառը";
+"walletEnterPassword" = "Խնդրում ենք մուտքագրել գաղտնաբառ";
+"walletWrongPassword" = "Գաղտնաբառ սխալ";
+"walletForgetPassword" = "Մոռացել եք գաղտնաբառը";
+
+// WalletCardView
+"walletCardAssets" = "ակտիվներ";
+"walletCardNoActive" = "ակտիվացնելու համար";
+"walletCardSenfCoin" = "Մետաղադրամներ ուղարկելու մեկ կոճակ";
+"walletCardCopied" = "Պատճենված է";
+"walletCardTransfer" = "վերածվել է";
+"walletCardDetail" = "մանրամասներ";
+"walletCardTransferout" = "Փոխանցել";
+"walletImportWallet" = "Ներմուծման դրամապանակ";
+"walletWatchNotSupport" = "Դրամապանակն աջակցում է rollout գործառույթին";
+
+// WalletInfoController
+"walletInfoTitle" = "Կառավարում";
+"walletChangeAvatar" = "Փոխել avatar";
+"walletInfoChangeWalletName" = "Փոխարինեք դրամապանակի անունը";
+"walletInfoSwitchaccount" = "Հաշիվը անցնելը";
+"walletInfoActivation" = "ակտիվացնել";
+"walletInfoModifyWalletName" = "Փոփոխել դրամապանակի անունը";
+"walletInfoEnterWalletName" = "Խնդրում ենք մուտքագրել դրամապանակի անունը";
+"walletInfoModificationFailed" = "Փոփոխությունը չհաջողվեց, կրկին փորձեք";
+"walletInfoCannotDeleted" = "Հիմնական դրամապանակը չի կարող ջնջվել";
+"walletInfoToDelete" = "Ցանկանում եք ջնջել այս դրամապանակը";
+"walletInfoDeleteFaild" = "Ջնջել ձախողվեց, կրկին փորձեք";
+"walletInfoSettingAvatar" = "Setting avatar";
+"walletInfoSettingFaild" = "Սահմանել avatarը ձախողվեց, կրկին փորձեք";
+"walletInfoUploadFaild" = "Չհաջողվեց բեռնավորել avatar, կրկին փորձեք";
+"walletInfoPKPK" = "Սեփականատիրոջ անձնական բանալին. \n%@\n Ակտիվ մասնավոր բանալին`\n%@";
+"walletUnfoDeleteWallet" = "Ջնջել դրամապանակը";
+"walletInfoChooseMain" = "Ընտրեք առաջնային հաշիվ";
+"WalletModifyingWalletname" = "Դրամապանակի անունը փոփոխելը";
+
+// WalletAllTokenController
+"walletTypeHide" = "Թողնել հավասարակշռված ակտիվներ";
+"walletTypeSort" = "Դասավորել ըստ հավասարակշռության";
+"walletTypeAlphabetically" = "այբբենական կարգով";
+"walletTypeRemoveAssets" = "Հեռացնել ակտիվները";
+"walletTypeEnterToken" = "Մուտքագրեք նշան անունը կամ պայմանագրի հասցեն";
+"walletMyassets" = "Իմ ակտիվները";
+
+// WalletInCoinController
+"WalletInTransfer" = "Խնդրում ենք մուտք գործել";
+"walletInTransferEnter" = "Մուտքագրեք գումարը";
+"WalletInTransferPlzEnter" = "Խնդրում ենք մուտքագրել գումարը";
+"walletInChangeAssets" = "Փոխարինեք ակտիվները";
+"walletInSpecAmount" = "նշված գումարը";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "Նշումներ";
+"WalletCoinOutOptional" = "Լրացուցիչ";
+"WalletCoinOutEnterAddress" = "Մուտքագրեք վճարման հասցեն";
+"WalletCoinOutCanNotNull" = "գումարը չի կարող դատարկ լինել";
+"WalletCoinOutAddressNotNull" = "Վճարային հասցեն չի կարող դատարկ լինել";
+"WalletCoinOutPaymentDetail" = "Վճարային մանրամասներ";
+"WalletCoinOutRetry" = "Գործարքի հարցումի ձախողումը ձախողվեց, կրկին փորձեք";
+"walletCoinUnlockFail" = "Բացեք դրամապանակը չհաջողվեց";
+"walletCinOutoperation" = "Գործարքի մեջ";
+"walletGetCurrentFail" = "Ստանալ ընթացիկ դրամապանակը";
+"walletNoData" = "Տվյալներ չկան";
+"walletPaymentSuccess" = "Ստացականների հաջողություն";
+"walletTransferSuccess" = "Փոխանցել հաջողակ";
+"walletCollectionFailure" = "Ստացականները չհաջողվեց";
+"walletTransferFailed" = "Փոխանցում չի կատարվել";
+
+// WalletTradeResultController
+"walletTradeBlock" = "բլոկ";
+"walletTradeAmount" = "գումարը";
+"walletTradeTradeNo" = "գործարքի համարը";
+"walletTradeContact" = "պայմանագիր";
+"walletTradeType" = "Փոխանցման տեսակը";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "Պատճենել հաջողությունը";
+"walletChainInquirySure" = "Հաստատել եւ ստորագրել";
+"walletChainInquiryResult" = "Խնդրում ենք մուտքագրել ստուգման արդյունքը";
+"walletChainInquiryToSign" = "Ֆիրմանը սպասում է ստորագրմանը";
+"walletChainInquiryCompanyToSign" = "Կորպորատիվ սպասման ստորագրությունը";
+"walletChainInquiryBankReply" = "Բանկը դեռ չի պատասխանել";
+"walletChainInquiryBackRelied" = "Բանկը պատասխանել է";
+"walletChainInquiryBlockInfo" = "Արգելափակման տեղեկություն";
+"walletChainInquiryEdit" = "Խմբագրում";
+"walletChainInquiryProcessed" = "Վերամշակված";
+"walletChainInquiryToBeProcessed" = "Սպասում է";
+"walletChainInquiryChaininquiry" = "շղթայի հետազոտություն";
+"walletChainInquiryInquiryDetails" = "Պահանջվող մանրամասները";
+"walletChainInquiryAgreeandSign" = "Համաձայնեք եւ ստորագրեք";
+"walletChainInquiryViewReply" = "Դիտել պատասխանը";
+"walletChainInquiryReply" = "Պատասխանել";
+"walletChainInquiryDoesNotMatch" = "Չի համապատասխանում";
+"walletChainInquiryMatch" = "Համաձայնեք";
+"walletChainInquiryAuditId" = "Աուդիտ ստորագրության գործարքի ID";
+"walletChainInquiryTradeId" = "Ձեռնարկությունների ստորագրման գործարքի ID";
+"walletChainInquiryBankId" = "Բանկի ստորագրման գործարքի ID";
+"walletChainInquirySubSus" = "Ներկայացրեք հաջողակ";
+"walletChainInquiryInfoFail" = "Տեղեկատվության ձեռքբերումը ձախողվեց";
+"walletChainInquiryNo" = "հարցման համարը";
+"walletChainInquiryAuditUnit" = "Աուդիտի միավոր";
+"walletChainInquiryCompany" = "Հարցման ընկերություն";
+"walletChainInquiryBank" = "Հարցման բանկ";
+"walletChainInquiryState" = "Ստատուս";
+"walletChainInquiryContact" = "Վերադառնալ կոնտակտային տվյալներ";
+"walletChainInquiryPhone" = "Կոնտակտային հեռախոս";
+"walletChainInquirymail" = "էլփոստ";
+"walletChainInquiryAccountName" = "Հաշվի անունը";
+"walletChainInquiryBankNo" = "Բանկային հաշվի համարը";
+"walletChainInquiryCurrency" = "Արժույթ";
+"walletChainInquiryRate" = "տոկոսադրույք";
+"walletChainInquiryType" = "Հաշվի տեսակը";
+"walletChainInquiryBalance" = "Անբավարար հավասարակշռություն";
+"walletChainInquiryStartandenddate" = "մեկնարկի եւ ավարտի ամսաթիվը";
+"walletChainInquiryLimit" = "Արդյոք երաշխիքի կամ այլ օգտագործման սահմանափակումների համար";
+"walletChainInquiryBanksavings" = "Բանկային ավանդներ";
+"walletSwitchWallet" = "Փոխել դրամապանակ (%ld)";
+"walletUtilAdding" = "Ավելացնելով";
+"walletCardTop" = "Վերալիցքավորում";
+"WalletPayInfo" = "Վճարային տեղեկություններ";
+
+
+//Assets
+"walletTransaction" = "գործարք";
+"WalletAirdrop" = "Airdrop";
+"WalletPay" = "Վճարել գումարը";
+"WalletCollect" = "Դրամական միջոցներ";
+"WalletAddDevice" = "Ավելացնել սարքեր";
+"WalletCardPackage" = "Քարտի փաթեթը";
+"WalletAddCard" = "Ավելացնել քարտ";
+"WalletNoCard" = "Քարտ չկա";
+"WalletNoDevice" = "Ոչ մի սարքավորում";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(պահեք եւ քաշեք կարգը կարգավորելու համար)";
+"WalletMyApplication" = "Իմ ծրագրերը";
+"WalletCommon" = "Ընդհանուր";
+"WalletOther" = "Այլ";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "Ստեղծեք ցուրտ դրամապանակ";
+"WalletConverting" = "Փոխարկումը";
+"WalletSuccessfulConversion" = "Հաջող կերպով փոխակերպումը";
+"WalletSwitchToHotWallet" = "Անջատեք տաք պարագաներ";
+"WalletSwitchToColdWallet" = "Անջատեք սառը ներկապնակ";
+
+// BluetoothController
+"deviceList" = "Սարքի ցանկ";
+"deviceMismatch" = "Սարքի տեսակը չի համապատասխանում";
+"WalletNewColdWallet" = "Նոր սառը կաղապար";
+"WalletConnecting" = "Միացված";
+"WalletCertifyingDevice" = "Authenticating սարքը";
+"WalletAuthenticationDeviceFailed" = "Authenticated device failed";
+"WalletCertifiedDeviceSuccess" = "Authenticated device- ը հաջողվեց";
+"WalletReading" = "Ընթերցանություն";
+"WalletReadSuccessfully" = "Կարդացեք հաջողությամբ";
+"WalletReadFailed" = "Ընթերցել չհաջողվեց";
+"WalletWriting" = "Գրելու";
+"WalletSuccessfullyWritten" = "Գրելի հաջողությունը";
+"WalletWriteFailure" = "Չհաջողվեց գրել";
+"WalletCardRemoval" = "Քարտի հեռացում";
+"WalletDeviceDisconnected" = "Սարքը անջատված է";
+"WalletCardHasContent" = "Ընթացիկ քարտը բովանդակություն ունի, ցանկանում եք գրել շարունակել";
+"WalletNewlyCreatedSuccessfully" = "Նոր հաջողություններ";
+"WalletCardDataIsInvalid" = "Քարտի տվյալները անվավեր են";
+
+// 我的智能设备
+"WalletSmartWatch" = "Smart Watch";
+"WalletSmartWristband" = "Smart Bracelet";
+"WalletSmartRunningShoes" = "Smart Running Shoes";
+"WalletIntelligentBodyFatScale" = "Smart Body Fat Scale";
+
+// 首页总资产
+"AssetHomeRequestFail"="Պահանջը ձախողվեց";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "Ընտրեք դրամապանակի տեսակը";
+"WalletColdWallet" = "Cold Wallet";
+"WalletHotWallet" = "Hot Wallet";
+"WalletChoseWalletType" = "Խնդրում ենք ընտրել դրամապանակի տեսակը";
+"WalletBuyColdWallet" = "Գնեք Cold Wallet";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "Ինչ է ցուրտ դրամապանակը:";
+"WalletHotWalletDescription" = "Ինչ է տաք դրամապանակը:";
+"WalletColdWalletInfo" = "Սառը դրամապանակը (սառը Դրամապանակ), համապատասխան ջերմային քսակը, դրամապանակ, կամ հայտնի է նաեւ որպես off-line անջատման դրամապանակից, քսակը block շղթայի տեսակի մեկ, նշանակում է անձնական ցանցը չի կարող մուտք գործել, որպեսզի օգտագործողի դրամապանակից. Ցուրտ դրամապանակը հաճախ ապավինում «սառը» սարքավորում (ոչ-ցանցային համակարգիչների, բջջային հեռախոսների եւ այլն), որպեսզի ապահովեն անվտանգությունը Bitcoin մասնավոր բանալիների, օգտագործելով երկու ծավալային կոդ հաղորդակցությունը թույլ չի տալիս մասնավոր շփումները, խուսափել վտանգը հակերների գողության մասնավոր բանալիները, այլեւ դուք կարող եք դիմակայել ֆիզիկական անվտանգության ռիսկերը (ինչպես, օրինակ, համակարգչային կորել է, վնասված, եւ այլն): \n Պահպանեք մասնավոր բանալին ցանցին միացված սարքերի վրա, ներառյալ տպագրությունը, ձեռագիրը (թղթի դրամապանակը) կամ նույնիսկ piggybacking- ը (ուղեղի դրամապանակ), պահպանման ընթացքում բացարձակ անվտանգություն ապահովելու համար: Սակայն, որ վերը նշված դրամապանակը գործարքի ընթացքում, մասնավոր բանալին դեռ պետք է ուժի մեջ մտած ընդհանուր ծրագրային դրամապանակից, քսակը եւ ամենաբարձր չափանիշներին ցուրտ, դա պետք է ստորագրվի դուրս, միայն ստորագրված գործարքը տրված է. \n Առանձին բանալին ավելացրեք լրացուցիչ հատուկ ապարատային սարքում: Գործարքի օգտագործման դեպքում գործարքը պետք է ստորագրվի եւ ուղարկվի սարքերի մեջ: Քանի դեռ ապարատը չի ճեղքված, դա բացարձակապես անվտանգ է: Եթե ​​hardware է ամբողջությամբ off-line, ներկայացնել միայն գործարքային հաղորդագրությունները ստորագրված, դա նաեւ ամենաբարձր չափանիշները սառը դրամապանակից.";
+"WalletHotWalletInfo" = "Hot Wallet- ը, որը համապատասխանում է ցուրտ դրամապանակին, որը նաեւ հայտնի է որպես առցանց դրամապանակ կամ առցանց դրամապանակ, հանդիսանում է blockchain դրամապանակի տեսակից, այսինքն, դրամապանակը, որի ցանցը կարող է մուտք գործել օգտվողի անձնական բանալին: Իր ցանցային հատկանիշների պատճառով տաք ներքնազգեստները կարող են մուտք գործել ինտերնետի միջոցով օգտագործողի անձնական բանալին, հետեւաբար, անվտանգությունն ավելի ցածր է, քան ցուրտ դրամապանակը, բայց ավելի հարմար է, քան ցուրտ դրամապանակը: Բացի այդ, թե արդյոք սառը ներքնազգեստի կամ թեժ տոպրակի օգտագործումը, անձնական բանալին բանալին է:";
+
+// JFWalletMoreController- ը
+"WalletApplicationEdit" = "Հավելվածի փոփոխություն";

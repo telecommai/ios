@@ -1,0 +1,305 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏
+"EShopGoods" = "商品";
+"EShopEvaluation" = "评价";
+"EShopDetail" = "详情";
+"EShopGoodsSku" = "请选择 规格";
+"EShopProductReview" = "商品评价";
+"EShopPraise" = "好评";
+
+//底部工具栏
+
+"EShopCollection" = "收藏";
+"EShopCollected" = "已收藏";
+"EShopService" = "客服";
+"EShopCart" = "购物车";
+"EShopAddCart" = "加入购物车";
+"EShopBuyNow" = "立即购买";
+"EShopNoStart" = "尚未开始";
+"EShopHaveEnd" = "已结束";
+
+//分享相关
+"EShopSharFriends" = "分享到好友";
+"EShopShareGrivitationField" = "分享到引力场";
+
+//购物车
+"EShopDeleteCell" = "删除";
+"EShopEdit" = "编辑";
+"EShopComplete" = "完成";
+"EShopSettleAccounts" = "结算";
+"EShopTotal" = "总计";
+"EShopNoGoods" = "购物车暂无商品";
+"EShopSelected" = "已选";
+"EShopPurchaseAmount" = "购买数量";
+
+//我的商城
+"EShopMyMall" = "我的商城";
+"EShopMyOrder" = "我的订单";
+"EShopMyAddress" = "我的收货地址";
+"EShopMyService" = "我的服务";
+"EShopScanAll" = "查看全部";
+"EShopAttention" = "关注";
+"EShopFootprint" = "足迹";
+"EShopExperience"="心得";
+"EShopOrderAll" = "全部";
+"EShopPendingPayment"="待付款";
+"EShopToBeDelivered"="待发货";
+"EShopRefundSuccess" = "退款成功";
+"EShopPendingReceipt"="待收货";
+"EShopComment"="待评价";
+"EShopCompleted" = "已完成";
+"EShopCanceled" = "已取消";
+"EShopClosed" = "已关闭";
+"EShopRefound"="退货退款";
+"EShopDeleted" = "已删除";
+"EShopOrderWinTreasurePaySuccess" = "订单支付成功";
+"EShopOrderPayFail" = "订单支付失败";
+"EShopOrderWinTreasureWin" = "夺宝已中奖";
+"EShopOrderWinTreasurePaying" = "订单支付中";
+"EShopOrderWinTreasurePaying2" = "订单正在支付中，请耐心等待";
+"EShopOrderSubmitted" = "您的订单已提交，请尽快完成支付";
+"EShopOrderDelivering"="您的订单正在准备发货，请耐心等待";
+"EShopOrderDelivered"="您的订单已发货，请等待确认收货";
+"EShopOrderRecieved" = "您的订单已签收，请评价";
+"EShopOrderRecieved2" = "请评价";
+"EShopOrderCompleted"="交易已完成";
+"EShopOrderCancelled"="交易已取消";
+"EShopOrderReasonForShutdown"="关闭原因：用户主动关闭";
+"EShopOrderDeleted" = "订单已删除";
+
+//收藏
+"EShopMyCollection"="我的收藏";
+"EShopNoCollection" = "暂无收藏商品";
+"EShopAddCartSuccessfully" = "加入购物车成功";
+"EShopAddCartFail" = "加入购物车失败";
+"EShopChooseDeteted" = "请选择要删除的商品";
+"EShopDeteleExpiredFail" = "删除失效商品失败";
+"EShopNoExpired" = "没有失效商品";
+"EShopChooseCollectionItem" = "请选择要收藏的商品";
+"EShopCanceledCollection" = "已取消收藏";
+"EShopCancelCollection" = "取消收藏失败";
+"EShopAddCollection" = "已添加收藏";
+"EShopCollectionSuccess" = "添加收藏成功!";
+"EShopCollectionFail" = "添加收藏失败!";
+
+//收货地址
+"EShopChooseAddress" = "请选择收货地址";
+"EShopAddress" = "收货地址";
+"EShopAddNewAddress" = "添加新地址";
+"EShopEditAddress" = "修改收货地址";
+"EShopAddAddress" = "新增收货地址";
+"EShopSave" = "保存";
+"EShopConsigneeName" = "收货人姓名(请使用真实姓名)";
+"EShopConsigneeNameTip" = "请填写名称";
+"EShopPhoneNumber" = "手机号码";
+"EShopPhoneNumberTip" = "请填写手机号";
+"EShopCorrectPhoneNumberTip" = "请输入正确的手机号";
+"EShopArea" = "所在地区";
+"EShopAreaTip" = "请填写地区";
+"EShopDetailAddress" = "街道、小区门牌等详细地址";
+"EShopDetailAddressTip" = "请填写详细地址";
+"EShopSetDefaultAddress" = "设置为默认地址";
+"EShopInfomationUnsaved" = "填写的信息还未保存，确认现在返回吗?";
+"EShopFailedUpdate" = "更新失败，请重试";
+"EShopProvince" = "省";
+"EShopCity" = "市";
+"EShopArea2" = "区";
+
+//我的订单
+"EShopCancelOrder" = "取消订单";
+"EShopPayNow" = "立即付款";
+"EShopBuyAgain" = "再次购买";
+"EShopConfirmReceipt" = "确认收货";
+"EShopSureConfirmReceipt" = "是否确认收货？";
+"EShopCommentNow"="立即评价";
+"EShopDeleteOrder" = "删除订单";
+"EShopTreasureDetails" = "夺宝详情";
+
+//订单详情
+"EShopOrderDetail" = "订单详情";
+"EShopTotalAmount" = "应付总额";
+"EShopTotalPayment" = "实付总额";
+"EShopMessage" = "商家留言：";
+"EShopTradingHash" = "交易哈希：";
+"EShopShipmentNumber" = "物流单号";
+"EShopOrderNumber" = "订单编号";
+"EShopOrderTime" = "下单时间";
+"EShopLogisticsCompany" = "物流公司";
+"EShopConfirmReceiptSuccess" = "收货成功";
+"EShopEnsureDeleteOrder" = "是否确认删除订单?";
+"EShopDeleteOrderSuccess" = "删除订单成功";
+"EShopEnsureCancelOrder" = "是否确认取消订单？";
+"EShopCancelOrderSuccess" = "取消订单成功";
+"EShopToCart" = "前往购物车";
+"EShopAddedCart" = "商品已加入购物车";
+"EShopFaiedToAddCart" = "添加到购物车失败，请重试";
+"EShopCopySuccessfully" = "复制成功";
+"EShopClose" = "关闭";
+"EShopSum" = "共";
+"EShopPiece"="件";
+"EShopNoOrder" = "暂无相关订单";
+"EShopMoveToCollection" = "移入我的收藏";
+"EShopRemove" = "删除商品";
+"EShopRemoveExpiered" = "删除失效商品";
+"EShopDeleteFailed" = "删除失败";
+"EShopUpdateFailed" = "更新失败";
+
+//付款
+"EShopPayMent" = "付款";
+"EShopAliPay" = "支付宝";
+"EShopWeChat" = "微信";
+"EShopNeedToPay" = "待支付";
+"EShopInsufficientBalance" = "余额不足";
+"EShopRecharge" = "去充值";
+"EShopPaymentMethods" = "支付方式";
+"EShopOtherPaymentMethods" = "其他支付方式";
+"EShopPaymentAlert1" = "订单已提交，请于";
+"EShopPaymentAlert2" = "之内完成支付";
+"EShopToBePaied" = "待支付";
+"EShopPaymentHour" = "时";
+"EShopPaymentMinute" = "分";
+"EShopPaymentSecond" = "秒";
+"EShopRMB" = "¥";
+"EShopPay" = "支付";
+"EShopNeedToPay"="需支付";
+"EShopRemain" = "剩余";
+"EShopRemainRequestFail" = "余额请求失败";
+"EShopReorderAlert" = "订单由于超时未支付已关闭，请重新下单";
+"EShopChoosePayWay" = "请选择支付方式";
+"EShopPayWay" = "支付方式";
+"EShopChooseOtherPayWay" = "其他支付方式";
+"EShopPayUnfinished" = "未完成支付！";
+"EShopPayAbundon" = "放弃";
+"EShopRechargeAgain" = "重新支付";
+"EShopPaySuccess" = "支付成功！";
+"EShopPayFail" = "支付失败！";
+"EShopCondirmOrder" = "确定订单";
+"EShopReciever" = "收货人";
+"EShopRecieverAddress" = "收货地址";
+"EShopBuyerMessage" = "留言";
+"EShopBuyerMessageAlert" = "请输入您对商家的留言(50字以内)";
+"EShopTotalAmount2" = "合计金额";
+"EShopOrderSubmit" = "提交订单";
+"EShopOrderAlert3" = "订单提交成功，当前多店铺暂不支持合并支付，请前往“我的订单”-“待付款”页面完成支付。";
+"EShopGoPay" = "去支付";
+"EShopAddressAlert" = "请设置收货地址";
+"EShopNoAddressAlert" = "您还没有收货地址，请点击添加";
+"EShopAdd" = "添加";
+"EShopCurrent" = "当前";
+"EShopGet" = "获取";
+"EShopFail" = "失败";
+"EShopChoose" = "请选择";
+"EShopCurrentLess" = "当前规格库存不足";
+"EShopOrderBlank" = "订单编号为空";
+"EShopMaxGoods" = "已达到最大购买限制";
+"EShopAmount" = "数量";
+"EShopFullAmount" = "库存充足";
+"EShopTreasureNow" = "立即夺宝";
+"EShopChooseArea" = "请选择地区";
+"EShopSend" = "配送";
+"EShopSendTo" = "配送至";
+"EShopTo" = "至";
+"EShopUnknownArea" = "未知区域";
+
+//一元夺宝
+"EShopTreasure" = "夺宝";
+
+"EShopGoodsRelated" = "商品相关";
+"EShopGoodsPrice" = "商品价格";
+"EShopGoodsTitle" = "商品标题";
+"EShopGoodsSoldOut" = "已售罄";
+"EShopEnterBrand" = "进入品牌";
+"EShopSellingGoods" = "在售商品";
+"EShopSolded" = "已售";
+"EShopValue" = "价值";
+"EShopShareEvluate" = "评价晒单";
+"EShopCommentFailed" = "评论上传失败";
+"EShopUrFeel" = "说说你的感受吧";
+"EShopNilCommentAlert" = "评论内容不能为空";
+"EShopEvaluateVeryPoor" = "非常差";
+"EShopEvaluatePoor" = "差";
+"EShopEvaluateGeneral" = "一般";
+"EShopEvaluateGood" = "好";
+"EShopEvaluateVeryGood" = "非常好";
+"EShopScore" = "评分";
+"EShopNoComment" = "暂无商品评价";
+"EShopScanMore" = "查看更多";
+"EShopStartOfActivity" = "距活动开始";
+"EShopApplyRefound" = "申请付款";
+"EShopGoodsState" = "货物状态";
+"EShopNoRecieved" ="未收到货";
+"EShopRecievedGoods" = "已收到货";
+"EShopRefoundReason" ="退货原因";
+"EShopRefoundWithoutReason" = "七天无理由退款";
+"EShopRefoungNotLike" = "拍错/效果不好/不喜欢";
+"EShopRefoundSize" = "尺寸问题";
+"EShopRefoundQuantity" = "质量问题";
+"EShopRefoundNoLovely" = "客服态度差";
+"EShopRefoundDeicribe" = "与描述不符";
+"EShopRefoundSellerSendFault" = "卖家发错货";
+"EShopRefoundGoodsFake" = "假冒伪劣产品";
+"EShopRefoundEmpty" = "空包装";
+"EShopRefoundOther" = "其他";
+"EShopAddDescriptions" = "添加说明";
+"EShopRefoundMoney" = "退款金额";
+"EShopRefoundDescriptions" = "退款说明";
+"EShopOptional" = "选填";
+"EShopPhotoFail" = "存在上传失败照片";
+"EShopSenDdirectly" = "直接发送";
+"EShopMaxPhotoAlert" = "您最多可添加6张图片";
+"EShopUploadDocuments" = "上传凭证";
+"EShopChooseWayOfService" = "选择服务类型";
+"EShopRefoundOnly" = "仅退款";
+"EShopNorecievedAndAgreed" = "未收到货(包含未签收),或卖家协商同意前提下";
+"EShopRefoundMoney" = "退货退款";
+"EShopRecieveAndRefound" = "已收到货,需要退换已收到的货物";
+"EShopUse" = "使用";
+"EShopCanUse" = "可用";
+"EShopPressure" = "抵";
+"EShopEnterNum" = "请输入数量";
+"EShopBeyondRemain" = "超出剩余数";
+"EShopBeyondMax" = "超过最大使用数量";
+"EShopMaxNum" = "最大使用数量";
+"EShopProprietary" = "自营";
+"EShopLuckyNum" = "本期幸运号码";
+"EShopNoGuess" = "暂未开奖，请稍后再来";
+"EShopHexadecimal" = "16进制最后8位";
+"EShopGetGuess" = "恭喜您中奖了，请再接再厉！";
+"EShopNoGetGuess" = "很遗憾，您没有中奖，请再接再厉！";
+"EShopSoldOutTime" = "售罄时间:";
+"EShopSoldOutBlock" = "售罄时区块号:";
+"EShopSoldOutNumber" = "幸运区块号:";
+"EShopSoldOutHash" = "幸运区块哈希值:";
+"EShopSoldOutPeople" = "夺宝总人数:";
+"EShopCurrentNumber" = "本期幸运号码:";
+"EShopMoreThan" = "取余";
+"EShopTreasurePeople" = "夺宝总人数";
+"EShopLuckyNumber" = "幸运号码";
+"EShopTheDecimal" = "转10进制";
+"ESShopSelectall" = "全选";
+"ESShopOperationFailed" = "操作失败，请重试";
+"ESShopNeedToPay" = "待付款 您还需要支付";
+"ESShopSignature" = " 签名中";
+"ESShopSignComplete" = "签名完成正在购买";
+"ESShopResultConfirm" = "支付结果确认中\n请稍后进入我的订单列表查看";
+"ESShopTransionFailAgain" = "交易失败,请重试";
+"ESShopSignFailAgain" = "签名失败，请重试";
+"ESShopRechargeFailed" = "充值失败";
+"ESShopHome" = "首页";
+"EShopDefault" = "[默认]";
+"EShopYHHD" = "优惠活动：";
+"EShopInvalid" = "失效";
+"EShopPaymentError" = "支付错误";
+"EShopPayNotItem" = "未获取到商品";
+
+// 请求失败提示
+"EShopRequestError" = "请求出错";
+"EShopReload" = "重新加载";
+"EShopStartTime" = "开始时间:";
+"EShopEndTime" = "结束时间:";

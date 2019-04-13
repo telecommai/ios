@@ -1,0 +1,65 @@
+//
+//  CoreDataManager.m
+//  WatchTest
+//
+//  Created by 王胜利 on 2019/3/12.
+//  Copyright © 2019 pansoft. All rights reserved.
+//
+
+#import "CoreDataManager.h"
+
+@implementation CoreDataManager
+
+@synthesize persistentContainer = _persistentContainer;
+
+
++ (instancetype)manager{
+    static CoreDataManager *manager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [[CoreDataManager alloc] init];
+    });
+    return manager;
+}
+
+- (NSPersistentContainer *)persistentContainer {
+    @synchronized (self) {
+        if (_persistentContainer == nil) {
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Wallet"];
+            // 加载存储器
+            [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
+                if (error != nil) {
+                    NSLog(@"加载CoreData数据库失败: %@, %@", error, error.userInfo);
+                }
+            }];
+        }
+    }
+
+    return _persistentContainer;
+}
+
+#pragma mark - Core Data Saving support
+- (void)save{
+    NSManagedObjectContext *context = self.persistentContainer.viewContext;
+    if (![context hasChanges]) {
+        NSLog(@"没有数据需要保存");
+        return;
+    }
+
+    NSError *error = nil;
+    BOOL result = [context save:&error];
+    if (result) {
+        NSLog(@"保存到数据库成功");
+        return;
+    }
+
+    NSLog(@"保存数据库出错:%@, %@", error, error.userInfo);
+}
+
+
+
+
+
+
+
+@end

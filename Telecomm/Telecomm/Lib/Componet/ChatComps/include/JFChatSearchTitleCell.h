@@ -1,0 +1,19 @@
+//
+//  JFChatSearchTitleCell.h
+//  ChatComps
+//
+//  Created by 董艳武 on 2018/11/6.
+//  Copyright © 2018 Javor Feng. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface JFChatSearchTitleCell : UITableViewCell
+
+@property(nonatomic,copy) NSString * title;
+
+@end
+
+NS_ASSUME_NONNULL_END

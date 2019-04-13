@@ -1,0 +1,26 @@
+/* 
+  ShareComps.strings
+  ShareComps
+
+  Created by 赵洪壮 on 2018/12/21.
+  Copyright © 2018 childs. All rights reserved.
+*/
+
+//UMShareManager
+"shareCopy" = "պատճենը հղում";
+"shareSystem" = "համակարգի փոխանակում";
+"shareSafari" = "Safari բացվում է";
+"shareCopyToClipboard" = "Պատճենված է clipboard";
+"shareTribe" = "Ցույց տալով ցեղը";
+"shareFriends" = "կոնտակտ";
+"shareGravitationalFieldy" = "գրավիտացիոն դաշտ";
+"shareCancelSharing" = "Չեղարկել բաժանումը";
+"shareChoosePlatform" = "Ընտրեք, թե որ պլատֆորմն է կիսելու";
+
+//UMShareView
+"shareSina" = "Ուայբո";
+"shareWechat" = "WeChat";
+"shareMoments" = "Ընկերների շրջանակը";
+"shareWechatFavorites" = "WeChat Հավաքածու";
+"shareQQ" = "QQ";
+"shareQzone" = "QQ տարածք";

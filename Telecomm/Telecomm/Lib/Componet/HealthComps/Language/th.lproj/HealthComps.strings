@@ -1,0 +1,30 @@
+/* 
+  HealthComps.strings
+  HealthComps
+
+  Created by 赵洪壮 on 2019/1/29.
+  Copyright © 2019 SpiderMan. All rights reserved.
+*/
+
+"home" = "บ้าน";
+"running" = "กำลังทำงาน";
+"fitness" = "ความเหมาะสม";
+"walking" = "เดิน";
+"cycling" = "การขี่จักรยาน";
+
+"connection" = "เชื่อมต่อ";
+"watchBattery" = "ดูแบตเตอรี่";
+"today" = "วันนี้";
+"step" = "ขั้นตอน";
+"completed" = "เสร็จสิ้น";
+"target" = "เป้าหมาย";
+"distance" = "ระยะทาง";
+"heat" = "ความร้อน";
+"heartRate" = "อัตราการเต้นของหัวใจ";
+"activeStatistical" = "สถิติที่ใช้งานอยู่";
+"sportsLevel" = "ระดับกีฬา";
+"noLevel" = "ไม่มีระดับ";
+"primary" = "ประถม";
+"personalRecord" = "บันทึกส่วนตัว";
+
+"importNewDevice"="นำเข้าอุปกรณ์ใหม่";

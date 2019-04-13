@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  OpenPlanet
+
+  Created by 谢虎 on 2019/2/12.
+  Copyright © 2019 wsl. All rights reserved.
+*/
+"MJRefreshHeaderIdleText" = "спуск может быть обновлен";
+"MJRefreshHeaderPullingText" = "быстро обновить и обновить";
+"MJRefreshHeaderRefreshingText" = "обновляется и обновляется...";
+
+"MJRefreshAutoFooterIdleText" = "Щёлкните или Загружайте больше, чем Загружайте";
+"MJRefreshAutoFooterRefreshingText" = "Загружается больше данных...";
+"MJRefreshAutoFooterNoMoreDataText" = "Все загружено, чтобы загружать";
+
+"MJRefreshBackFooterIdleText" = "верхняя тяга может загружать больше";
+"MJRefreshBackFooterPullingText" = "Загружайте больше, чтобы загружать немедленно";
+"MJRefreshBackFooterRefreshingText" = "Загружается больше данных...";
+"MJRefreshBackFooterNoMoreDataText" = "Все загружено, чтобы загружать";
+
+"MJRefreshHeaderLastTimeText" = "Последнее обновление：";
+"MJRefreshHeaderDateTodayText" = "сегодня";
+"MJRefreshHeaderNoneLastDateText" = "без записи";

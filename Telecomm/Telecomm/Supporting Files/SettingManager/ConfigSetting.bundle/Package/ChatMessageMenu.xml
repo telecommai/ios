@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 使用说明： -->
+<!--消息长按弹出的菜单配置-->
+<package id="mobile_menu" caption="移动菜单设置">
+
+<!--messageTypeId 表示消息类型-->
+	<ChatMessageMenu>
+		<node id="subtype_text" caption="文字消息" interTitle="titleTextMessage" messageTypeId="0"/>
+		<node id="subtype_image" caption="图片消息" interTitle="titleImageMessage" messageTypeId="1"/>
+		<node id="subtype_file" caption="文件消息" interTitle="titleFileMessage" messageTypeId="5"/>
+		<node id="subtype_format_text" caption="@消息" interTitle="titleAtMessage" messageTypeId="11"/>
+	</ChatMessageMenu>
+    
+	<subtype_text>
+	<!--id 字段的值不能随便改（调用的方法名字），每种功能的名字是固定的, systemMethod 标明是否是系统方法（1是，0否）-->
+        <node id="jfCopy:" caption="复制" interTitle="titleCopy" systemMethod="1" />
+		<node id="jfForward:" caption="转发" interTitle="titleRepost" systemMethod="0" />
+	</subtype_text>
+
+	<subtype_image>
+		<node id="jfForward:" caption="转发" interTitle="titleRepost" systemMethod="0" />
+	</subtype_image>
+
+	<subtype_file>
+		<node id="jfForward:" caption="转发" interTitle="titleRepost" systemMethod="0" />
+	</subtype_file>
+
+	<subtype_format_text> 
+        <node id="jfCopy:" caption="复制" interTitle="titleCopy" systemMethod="1" />
+        <node id="jfForward:" caption="转发" interTitle="titleRepost" systemMethod="0" />
+	</subtype_format_text>
+
+</package>
+

@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  OpenPlanet
+
+  Created by 谢虎 on 2019/2/12.
+  Copyright © 2019 wsl. All rights reserved.
+*/
+"MJRefreshHeaderIdleText" = "ดึงลงสามารถรีเฟรช";
+"MJRefreshHeaderPullingText" = "ปล่อยและรีเฟรชทันที";
+"MJRefreshHeaderRefreshingText" = "กำลังรีเฟรชข้อมูล...";
+
+"MJRefreshAutoFooterIdleText" = "คลิกหรือดึงขึ้นเพื่อโหลดเพิ่มเติม";
+"MJRefreshAutoFooterRefreshingText" = "กำลังโหลดข้อมูลเพิ่มเติม...";
+"MJRefreshAutoFooterNoMoreDataText" = "โหลดแล้ว";
+
+"MJRefreshBackFooterIdleText" = "ดึงขึ้นเพื่อโหลดมากขึ้น";
+"MJRefreshBackFooterPullingText" = "ปล่อยและโหลดเพิ่มเติมตอนนี้";
+"MJRefreshBackFooterRefreshingText" = "กำลังโหลดข้อมูลเพิ่มเติม...";
+"MJRefreshBackFooterNoMoreDataText" = "โหลดแล้ว";
+
+"MJRefreshHeaderLastTimeText" = "อัพเดทล่าสุด：";
+"MJRefreshHeaderDateTodayText" = "ในวันนี้";
+"MJRefreshHeaderNoneLastDateText" = "ไม่มีการบันทึก";

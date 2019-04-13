@@ -1,0 +1,147 @@
+/* 
+  Zone.strings
+  Zone
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+//ZoneAboutMeCell
+"zoneLikedMe" = "Like me";
+"zoneForwardedWave" = "Adelante su onda gravitacional";
+
+// ZoneAboutMeCellView
+"zoneLaunchedWave" = "Se emitió una onda gravitacional";
+
+// ZoneAboutMeController
+"zoneMessage" = "message";
+
+// ZoneBlackListCell
+"zoneInterstellarID" = "Star ID";
+"zoneRemove" = "Eliminar";
+"zoneBlacklist" = "blacklist";
+
+// ZoneBlackListController
+"zoneRemoving" = "Eliminando";
+
+// ZoneManager
+"zoneOriginalDeleted" = "La onda gravitacional original se ha eliminado";
+"zoneEtc" = "etc";
+"zoneFeelGood" = "La gente se siente muy bien";
+"zoneReply" = "Responder";
+"zoneLikeFailure" = "Me gusta un error";
+"zoneCommentSuccessful" = "Comentario exitoso";
+"zoneCommentFailed" = "Falló el comentario";
+"zoneReplySuccessfully" = "Respuesta exitosa";
+"zoneReplyFailed" = "Respuesta fallida";
+
+// ZoneNetworkManager
+"zoneIncorrectDataFormat" = "El formato de los datos es incorrecto";
+
+// ZoneCellOptionAlert
+"zoneDelete" = "Eliminar";
+"zoneUnsubscribe" = "Dejar de seguir";
+"zoneAddAttention" = "Agregar preocupación";
+"zoneAttention" = "Seguir";
+"zoneAddToBlacklist" = "Agregar lista negra";
+
+// ZoneAddCommentController
+"zoneComment" = "Comentario";
+"zoneReasonForForwarding" = "Motivos hacia adelante";
+"zoneAddUpToThreeImages" = "Agregar hasta tres imágenes";
+
+//ZoneImageCollectionView
+"zonePrompt" = "prompt";
+"zoneThereIsAnUploadFailurePhoto" = "Hay una foto fallida de carga";
+"zoneCancel" = "Cancelar";
+"zoneSendDirectly" = "Omitir, enviar directamente";
+"zoneAddUpTo9Images" = "Puede agregar hasta 9 imágenes";
+
+//ZoneSendVideoManager
+"zoneGravitationalWaveFailure" = "Error al lanzar ondas gravitacionales";
+
+//ZoneSendWebView
+"zoneDetectedURL" = "URL detectada";
+"zoneEnterURL" = "Introduzca una URL";
+"zonePreview" = "Vista previa:";
+
+//ZoneSendController
+"zoneLaunchingGravitationalWaves" = "emitir onda gravitacional";
+"zoneGravitationalWaveIsEmpty" = "La onda gravitacional está vacía";
+"zoneLaunching" = "emitiendo";
+"zoneWebPageAddressCannotBeEmpty" = "La dirección de la página no puede estar vacía";
+"zoneWebPageAddressFormatIsIncorrect" = "El formato de la dirección de la página es incorrecto";
+"zoneLaunchedGravitationalWaveSuccessfully" = "Lanzamiento exitoso de ondas gravitacionales";
+"zoneEmission" = "Lanzar";
+"zoneShooting" = "tiro";
+"zoneAlbum" = "Album";
+"zoneSaySomething" = "Say algo ...";
+"zoneTheMaximumVideoCannotExceed" = "El video máximo no puede exceder";
+
+//SystemShareToZoneController
+"zoneShareToTheGravitationalField" = "Compartir en el campo gravitacional";
+"zoneSend" = "enviar";
+"zoneIsLaunchingGravitationalWaves" = "Ondas gravitacionales resplandecientes";
+"zoneUploadImage" = "Cargando imagen";
+"zoneDetermine" = "Confirmar";
+
+//ZoneUtil
+"zoneJust" = "Solo";
+"zoneMinutesAgo" = "Minutos antes";
+
+//ZoneAuthorHeaderView
+"zoneSilverDiamond" = "Silver Diamond";
+
+//ZoneCellTextView
+"zoneCopy" = "Copia";
+
+//ZoneSectionHeaderView
+"zoneAlreadyInTheBlacklist" = "La otra parte ya está en la lista negra, elimínela y opere";
+"zoneCollapse" = "para cerrar";
+"zoneExpand" = "Expandir";
+
+//ZoneCellFootView
+"zoneBrowse" = "Examinar";
+"zoneTimes" = "times";
+
+//ZoneBaseController
+"zoneDeleteOrNot" = "¿Desea eliminar?";
+
+//ZoneBaseController+EventManager
+"zoneGravitationalWaveHasBeenDeleted" = "La onda gravitacional original se ha eliminado y no se puede reenviar";
+"zoneForwardedSuccessfully" = "Reenvío exitoso";
+"zoneForwardingFailed" = "Forward forward";
+"zoneGravitationalWaveDeletedSuccessfully" = "Eliminación de onda gravitacional exitosa";
+"zoneGravitationalWaveDeletionFailed" = "Falló la eliminación de la onda gravitacional";
+"zoneSuccess" = "éxito";
+"zoneFailure" = "Failed";
+"zoneJoinedTheBlacklistSuccessfully" = "Se ha unido correctamente a la lista negra";
+"zoneTheOtherPartyIsAlreadyOnTheBlacklist" = "La otra parte ya está en la lista negra";
+"zoneFailedToJoinTheBlacklist" = "Error al unirse a la lista negra";
+
+//ZoneController
+"zoneGravitationalField" = "campo gravitacional";
+"zoneAll" = "all";
+"zoneFriend" = "amigo";
+"zoneGravitationalFieldAll" = "campo gravitacional (todos)";
+"zoneGravitationalFieldFriend" = "campo gravitacional (amigo)";
+"zoneGravitationalFieldConcern" = "campo gravitacional (seguir)";
+
+//ZonePersonController
+"zoneMy" = "mi";
+"zoneAddFriend" = "Agregar un amigo";
+
+//ZoneDetialController
+"zoneDetails" = "Detalles";
+"zoneGettingGravitationalWaveFailure" = "Obtener falla de onda gravitacional";
+"zoneLoading" = "Cargando";
+"zoneLoadFailedOrGravitationalWaveHasBeenDeleted" = "Falló la carga o se eliminó la onda gravitacional";
+
+//ZoneHeaderView.h
+"zoneNewNews" = "mensaje nuevo";
+"zoneChangeBackgroundImage" = "Cambiar imagen de fondo";
+"zoneTakePhoto" = "Photograph";
+"zoneErrorMessage" = "mensaje de error";
+"zoneTheCurrentDeviceDoesNotSupportShooting" = "El dispositivo actual no admite disparos";
+"zoneFailedToReplaceBackgroundImage" = "Error al reemplazar la imagen de fondo";
+

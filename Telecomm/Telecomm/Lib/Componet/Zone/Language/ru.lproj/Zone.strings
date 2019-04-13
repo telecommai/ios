@@ -1,0 +1,147 @@
+/* 
+  Zone.strings
+  Zone
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+//ZoneAboutMeCell
+"zoneLikedMe" = " Понравился мне";
+"zoneForwardedWave" = " Переправил вашу гравитационную волну";
+
+//ZoneAboutMeCellView
+"zoneLaunchedWave" = " Запустил гравитационную волну";
+
+//ZoneAboutMeController
+"zoneMessage" = "новости";
+
+//ZoneBlackListCell
+"zoneInterstellarID" = "Межзвездный ID";
+"zoneRemove" = "удаление";
+"zoneBlacklist" = "черный список";
+
+//ZoneBlackListController
+"zoneRemoving" = "Удаление";
+
+//ZoneManager
+"zoneOriginalDeleted" = "Первоначальная гравитационная волна была удалена";
+"zoneEtc" = " и др. ";
+"zoneFeelGood" = " Люди чувствуют себя очень хорошо";
+"zoneReply" = "ответить";
+"zoneLikeFailure" = "Как провал";
+"zoneCommentSuccessful" = "Комментарий успешен";
+"zoneCommentFailed" = "Комментарий не удался";
+"zoneReplySuccessfully" = "Ответить успешно";
+"zoneReplyFailed" = "Ответить не удалось";
+
+//ZoneNetworkManager
+"zoneIncorrectDataFormat" = "Неверный формат данных";
+
+//ZoneCellOptionAlert
+"zoneDelete" = "удалять";
+"zoneUnsubscribe" = "Отписаться";
+"zoneAddAttention" = "Добавить внимание";
+"zoneAttention" = "внимание";
+"zoneAddToBlacklist" = "черный список";
+
+//ZoneAddCommentController
+"zoneComment" = "обзор";
+"zoneReasonForForwarding" = "Причина пересылки";
+"zoneAddUpToThreeImages" = "Добавьте до трех изображений";
+
+//ZoneImageCollectionView
+"zonePrompt" = "подсказка";
+"zoneThereIsAnUploadFailurePhoto" = "При загрузке фотографии произошла ошибка";
+"zoneCancel" = "отменен";
+"zoneSendDirectly" = "Игнорировать, отправить напрямую";
+"zoneAddUpTo9Images" = "Вы можете добавить до 9 изображений";
+
+//ZoneSendVideoManager
+"zoneGravitationalWaveFailure" = "Запуск сбоя гравитационной волны";
+
+//ZoneSendWebView
+"zoneDetectedURL" = "Обнаруженный URL";
+"zoneEnterURL" = "Пожалуйста, введите URL";
+"zonePreview" = "Предварительный просмотр:";
+
+//ZoneSendController
+"zoneLaunchingGravitationalWaves" = "Запуск гравитационных волн";
+"zoneGravitationalWaveIsEmpty" = "Гравитационная волна пуста";
+"zoneLaunching" = "запускается";
+"zoneWebPageAddressCannotBeEmpty" = "Адрес веб-страницы не может быть пустым";
+"zoneWebPageAddressFormatIsIncorrect" = "Неверный формат адреса веб-страницы";
+"zoneLaunchedGravitationalWaveSuccessfully" = "Успешно запустил гравитационную волну";
+"zoneEmission" = "запуск";
+"zoneShooting" = "стрельба";
+"zoneAlbum" = "галерея";
+"zoneSaySomething" = "Скажи что-нибудь ...";
+"zoneTheMaximumVideoCannotExceed" = "Максимальное видео не может превышать";
+
+//SystemShareToZoneController
+"zoneShareToTheGravitationalField" = "Поделиться в гравитационном поле";
+"zoneSend" = "послать";
+"zoneIsLaunchingGravitationalWaves" = "Запускает гравитационные волны";
+"zoneUploadingImage" = "Загрузка изображения";
+"zoneDetermine" = "определить";
+
+//ZoneUtil
+"zoneJust" = "просто";
+"zoneMinutesAgo" = " Минут назад";
+
+//ZoneAuthorHeaderView
+"zoneSilverDiamond" = " Серебряный бриллиант";
+
+//ZoneCellTextView
+"zoneCopy" = "копия";
+
+//ZoneSectionHeaderView
+"zoneAlreadyInTheBlacklist" = "Другая сторона уже находится в черном списке. Пожалуйста, удалите ее.";
+"zoneCollapse" = "коллапс";
+"zoneExpand" = "расширение";
+
+//ZoneCellFootView
+"zoneBrowse" = "пролистать ";
+"zoneTimes" = " раз";
+
+//ZoneBaseController
+"zoneDeleteOrNot" = "Удалить?";
+
+//ZoneBaseController+EventManager
+"zoneGravitationalWaveHasBeenDeleted" = "Первоначальная гравитационная волна была удалена и не может быть передана.";
+"zoneForwardedSuccessfully" = "Успешно отправлено";
+"zoneForwardingFailed" = "Переадресация не удалась";
+"zoneGravitationalWaveDeletedSuccessfully" = "Гравитационная волна успешно удалена";
+"zoneGravitationalWaveDeletionFailed" = "Удаление гравитационной волны не удалось";
+"zoneSuccess" = "успех";
+"zoneFailure" = "недостаточность";
+"zoneJoinedTheBlacklistSuccessfully" = "Успешно вошел в черный список";
+"zoneTheOtherPartyIsAlreadyOnTheBlacklist" = "Другая сторона уже в черном списке";
+"zoneFailedToJoinTheBlacklist" = "Не удалось присоединиться к черному списку";
+
+//ZoneController
+"zoneGravitationalField" = "Гравитационное поле";
+"zoneAll" = "полный";
+"zoneFriend" = "друзья";
+"zoneGravitationalFieldAll" = "полный";
+"zoneGravitationalFieldFriend" = "друзья";
+"zoneGravitationalFieldConcern" = "внимание";
+
+//ZonePersonController
+"zoneMy" = "мой ";
+"zoneAddFriend" = "Добавить друга";
+
+//ZoneDetialController
+"zoneDetails" = "подробность";
+"zoneGettingGravitationalWaveFailure" = "Получение сбоя гравитационной волны";
+"zoneLoading" = "загрузка";
+"zoneLoadFailedOrGravitationalWaveHasBeenDeleted" = "Не удалось загрузить или гравитационная волна была удалена";
+
+//ZoneHeaderView.h
+"zoneNewNews" = " новые новости";
+"zoneChangeBackgroundImage" = "Изменить фоновое изображение";
+"zoneTakePhoto" = "Сделать фото";
+"zoneErrorMessage" = "Сообщение об ошибке";
+"zoneTheCurrentDeviceDoesNotSupportShooting" = "Текущее устройство не поддерживает съемку";
+"zoneFailedToReplaceBackgroundImage" = "Не удалось заменить фоновое изображение";
+

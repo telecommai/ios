@@ -1,0 +1,154 @@
+/* 
+  OpenPlanet.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/9/7.
+  Copyright © 2018年 wsl. All rights reserved.
+*/
+
+// SystemShare
+"openPlanetLoading" = "กำลังโหลด";
+"openPlanetSendFriend" = "ส่งถึงเพื่อน";
+"openPlanetShareGravitationalField" = "แบ่งปันไปยังฟิลด์แรงโน้มถ่วง";
+"openPlanetShareBack" = "กลับ";
+
+// login-> TCInputPhoneController
+"openPlanetWelcomeTo" = "ยินดีต้อนรับ";
+"openPlanetLoginTip" = "เพื่อความสะดวกของคุณโปรดป้อนหมายเลขบัญชีของคุณ";
+"openPlanetPleaseEnterPhoneNumber" = "โปรดป้อนหมายเลขโทรศัพท์";
+
+// login-> TCInputPasswordController
+"openPlanetLoggedIn" = "เข้าสู่ระบบ";
+"openPlanetLoginFailure" = "การเข้าสู่ระบบล้มเหลว";
+"openPlanetSynchronizingWalletInformation" = "การซิงค์ข้อมูลกระเป๋าเงิน";
+"openPlanetSynchronizingWalletFailed" = "ซิงค์ Wallet ไม่สำเร็จ";
+"openPlanetFailureToUnlockWallet" = "ปลดล็อคกระเป๋าเงินหลักล้มเหลว";
+"openPlanetNoMainWalletWasObtained" = "ไม่ได้รับกระเป๋าเงินหลัก";
+"openPlanetEnterPasswordToLogin" = "ป้อนรหัสผ่านเข้าสู่ระบบ";
+"openPlanetPleaseEnterEmail" = "โปรดป้อนหมายเลขโทรศัพท์มือถือหรือที่อยู่อีเมลของคุณ";
+"openPlanetPleaseEnterPassword" = "โปรดป้อนรหัสผ่าน";
+"openPlanetResetPassword" = "รีเซ็ตรหัสผ่าน";
+"openPlanetResetPasswordBeing" = "การรีเซ็ตรหัสผ่าน";
+"openPlanetResetPasswordResetSuccessful" = "รีเซ็ตรหัสผ่านสำเร็จโปรดลงชื่อเข้าใช้อีกครั้ง";
+"openPlanetLoginUsingVerificationCode" = "เข้าสู่ระบบด้วยรหัสยืนยัน SMS";
+
+// Wallet-> TCWalletTipController
+"openPlanetRestoreBaseAccount" = "กู้คืนบัญชีฐาน";
+"openPlanetCreateBaseAccount" = "สร้างบัญชีฐาน";
+"openPlanetHasBeenCreatedAlert" = "บัญชีถูกสร้างขึ้นฐานใหม่จะถูกสร้างขึ้นและกระเป๋าเงินที่สร้างและนำเข้าก่อนหน้านี้จะเป็นโมฆะฐานจะถูกสร้างขึ้นหรือไม่";
+"openPlanetRestoreYourBaseAccount" = "กู้คืนบัญชีฐานของคุณ";
+"openPlanetWalleAlertString" = "โปรดกรอกข้อมูลในบัญชีฐานของคุณ\" mnemonic \"โดยที่พวกเขาไม่มีบัญชีของคุณจะไม่สามารถกู้คืนได้โปรดตรวจสอบให้แน่ใจว่าคุณจำได้ดี";
+"openPlanetCarefulSurroundingEnvironment" = "กรุณากรอกข้อมูลช่วยจำโปรดใส่ใจกับสภาพแวดล้อมโดยรอบ";
+"openPlanetCreateYourBaseAccount2" = "สร้างบัญชีฐานของคุณ";
+"openPlanetWalleAlertString2" = "บัญชีฐานเป็นที่อยู่ที่ไม่ซ้ำกันของคุณใน blockchain มันถูกสร้างขึ้นโดยใช้รหัสส่วนตัวของคุณโปรดทำการสำรองข้อมูลของรหัสส่วนตัวและบัญชีฐานหลังจากสร้างบัญชีฐาน";
+"openPlanetKeepInformation" = "โปรดเก็บข้อมูลที่สร้างขึ้นในระหว่างกระบวนการสร้าง";
+
+// Wallet-> TCInputMemoryWordController
+"openPlanetRestoreBase" = "กู้คืนฐาน";
+"openPlanetRestoreBaseFailed" = "การกู้คืนล้มเหลวโปรดตรวจสอบความจำ";
+"openPlanetRestoreBaseFailed2" = "การกู้คืนล้มเหลวโปรดตรวจสอบรหัสลับ";
+"openPlanetRestoreBaseFailed3" = "การกู้คืนล้มเหลวเฉพาะฐานที่เชื่อมโยงกับบัญชีนี้เท่านั้นที่สามารถกู้คืนได้";
+"openPlanetRestoringBaseAccount" = "กู้คืนบัญชีฐาน ... ";
+"openPlanetFailureToUnlockMainWallet" = "ปลดล็อคกระเป๋าเงินหลักล้มเหลว";
+"openPlanetSynchronizingWalletInformation" = "การซิงค์ข้อมูลกระเป๋าเงิน";
+
+"openPlanetRecoverySuccessful" = "การกู้คืนสำเร็จ";
+"openPlanetMnemonic" = "mnemonic";
+"openPlanetRestoreBaseByMnemonic" = "กู้คืนบัญชีฐานของคุณด้วย mnemonics";
+"openPlanetUsePrivateKeyToRestoreBase" = "กู้คืนบัญชีฐานของคุณด้วยรหัสส่วนตัว";
+"openPlanetSavePrivateKeyFailedTryAgain" = "ไม่สามารถบันทึกคีย์ส่วนตัวของการสื่อสารโปรดลองอีกครั้ง";
+"openPlanetPleaseEnterPriviteKey" = "โปรดป้อนรหัสส่วนตัวของบัญชีฐาน";
+"openPlanetImportingFans" = "นำเข้าแฟน ๆ ";
+"openPlanetSkipUploadFans" = "ข้าม";
+"openPlanetReadingAddressBook" = "กำลังอ่านเพื่อนสมุดที่อยู่";
+"openPlanetReadAddressBookFiled" = "ไม่สามารถอ่านเพื่อนในสมุดที่อยู่";
+"openPlanetImport" = "นำเข้า";
+"openPlanetReadAddressBookToImportFans" = "นำเข้ารายชื่อผู้ติดต่อในโทรศัพท์ของคุณและตั้งค่ารายชื่อผู้ติดต่อในแฟนของคุณโดยอัตโนมัติ";
+"openPlanetShouldImportFansToGetsilverDiamondReward" = "คลิกที่แฟน ๆ นำเข้าเพื่อรับรางวัล Silver Diamond";
+"openPlanetHaveReadAndAgreed" = "ฉันได้อ่านและยอมรับ";
+"openPlanetServiceAndPrivacyPolicy" = "บริการและข้อกำหนดความเป็นส่วนตัว";
+"openPlanetSelectThePlanet" = "โปรดเลือกดาวเคราะห์ที่คุณต้องการอยู่";
+"openPlanetSelectionCanNotChange" = "(การเลือกจะไม่เปลี่ยนแปลงในภายหลัง)";
+"openPlanetStayingOnThePlanet" = "เช็คอินดาวเคราะห์";
+"openPlanetAlready" = "เรียบร้อยแล้ว";
+"openPlanetSentVerificationCode" = "ส่งรหัสยืนยัน SMS";
+"openPlanetSendVerificationCodeTo" = "โดยการคลิกปุ่ม\" รับรหัสยืนยัน \"ไปที่";
+"openPlanetSendingTextVerifyCode" = "ส่งรหัสยืนยัน SMS";
+"openPlanetVerifyPhoneNumber" = "ยืนยันหมายเลขโทรศัพท์";
+"openPlanetEnterVerificationCode" = "ป้อนรหัสยืนยัน SMS";
+"openPlanetCreateSecureAccount" = "สร้างบัญชีที่ปลอดภัย";
+"openPlanetRegisteredUserFailed" = "ผู้ใช้ที่ลงทะเบียนล้มเหลว";
+"openPlanetSetPasswordDescribe" = "รหัสผ่านใช้ในการเข้าสู่ระบบปกป้องรหัสส่วนตัวและการอนุญาตการทำธุรกรรมความแข็งแกร่งเป็นสิ่งสำคัญมากระบบไม่ได้จัดเก็บรหัสผ่านและไม่สามารถช่วยคุณค้นหาได้โปรดจำไว้!";
+"openPlanetUserNickname" = "ชื่อเล่นผู้ใช้";
+"openPlanetResetFailedTryAgain" = "รีเซ็ตล้มเหลวโปรดลองอีกครั้ง";
+"openPlanetSetAvtar" = "ตั้งภาพแทนตัว";
+"openPlanetUploadingAvatar" = "การอัปโหลดภาพแทนตัว";
+"openPlanetSettingAvatarFailed" = "ตั้งค่า Avatar ล้มเหลว";
+"openPlanetUploadingAvatarFailed" = "การอัปโหลดภาพแทนล้มเหลว";
+"openPlanetNickname" = "ชื่อเล่น";
+"openPlanetSetPictureAsAvatar" = "ตั้งค่ารูปภาพของคุณเป็นสัญลักษณ์ของคุณ";
+"openPlanetSetAvatarAndGetSilverDiamondReward" = "ตั้งค่า avatar ของผู้ใช้และรับรางวัล Silver Diamond Award";
+"openPlanetFailedToDecryptWalletTryAgain" = "ไม่สามารถถอดรหัสกระเป๋าเงินย่อยได้โปรดลองอีกครั้ง";
+"openPlanetBackupMnemonic" = "เครื่องมือช่วยจำสำรอง";
+"openPlanetDescribeOfMnemonic" = "mnemonic ใช้เพื่อกู้คืนบัญชีฐานหรือรีเซ็ตรหัสผ่านพื้นฐานคัดลอกมันลงบนกระดาษอย่างแม่นยำและเก็บไว้ในที่ปลอดภัยที่มีเพียงคุณเท่านั้นที่รู้";
+"openPlanetCopyDownYourBaseAccountMnemonic" = "คัดลอกบัญชีฐานของคุณช่วยจำ";
+"openPlanetCopyTheAboveMnemonicAndGetSilverDiamondReward" = "คัดลอกตัวช่วยจำด้านบนและรับรางวัล Silver Diamond";
+"openPlanetConfirmYourBaseMnemonic" = "ยืนยันตัวช่วยจำพื้นฐานของคุณ";
+"openPlanetBackingUpTheBase" = "การสำรองฐาน";
+"openPlanetBackupFailedPleaseCheckYourMnemonic" = "การสำรองข้อมูลล้มเหลวโปรดตรวจสอบความจำของคุณ";
+"openPlanetSavingBaseAccountFailedTryAgain" = "บันทึกบัญชีฐานล้มเหลวโปรดลองอีกครั้ง";
+"openPlanetBaseAccountAddedSuccessfully" = "เพิ่มบัญชีพื้นฐานสำเร็จแล้ว";
+"openPlanetClickOnTheMnemonicInOrderToConfirmYourMnemonicIsCorrect" = "โปรดคลิกที่ช่วยในการจำเพื่อยืนยันว่าช่วยในการจำของคุณถูกต้อง";
+"openPlanetBackupPrivateKey" = "คีย์ส่วนตัวสำรอง";
+"openPlanetDescribeOfPrivateKey" = "คำเตือนความปลอดภัย: รหัสส่วนตัวไม่ได้เข้ารหัสและการส่งออกมีความเสี่ยงขอแนะนำให้ใช้ตัวช่วยจำสำหรับการสำรองข้อมูล";
+"openPlanetPrivateKeyHasBeenCopied" = "รหัสส่วนตัวถูกคัดลอกแล้ว";
+"openPlanetsilverDiamondRecord" = "บันทึก Silver Diamond";
+"openPlanetInvitationCode" = "รหัสเชิญ";
+"openPlanetInvitationCodeIsEmpty" = "รหัสเชิญว่างเปล่า";
+"openPlanetIAm" = "ฉันเป็น";
+"openPlanetInviteYouToJoin" = "เชิญคุณเข้าร่วม";
+"openPlanetILookForwardToYourJoining" = "ฉันหวังว่าจะได้เข้าร่วม ~~";
+"openPlanetInvitationCodeHasBeenCopied" = "รหัสคำเชิญถูกคัดลอกแล้ว";
+"openPlanetYourInvitationCode" = "รหัสเชิญของคุณ";
+"openPlanetAfterYouInviteFriendToRegisterYouWillReceiveSilverDiamondAwards" = "หลังจากเชิญเพื่อนให้ลงทะเบียนคุณจะได้รับ 1,000 Silver Diamond Award";
+"openPlanetScanCodeDownload" = "สแกนรหัสดาวน์โหลด";
+"openPlanetFailedToGetBaseLogInAgain" = "ทำให้ฐานล้มเหลวโปรดลงชื่อเข้าใช้อีกครั้ง";
+"openPlanetFailedGetEnergyTryAgain" = "ไม่สามารถรับพลังงานได้โปรดลองอีกครั้ง";
+"openPlanetPleaseWaitForTheAnnouncement" = "โปรดรอการประกาศ";
+"openPlanetBaseIDHasBeenCopied" = "คัดลอก ID ฐานแล้ว";
+
+// +弹出框
+"openPlanetcreateTribe" = "สร้างเผ่า";
+"openPlanetAddFriend" = "เพิ่มเพื่อน";
+"openPlanetScan" = "Sweep";
+"openPlanetEnergyExchange" = "การแลกเปลี่ยนพลังงาน";
+
+// 更新提醒
+"openPlanetUpdatingResourceFile" = "กำลังอัปเดตไฟล์ทรัพยากร ... ";
+
+// 选择星球
+"水星" = "ดาวพุธ";
+"英文名：Mercury\n最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。\n公转轨道：距太阳57,910,000 千米 (0.387天文单位)\n水星直径：4,880 千米\n质量：3.30e23 千克" = " ชื่อภาษาอังกฤษ: เมอร์ \n ที่อยู่ใกล้ดวงอาทิตย์ดาวเคราะห์ที่เล็กที่สุดของระบบสุริยะของดาวพุธมีขนาดเล็กกว่าแกนีมีดและไททันในเส้นผ่าศูนย์กลาง แต่มากขึ้นมวล \n วงโคจรของมัน: 57,910,000 กิโลเมตร (0.387 AU) จากดวงอาทิตย์ \n เส้นผ่าศูนย์กลางปรอท: 4,880 หนึ่งพันเมตร \n มวล: 3.30e23 กก. ";
+"金星" = "วีนัส";
+"英文名：Venus\n是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。\n轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）\n行星直径：12,103.6 千米\n质量：4.869e24 千克" = "ชื่อภาษาอังกฤษ: วีนัส \n เป็นดาวเคราะห์ที่อยู่ใกล้ที่สองจากดวงอาทิตย์ดาวเคราะห์ที่หกในระบบสุริยะดาวเคราะห์ทั้งหมด วีนัสติดตามวงกลมใกล้เคียงที่สุดเบี่ยงเบนน้อยกว่า 1% \n รัศมีวงโคจร: 108,200,000 กิโลเมตร (0.723 AU) จากดวงอาทิตย์ \n เส้นผ่าศูนย์กลางดาวเคราะห์: 12,103.6 หนึ่งพันเมตร \n มวล: 4.869e24 กก. ";
+"地球" = "โลก";
+"英文名：Earth\n我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。\n轨道半径：149,600,000 千米 （离太阳1.00 天文单位）\n行星直径：12,742千米\n质量：5.9736e24 千克" = "ชื่อภาษาอังกฤษ: Earth \n บ้านของเราเป็นดาวเคราะห์ดวงที่สามในระบบสุริยะจากภายในสู่ภายนอกและเป็นดาวเคราะห์ที่ใหญ่เป็นอันดับห้าในระบบสุริยะ \n รัศมีวงโคจร: 149,600,000 กม. (1.00 ฟุตจากดวงอาทิตย์) \n คุณภาพของ m \n: 5.9736e24 kg";
+"火星" = "ดาวอังคาร";
+"英文名：Mars\n为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。\n公转轨道：离太阳227,940,000 千米 (1.52 天文单位）\n行星直径：6,794 千米\n质量：6.4219e23 千克" = "ชื่อภาษาอังกฤษ: Mars \n เป็นดวงที่สี่ที่ไกลที่สุดจากดวงอาทิตย์นอกจากนี้ยังเป็นดาวเคราะห์ที่ใหญ่ที่สุดเป็นอันดับที่ 7 ในระบบสุริยะมันเรียกว่าหิ่งห้อยในจีนโบราณเพราะดาวอังคารเป็นสีแดงภาพเรืองแสงเหมือนไฟความสว่างมักเปลี่ยนแปลง บางครั้งจากตะวันตกไปตะวันออกและบางครั้งจากตะวันออกไปตะวันตกสถานการณ์ซับซ้อนและสับสนดังนั้นในจีนโบราณเรียกว่า \"น้ำท่วม\" และมี \"เรืองแสงและความไม่รู้\" \"ความหมายของ \n ติดตามการปฏิวัติ: 227,940,000 กม. จากดวงอาทิตย์ (1.52 หน่วยทางดาราศาสตร์) \n เส้นผ่านศูนย์กลางดาวเคราะห์: 6,794 กม. / คุณภาพ n: 6.4219e23 กก.";
+"木星" = "ดาวพฤหัสบดี";
+"英文名：Jupiter\n是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。\n公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）\n行星直径：142,984 千米 (赤道)\n质量：1.900e27 千克" = "ชื่อภาษาอังกฤษ: ดาวพฤหัสบดี \n เป็นดาวเคราะห์ดวงที่ห้าจากดวงอาทิตย์และเป็นดาวเคราะห์ที่ใหญ่ที่สุดมีขนาดใหญ่กว่า 2.5 เท่าของมวลดาวเคราะห์อื่นทั้งหมด (318 เท่าของโลก) \n เส้นทางการปฏิวัติ: 778, 330,000 km (5.20 หน่วยดาราศาสตร์) \n เส้นผ่านศูนย์กลางดาวเคราะห์: 142,984 กม. (เส้นศูนย์สูตร) \n คุณภาพ: 1.900e27 กก. ";
+"土星" = "ดาวเสาร์";
+"英文名：Saturn\n是离太阳第六远的行星，也是八大行星中第二大的行星。\n公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）\n行星直径：120,536 千米 （赤道）\n质量：5.68e26 千克" = "ชื่อภาษาอังกฤษ: ดาวเสาร์ \ n เป็นดาวเคราะห์ที่ไกลที่สุดจากดวงอาทิตย์และดาวเคราะห์ที่ใหญ่เป็นอันดับสองในบรรดาแปดดาวเคราะห์ \ n วงโคจร: 1,429,400,000 กม. จากดวงอาทิตย์ (9.54 หน่วยทางดาราศาสตร์) \ n เส้นผ่าศูนย์กลางดาวเคราะห์: 120,536 กม. ( เส้นศูนย์สูตร) \ n คุณภาพ: 5.68e26 กก. ";
+"天王星" = "ดาวยูเรนัส";
+"英文名：Uranus\n是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。\n公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）\n行星直径：51,118 千米（赤道）\n质量：8.683e25 千克" = "ชื่อภาษาอังกฤษ: ดาวยูเรนัส \n เป็นดาวเคราะห์ที่ใหญ่ที่สุดที่เจ็ดในระบบสุริยะจากดวงอาทิตย์จากมุมมองเส้นผ่านศูนย์กลางมันเป็นดาวเคราะห์ที่ใหญ่เป็นอันดับสามในระบบสุริยะดาวยูเรนัสมีขนาดใหญ่กว่าเนปจูน แต่มวลของมันมีขนาดเล็กกว่า \n ปฏิวัติวงโคจร: จากดวงอาทิตย์ 2,870,990,000 km (19.218 หน่วยดาราศาสตร์) \n เส้นผ่านศูนย์กลางดาวเคราะห์: 51,118 กม. (เส้นศูนย์สูตร) \n คุณภาพ: 8.683e25 kg ";
+"海王星" = "เนปจูน";
+"英文名：Neptune\n是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。\n公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）\n行星直径：49,532 千米（赤道）\n质量：1.0247e26 千克" = "ชื่อภาษาอังกฤษ: เนปจูน \n เป็นดาวเคราะห์ดวงที่แปดที่โคจรรอบดวงอาทิตย์และวัตถุท้องฟ้าที่ใหญ่เป็นอันดับสี่ในระบบสุริยะ (บนเส้นผ่านศูนย์กลาง) ดาวเนปจูนมีขนาดเล็กกว่าเส้นผ่านศูนย์กลางดาวยูเรนัส กิโลเมตร (หน่วยดาราศาสตร์ 30.10) \n เส้นผ่านศูนย์กลางดาวเคราะห์: 49,532 กม. (เส้นศูนย์สูตร) \n คุณภาพ: 1.0247e26 kg";
+"冥王星" = "พลูโต";
+"英文名：Pluto\nPluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）\n历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。\n太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。\n公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)\n直径：2370 千米\n质量：1.27e22 千克" = "ชื่อภาษาอังกฤษ: พลูโต \n พลูโตคือดาวพลูโตในเทพนิยายโรมันโบราณ (Hadis Hades ในเทพปกรณัมกรีก) \n ประวัติศาสตร์พลูโตได้รับการพิจารณาว่าเป็นดาวเคราะห์ที่เล็กที่สุดและห่างไกลจากดวงอาทิตย์ซึ่งเป็นสัญลักษณ์ในตำนานเทพเจ้ากรีก ฮาเดสราชาแห่งซุสถูกพาตัวไปยังโลกใต้พิภพหลังจากรับบัลลังก์พลูโตมีดวงจันทร์สามดวง \n มีดาวบริวารเจ็ดดวงในระบบสุริยะที่ใหญ่กว่าดาวพลูโต (ดวงจันทร์ไอโอยูโรปาและจูปิเตอร์) ประการที่สามยูโรปาไททันและไทรทัน) \n วงโคจรปฏิวัติ: ระยะทางเฉลี่ยจากดวงอาทิตย์ 5,913, 520,000 กม. (39.5 หน่วยดาราศาสตร์) \n เส้นผ่านศูนย์กลาง: 2370 กม. \n มวล: 1.27e22 กก. ";
+
+// tab
+"titleSpace" = "space";
+"titleExplore" = "สำรวจ";
+"titleInter" = "ดวงดาว";
+"titleBase" = "ฐาน";
+"titleNews" = "ข้อมูล";

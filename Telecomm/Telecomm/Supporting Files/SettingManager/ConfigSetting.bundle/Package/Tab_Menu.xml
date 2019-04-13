@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <menuRoot>
+        <node id="zichan" caption="资产"  interTitle="titleAssetIPCom" menuIcon="tab_zc" selectedMenuIcon="tab_zc_sel" style="blockstyle" leftHiddlen="YES" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+        <node id="shejiao" caption="朋友" interTitle="titleSNSIPCom" menuIcon="tab_sj" selectedMenuIcon="tab_sj_sel" menuType="chat" style="qqstyle" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0" fresh="true"/>
+        <node id="xingji" caption="" interTitle="" menuIcon="tab/tab_xj.png"  selectedMenuIcon="tab/tab_xj_sel.png" menuType="address" style="blockstyle" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0" isBigIcon = "1"/>
+        <node id="jiankang" caption="健康" interTitle="titleHealthIPCom"  menuIcon="tab_jk" selectedMenuIcon="tab_jk_sel" style="blockstyle" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+        <node id="zixun" caption="资讯" interTitle="titleNewsIPCom" menuIcon="tab_zx" selectedMenuIcon="tab_zx_sel" style="blockstyle" leftHiddlen="YES" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+    </menuRoot>
+
+    <zichan>
+        <node id="zc" caption="资产" interTitle=""  viewType="display" show="JFAssetsHomeController" />
+    </zichan>
+
+    <shejiao>
+        <node id="kongjian2" caption="消息" interTitle="titleMessage" viewType="display" show="EFChatListViewController" />
+        <node id="yinlichang" caption="引力场(全部)" interTitle="titleGrivitaonalField" checked="1" menuIcon="menu_icon_ylc.png" viewType="display" show="ZoneController" navigationBarHidden="false" more="true"/>
+
+    </shejiao>
+    <xingji>
+        <node id="shangcheng" caption="星际商城" interTitle="titleStarMall"  viewType="display" show="EShopHomeController" />
+        <node id="yinhang" caption="星际影视" interTitle="titleStarMedia"  viewType="display" show="EShopMovieController"/>
+        <node id="hangqing" caption="星际行情" interTitle="titleStarMarket"  viewType="display" show="JFStockMarketHomeController" />
+    </xingji>
+    <jiankang>
+        <node id="jk" caption="健康" interTitle="titleHealth" viewType="display" show="JFHealthPageController" />
+    </jiankang>
+    <zixun>
+        <node id="zx" caption="资讯" interTitle="titleNews" viewType="display" show="EFNewsHomePageController" pusuType="news"/>
+    </zixun>
+
+    <zx>
+        <node id="zuixin" channelId="" title="最新" interTitle="newest" pusuType="news"/>
+        <node id="chuangtou" channelId="0001" title="创投" interTitle="ventureCapital"/>
+        <node id="qukuailian" channelId="0002" title="区块链" interTitle="blockChain"/>
+        <node id="zhengce" channelId="0003" title="政策" interTitle="policy"/>
+        <node id="bitebi" channelId="0004" title="比特币" interTitle="bitcoin"/>
+        <node id="jingzhengbi" channelId="0005" title="竞争币" interTitle="altcoin"/>
+        <node id="FGT" channelId="0006" title="FGT" interTitle="FGT"/>
+    </zx>
+
+    <xingji2>
+        <node id="xdpy" title="新的朋友" interTitle="titleNewFriend" menuIcon="chat/chat_address/xdpy.png" viewType="display" show="JFNewFriendController" navigationBarHidden="true" tabBarHidden="true" badgeValueKey="newFriendBadgeValue"/>
+        <node id="xjbl" title="星际部落" interTitle="titleInterGroup" menuIcon="chat/chat_address/xjbl.png" viewType="display" show="GroupChatViewController" navigationBarHidden="true" tabBarHidden="true"/>
+        <node id="xjtz" title="星际通知" interTitle="titleNotice" menuIcon="chat/chat_address/xjtz.png" viewType="display" show="JFGroupNoticeController" navigationBarHidden="true" tabBarHidden="true" badgeValueKey="newJoinGroupBadgeValue"/>
+        <node id="xjyy" title="星级应用" interTitle="titleApplication" menuIcon="chat/chat_address/xjyy.png" viewType="display" show="PublicTableViewController" navigationBarHidden="true" tabBarHidden="true"/>
+        <node id="xjhy" title="星际合约" interTitle="titleContract" menuIcon="chat/chat_address/xjhy.png" viewType="display" show="BuildingViewController" navigationBarHidden="true" tabBarHidden="true"/>
+    </xingji2>
+
+</package>
+

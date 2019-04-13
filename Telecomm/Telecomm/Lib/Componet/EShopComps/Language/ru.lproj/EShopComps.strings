@@ -1,0 +1,304 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏
+"EShopGoods" = "товар";
+"EShopEvaluation" = "оценивать";
+"EShopDetail" = "подробность";
+"EShopGoodsSku" = "Пожалуйста, выберите спецификацию";
+"EShopProductReview" = "Оценка продукта";
+"EShopPraise" = "Благоприятный комментарий";
+
+//底部工具栏
+
+"EShopCollection" = "собирать";
+"EShopCollected" = "Коллекция имеет";
+"EShopService" = "Обслуживание клиентов";
+"EShopCart" = "Корзина покупок";
+"EShopAddCart" = "Добавить в корзину";
+"EShopBuyNow" = "Купить сейчас";
+"EShopNoStart" = "Еще не началось";
+"EShopHaveEnd" = "Завершено";
+
+//分享相关
+"EShopSharFriends" = "Поделиться с друзьями";
+"EShopShareGrivitationField" = "Поделиться в гравитационном поле";
+
+//购物车
+"EShopDeleteCell" = "удалять";
+"EShopEdit" = "редактировать";
+"EShopComplete" = "полный";
+"EShopSettleAccounts" = "заселение";
+"EShopTotal" = "общий";
+"EShopNoGoods" = "Корзина нет товаров";
+"EShopSelected" = "выбранный";
+"EShopPurchaseAmount" = "Количество покупки";
+
+//我的商城
+"EShopMyMall" = "Мой торговый центр";
+"EShopMyOrder" = "Мой заказ";
+"EShopMyAddress" = "Мой адрес доставки";
+"EShopMyService" = "Мой сервис";
+"EShopScanAll" = "Посмотреть все";
+"EShopAttention" = "внимание";
+"EShopFootprint" = "след";
+"EShopExperience"="опыт";
+"EShopOrderAll" = "полный";
+"EShopPendingPayment"="Ожидающий платеж";
+"EShopToBeDelivered"="Ожидание отправки";
+"EShopRefundSuccess" = "Успешное возмещение";
+"EShopPendingReceipt"="В ожидании получения";
+"EShopComment"="В ожидании оценки";
+"EShopCompleted" = "Завершенный";
+"EShopCanceled" = "был отменен";
+"EShopClosed" = "закрыто";
+"EShopRefound"="Возврат денег";
+"EShopDeleted" = "удаленный";
+"EShopOrderWinTreasurePaySuccess" = "Успешная оплата заказа";
+"EShopOrderPayFail" = "Не удалось оплатить заказ";
+"EShopOrderWinTreasureWin" = "Сокровище выиграно";
+"EShopOrderWinTreasurePaying" = "Оплата заказа";
+"EShopOrderWinTreasurePaying2" = "Заказ оплачивается, наберитесь терпения";
+"EShopOrderSubmitted" = "Ваш заказ отправлен, пожалуйста, завершите оплату как можно скорее";
+"EShopOrderDelivering"="Ваш заказ готовится к доставке, будьте терпеливы";
+"EShopOrderDelivered"="Ваш заказ был отправлен, пожалуйста, дождитесь подтверждения получения";
+"EShopOrderRecieved" = "Ваш заказ был подписан, пожалуйста, оцените";
+"EShopOrderRecieved2" = "Пожалуйста, оцените";
+"EShopOrderCompleted"="Транзакция завершена";
+"EShopOrderCancelled"="Транзакция отменена";
+"EShopOrderReasonForShutdown"="Причина закрытия: пользователь активно закрывается";
+"EShopOrderDeleted" = "Заказ удален";
+
+//收藏
+"EShopMyCollection"="Моя коллекция";
+"EShopNoCollection" = "Нет предметов коллекции";
+"EShopAddCartSuccessfully" = "Присоединиться к корзине успешно";
+"EShopAddCartFail" = "Не удалось присоединиться к корзине";
+"EShopChooseDeteted" = "Пожалуйста, выберите элемент для удаления";
+"EShopDeteleExpiredFail" = "Не удалось удалить просроченные элементы";
+"EShopNoExpired" = "Нет просроченных товаров";
+"EShopChooseCollectionItem" = "Пожалуйста, выберите предмет, который вы хотите собрать";
+"EShopCanceledCollection" = "Сбор отменен";
+"EShopCancelCollection" = "Отмена сбора не удалась";
+"EShopAddCollection" = "Добавлена коллекция";
+"EShopCollectionSuccess" = "Добавьте коллекцию успеха!";
+"EShopCollectionFail" = "Не удалось добавить коллекцию!";
+
+//收货地址
+"EShopChooseAddress" = "Пожалуйста, выберите адрес доставки";
+"EShopAddress" = "Получающий адрес";
+"EShopAddNewAddress" = "Добавить новый адрес";
+"EShopEditAddress" = "Изменить адрес доставки";
+"EShopAddAddress" = "Добавить адрес доставки";
+"EShopSave" = "Сохранить";
+"EShopConsigneeName" = "Имя получателя (пожалуйста, используйте настоящее имя)";
+"EShopConsigneeNameTip" = "Пожалуйста, заполните имя";
+"EShopPhoneNumber" = "Мобильный номер";
+"EShopPhoneNumberTip" = "Пожалуйста, заполните номер телефона";
+"EShopCorrectPhoneNumberTip" = "Пожалуйста, введите правильный номер мобильного телефона";
+"EShopArea" = "область";
+"EShopAreaTip" = "Пожалуйста, заполните поле";
+"EShopDetailAddress" = "Подробный адрес улицы, номер дома сообщества и т. Д.";
+"EShopDetailAddressTip" = "Пожалуйста, заполните полный адрес";
+"EShopSetDefaultAddress" = "Установить в качестве адреса по умолчанию";
+"EShopInfomationUnsaved" = "Заполненная вами информация не была сохранена. Вы уверены, что вернетесь сейчас?";
+"EShopFailedUpdate" = "Обновление не удалось, пожалуйста, попробуйте еще раз";
+"EShopProvince" = "провинция";
+"EShopCity" = "город";
+"EShopArea2" = "зона";
+
+//我的订单
+"EShopCancelOrder" = "Отменить заказ";
+"EShopPayNow" = "Оплатить сейчас";
+"EShopBuyAgain" = "Купить снова";
+"EShopConfirmReceipt" = "Подтвердите получение";
+"EShopSureConfirmReceipt" = "Вы подтверждаете получение?";
+"EShopCommentNow"="Комментарий сейчас";
+"EShopDeleteOrder" = "Удалить заказ";
+"EShopTreasureDetails" = "Детали сокровищ";
+
+//订单详情
+"EShopOrderDetail" = "Детали заказа";
+"EShopTotalAmount" = "Общая сумма к оплате";
+"EShopTotalPayment" = "Общая оплата";
+"EShopMessage" = "Сообщение：";
+"EShopTradingHash" = "Торговый хеш：";
+"EShopShipmentNumber" = "Логистический номер заказа";
+"EShopOrderNumber" = "Номер заказа";
+"EShopOrderTime" = "Время заказа";
+"EShopLogisticsCompany" = "Логистическая компания";
+"EShopConfirmReceiptSuccess" = "Успешное получение";
+"EShopEnsureDeleteOrder" = "Вы уверены, что хотите удалить заказ?";
+"EShopDeleteOrderSuccess" = "Удалить заказ успешно";
+"EShopEnsureCancelOrder" = "Вы уверены, что отмените свой заказ?";
+"EShopCancelOrderSuccess" = "Отменить заказ успешно";
+"EShopToCart" = "Перейти в корзину";
+"EShopAddedCart" = "Товар был добавлен в корзину";
+"EShopFaiedToAddCart" = "Добавить в корзину не удалось, попробуйте еще раз";
+"EShopCopySuccessfully" = "Успешная копия";
+"EShopClose" = "близко";
+"EShopSum" = "в целом";
+"EShopPiece"="пункт";
+"EShopNoOrder" = "Нет связанных заказов";
+"EShopMoveToCollection" = "Перейти в мою коллекцию";
+"EShopRemove" = "Удалить элемент";
+"EShopRemoveExpiered" = "Удалить просроченные предметы";
+"EShopDeleteFailed" = "Удалить не удалось";
+"EShopUpdateFailed" = "Обновление не удалось";
+
+//付款
+"EShopPayMent" = "оплата";
+"EShopAliPay" = "Alipay";
+"EShopWeChat" = "Micro письмо";
+"EShopNeedToPay" = "Ожидание платежа";
+"EShopInsufficientBalance" = "Недостаточный баланс";
+"EShopRecharge" = "Для пополнения";
+"EShopPaymentMethods" = "Способ оплаты";
+"EShopOtherPaymentMethods" = "Другие способы оплаты";
+"EShopPaymentAlert1" = "Заказ отправлен, пожалуйста";
+"EShopPaymentAlert2" = "Полная оплата в течение";
+"EShopToBePaied" = "Ожидающий платеж";
+"EShopPaymentHour" = "когда";
+"EShopPaymentMinute" = "водораздел";
+"EShopPaymentSecond" = "второй";
+"EShopRMB" = "¥";
+"EShopPay" = "платить";
+"EShopNeedToPay"="Надо платить";
+"EShopRemain" = "прибавочный";
+"EShopRemainRequestFail" = "Запрос баланса не выполнен";
+"EShopReorderAlert" = "Заказ был закрыт из-за тайм-аута, пожалуйста, повторите заказ";
+"EShopChoosePayWay" = "Пожалуйста, выберите способ оплаты";
+"EShopPayWay" = "Способ оплаты";
+"EShopChooseOtherPayWay" = "Другие способы оплаты";
+"EShopPayUnfinished" = "Незавершенный платеж!";
+"EShopPayAbundon" = "Сдаваться";
+"EShopRechargeAgain" = "Re платить";
+"EShopPaySuccess" = "Успешная оплата!";
+"EShopPayFail" = "Платеж не прошел!";
+"EShopCondirmOrder" = "Подтвердить заказ";
+"EShopReciever" = "грузополучатель";
+"EShopRecieverAddress" = "Получающий адрес";
+"EShopBuyerMessage" = "Оставьте сообщение";
+"EShopBuyerMessageAlert" = "Сообщение (в течение 50 слов)";
+"EShopTotalAmount2" = "Общая сумма";
+"EShopOrderSubmit" = "Отправить заказ";
+"EShopOrderAlert3" = "Отправка заказа прошла успешно. В настоящее время несколько магазинов не поддерживают комбинированный платеж. Чтобы завершить платеж, перейдите на страницу «Мои заказы» - «Ожидающие платежи».";
+"EShopGoPay" = "Платить";
+"EShopAddressAlert" = "Пожалуйста, установите адрес доставки";
+"EShopNoAddressAlert" = "У вас еще нет адреса доставки, пожалуйста, нажмите Добавить";
+"EShopAdd" = "добавлять";
+"EShopCurrent" = "ток";
+"EShopGet" = "получить";
+"EShopFail" = "недостаточность";
+"EShopChoose" = "Пожалуйста, выберите";
+"EShopCurrentLess" = "Недостаточные текущие технические характеристики на складе";
+"EShopOrderBlank" = "Номер заказа пуст";
+"EShopMaxGoods" = "Максимальный лимит покупки был достигнут";
+"EShopAmount" = "количество";
+"EShopFullAmount" = "Адекватный инвентарь";
+"EShopTreasureNow" = "Мгновенное сокровище";
+"EShopChooseArea" = "Пожалуйста, выберите регион";
+"EShopSend" = "доставка";
+"EShopSendTo" = "Доставка в";
+"EShopTo" = "к";
+"EShopUnknownArea" = "Неизвестная область";
+
+//一元夺宝
+"EShopTreasure" = "Индиана";
+"EShopGoodsRelated" = "Товар, связанный";
+"EShopGoodsPrice" = "Товарная цена";
+"EShopGoodsTitle" = "Название продукта";
+"EShopGoodsSoldOut" = "Распродано";
+"EShopEnterBrand" = "Введите марку";
+"EShopSellingGoods" = "Продажа товаров";
+"EShopSolded" = "ПРОДАНО";
+"EShopValue" = "значение";
+"EShopShareEvluate" = "Оценка одного солнца";
+"EShopCommentFailed" = "Не удалось загрузить комментарий";
+"EShopUrFeel" = "Расскажи мне о своих чувствах.";
+"EShopNilCommentAlert" = "Содержание комментария не может быть пустым";
+"EShopEvaluateVeryPoor" = "Очень плохой";
+"EShopEvaluatePoor" = "разница";
+"EShopEvaluateGeneral" = "общий";
+"EShopEvaluateGood" = "хорошо";
+"EShopEvaluateVeryGood" = "Очень хорошо";
+"EShopScore" = "счет";
+"EShopNoComment" = "Пока нет оценки продукта";
+"EShopScanMore" = "Увидеть больше";
+"EShopStartOfActivity" = "Начиная с мероприятия";
+"EShopApplyRefound" = "Подать заявку на оплату";
+"EShopGoodsState" = "Статус товара";
+"EShopNoRecieved" ="Не получил";
+"EShopRecievedGoods" = "Полученные товары";
+"EShopRefoundReason" ="Причина возврата";
+"EShopRefoundWithoutReason" = "Семь дней нет причин для возврата";
+"EShopRefoungNotLike" = "Съемка неправильно / плохой эффект / неприязнь";
+"EShopRefoundSize" = "Проблема размера";
+"EShopRefoundQuantity" = "Проблема качества";
+"EShopRefoundNoLovely" = "Клиенту недостаточно любви";
+"EShopRefoundDeicribe" = "Не соответствует описанию";
+"EShopRefoundSellerSendFault" = "Продавец отправил неправильный товар";
+"EShopRefoundGoodsFake" = "Поддельные и дрянные продукты";
+"EShopRefoundEmpty" = "пустой пакет";
+"EShopRefoundOther" = "Другое";
+"EShopAddDescription" = "Добавить описание";
+"EShopRefoundMoney" = "Сумма возврата";
+"EShopRefoundDescription" = "Инструкции по возврату";
+"EShopOptional" = "Необязательно";
+"EShopPhotoFail" = "Не удалось загрузить фотографии";
+"EShopSenDdirectly" = "Напрямую отправлено";
+"EShopMaxPhotoAlert" = "Вы можете добавить до 6 изображений";
+"EShopUploadDocuments" = "Загрузить учетные данные";
+"EShopChooseWayOfService" = "Выбрать тип службы";
+"EShopRefoundOnly" = "Только возврат";
+"EShopNorectainedAndAgreed" = "Неполученные товары (включая неподписанные) или продавец согласен согласиться";
+"EShopRefoundMoney" = "Возврат возврата";
+"EShopRecieveAndRefound" = "Товары были получены и должны быть возвращены за полученные товары";
+"EShopUse" = "Использовать";
+"EShopCanUse" = "Доступен";
+"EShopPressure" = "Согласен";
+"EShopEnterNum" = "Пожалуйста, введите количество";
+"EShopBeyondRemain" = "Превышен оставшийся номер";
+"EShopBeyondMax" = "Превышено максимальное использование";
+"EShopMaxNum" = "Максимальное использование";
+"EShopPprietary" = "Самостоятельная работа";
+"EShopLuckyNum" = "Это счастливое число";
+"EShopNoGuess" = "Еще не открыто, пожалуйста, зайдите позже";
+"EShopHexadecimal" = "Последние 8 цифр гекса";
+"EShopGetGuess" = "Поздравляем, вы выиграли приз, пожалуйста, продолжайте!";
+"EShopNoGetGuess" = "К сожалению, вы не выиграли, пожалуйста, продолжайте!";
+"EShopSoldOutTime" = "Время продажи:";
+"EShopSoldOutBlock" = "Номер блока времени продажи:";
+"EShopSoldOutNumber" = "Счастливый номер блока:";
+"EShopSoldOutHash" = "Значение хэша счастливого блока:";
+"EShopSoldOutPeople" = "Общее количество победителей:";
+"EShopCurrentNumber" = "Это счастливое число:";
+"EShopMoreThan" = "Осталось";
+"EShopTreasurePeople" = "Общее количество победителей";
+"EShopLuckyNumber" = "Счастливый номер";
+"EShopTheDecimal" = "включить в десятичное число";
+"ESShopSelectall" = "Выбрать все";
+"ESShopOperationFailed" = "Операция не выполнена, пожалуйста, попробуйте еще раз";
+"ESShopNeedToPay" = "Ожидание оплаты, вам все еще нужно заплатить";
+"ESShopSignature" = "Подпись";
+"ESShopSignComplete" = "Подпись завершена, покупается";
+"ESShopResultConfirm" = "Подтверждение результата оплаты \n Пожалуйста, введите мой список заказов позже";
+"ESShopTransionFailAgain" = "Транзакция не удалась, повторите попытку";
+"ESShopSignFailAgain" = "Сбой подписи, повторите попытку";
+"ESShopRechargeFailed" = "Ошибка пополнения счета";
+"ESShopHome" = "Домой";
+"EShopDefault" = "[по умолчанию]";
+"EShopYHHD" = "Предложение:";
+"EShopInvalid" = "Не удалось";
+"EShopPaymentError" = "Ошибка оплаты";
+"EShopPayNotItem" = "Не получить предмет";
+
+// 请求失败提示
+"EShopRequestError" = "Ошибка запроса";
+"EShopReload" = "перезагружать";
+"EShopStartTime" = "Время начала:";
+"EShopEndTime" = "Время окончания:";

@@ -1,0 +1,704 @@
+/*
+ ChatComps.strings
+ ChatComps
+ 
+ Created by 赵洪壮 on 2018/9/10.
+ Copyright © 2018年 Javor Feng. All rights reserved.
+ */
+// Chatlist-> EFChatListViewController
+"chatHaveNoMessageData" = "Դուք դեռ հաղորդագրություններ չեք ունեցել";
+"chatAnythingCanHappen" = "Ամեն ինչ կարող է պատահել";
+"chatIsDelete" = "Ցանկանում եք ջնջել";
+"chatMarkedAsRead" = "Նշում որպես ընթերցված";
+
+// chat-> EFChatStartGounpChatViewController
+"chatSelectContacts" = "Ընտրեք Կապը";
+"chatDeleteMember" = "Ջնջել անդամը";
+"chatNoContactsWere" = "Ոչ մի կոնտակտ ընտրված չէ";
+"chatGroupStart" = "Խնդրում ենք սպասել...";
+"chatAddingGroupMembers" = "Ավելացնել խմբի անդամներ ...";
+"chatFailedToAddMember" = "Ավելացնել անդամ չհաջողվեց";
+"chatInvite" = "Հրավեր";
+"chatJoinTheTribe" = "Միացեք Հորդին";
+"chatCreateGroupFailed" = "Ստեղծեք խումբը ձախողվեց";
+"chatDeleteMemberFailed" = "Չհաջողվեց ջնջել խմբի անդամը";
+
+// ChatAnimationView
+"chatGoldCoin" = "Ոսկե մետաղադրամներ";
+
+// EFMessageService
+"chatOfflineNotice" = "Անցանց հաղորդագրություն";
+"chatYourAccountIsForcedToGoOffline" = "Ձեր հաշիվը պարտադիր է գնալ անցանց";
+"chatOriginalImage" = "Original պատկեր"; //亚美尼亚语翻译就是英文
+"chatPhotos" = " լուսանկար";
+"chatUnableToRecord" = "Անհնար է գրել";
+"chatAllowAccessToTheMicrophone" = "Խնդրում ենք թույլատրել մուտք գործել խոսափող` \"Կարգավորումներ - Գաղտնիություն - Միկրոֆոն\": ";
+"chatTalk" = "անցկացնել եւ խոսել";
+"chatRecording" = "Սեղմեք գրանցել";
+"chatChangeSound" = "պահել ձայնը";
+"chatReleaseToListen" = "Եկեք փորձենք այն դուրս";
+"chatUnlockToSend" = "Հեռացնելուց հրաժարվելու համար";
+"chatTalkingTimeIsTooShort" = "Խոսելու ժամանակը չափազանց կարճ է";
+"chatEveryoneCanNotTalk" = "Բոլոր անդամները արգելված են";
+
+// JFChatTipsContentUtil
+"chatTheOtherPartyHasSuccessfullyReceivedFile" = "Մյուս կողմը հաջողությամբ ստացել է ֆայլը";
+"chatYouHaveSuccessfullyReceivedTheFile" = "Դուք հաջողությամբ ստացել եք ֆայլը";
+"chatSelfRecallMessage" = "Դուք հաղորդագրություն եք հետ կանչել";
+"chatSomeOneRecallMessage" = "Հաղորդագրություն վերցված է";
+
+// SendArticleController
+"chatAnnouncement" = "Հայտարարություն";
+"chatClickTeSelectImage" = "Սեղմեք, ընտրեք պատկերը";
+"chatPleaseEnterAPictureTitle" = "Խնդրում ենք մուտքագրել նկարի վերնագիր";
+"chatPleaseEnterAPageTitle" = "Խնդրում ենք մուտքագրել էջի անվանումը";
+"chatPleaseEnterAWebLink" = "Խնդրում ենք մուտքագրել վեբ հղում";
+"chatSelectImageSource" = "Ընտրեք պատկերի աղբյուրը";
+"chatBackgroundImageCannotBeEmpty" = "Ֆոնային պատկերը չի կարող դատարկ լինել";
+"chatTheTitleCanNotBeBlank" = "Տիտղոսը չի կարող դատարկ լինել";
+"chatInformedLinkFormatError" = "Ծանուցչի հղման ձեւաչափը սխալ է";
+
+// EFMessageWebItem
+"chatPageTitle" = "էջի թեման";
+
+// JFVoiceAudioPlayer
+"chatAnErrorOccurredWhileCreatingAPlaybackObjectErrorMessage" = "Հնարավորություն է ստեղծվել նվագարկման օբյեկտի ստեղծման ժամանակ, սխալ հաղորդագրություն";
+
+// JFSpeechRecognitionItem
+"chatUnrecognized" = "(չճանաչված)";
+
+// JFSecretManager
+"chatBasePasswordIsUsedToDecryptThePasswordOfTheMessage" = "Հաղորդագրության վերծանման համար բազային գաղտնաբառով օգտագործվող գաղտնաբառը";
+"chatDecrypting" = "Decrypting"; // 外来语
+
+// JFTransferDetailsController
+"chatInterstellarID" = "Մյուս կողմի միջաստղային ID:";
+"chatexchangeID" = "փոխանակման ID:";
+
+// JFTransferItem
+"chatTransactionTransfer" = "Գործարքի փոխանցում";
+"chatHasBeenTransferredToYourBase" = "փոխանցվել է ձեր բազային";
+"chatTransactionOut" = "գործարք դուրս";
+"chatHasBeenTransferredToTheOtherBase" = "փոխանցվել է այլ բազային";
+
+// SelectRecentFriendController
+"chatSendTo" = "ուղարկել";
+"chatForwardTo" = "Փոխանցել";
+"chatShareTo" = "Համօգտագործել";
+"chatShareTo2" = "Համօգտագործել";
+
+// JFChatListCluesStatement
+"chatYouWereMentioned" = "[ինչ-որ մեկը @ Ես]";
+
+// EFChatAddFriendDetailViewController
+"chatPersonalDetails" = "Անձնական տվյալներ";
+"chatAddToAddressBook" = "Ավելացնել հասցեագիրք";
+"chatUnableToAddYourselfToYourContacts" = "Դուք չեք կարող ավելացնել ձեր ընկերոջը";
+"chatTheOtherPartyIsAlreadyYourFriend" = "Մյուս կուսակցությունը արդեն ձեր ընկերն է";
+"chatFriendRequestIsBeingSent" = "Ընկերության հայցը ուղարկվում է ...";
+"chatFriendRequestSentSuccessfully" = "Ընկերակցության խնդրանքը հաջողությամբ ուղարկվեց";
+"chatFriendRequestFailedToSendReason" = "Ընկերի խնդրանքը պատճառ չհաջողվեց ուղարկել";
+
+// EFChatAddFriendViewController
+"chatAddFriends" = "Ավելացնել ընկեր";
+"chatUsernameOrMobileNumber" = "Մականուն / հեռախոսի համարը";
+"chatFindTheTribe" = "Գտնել հորդը";
+"chatScanQRCodeBusinessCard" = "Փնտրեք QR կոդը այցեքարտն";
+"chatGetMoreInformationAndServices" = "Ստացեք լրացուցիչ տեղեկություններ եւ ծառայություններ";
+"chatFindMoreTribes" = "Գտնել ավելի ցեղեր";
+"chatSearch" = "Որոնում";
+"chatSearchCriteriaCannotBeEmpty" = "Որոնման չափանիշները չեն կարող դատարկ լինել";
+"chatLookingForContacts" = "Գտնել կոնտակտներ ...";
+"chatFindFailure" = "Գտնել ձախողվեց";
+"chatUnableToFindUser" = "Անհնար է գտնել օգտվողը";
+
+// EFChatAddGroupViewController
+"chatTribeIDAndTribeName" = "ցեղային ID / տոհմի անունը";
+"chatLookingForTribes" = "Գտնելով Հորդը ....";
+"chatUnableToFindTribe" = "Չհաջողվեց գտնել ցեղը";
+"chatTheDataServiceCannotBeAccessedPleaseContactTheAdministrator" = "Տվյալների ծառայությունը չի կարող մուտք գործել, խնդրում ենք կապ հաստատել ադմինիստրատորին";
+
+// EFChatAddServiceAndApplicationViewController
+"chatSearchForApplicationAccountsAndServiceAccounts" = "Որոնման համարը եւ ծառայության համարը";
+"chatTheApplicationAccountsDoesNotExist" = "Դիմումի համարը գոյություն չունի";
+
+// ServiceAndApplicationInfoViewController
+"chatFeatures" = "Ֆունկցիան ներածություն.";
+"chatConsumerTel" = "Հաճախորդների սպասարկման հեռախոսահամար.";
+"chatViewHistoryNews" = "Դիտել պատմության ուղերձը";
+"chatAttention" = "Հետեւեք";
+"chatFollowing" = "Ուշադրություն ...";
+"chatFollowed" = "Հետեւեք հաջողություն";
+"chatFollwedApplicationSucdessfulTip" = "Դիմեք հաջողությամբ ուղարկեք, խնդրում ենք սպասել ադմինիստրատորին, ստուգման արդյունքում ավտոմատ կերպով հետեւեք հայտի համարին";
+"chatFollowedFailure" = "Հետեւեք ձախողումը ...";
+
+// GroupChatViewController
+"chatInterPlanetTribe" = "միջաստղային ցեղ";
+"chatInterPlanetTribeNumber" = "Միջնադարյան ցեղ";
+
+// GroupNoticeViewController
+"chatNotice" = "Ծանուցում";
+
+// NewFriendViewController
+"chatNewFriend" = "նոր ընկեր";
+"chatThisUserDoesNotExist" = "Այս օգտվողը գոյություն չունի";
+"chatYouCanNotAddYourselfToYourContacts" = "Դուք չեք կարող ավելացնել ձեր հասցեի գիրքը";
+"chatAdded" = "Ավելացված է";
+"chatWeAreAlreadyFriendsChatTogether" = "Մենք արդեն ընկերներ ենք, զրուցել միասին!";
+
+// JFGroupNoticeCell
+"chatNoVerificationInformation" = "Վավերացման տեղեկություն չկա";
+"chatApplicationsForMembership" = "Դիմել միանալու համար";
+"chatAgree" = "Համաձայնել";
+"chatApproved" = "Արդեն համաձայնել է";
+"chatRejected" = "Չընդունվեց";
+"chatBeRejected" = "Չընդունվեց";
+
+// JFGroupNoticeController
+"chatAgreed2" = "Համաձայնեք";
+"chatJoinTheTribeApplication" = "Դիմում միանալու ցեղին";
+"chatTribalApplication" = "ցեղային դիմում";
+
+// JFGroupNoticeDetailController
+"chatAdditionalMessage" = "Լրացուցիչ հաղորդագրություն";
+
+// JFNewFriendCell
+"chatRefuse" = "Չեղարկել";
+"chatAgreedToThe Application" = "Արդեն համաձայնում եք հայտի հետ";
+"chatSentTheApplication" = "Հայտը ուղարկվել է";
+"chatTheApplicationHasBeenRejected" = "Հայտը մերժվել է";
+"chatTheApplicationWasRejected" = "Հայտը մերժվեց";
+"chatYouHaveDeclinedTheRequest" = "Դուք մերժել եք հարցումը";
+"chatFriendRequests" = "Ընկերակցության հայտ";
+
+// JFNewFriendDetailController
+"chatYouHaveRejectedThisFriendRequest" = "Դուք մերժել եք ընկերոջ խնդրանքը";
+"chatNumber" = "համարը";
+"chatNickname" = "մականուն";
+"chatChangeRemark" = "Փոփոխել հիշատակի անունը";
+"chatAddRemark" = "Խնդրում ենք նշել նշման անունը";
+
+// NewFriendDetailCellOthers
+"chatDoShareMyMoments" = "Թույլ մի տվեք, որ տեսնի իմ շրջապատի ընկերները";
+"chatHideHisMoments" = "Մի ընկերոջ շրջապատին նայեք";
+
+// NewFriendDetailViewController
+"chatDetails" = "Մանրամասներ";
+"chatBlock" = "Ավելացնել սեւ ցուցակ";
+"chatApprovedd" = "անցել հաստատում";
+
+// DetailViewController
+"chatSignature" = "անձնական ստորագրություն";
+"chatSetRemark" = "Նշում նշեք";
+"chatDeleteFriend" = "Ջնջել ընկերոջը";
+"chatSetGroupNickname" = "Խմբի խմբի մականունը";
+"chatDeletingFriendFailed" = "Ջնջել ընկերը ձախողվեց";
+"chatAddFriend" = "Ավելացնել ընկեր";
+"chatSendMessage" = "ուղարկել հաղորդագրություն";
+
+// RemarkFriendNameViewController
+"chatRemarks" = "Նշումներ";
+"chatAddRemarks" = "Ավելացնել գրառումը";
+"chatRemarksTip" = "Նշման անունը (անունը չպետք է չափազանց երկար լինի, տասը չինարեն նիշից ~)";
+"chatRemarksAreTooLong" = "Նշանի անվանումը չափազանց երկար է";
+"chatModifyingGroupNickname" = "Խմբի մականունը փոփոխելը";
+"chatModifyGroupNicknameFailed" = "Փոփոխել խումբը մականունը չի հաջողվել";
+"chatRemarkNameCantNotBeEmpty" = "Նշանի անունը չի կարող դատարկ լինել";
+"chatModifyingRemarkName" = "Նիշերի փոփոխում";
+"chatModifyRemarkNameFailed" = "Փոփոխել նշումները չհաջողվեց";
+
+// AddressPersonDeailCell
+"chatBaseCoordinatesHaveBeenCopied" = "Հիմնական կոորդինատները պատճենվել են";
+"chatGroup" = "խումբ";
+
+// JoinGroupRequestUserCell
+"chatJoined" = "միացել";
+"chatWaitingForVerification" = "Վավերացման սպասում";
+"chatAgree3" = "Ընդունել";
+"chatRequestToAddYouAsFriend" = "Խնդրում ենք Ձեզ որպես ընկեր դառնալ";
+
+// NewFriendCell
+"chatHaveBecomeFriendsWithYou" = "Դու ընկեր ես դարձել";
+"chatFriendRequestHasBeenSent" = "Ընկերի հայցը ուղարկվել է";
+"chatHasBeenSent" = "ուղարկված";
+"chatDownloadTheApplicationAccountsResourceFile" = "Ներբեռնեք ծրագրի ռեսուրսի ֆայլը";
+
+// EFApplicationJumpUtil
+"chatDownload" = "Ներբեռնեք հիմա";
+"chatFailedToDownloadResourceFileCanNotEnterApplicationAccounts" = "Չհաջողվեց բեռնել ռեսուրսի ֆայլը, չի կարող մուտքագրել հայտի համարը, կրկին փորձեք";
+"chatDownloadingMasterData" = "Ներբեռնման հիմնական տվյալներ";
+"chatMasterDataDownloadFailed" = "Վարպետի տվյալների ներբեռնումը ձախողվեց, կրկին փորձեք";
+
+// DetailedInfomationViewController
+"chatReceiveMessage" = "Ստանալ հաղորդագրություն";
+"chatTopApplicationAccounts" = "լավագույն հայտի համարը";
+"chatEnterTheApplicationAccounts" = "Մուտքագրեք հայտի համարը";
+"chatUnsubscribe" = "Անհրաժեշտ է";
+"chatAreYouSureYouWantToCancelTheApplicationAccounts" = "Դուք համոզված եք, որ անթույլատրելի է հավելվածի համարը";
+"chatUnfollowSuccess" = "Հաջորդական հաջողությունը";
+"chatUnfollowFailure" = "Անհաջողություն ձախողել";
+
+// ChatInterstellarApplication
+"chatInterstellarApplication" = "միջաստղային հայտ";
+
+// EFApplicationSidebarViewController
+"chatMuteNotifications" = "Հաղորդագրություն չխանգարել";
+"chatVersionUpDate" = "Հայտնաբերել նոր տարբերակը";
+"chatResourceFileUpdate" = "ռեսուրսների ֆայլի թարմացում";
+
+// ChatDetailViewController
+"chatChatDetails" = "Զրուցարան Մանրամասներ";
+"chatTopChat" = "լավագույն զրուցարան";
+"chatPleaseEnterInformation" = "Խնդրում ենք մուտքագրել տեղեկատվություն";
+"chatExpression" = "արտահայտություն";
+
+// EFChatViewController
+"chatSkipUpToCancelSending" = "Մատը սահեցրեք, չեղյալ ուղարկեք";
+"chatResendTheMessage" = "Վերականգնել հաղորդագրությունը";
+"chatResend" = "վերահրատարակում";
+
+// chatNetworkUnavailable
+"chatNetworkUnavailable" = "(ցանցը հասանելի չէ)";
+
+// JFChatViewController
+"chatUnreadMessage" = " չընթերցված հաղորդագրություն";
+
+// JFPersonChatViewController
+"chatTyping" = "Մյուս կողմը մուտքագրում է ...";
+
+// EFMessageListCell
+"chatDraft" = "նախագիծ";
+
+// EFChatListViewController
+"chatCurrentAccountIsInOther" = "Ընթացիկ հաշիվն այլ է";
+
+// JFChatSearchResultListController
+"chatContact" = "կոնտակտ";
+
+// JFChatSearchGroupCell
+"chatTribeID" = "Ցեղ ID:";
+
+// BTCTransferOutController
+"chatFailedToGetFriendInformationPleaseTryAgain" = "Հավատքի հաղորդագրության ձեռքբերումը ձախողվեց, կրկին փորձեք";
+
+// EFChatStartGounpChatViewController 转账controller相关
+"chatFaceToFaceGrouping" = "Դեմ առ դեմ խմբավորում";
+"chatChooseGroup" = "Ընտրեք խումբ";
+"chatMakeSureYouWantToDeleteTheGroupMember" = "Համոզվեք, որ ցանկանում եք ջնջել խմբի անդամը";
+"chatWhetherToRemove" = "Արդյոք դա կլինի";
+"chatFromTheGroup" = "Հեռացնել խմբից";
+
+// GroupIntroduceCell
+"chatThisGroupWasCreatedIn" = "Այս խումբը ստեղծվել է";
+
+// GroupApplicantViewController
+"chatGettingTribalData" = "Ստացեք ցեղային տվյալներ.";
+"chatTribalIntroduction" = "ցեղային ներդրում";
+"chatGroupOwnerAndAdministrator" = "Խմբի սեփականատեր / ադմինիստրատոր";
+"chatApplyToJoinTheTribe" = "Դիմել մի ցեղին միանալ";
+"chatEnterTheTribeToChat" = "Մուտքագրեք ցեղային զրույցը";
+"chatJoiningTheTribe" = "Համատեղին միանալը";
+"chatYouHaveJoinedThisTribe" = "Դուք միացել եք այս ցեղին";
+"chatAddGroupFailed" = "Հավելվածը ձախողվեց, փորձեք ավելի ուշ կրկին փորձել";
+"chatJoinedTheTribe" = "Միացեք հորդին";
+
+// GroupMemberListViewController
+"chatTribalMember" = "ցեղային անդամներ";
+"chatGroupOwner" = "խմբի սեփականատեր";
+"chatAdministrator" = "Ադմինիստրատոր";
+"chatSetUpTribalAdministrator" = "Սահմանել ցեղային կառավարիչ";
+"chatDeleteTribalMembers" = "Ջնջել ցեղային անդամները";
+"chatCancelTribalAdministrator" = "Չեղարկել ցեղային կառավարիչը";
+"chatDeleteTribalMembersFailed" = "Ցանցի անդամների ջնջումը ձախողվեց";
+"chatSettingUpAdministrator" = "Կարգավորող կառավարիչ";
+"chatSettingAdministratorFailed" = "Սահմանել ադմինիստրատորը չի հաջողվել";
+"chatUnregisteringAdministrator" = "Անհավատացնող ադմինիստրատորի կարգավիճակը";
+"chatCancellationOfAdministratorStatusFailed" = "Չեղարկել ադմինիստրատորի ինքնությունը";
+
+// GroupQRCodeCardViewController
+"chatQRCodeBusinessCard" = "QR կոդը բիզնես քարտ";
+"chatTribalName" = "ցեղային անուն";
+"chatSweepTheQRCodeAboveAndJoinTheTribe" = "Վերացնել վերեւում QR կոդը եւ միանալ ցեղին";
+
+// JFAddGroupController
+"chatJoinTheTribeToApplySuccessfully" = "Միացեք ցեղային դիմումը հաջողությամբ";
+"chatTheApplicationFailedPleaseTryAgainLater" = "Հայտը չհաջողվեց, փորձեք ավելի ուշ կրկին փորձել";
+"chatFillInTheVerificationInformation" = "Լրացրեք ստուգման տեղեկատվությունը";
+"chatIAm" = "Ես եմ";
+
+// JFGroupDetailController
+"chatFailedToGetGroupMember" = "Ստացեք խմբի անդամի ձախողումը";
+"chatFailedToGetAddress" = "Չհաջողվեց ստանալ հասցեն";
+"chatOnlyOwnersAndManagersCanDoThis" = "Միայն սեփականատերերն ու ադմինիստրատորները կարող են դա անել";
+"chatPleaseEnterANewTribalName" = "Խնդրում ենք մուտքագրել նոր ցեղային անուն";
+"chatModifyingTheTribalNameFailed" = "Չհաջողվեց փոփոխել ցեղի անունը";
+"chatTribalEnglishName" = "ցեղային անգլերեն անունը";
+"chatPleaseEnterAnEnglishName" = "Խնդրում ենք մուտքագրել անգլերեն անունը";
+"chatSettingEnglishNameFailed" = "Չհաջողվեց ստեղծել անգլերեն անունը";
+"chatPleaseEnterTheCorrectEnglishCharacters" = "Խնդրում ենք մուտքագրել ճիշտ անգլերեն նիշերը";
+"chatMyAliasInGroup" = "Այս ցեղում իմ մականունը";
+"chatPleaseEnterANewTribalNickname" = "Խնդրում ենք մուտքագրել նոր ցեղային մականուն";
+"chatModifyingTheNoteNameFailed" = "Անհրաժեշտ է փոփոխել հիշողությունը անունը";
+"chatTribalAddressAlreadyExists" = "Տոհմային հասցեն արդեն գոյություն ունի";
+"chatAddTribalAddressSuccessfully" = "Ավելացնել ցեղային հասցե հաջողությամբ";
+"chatAddingTribalAddressFailed" = "Չհաջողվեց ավելացնել ցեղային հասցե";
+"chatMakeSureDelete" = "Եկեք եւ միացեք";
+"chatMakeSureDelete2" = "?";
+"chatComeJoinThe" = "Եկեք եւ միացեք";
+"chatTribe" = "ցեղ";
+"chatMakeSureToDissolveTheTribe" = "Որոշել է հերոսների բաժանումը";
+"chatMakeSureToQuitTheTribe" = "Համոզվեք, որ թողեք ցեղը";
+"chatDissolvingTheTribe" = "Հորդի լուծում";
+"chatExitingTheTribe" = "Այս ցեղից դուրս գալը";
+
+// JFInputController
+"chatSetupFailedPleaseTryAgainLater" = "Կարգավորումը չկատարվեց, փորձեք ավելի ուշ կրկին փորձել";
+
+// JFGroupDetailManager
+"chatTribalName2" = "ցեղային անուն";
+"chatFreeGroup" = "Ազատ է մտնել խումբը";
+"chatAllMembersAreBanned" = "Բոլոր անդամները արգելված են";
+"chatTribalWorkAddress" = "Ցեղի աշխատանքի հասցե";
+"chatCreationTime" = "Ստեղծել ժամանակ";
+"chatSharingTribe" = "Ցույց տալով ցեղը";
+"chatNotSet" = "Չի սահմանվել";
+
+// DeleteTableViewCell
+"chatDeleteAndExit" = "Ջնջել եւ դուրս գալ";
+
+// GroupMemberCell
+"chatGroupMember" = "խմբի անդամ";
+
+// GroupMemberDetailCell
+"chatGroupOwner2" = "խմբի սեփականատեր";
+"chatAdministrator2" = "Ադմինիստրատոր";
+
+// ChangeNickNameViewController
+"chatPleaseEnterNewNickname" = "Խնդրում ենք մուտքագրել նոր մականուն";
+"chatGoodNamesCanMakeItEasierForYourFriendsToRememberYou" = "Լավ անունը հեշտացնում է ձեր լավ ընկերների համար հիշել ձեզ";
+"chatChangeNickname" = "Փոխել մականունը";
+"chatSubmitting" = "Ներկայացնելը ...";
+"chatNicknameModifiedSuccessfully" = "Մականունը հաջողությամբ փոխվել է";
+"chatNicknameModificationFailed" = "մականունը փոփոխություն չի կատարվել";
+
+// MineInformationViewController
+"chatPersonalInformation" = "Անձնական տվյալներ";
+"chatUnfilled" = "լրացված չէ";
+"chatReceiveStrangerNews" = "Ստանդարտ հաղորդագրությունների ստացում";
+"chatMyReceiptCode" = "Իմ հավաքածուի կոդ";
+"chatUnderRevision" = "Փոփոխում ...";
+
+// SigNatureViewController
+"chatPleaseEnterNewSignature" = "Խնդրում ենք մուտքագրել նոր ստորագրություն";
+"chatPersonalSignatureChangedSuccessfully" = "Անհատական ստորագրության փոփոխություն հաջողվեց";
+"chatPersonalSignatureModificationFailed" = "Անհատական ստորագրության փոփոխություն չի կատարվել";
+
+// MyLoginDeviceController
+"chatGoingOffline" = "Գծի տակ";
+"chatSendOfflineMessageSuccessfully" = "Ուղարկեք անցանց հաղորդագրությունը հաջողությամբ";
+"chatDownlineFailed" = "Ներբեռնման ձախողվեց, խնդրում ենք փորձեք ավելի ուշ:";
+"chatUnderline" = "Անցանց";
+
+// JFCheckPaymentCodeController
+"chatTheOtherPartyHasNotSetTheReceiptCode" = "Մյուս կողմը դեռ չի ստացել անդորրագիրը";
+"chatRemindHim" = "Հիշեցրեք նրան";
+// 的
+"chatHas" = "է";
+"chatCollectionCode" = "Ստացական կոդը";
+"chatIdentificationReceiptCode" = "Նշեք անդորրագիրը";
+"chatSaveTheReceiptCode" = "Պահպանել անդորրագիրը";
+"chatTheRecognitionResultHasBeenCopiedToTheClipboard" = "ճանաչման արդյունքը պատճենվել է clipboard";
+"chatScanResult" = "սկան արդյունք";
+"chatYouHaveNotYetGeneratedQRCode" = "Դուք դեռ չեք ստեղծել QR կոդ";
+
+// JFMyPaymentCodeController
+"chatSetMyWeChatCollectionCode" = "Սահմանեք իմ WeChat հավաքագրման կոդը";
+"chatSetMyAlipayCollectionCode" = "Սահմանել իմ Alipay հավաքագրման կոդ";
+"chatThisImageDoesNotContainQRCode" = "Պատկերի մեջ չկա QR կոդ:";
+"chatFailedToSetThePaymentCodePleaseTryAgain" = "Չհաջողվեց հաստատել ստացական կոդը, խնդրում ենք նորից փորձել";
+
+// EFMyQRCodeViewController
+"chatScanQRCodeAndAddMeAsFriend" = "Սկսել QR կոդ, ավելացնել ինձ որպես ընկեր";
+
+// EFQRCodeViewController
+"chatCurrentVersion" = "ընթացիկ տարբերակ";
+"chatScanTheQRCodeAboveToDownload" = "Ստուգեք վերը նշված QR կոդը, ներբեռնեք";
+
+// EnergyExchangeViewController
+"chatScanQRCodeForEnergyExchange" = "Էներգետիկ փոխանակման համար QR կոդի սկանավորում";
+"chatSeTheNumberOfExchanges" = "Սահմանել միավորների քանակը";
+"chatPleaseEnterTheCorrectEnergy" = "Խնդրում ենք մուտքագրել ճիշտ էներգիան";
+
+// ExchangeRecordCell
+"chatTransferEnergy" = "էներգիայի փոխանցում";
+"chatTransferOutEnergy" = "դուրս է գալիս էներգիա";
+
+// QRCodeCardViewController
+"chatSweepTheQRCodeAboveAndFollowTheApplicationAccounts" = "Ստուգել վերը QR կոդը եւ հետեւեք հայտի համարը";
+"chatSweepTheQRCodeOnTheTopAndAddMeAsFriend" = "Վերացնել վերը QR կոդը եւ ավելացնել ինձ որպես ընկեր";
+
+// RichScanResultViewController
+"chatQRCodeScanResult" = "QR կոդը սկան արդյունք";
+"chatTheFollowingContentIsTheScanResultPleaseClickIfYouWantToUse" = "Հետեւյալ բովանդակությունը սկանավորման արդյունք է, սեղմեք\" Եթե անհրաժեշտ է օգտագործել ";
+
+// RichScanViewController
+"chatAutomaticallyScanTheQRCodeByPlacingItInTheViewfinder" = "Ավտոմատ կերպով սկան QR կոդը դիտարկիչի մեջ";
+"chatTheDeviceDoesNotSupportAccessToTheAlbum" = "Սարքը չի աջակցում ալբոմի մուտքը, խնդրում ենք այն սահմանել Կարգավորում-> Գաղտնիություն -> Լուսանկարներ:";
+
+// SetExchangeCountViewController
+"chatExchangeQuantity" = "Փոխանակման քանակ";
+"chatPleaseEnterTheNumberOfExchanges" = "Խնդրում ենք մուտքագրել բորսաների քանակը";
+
+// ShowWebViewController
+"chatWebsiteLoading" = "Էջ բեռնում ...";
+
+// RecentFileController
+"chatRecentFile" = "Վերջին ֆայլեր";
+
+// RecentFileListController
+"chatCanOnlyChooseAfterDownloadingTheFile" = "Ընտրեք ֆայլը բեռնելուց հետո";
+"chatGoDowmload" = "Գնալ ներբեռնելու համար";
+"chatAreYouSureToDeleteTheFile" = "Դուք համոզված եք ջնջել ֆայլը";
+
+// RecommedFriendController
+"chatReferralContact" = "Առաջարկվող կոնտակտ";
+"chatTribalBusinessCard" = "Տոհմային այցեքարտ";
+"chatPersonalBusinessCard" = "Անձնական գործարար քարտ";
+
+// JFCoinChosenController
+"chatSelectCurrency" = "Ընտրեք արժույթը";
+
+// JFMyRedPacketController
+"chatMyReceived" = "Ես ստացել եմ";
+"chatMySentOut" = "Ես ուղարկեցի";
+
+// JFRedPacketPosterController
+"chatRedEnvelopePoster" = "Կարմիր ծրարի պաստառ";
+"chatBlockchainBasedInstantMessagingAndDigitalAssetOpenPlatform" = "Blockchain- ի վրա հիմնված ակնթարթային հաղորդագրությունների եւ թվային ակտիվների բաց հարթակ";
+"chatScanCodeImmediatelyLeadRedPacket" = "Սկան կոդը անմիջապես հանգեցնում է կարմիր ծրարին";
+"chatHowToGetRedPacket" = "Ինչպես ստանալ կարմիր փաթեթներ";
+"chatScanCodeToReceiveRedPacket" = "1.Ստուգեք կոդը, կարմիր ծրարները ստանալու համար\n2.Ներբեռնեք «IPCom» \n3. Գնալ դեպի «Ակտիվներ» էջ եւ սեղմել «Հաճախորդի հաշիվների» մենյուից, ձեռք բերված կարմիր ծրարները դիտելու համար:"; // 不确定翻译是否准确 （应用名称待定）
+"chatSendYouRedPacket" = "Ուղարկել ձեզ կարմիր ծրար";
+
+// JFTokenChosenController
+"chatChooseRedPacketTokens" = "Ընտրեք կարմիր ծրարի նշաններ";
+
+// PostRedPacketController
+"chatRedPacketRecord" = "կարմիր ծրարի ռեկորդ";
+"chatRedPacketToken" = "կարմիր ծրարի նշան";
+"chatEscrowBalance" = "Escrow հաշվեկշիռը";
+"chatTotalCurrency" = "ընդհանուր արժույթ";
+"charCurrentlyHandyRedPacket" = "Ներկայումս գրված կարմիր ծրարը";
+"chatChangeToOrdinaryRedPacket" = "Փոխել նորմալ կարմիր ծրարը";
+"chatNumberOfRedPackets" = "կարմիր փաթեթների քանակը";
+// 不确定是否需要翻译
+"chatCount" = "մեկ";
+"chatEnterNumber" = "լրացնել համարը";
+"chatLeaveMessage" = "հաղորդագրություն";
+"chatCongratulationsToGetRich" = "Միջերեսի հաղորդակցություն, շնորհավորանքներ հարստանալու համար";
+"chatTotalCurrency2" = "Ամբողջական արժույթ";
+
+// RedPacketController
+"chatRedPacketDetail" = "կարմիր ծրարի մանրամասները";
+
+// JFAddAccountController
+"chatAddAccountTitle" = "Ավելացնել ակտիվ";
+
+// JFAccountDetailController
+"chatAccountDetailRecharge" = "Վերալիցքավորել";
+"chatAccountDetailWithdraw" = "դրամական";
+"chatAccountWalletBalance" = "դրամապանակի հաշվեկշիռ";
+"chatAccountWalletBalanceInsufficient" = "Անհամաչափ դրամապանակի հաշվեկշիռ";
+"chatAccountEnterAmout" = "Խնդրում ենք մուտքագրել վերալիցքավորման գումարը";
+"chatAccountRecharging" = "Վերալիցքավորում";
+"chatAccountRechargeSuccessful" = "Վերականգնել";
+"chatAccountDetailRechargeRetry" = "Վերալիցքավորումը չհաջողվեց, փորձեք ավելի ուշ կրկին փորձել";
+"chatAccountDetailSignFail" = "Ստորագրությունը ձախողվեց";
+"chatAccountDetailAvailable" = "Պահմտոցի հաշիվը մատչելի է";
+"chatAccountDetailInsufficientFee" = "Անբավարար վճարներ";
+"chatAccountDetailToWallet" = "Փոխանցում դեպի դրամապանակ";
+"chatAccountDetailWithDrawFailed" = "Չհաջողվեց դուրս գալ, խնդրում ենք փորձեք ավելի ուշ:";
+"chatAccountDetailWithDrawSuccess" = "Կանխիկ արտահոսք";
+"chatAccountDetailFullWithdrawal" = "Բոլոր դուրսգրումները";
+"chatAccountTransferOut" = "Խնդրում ենք մուտքագրել փոխանցումների քանակը";
+"chatAccountTransferOutTip" = "Խնդրում ենք մուտքագրել տրանսֆերտների քանակը";
+"chatAccountDetailExtracting" = "Հանելուց";
+"chatPutCoinInTheRedPacket" = "S մետաղադրամը կարմիր ծրարի մեջ";
+"chatUnclaimedRedPacketWillBeRefundedAfter24Hours" = "Ճանաչված կարմիր ծրարը կվերադարձվի 24 ժամից հետո";
+"chatTotalAmount" = "ընդհանուր գումարը";
+"chatAmount" = "գումարը";
+"chatASingleAmountOfAtLeast" = "Միակ գումարը առնվազն 0,00001 է";
+"chatInsufficientBalance" = "Անբավարար հավասարակշռություն";
+"chatPleaseEnterTheAmount" = "Խնդրում ենք մուտքագրել գումարը";
+"chatRedPacketAmountCannotBe0" = "Կարմիր ծրարը չի կարող լինել 0";
+"chatPleaseEnterTheCorrectNumberOfRedPacket" = "Խնդրում ենք մուտքագրել ճիշտ կարմիր փաթեթներ";
+"chatFailingToPutMoneyIntoTheRedPacketPleaseTryAgainLater" = "Կարմիր ծրարի մեջ գումարը չհաջողվեց, փորձեք ավելի ուշ կրկին փորձել";
+"chatRedPacket" = "Կարմիր ծրար";
+"chatTheRedPacketIsReady" = "Կարմիր ծրարը պատրաստ է";
+"chatFrom" = "ից";
+
+// JFAccountDetailcell
+"chatConfirmed" = "հաստատված";
+"chatReceiveRedPacket" = "Կարմիր ծրարը";
+"chatRedPacketReturned" = "կարմիր ծրարը վերադարձավ";
+
+// JFMyRedPacketRecordHeaderView
+"chatTheRedPacketReceivedHasBeenDepositedIntoYourEscrowAccountAndCanBeTransferredToYourLocalWallet" = "Ստացված կարմիր ծրարը ձեր հոստինգ հաշվի մեջ պահվում է եւ կարող է փոխանցվել տեղական դրամապանակին";
+
+// JFRedPackedISendCell
+"chatFightingRedPacket" = "Պայքար կարմիր ծրարով";
+"chatOrdinaryRedPacket" = "Սովորական Կարմիր Փաթեթ";
+
+// OpenRedPacketView
+"chatSentARedPacket" = "Ուղարկել կարմիր ծրար";
+"chatCheckEveryoneLuck" = "Դիտել բոլորի բախտը>";
+"chatRedPacketHasExpired" = "Կարմիր ծրարը սպառվել է";
+"chatTheHandIsSlowTheRedPacketIsFinished" = "Ձեռը դանդաղ է, կարմիր ծրարը ավարտված է";
+
+// PostRedPacketChooseView
+"chatWallet" = "դրամապանակ";
+
+// PostRedPacketWriteView // 不确定是否需要翻译
+"chatLuck" = "ուղղագրությունը";
+"chatSingleCurrency" = "միասնական արժույթ";
+"chatCurrentlyACommonRedPacket" = "Ներկայումս նորմալ կարմիր ծրար է";
+"chatChangeToAHandRedPacket" = "Փոխել դեպի գրել կարմիր ծրարը";
+
+// RedPacketCell
+"chatBestLuck" = "Լավագույն հաջողություն";
+
+// RedPacketHeaderView
+"chatReceived" = "Ստացված";
+
+// RedPacketHistoryHeader
+"chatReceivedARedPacket" = "ստացել է կարմիր ծրար";
+
+// EFAdaptationAlert
+"chatForcedUpgrade" = "պարտադիր վերափոխում";
+"chatPauseDownload" = "Դադարեցնել ներբեռնումը";
+"chatDownloadCompletedExtracting" = "Ներբեռնումը ավարտվել է ...";
+"chatDecompressionSucceeded" = "Decompression հաջողակ"; //亚美尼亚语翻译就是英文
+"chatDecompressionError" = "Decompression սխալ"; //亚美尼亚语翻译就是英文
+"chatFileOpenError" = "Ֆայլի բաց սխալ";
+"chatDownloadFileSuccessfully" = "Ներբեռնել ֆայլը հաջողվեց";
+
+// JFSecretFileDisplayController
+"chatViewThePrivateFile" = "Դիտել Բջջ";
+"chatPrivateFileDownload" = "Bcc ներբեռնումը";
+
+// JFSecretBaseDisplayController
+"chatDecryptionFailed" = "Կոդավորման անհաջող";
+
+// JFSecretInputPasswordController
+"chatEnterYourPasswordToViewTheContent" = "Մուտքագրեք գաղտնաբառը բովանդակություն դիտելու համար";
+
+// JFSecretPasswordController
+"chatViewPassword" = "Դիտել Գաղտնաբառ";
+"chatPleaseRememberThePassword" = "Խնդրում ենք հիշել գաղտնաբառը, համակարգը չի փրկի գաղտնաբառը";
+
+// JFSecretPasswordTipController
+"chatSafetyWarning" = "Անվտանգության խորհուրդներ";
+"chatchatSafetyWarningDetail" = "Խնդրում ենք դիտարկել շրջակա միջավայրը, նախքան գաղտնաբառը դիտելը, ձեր գաղտնաբառը բաց թողնելուց առաջ: Գաղտնաբառը միայն մեկ անգամ ցուցադրվում է, համոզվեք, որ փրկեք գաղտնաբառը";
+
+// JFSecretWordController
+"chatFriendDoesNotHavePublicKeyInformationAndCannotSendEncryptedMessages" = "Ընկերները չունեն հրապարակային տեղեկություններ եւ չեն կարող ուղարկել կոդավորված հաղորդագրություններ";
+"chatPleaseEnterTheContentOfThePrivateMessage" = "Խնդրում ենք մուտքագրել գաղտնաբառը բովանդակությունը";
+"chatPleaseEnterYourPassword" = "Խնդրում ենք մուտքագրել գաղտնաբառ";
+"chatEncryptingPassword" = "Կողպել գաղտնաբառը";
+
+// JFSecretImageController
+"chatPleaseSelectAnImage" = "Խնդրում ենք ընտրել նկարը";
+"chatPleaseSelectTheFileYouWantToSend" = "Խնդրում ենք ընտրել այն ֆայլը, որը ցանկանում եք ուղարկել";
+"chatUpTo9PicturesCanBeSelected" = "Մինչեւ 9 նկարը կարող է ընտրվել";
+
+// JFSecretFileController
+"chatAddPrivateFile" = "Ավելացնել գաղտնիք";
+
+// JFSecretBaseSendController
+"chatGettingFriendPublicKey" = "Ստանալ ընկերոջ հրապարակային բանալին";
+
+// Մեդիա դիտորդը
+"chatFunctionIntroduction" = "Նկարագրություն ներդրում >";
+"chatFullChain" = "ամբողջական շղթա";
+"chatFullPlatform" = "ամբողջական հարթակ";
+"chatMining" = "հանքարդյունաբերություն";
+"chatEncryptedCommunication" = "կոդավորված հաղորդակցություն";
+"chatDigitalAssets" = "Թվային ակտիվներ";
+
+// EFChatLeftViewController
+"themeLight" = "Օրակարգ";
+"themeDark" = "Գիշերային ռեժիմ";
+"chatClearCache" = "Clear Cache"; //亚美尼亚语翻译就是英文
+"chatCheckUpdate" = "Ստուգեք նոր տարբերակը";
+"chatClearCacheSuccess" = "Մաքրել քեշը!";
+"chatClearCacheFail" = "Clear cache- ը չկատարվեց!";
+"chatSignOut" = "Ելք";
+"chatIsTheCacheCleared" = "Ցանկանում եք մաքրել քեշը";
+"chatTesting" = "հայտնաբերում ...";
+"chatAreYouSureToQuitTheCurrentUser" = "Վստահ եք դուրս գալ ընթացիկ օգտագործողին";
+"chatSigningOut" = "Հեռացում մուտք ...";
+"chatSignOutFailedPleaseTryAgain" = "Չհաջողվեց դուրս գալ ընթացիկ օգտվողից, փորձեք կրկին փորձել";
+
+// EFLeftOperationView
+"chatCircular" = "Կլոր";
+"chatSquare" = "հրապարակ";
+
+// chataccount
+"chatAccountAvailabel" = "Մատչելի";
+"chatAccountFreeze" = "Սառեցնել";
+"chatAccountAllRecords" = "Բոլոր գրառումները";
+"chatAccountOther" = "Այլ";
+"chatAccountAddress" = "հասցե";
+"chatAccountManagedAddress" = "Կառավարվող հասցեն";
+"chatAccountPleasechoose" = "Խնդրում ենք ընտրել";
+"chatAccountLocalwallet" = "Տեղական դրամապանակ";
+"chatAccountTransferQuantity" = "Արդյունքների քանակ";
+"chatAccountHandlingFee" = "Բեռնաթափման վճար";
+"chatAccountTotalAssets" = "ընդհանուր ակտիվներ";
+"chatShareContact" = "Բաժնետոմսի փոխանակում";
+"chatProfile" = "Օգտվողի մանրամասները";
+
+// chatUpLoad
+"chatUpLoad" = "Վերբեռնել նկար";
+"chatUpLoadTips" = "Հստակեցրեց, որ PC- ում արբանյակային կապը առցանց չէ, յուրաքանչյուր պատկերի վերբեռնման համար կարելի է ստանալ ընդամենը 50 միավոր, եւ յուրաքանչյուր պատկերի համար կարելի է ստանալ 100 միավոր` PC-side միջցանցային հաղորդակցության մուտքից հետո ";
+"chatUpLoadFail" = "Վերբեռնումը ձախողվեց";
+"chatUpLoadSuccess" = "Վերբեռնեք հաջողակ";
+"chatUpLoadDocumentNumber" = "փաստաթղթի համարը";
+"chatUpLoadSliverScore" = "Արծաթե ադամանդի միավոր";
+"chatUpLoadSelect" = "Խնդրում ենք ընտրել վերբեռնման պատկեր";
+"chatUpLoadUnuse" = "Ընթացիկ ցանցը հասանելի չէ";
+"chatUploadGetError" = "Արծաթյա ադամանդ ստանալու հարցում չհաջողվեց";
+
+// smallVideo
+"chatSamllVideo" = "փոքր տեսանյութ";
+"chatSmallVideoDLRwetry" = "Ներբեռնումը ձախողվեց, վերբեռնեք";
+
+// speech
+"chatSpeechTooShort" = "Խոսքի չափազանց կարճ";
+"chatSpeechRecoding" = "Ձայն է ճանաչվում";
+"chatSpeechAgain" = "Դուք դեռ կարող եք ասել,% ld վայրկյան";
+"chatSpeechWrong" = "Ձայնի թելադրանքի սխալ.%@";
+"chatSpeechFail" = "Ձայնային թելադրանք չի բացվել";
+"chatSpeechEnd" = "Ձայնի ճանաչում ավարտվեց";
+"chatCopied" = "Պատճենված է";
+
+// JFMessageCell
+"chatWhetherToResendTheMessage" = "Ցանկանում եք հաղորդագրություն տարածել:";
+
+// JFRecentFileManager
+"chatNotDownloaded" = "Չի ներբեռնվել";
+"chatDownloaded" = "Ներբեռնված";
+"chatDownloading" = "Ներբեռնում";
+"chatDownloadFailed" = "Ներբեռնումը ձախողվեց";
+"chatTo" = "թողարկված";
+"chatFrom" = "ից";
+"chatToGroup" = "ուղարկել խմբին";
+"chatFromGroup" = "խմբի մեջ";
+
+"chatNoWifiLoadimage" = "Ոչ Wi-Fi- ը, սեղմեք ներբեռնելու համար";
+"stayTuned" = "Մնացեք լարված";
+
+//JFSlideSetting
+"chatSetting" = "Սահմանում";
+"chatUnit" = "Արտարժույթի միավոր";
+"chatExchange" = "Default փոխանակում";

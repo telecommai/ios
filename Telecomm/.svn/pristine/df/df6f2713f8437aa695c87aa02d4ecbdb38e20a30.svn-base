@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="option" caption="移动设置">
+    <optionRoot>
+        <node id="customColor" color="0,113,188,1"/>
+    </optionRoot>
+    <ipaRoot>
+        <node id="url"  ipaurl ="https://mobile.solarsource.cn/ospstore/openplanet.html"/>
+    </ipaRoot>
+    <buglyRoot>
+        <node id="bugly"  buglyAppID ="d046c00e70"/>
+    </buglyRoot>
+    <MAMapKey>
+        <node id="MAMapKey" key="ee4f0cd5384642c414c93733d95112c5"/>
+    </MAMapKey>
+    <GoogleMapKey>
+        <node id="GoogleMapKey" key="AIzaSyCIOKOWce_8i-r84peCK-9_QYVTtcAIqZ4"/>
+    </GoogleMapKey>
+<!-- display原生控制器   web网页 -->
+    <recommend>
+        <node id="recommend2" viewType="display"  image="qdzl-1.png"  show="EShopGoodsDetailsController" goodId="001296760000010"/>
+        <node id="recommend3" viewType="display"  image="qdzl-2.png"  show="EShopGoodsDetailsController" goodId="001296760000010"/>
+        <node id="recommend4" viewType="display"  image="qdzl-3.png"  show="EShopGoodsDetailsController" goodId="001296760000010"/>
+        <node id="recommend5" viewType="display"  image="qdzl-4.png"  show="EShopGoodsDetailsController" goodId="001296760000010"/>
+        <node id="recommend6" viewType="display"  image="qdcy-1.png"  show="EShopGoodsDetailsController" goodId="001296760000011"/>
+    </recommend>
+</package>

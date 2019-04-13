@@ -1,0 +1,14 @@
+//
+//  Wallet+CoreDataClass.m
+//  Watch Extension
+//
+//  Created by 赵洪壮 on 2019/3/27.
+//  Copyright © 2019 wsl. All rights reserved.
+//
+//
+
+#import "Wallet+CoreDataClass.h"
+
+@implementation Wallet
+
+@end

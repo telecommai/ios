@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KFXQ</key>
+	<dict>
+		<key>UmSocialAppKey</key>
+		<string>5b0cadfb8f4a9d0a38000160</string>
+		<key>SinaAppKey</key>
+		<string>1458637286</string>
+		<key>SinaAppSecret</key>
+		<string>a784b85297d0912d182c4aecba14300a</string>
+		<key>SinaRedirectURL</key>
+		<string>https://sns.whalecloud.com/sina2/callback</string>
+		<key>WechatAppKey</key>
+		<string>wx2f4c2daedd19b1a9</string>
+		<key>WechatAppSecret</key>
+		<string>987113512cfe2f17e742fe059ed5e10f</string>
+		<key>WechatRedirectURL</key>
+		<string></string>
+		<key>QQAppKey</key>
+		<string>1106862075</string>
+		<key>QQAppSecret</key>
+		<string>KEYdSCBe6krC4Xvjaxo</string>
+		<key>QQRedirectURL</key>
+		<string>http://mobile.umeng.com/social</string>
+	</dict>
+	<key>XJZC</key>
+	<dict>
+		<key>UmSocialAppKey</key>
+		<string>5b19e8d4f29d9841100000b2</string>
+		<key>SinaAppKey</key>
+		<string>243303972</string>
+		<key>SinaAppSecret</key>
+		<string>b62b3d4ce354d54f3ae282763be3b324</string>
+		<key>SinaRedirectURL</key>
+		<string>https://sns.whalecloud.com/sina2/callback</string>
+		<key>WechatAppKey</key>
+		<string>wxe5d8a495c0179786</string>
+		<key>WechatAppSecret</key>
+		<string>b2320d81ece34f16e6419a4e8e857f4a</string>
+		<key>WechatRedirectURL</key>
+		<string></string>
+		<key>QQAppKey</key>
+		<string>1106885247</string>
+		<key>QQAppSecret</key>
+		<string>Lvlshtd9lvRYnB1g</string>
+		<key>QQRedirectURL</key>
+		<string>http://mobile.umeng.com/social</string>
+	</dict>
+</dict>
+</plist>

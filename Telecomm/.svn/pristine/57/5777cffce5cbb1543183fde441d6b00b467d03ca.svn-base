@@ -1,0 +1,26 @@
+//
+//  Wallet+CoreDataProperties.h
+//  Watch Extension
+//
+//  Created by 王胜利 on 2019/3/11.
+//  Copyright © 2019 pansoft. All rights reserved.
+//
+//
+
+#import "Wallet+CoreDataClass.h"
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Wallet (CoreDataProperties)
+
++ (NSFetchRequest<Wallet *> *)fetchRequest;
+
+@property (nonatomic) int16_t chainId;
+@property (nullable, nonatomic, copy) NSString *addr;
+@property (nullable, nonatomic, copy) NSString *privKey;
+@property (nullable, nonatomic, copy) NSString *account;
+
+@end
+
+NS_ASSUME_NONNULL_END

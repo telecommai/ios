@@ -1,0 +1,27 @@
+/* 
+  NewsComps.strings
+  NewsComps
+
+  Created by 谢虎 on 2018/12/20.
+  Copyright © 2018 谢虎. All rights reserved.
+*/
+
+
+
+//写评论
+"writeComment" = "Escreva um comentário...";
+//评论
+"comment" = "Comentário";
+"reply" = "Responder";
+"like" = "curtir";
+"allComments" = "Todos os comentários";
+"post" = "Lançamento";
+//"loading" = "loading";
+
+//提示
+"postSuccessfully"="enviado com sucesso";
+"postFail"="Publicar falhou";
+
+//
+"NewsViewAll" = "Ver todos ";
+"NewsComment" = " Comentários do artigo";

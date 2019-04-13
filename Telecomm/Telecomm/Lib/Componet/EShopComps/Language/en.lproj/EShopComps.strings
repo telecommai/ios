@@ -1,0 +1,304 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏
+"EShopGoods" = "Commodity";
+"EShopEvaluation" = "Evaluation";
+"EShopDetail" = "Details";
+"EShopGoodsSku" = "Choose Specifications";
+"EShopProductReview" = "Product Review";
+"EShopPraise" = "Praise";
+
+//底部工具栏
+
+"EShopCollection" = "Collection";
+"EShopCollected" = "Collected";
+"EShopService" = "Service";
+"EShopCart" = "Cart";
+"EShopAddCart" = "Add Cart";
+"EShopBuyNow" = "Buy Now";
+"EShopNoStart" = "Not Started";
+"EShopHaveEnd" = "Ended";
+
+//分享相关
+"EShopSharFriends" = "Share Friends";
+"EShopShareGrivitationField" = "Share Grivitational Field";
+
+//购物车
+"EShopDeleteCell" = "Delete";
+"EShopEdit"="Edit";
+"EShopComplete" = "Complete";
+"EShopSettleAccounts" = "Settlement";
+"EShopTotal" = "Total";
+"EShopNoGoods" = "No Goods";
+"EShopSelected" = "Selected";
+"EShopPurchaseAmount" = "Purchase Quantity";
+
+//我的商城
+"EShopMyMall" = "My Mall";
+"EShopMyOrder" = "My Order";
+"EShopMyAddress" = "My Address";
+"EShopMyService" = "My Service";
+"EShopScanAll" = "View All";
+"EShopAttention" = "Attention";
+"EShopFootprint" = "Footprint";
+"EShopExperience" = "Experience";
+"EShopOrderAll" = "All";
+"EShopPendingPayment" = "Pending Payment";
+"EShopToBeDelivered" = "To Be Delivered";
+"EShopRefundSuccess" = "Refund Successfully";
+"EShopPendingReceipt" = "Pending Receipt";
+"EShopComment" = "Comment";
+"EShopCompleted" = "Completed";
+"EShopCanceled" = "Cancelled";
+"EShopClosed" = "Closed";
+"EShopRefound" = "Refound";
+"EShopDeleted" = "Deleted";
+"EShopOrderWinTreasurePaySuccess" = "Order payment success";
+"EShopOrderPayFail" = "Order payment failed";
+"EShopOrderWinTreasureWin" = "Treasure win";
+"EShopOrderWinTreasurePaying" = "Order paying";
+"EShopOrderWinTreasurePaying2" = "Order is being paid, please be patient";
+"EShopOrderSubmitted" = "Your order has been submitted, please complete the payment as soon as possible";
+"EShopOrderDelivering" = "Your order is ready for shipment, please wait patiently";
+"EShopOrderDelivered" = "Your order has been shipped, please wait for confirmation of receipt";
+"EShopOrderRecieved" = "Your order has been signed, please comment";
+"EShopOrderRecieved2" = "Please Comment";
+"EShopOrderCompleted" = "Transaction Completed";
+"EShopOrderCancelled" = "The order has been cancelled";
+"EShopOrderReasonForShutdown" = "Reason for shutdown: user actively closes";
+"EShopOrderDeleted" = "Order Deleted";
+
+//收藏
+"EShopMyCollection" = "My Collection";
+"EShopNoCollection" = "No collection of goods";
+"EShopCancelCollection" = "Uncollectible failed, please try again";
+"EShopAddCartSuccessfully" = "Add to cart successfully";
+"EShopAddCartFail" = "Failed to add to shopping cart";
+"EShopChooseCollectionItem" = "Please select the items you want to collect";
+"EShopCollectionSuccess" = "Add to collection successfully!";
+"EShopCollectionFail" = "Failed to add to collection!";
+"EShopChooseDeteted" = "Please select the item to delete";
+"EShopDeteleExpiredFail" = "Failed to delete failed item";
+"EShopNoExpired" = "Unexpired Goods";
+"EShopCanceledCollection" = "Cancelled Collection";
+"EShopAddCollection" = "Have Collected";
+
+//收货地址
+"EShopChooseAddress" = "Please select the receiving address";
+"EShopAddress" = "Address";
+"EShopAddNewAddress" = "Add a new address";
+"EShopEditAddress" = "Edit Address";
+"EShopAddAddress" = "Add a new address";
+"EShopSave" = "Save";
+"EShopConsigneeName" = "Consignee name(please user offical name)";
+"EShopConsigneeNameTip" = "Please fill in the consignee name";
+"EShopPhoneNumber" = "CellPhone Number";
+"EShopPhoneNumberTip" = "Pleast fill in the phone number";
+"EShopCorrectPhoneNumberTip" = "Please enter a valid phone number";
+"EShopArea" = "Area";
+"EShopAreaTip" = "Pleast fill in the area";
+"EShopDetailAddress" = "Detailed address of street,community house number,etc";
+"EShopDetailAddressTip" = "Pleast fill in the detailed address";
+"EShopSetDefaultAddress" = "Set as the default address";
+"EShopInfomationUnsaved" = "The information has not been saved, are you sure to return it now?";
+"EShopFailedUpdate" = "The update failed, please try again";
+"EShopProvince" = "Province";
+"EShopCity" = "City";
+"EShopArea2" = "Area";
+
+//我的订单
+"EShopCancelOrder" = "Cancel Order";
+"EShopPayNow" = "Pay Now";
+"EShopBuyAgain" = "Buy Again";
+"EShopConfirmReceipt" = "Confirm Receipt";
+"EShopSureConfirmReceipt" = "Are you sure to confirm receipt";
+"EShopCommentNow" = "Comment Now";
+"EShopDeleteOrder" = "Delete Order";
+"EShopTreasureDetails" = "Treasure Details";
+
+//订单详情
+"EShopOrderDetail" = "Order Details";
+"EShopTotalAmount" = "Total Amount Payable";
+"EShopTotalPayment" = "Total Payment";
+"EShopMessage" = "Message：";
+"EShopTradingHash" = "Trading Hash：";
+"EShopShipmentNumber" = "Shipment Number";
+"EShopOrderNumber" = "Order Number";
+"EShopOrderTime" = "Order Time";
+"EShopLogisticsCompany" = "Logistics Company";
+"EShopConfirmReceiptSuccess" = "Confirm receipt success";
+"EShopEnsureDeleteOrder" = "Are you sure to delete the order？";
+"EShopDeleteOrderSuccess" = "Delet order successfully";
+"EShopEnsureCancelOrder" = "Are you sure to cancel the order?";
+"EShopCancelOrderSuccess" = "Cancel order successfully";
+"EShopToCart" = "Go to the shopping cart";
+"EShopAddedCart" = "Product has been added to the shopping cart";
+"EShopFaiedToAddCart" = "Failed to add cart";
+"EShopCopySuccessfully" = "Copy successfully";
+"EShopClose" = "Close";
+"EShopSum" = "Sum";
+"EShopPiece"="";
+"EShopNoOrder" = "No related orders";
+"EShopMoveToCollection" = "Collect";
+"EShopRemove" = "Delete";
+"EShopRemoveExpiered" = "Delete Expired";
+"EShopDeleteFailed"  = "Failed to delete";
+"EShopUpdateFailed" = "Failed to update";
+
+//付款
+"EShopPayMent" = "Payment";
+"EShopAliPay" = "AliPay";
+"EShopWeChat" = "WeChat";
+"EShopNeedToPay" = "Pending Payment";
+"EShopInsufficientBalance" = "Insufficient Balance";
+"EShopRecharge" = "Recharge";
+"EShopPaymentMethods" = "Payment Methods";
+"EShopOtherPaymentMethods" = "Other payment methods";
+"EShopPaymentAlert1" = "Order submitted,";
+"EShopPaymentAlert2" = "payment winthin";
+"EShopToBePaied" = "To be paied";
+"EShopPaymentHour" = ":";
+"EShopPaymentMinute" = ":";
+"EShopPaymentSecond" = ":";
+"EShopRMB" = "¥";
+"EShopPay" = "Pay";
+"EShopNeedToPay"="Need to pay";
+"EShopRemain" = "Surplus";
+"EShopRemainRequestFail" = "Request failed";
+"EShopReorderAlert" = "The order has been closed due to overdue payment. Please place a new order";
+"EShopChoosePayWay" = "Please select the payment method";
+"EShopPayWay" = "payment method";
+"EShopChooseOtherPayWay" = "Other payment methods";
+"EShopPayUnfinished" = "Outstanding payment！";
+"EShopPayAbundon" = "Abandon";
+"EShopRechargeAgain" = "Pay Again";
+"EShopPaySuccess" = "Payment successful!";
+"EShopPayFail" = " Payment failed !";
+"EShopCondirmOrder" = "Confirm Order";
+"EShopReciever" = "Reciever";
+"EShopRecieverAddress" = "Shipping Address";
+"EShopBuyerMessage" = "Message";
+"EShopBuyerMessageAlert" = "Enter your message (within 50 words)";
+"EShopTotalAmount2" = "Total";
+"EShopOrderSubmit" = "Submit Orders";
+"EShopOrderAlert3" = "Order submission has been successful. Currently, multiple stores do not support combined payment. Please go to my order - pending payment page to complete payment";
+"EShopGoPay" = "To Pay";
+"EShopAddressAlert" = "please set the receiving address";
+"EShopNoAddressAlert" = "You have not received the goods address, please click add";
+"EShopAdd" = "Add";
+"EShopCurrent" = "Current";
+"EShopGet" = "Get";
+"EShopFail" = "Fail";
+"EShopChoose" = "Please choose";
+"EShopCurrentLess" = "The current specification is out of stock";
+"EShopOrderBlank" = "The order number is blank";
+"EShopMaxGoods" = "The maximum purchase limit has been reached";
+"EShopAmount" = "Amount";
+"EShopFullAmount" = "The inventory is enough";
+"EShopTreasureNow" = "Treasure Now";
+"EShopChooseArea" = "Please choose area";
+"EShopSend" = "Distribution";
+"EShopSendTo" = "Distribution to";
+"EShopTo" = "to";
+"EShopUnknownArea" = "Unknown area";
+
+//一元夺宝
+"EShopTreasure" = "Treasure";
+"EShopGoodsRelated" = "Commodity Related";
+"EShopGoodsPrice" = "Commodity Prices";
+"EShopGoodsTitle" = "Commodity Title";
+"EShopGoodsSoldOut" = "Has been sold out";
+"EShopEnterBrand" = "Enter the brand";
+"EShopSellingGoods" = "Selling Goods";
+"EShopSolded" = "Solded";
+"EShopValue" = "Value";
+"EShopShareEvluate" = "Evaluation of bask in single";
+"EShopCommentFailed" = "Comment upload failed";
+"EShopUrFeel" = "Tell me how you feel about it";
+"EShopNilCommentAlert" = "Comments should not be empty";
+"EShopEvaluateVeryPoor" = "Very Poor";
+"EShopEvaluatePoor" = "Poor";
+"EShopEvaluateGeneral" = "General";
+"EShopEvaluateGood" = "Good";
+"EShopEvaluateVeryGood" = "Very Good";
+"EShopScore" = "Score";
+"EShopNoComment" = "No product evaluation is available";
+"EShopScanMore" = "Scan More";
+"EShopStartOfActivity" = "Start of activity";
+"EShopApplyRefound" = "Apply for a refund";
+"EShopGoodsState" = "State of the goods";
+"EShopNoRecieved" = "Not yet received the goods";
+"EShopRecievedGoods" = "Have received the goods";
+"EShopRefoundReason" = "Reason for refund";
+"EShopRefoundWithoutReason" = "No refund for 7 days";
+"EShopRefoungNotLike" = "Wrong beat/bad effect/don't like it";
+"EShopRefoundSize" = "Size Problem";
+"EShopRefoundQuantity" = "The quality problem";
+"EShopRefoundNoLovely" = "Poor customer service";
+"EShopRefoundDeicribe" = "Misrepresent";
+"EShopRefoundSellerSendFault" = "The seller sent the wrong goods";
+"EShopRefoundGoodsFake" = "Fake and inferior products";
+"EShopRefoundEmpty" = "Empty Package";
+"EShopRefoundOther" = "Other";
+"EShopAddDescriptions" = "Add descriptions";
+"EShopRefoundMoney" = "Refund amount";
+"EShopRefoundDescriptions" = "Refund instructions";
+"EShopOptional" = "Optional";
+"EShopPhotoFail" = "Failed photo upload exists";
+"EShopSenDdirectly" = "Send directly";
+"EShopMaxPhotoAlert" = "You can add up to 6 images";
+"EShopUploadDocuments" = "Upload documents";
+"EShopChooseWayOfService" = "Select service type";
+"EShopRefoundOnly" = "Only refund";
+"EShopNorecievedAndAgreed" = "If the goods are not received (including unsigned), or the seller agrees to agree";
+"EShopRefoundMoney" = "Refunds";
+"EShopRecieveAndRefound" = "Received goods, need to return the goods received";
+"EShopUse" = "Use";
+"EShopCanUse" = "Available";
+"EShopPressure" = "Deduction";
+"EShopEnterNum" = "Please enter the quantity";
+"EShopBeyondRemain" = "Exceeding the remaining number";
+"EShopBeyondMax" = "Exceed the maximum usage";
+"EShopMaxNum" = "Maximum Usage";
+"EShopProprietary" = "Self-operated";
+"EShopLuckyNum" = "Lucky number of this issue";
+"EShopNoGuess" = "No draw yet, please come back later";
+"EShopHexadecimal" = "Last 8 digits of hexadecimal";
+"EShopGetGuess" = "Congratulations on your winning, please keep up!";
+"EShopNoGetGuess" = "Unfortunately, you didn't win the prize, please keep up!";
+"EShopSoldOutTime" = "Sold out time:";
+"EShopSoldOutBlock" = "Sold out time block number:";
+"EShopSoldOutNumber" = "Lucky block number:";
+"EShopSoldOutHash" = "Lucky block hash value:";
+"EShopSoldOutPeople" = "Total number of treasures:";
+"EShopCurrentNumber" = "Lucky number of this issue:";
+"EShopMoreThan" = "Residual";
+"EShopTreasurePeople" = "Total number of treasures";
+"EShopLuckyNumber" = "Lucky Number";
+"EShopTheDecimal" = "Convert to decimal";
+"ESShopSelectall" = "All";
+"ESShopOperationFailed" = "The operation failed, please try again";
+"ESShopNeedToPay" = "Pending payment, you still need to pay";
+"ESShopSignature" = " Signature";
+"ESShopSignComplete" = "Signature completion is in the process of purchase";
+"ESShopResultConfirm" = "Confirmation of payment result\n Please enter my order list later";
+"ESShopTransionFailAgain" = "The transaction failed, please try again";
+"ESShopSignFailAgain" = "Signature failed, please try again";
+"ESShopRechargeFailed" = "Recharge failed";
+"ESShopHome" = "Home";
+"EShopDefault" = "[Default]";
+"EShopYHHD" = "Promotions:";
+"EShopInvalid" = "Invalid";
+"EShopPaymentError" = "Payment error";
+"EShopPayNotItem" = "Not getting the item";
+
+// 请求失败提示
+"EShopRequestError" = "Request error";
+"EShopReload" = "Reload";
+"EShopStartTime" = "Start Time:";
+"EShopEndTime" = "End Time:";

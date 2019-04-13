@@ -1,0 +1,13 @@
+//
+//  Wallet+CoreDataClass.m
+//  
+//
+//  Created by 王胜利 on 2019/3/25.
+//
+//
+
+#import "Wallet+CoreDataClass.h"
+
+@implementation Wallet
+
+@end

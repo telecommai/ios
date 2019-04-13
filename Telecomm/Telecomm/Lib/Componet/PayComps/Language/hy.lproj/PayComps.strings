@@ -1,0 +1,21 @@
+/*
+ ShareComps.strings
+ ShareComps
+ 
+ Created by 赵洪壮 on 2018/12/21.
+ Copyright © 2018 childs. All rights reserved.
+ */
+
+//JFPayUtil
+"payOrderPaymentSuccess" = "Պատվերի վճարման հաջողությունը";
+"payBeingProcessed" = "Վերամշակվում է, վճարման արդյունքը անհայտ է (հնարավոր է, հաջողությամբ վճարվել է), խնդրում ենք ստուգել վաճառողի կարգի ցուցակում պատվերի վճարման կարգավիճակը";
+"payOrderPaymentFailed" = "Պատվերի վճարումը ձախողվեց";
+"payUserCanceledHalfway" = "Օգտվողը չեղարկվեց կիսամյակում";
+"payNetworkConnectionError" = "Ցանցային կապի սխալ";
+"payRepeatRequest" = "Կրկնել պահանջը";
+"payThePaymentResultUnknown" = "Վճարման արդյունքը անհայտ է (հնարավոր է, հաջողությամբ վճարվել է), խնդրում ենք ստուգել կարգի վճարման կարգավիճակը առեւտրային պատվերների ցանկում:";
+"payOtherPaymentErrors" = "Այլ վճարային սխալներ";
+"payPaymentResult" = "Վճարման արդյունքը";
+"payPaymentResultSuccess" = "Վճարման արդյունքը `հաջողություն:";
+"payPaymentResultFailure" = "Վճարման արդյունքը `չհաջողվեց:";
+"payUserAlreadyQuitPayment" = "Օգտագործողը արդեն դուրս է եկել վճարումը:";

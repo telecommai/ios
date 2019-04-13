@@ -1,0 +1,23 @@
+/* 
+  NewsComps.strings
+  NewsComps
+
+  Created by 谢虎 on 2018/12/20.
+  Copyright © 2018 谢虎. All rights reserved.
+*/
+//写评论
+"writeComment" = "Գրել մեկնաբանություն ...";
+//评论
+"comment" = "Մեկնաբանություն";
+"reply" = "պատասխանել";
+"like" = "Հավանել";
+"allComments" = "Բոլոր մեկնաբանությունները";
+"post" = "թողարկումը";
+
+//提示
+"postSuccess"="հաջողությամբ տեղադրվեց";
+"postFail"="Հրապարակել ձախողվեց";
+
+//
+"NewsViewAll" = "Դիտել բոլորը";
+"NewsComment" = "Հոդված Comments";

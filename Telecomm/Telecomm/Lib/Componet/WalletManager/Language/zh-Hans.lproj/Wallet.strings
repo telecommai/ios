@@ -1,0 +1,389 @@
+/* 
+  Wallet.strings
+  WalletManager
+
+  Created by 赵洪壮 on 2018/12/17.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+// JFCardListController
+"walletCard" = "积分卡";
+"balance" = "余额";
+"walletCardRecharge" = "去充值";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "支付方式";
+"walletCardRechargeAmount" = "充值数量";
+"walletCardRechargeAliPay" = "支付宝";
+"walletCardRechargeWechat" = "微信";
+"walletCardRechargeMethodSelect" = "请选择充值方式";
+"walletCardRechargeNeetToPay" = "需要支付";
+"walletCardRechargeNext" = "下一步";
+"walletCardRechargePaySuccess" = "支付成功!";
+"walletCardRechargePayFailure" = "支付失败!";
+"walletCardRechargeWrongMoney" = "输入的金额错误";
+"walletCardRechargeUndone" = "未完成充值";
+"walletCardRechargeAgain" = "重新充值";
+"walletCardRechargeRequest" = "请求失败，请检查网络设置！";
+"walletCardRechargeGiveUp" = "放弃";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "确认您的钱包助记词";
+"walletBTCCheckAddSuccess" = "添加钱包成功";
+"walletBTCCheckBackUpFail" = "备份失败，请检查您的助记词";
+"walletBTCCheckConfirmOrder" = "请按顺序点击助记词，以确认您的助记词正确";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "创建钱包";
+"walletBTCCreateBackUpTip" = "钱包账户是您在区块链上的唯一地址，请在创建完钱包后，做好助记词和钱包的备份";
+"walletBTCCreateStayTip" = "请保留创建过程中生成的信息";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "备份关键词";
+"walletBTCCreateSaveTip" = "助记词用于恢复钱包账户或重置钱包密码，将它准确的抄写到纸上，并存放在只有您自己知道的安全地方";
+"walletBTCCreateWriteDown" = "抄写下您的钱包账户助记词";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "恢复钱包";
+"walletBTCPaperRecoveryChectFail" = "恢复失败，请检查助记词";
+"walletBTCPaperRecoveryExistFail" = "恢复失败，该钱包已存在";
+"walletBTCPaperRcoveryWithWords" = "通过助记词恢复您的钱包";
+"walletBTCImport" = "导入";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "转账地址无效";
+"walletBTCTransferNotSupport" = "暂不支持此方式";
+"walletBTCTransferAlreadyExists" = "钱包已包含此地址";
+"walletBTCTransferLessThan" = "支付金额不能少于";
+"walletBTCTransferError" = "转账失败";
+"walletBTCTransferUTFOFail" = "请求UTFO失败";
+"walletBTCTransferBalanceNotEnough" = "余额不足";
+"walletBTCTransferSignError" = "交易签名出错";
+
+// DropCell
+"walletDropmsq" = "马上抢";
+"walletDropyq" = "已抢";
+"walletDropyqguo" = "已抢过";
+"walletDropyqguang" = "已抢光";
+"walletDropwks" = "未开始";
+"walletDropjks" = "距开始";
+"walletDropjjs" = "距结束";
+"walletDropyjs" = "已结束";
+"walletDropday" = "天";
+"walletDrophour" = "小时";
+"walletDropmin" = "分";
+"walletDropktjj" = "空投简介";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "距离结束还剩";
+"walletDropjlkshs" = "距离开始还剩";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "你还没有";
+"walletDropDetailCreateWallet" = "钱包，请先创建钱包";
+"walletDropDetailChooseWallet" = "选择钱包";
+"walletDropDetailTilte" = "空投详情";
+"walletDropDetaildbmc" = "代币名称";
+"walletDropDetailktzz" = "空投组织";
+"walletDropDetailhydz" = "合约地址";
+"walletDropDetailktjs" = "空投介绍";
+
+// DropTransferController
+"walletDropTransferSuccess" = "空投成功";
+"walletDropTransferReceived" = "您已成功领取";
+"walletDropTransferAttension" = "空投将在活动结束后统一发放，请留意钱包";
+"walletDropTransferGet" = "您已领取过该空投";
+"walletDropTransferFail" = "空投失败";
+"walletDropTransfering" = "空投中";
+
+// DropViewController
+"walletDropMyTitle" = "我的空投";
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "你需要通过已生成的两把公钥去注册EOS账户（12个字符），这过程将消费EOS代币。想好账户名，找人帮你注册吧。";
+"walletEOSCreateTipActive" = "未激活EOS账户，发送给好友或分享二维码找朋友激活此账户";
+"walletEOSCreateShareSuccess" = "分享成功";
+"walletEOSCreateShareFailure" = "分享失败";
+"walletEOSCreatePK" = "公钥";
+"walletEOSCreatePrivateK" = "私钥";
+"walletEOSCreateCorrentAddress" = "请填写正确的账户地址!";
+"walletEOSCreateCreateRequest" = "EOS创建账户请求";
+"walletEOSCreateCorrectName" = "请输入有效的账户名（a-z与1-5组合的12位字符）";
+"walletEOSCreateNameStyle" = "EOS账户名称为a-z与1-5组成的12位字符";
+"walletEOSCreateAccountAddress" = "账户地址";
+"wannetEOSCreateSendToFriend" = "发送给好友";
+"wannetEOSCreateSendToQRCode" = "分享二维码";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "创建EOS钱包";
+"walletEOSCreateFeeFail" = "请求创建账户费用失败";
+"walletEOSCreateIsAvailable" = "正在检查账户名是否可用";
+"walletEOSCreateChange" = "该账户已存在,请修改账户名";
+"walletEOSCreateAvailabel" = "账户名可用";
+"walletEOSCreateCheckFail" = "检查失败";
+"walletEOSCreateAbnormal" = "手续费异常";
+"walletEOSCreateNoLocalWallet" = "暂无已激活的本地EOS钱包";
+"walletEOSCreateCreating" = "正在创建";
+"walletEOSCreateSuccess" = "创建成功";
+"walletEOSCreateFailure" = "创建失败";
+"walletEOSCreateSelectAccount" = "选择账户";
+"walletEOSCreateNoActiveWallet" = "暂无激活的本地EOS钱包";
+"walletEOSCreate" = "创建";
+"walletEOSCreateAccountName" = "账户名";
+"walletEOSCreateRAM" = "内存";
+"walletEOSCreateCost" = "费用";
+"walletEOSCreateStyle" = "创建EOS账户由a-z与1-5组合的12位字符";
+
+// EOSImportController
+"walletEOSImportReply" = "填写完整信息后才能进行回复";
+"walletEOSImportErongFormatter" = "私钥格式有误！";
+"walletEOSImporting" = "导入中";
+"walletEOSImportSuccess" = "导入成功";
+"walletEOSImportRecoveryWithPrivateKey" = "通过私钥恢复您的钱包账户";
+"walletEOSImportActivePrivateKey" = "请输入active私钥";
+"walletEOSImportOwnerPrivateKey" = "请输入owner私钥";
+"walletEOSImportDone" = "完成";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "钱包账户是您在区块链上的唯一地址，它根据您的私钥生成，请在创建完基地账户后，做好私钥和基地账户的备份";
+"walletETHSign" = "授权签名";
+"walletETHAddressEmpty" = "地址不能为空";
+"walletETHWtch" = "观察钱包";
+"walletETHComplete" = "完成授权";
+"walletETHWarning" = "1.目前仅限用户观察自己的钱包来配合离线钱包形成更加安全的冷钱包；导入需要进行一次签名。\n2.存储大量资金建议使用冷钱包";
+"walletORCode" = "使用对应观察钱包扫描下方二维码完成授权";
+"walletDataNomMatch" = "data不符";
+"walletDataImporting" = "正在导入";
+"wallerSignDetail" = "授权签名详情";
+"wallerSignAddress" = "授权地址";
+"walletSignData" = "数据";
+"walletScan" = "扫描授权钱包页面的二维码，导入签名";
+"walletImportSign" = "导入签名";
+"walletEnterAddress" = "请输入钱包地址";
+
+// change
+"walletChangeCurrent" = "切换%@钱包";
+
+// NewWalletInfoController
+"walletNewWalletInfoSetAvatar" = "设置钱包头像和名称";
+"walletNewWalletInfoUploadAvatar" = "正在上传头像";
+"walletNewWalletInfoUploadAvatarFail" = "上传图片失败";
+"walletNewWalletInfoName" = "钱包账户名称";
+"walletNewWalletInfoAddAvatar" = "点击相机图标添加钱包账户头像";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "正在获取基地ID";
+"walletOldWalletOutGettingIdRetry" = "基地ID获取失败，请重试";
+"walletOldWalletCorrectEnergy" = "请输入正确的能量";
+"walletOldWalletOutEnergy" = "能量";
+"walletOldWalletOtherPlanetId" = "请输入对方星际ID";
+"walletOldWalletNumberOfEnergy" = "请输入能量数";
+"walletOldWalletOtherBaseId" = "请输入对方基地ID";
+"walletOldWalletOtherPanetId" = "接收星际ID:";
+"walletOldWalletRecevingBaseId" = "接收基地ID:";
+"walletOldWalletTransferBaseId" = "转出基地ID:";
+"walletTradeMinerFee" = "矿工费用";
+"walletOldWalletEnergyExchange" = "能量交换";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "交易详情";
+"walletOldResultSuccess" = "交易成功";
+"walletOldResultId" = "交易ID";
+"walletOldResultTime" = "交易时间";
+"walletOldResultToId" = "转入基地ID";
+"walletOldResultOutId" = "转出基地ID";
+"walletOldResultFailure" = "交换失败";
+"walletOldResultTransing" = "交易中";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "请输入基地密码";
+"walletEnterPassword" = "请输入密码";
+"walletWrongPassword" = "密码错误";
+"walletForgetPassword" = "忘记密码";
+
+// WalletCardView
+"walletCardAssets" = "资产";
+"walletCardNoActive" = "待激活";
+"walletCardSenfCoin" = "一键发币";
+"walletCardCopied" = "已复制";
+"walletCardTransfer" = "转入";
+"walletCardDetail" = "明细";
+"walletCardTransferout" = "转出";
+"walletImportWallet" = "导入钱包";
+"walletWatchNotSupport" = "观察钱包不支持转出功能";
+
+// WalletInfoController
+"walletInfoTitle"  = "管理";   
+"walletChangeAvatar"= "更换头像";
+"walletInfoChangeWalletName" = "更换钱包名";
+"walletInfoSwitchaccount" = "切换账户";
+"walletInfoActivation" = "激活";
+"walletInfoModifyWalletName" = "修改钱包名称";
+"walletInfoEnterWalletName" = "请输入钱包名称";
+"walletInfoModificationFailed" = "修改失败，请重试";
+"walletInfoCannotDeleted" = "主钱包不能删除";
+"walletInfoToDelete" = "是否删除该钱包？";
+"walletInfoDeleteFaild"= "删除失败，请重试";
+"walletInfoSettingAvatar" = "正在设置头像";
+"walletInfoSettingFaild" = "设置头像失败，请重试";
+"walletInfoUploadFaild" = "上传头像失败，请重试";
+"walletInfoPKPK"= "Owner私钥:\n%@\nActive私钥:\n%@";
+"walletUnfoDeleteWallet" = "删除钱包";
+"walletInfoChooseMain" = "选择主账户";
+"WalletModifyingWalletname" = "正在修改钱包名称";
+
+// WalletAllTokenController
+"walletTypeHide" = "隐藏无余额资产";
+"walletTypeSort" = "按余额排序";
+"walletTypeAlphabetically" = "按字母排序";
+"walletTypeRemoveAssets" = "移除资产";
+"walletTypeEnterToken" = "输入Token名称或合约地址";
+"walletMyassets" = "   我的资产";
+
+// WalletInCoinController
+"WalletInTransfer" = "请转入";
+"walletInTransferEnter" = "输入金额";
+"WalletInTransferPlzEnter" = "请输入金额";
+"walletInChangeAssets" = "更换资产";
+"walletInSpecAmount" = "指定金额";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "备注";
+"WalletCoinOutOptional" = "选填";
+"WalletCoinOutEnterAddress" = "输入收款地址";
+"WalletCoinOutCanNotNull" = "金额不能为空";
+"WalletCoinOutAddressNotNull" = "收款地址不能为空";
+"WalletCoinOutPaymentDetail" = "支付详情";
+"WalletCoinOutRetry" = "发布交易请求失败，请重试";
+"walletCoinUnlockFail" = "解锁钱包失败";
+"walletCinOutoperation" = "交易中";
+"walletGetCurrentFail" = "获取当前钱包失败";
+"walletNoData" = "暂无数据";
+"walletPaymentSuccess" = "收款成功";
+"walletTransferSuccess" = "转账成功";
+"walletCollectionFailure" = "收款失败";
+"walletTransferFailed" = "转账失败";
+
+// WalletTradeResultController
+"walletTradeBlock" = "区块";
+"walletTradeAmount" = "金额";
+"walletTradeTradeNo" = "交易号";
+"walletTradeContact" = "合约";
+"walletTradeType" = "转账类型";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "复制成功";
+"walletChainInquirySure" = "确认并签章";
+"walletChainInquiryResult" = "请输入核对结果";
+"walletChainInquiryToSign" = "事务所待签章";
+"walletChainInquiryCompanyToSign" =" 企业待签章";
+"walletChainInquiryBankReply" = "银行待回复";
+"walletChainInquiryBackRelied" = "银行已回复";
+"walletChainInquiryBlockInfo" = "区块信息";
+"walletChainInquiryEdit" = "编辑中";
+"walletChainInquiryProcessed" = "已处理";
+"walletChainInquiryToBeProcessed" = "待处理";
+"walletChainInquiryChaininquiry" = "链上询征";
+"walletChainInquiryInquiryDetails" = "询证详情";
+"walletChainInquiryAgreeandSign" = "同意并签章";
+"walletChainInquiryViewReply" = "查看回复";
+"walletChainInquiryReply" = "回复";
+"walletChainInquiryDoesNotMatch" = "信息不符";
+"walletChainInquiryMatch" = "信息相符";
+"walletChainInquiryAuditId" = "审计签名交易ID";
+"walletChainInquiryTradeId" = "企业签名交易ID";
+"walletChainInquiryBankId" = "银行签名交易ID";
+"walletChainInquirySubSus" = "提交成功";
+"walletChainInquiryInfoFail" = "信息获取失败";
+"walletChainInquiryNo" = "询证编号";
+"walletChainInquiryAuditUnit" = "审计单位";
+"walletChainInquiryCompany" = "询证公司";
+"walletChainInquiryBank" = "询证银行";
+"walletChainInquiryState" = "状态";
+"walletChainInquiryContact" = "回函联系人";
+"walletChainInquiryPhone" = "联系电话";
+"walletChainInquirymail" = "电子邮箱";
+"walletChainInquiryAccountName" = "账户名称";
+"walletChainInquiryBankNo" = "银行账号";
+"walletChainInquiryCurrency" = "币种";
+"walletChainInquiryRate" = "利率";
+"walletChainInquiryType" = "账户类型";
+"walletChainInquiryBalance" = "余额不足";
+"walletChainInquiryStartandenddate" = "起止日期";
+"walletChainInquiryLimit" = "是否用于担保或存在其他使用限制";
+"walletChainInquiryBanksavings" = "银行存款";  
+"walletSwitchWallet" = "切换钱包(%ld)";
+"walletUtilAdding" = "正在添加";
+"walletCardTop" = "充值";
+"WalletPayInfo" = "支付信息";
+
+
+//Assets
+"walletTransaction" = "交易";
+"WalletAirdrop" = "空投";
+"WalletPay" = "付钱";
+"WalletCollect" = "收钱";
+"WalletAddDevice" = "添加设备";
+"WalletCardPackage" = "卡包";
+"WalletAddCard" = "添加卡片";
+"WalletNoCard" = "暂无卡片";
+"WalletNoDevice" = "暂无设备";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(按住拖动调整排序)";
+"WalletMyApplication" = "我的应用";
+"WalletCommon" = "常用";
+"WalletOther" = "其他";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "创建冷钱包";
+"WalletConverting" = "正在转换";
+"WalletSuccessfulConversion" = "转换成功";
+"WalletSwitchToHotWallet" = "转为热钱包";
+"WalletSwitchToColdWallet" = "转为冷钱包";
+
+// BluetoothController
+"deviceList" = "设备列表";
+"deviceMismatch" = "设备类型不匹配";
+"WalletBluetoothAuthentication" = "蓝牙认证";
+"WalletNewColdWallet" = "新建冷钱包";
+"WalletConnecting" = "连接中";
+"WalletCertifyingDevice" = "正在认证设备";
+"WalletAuthenticationDeviceFailed" = "认证设备失败";
+"WalletCertifiedDeviceSuccess" = "认证设备成功";
+"WalletReading" = "正在读取";
+"WalletReadSuccessfully" = "读取成功";
+"WalletReadFailed" = "读取失败";
+"WalletWriting" = "正在写入";
+"WalletSuccessfullyWritten" = "写入成功";
+"WalletWriteFailure" = "写入失败";
+"WalletCardRemoval" = "卡片移除";
+"WalletDeviceDisconnected" = "设备断开连接";
+"WalletCardHasContent" = "当前卡片已有内容，是否继续写入？";
+"WalletNewlyCreatedSuccessfully" = "新建成功";
+"WalletCardDataIsInvalid" = "卡片数据无效";
+
+// 我的智能设备
+"WalletSmartWatch" = "智能手表";
+"WalletSmartWristband" = "智能手环";
+"WalletSmartRunningShoes" = "智能跑鞋";
+"WalletIntelligentBodyFatScale" = "智能体脂秤";
+
+// 首页总资产
+"AssetHomeRequestFail"="请求失败";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "选择钱包类型";
+"WalletColdWallet" = "冷钱包";
+"WalletHotWallet" = "热钱包";
+"WalletChoseWalletType" = "请选择钱包类型";
+"WalletBuyColdWallet" = "购买冷钱包";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "什么是冷钱包？";
+"WalletHotWalletDescription" = "什么是热钱包？";
+"WalletColdWalletInfo" = "        冷钱包（Cold Wallet），与热钱包相对应，也称离线钱包或者断网钱包，区块链钱包种类之一，意指网络不能访问到用户私钥的钱包。冷钱包通常依靠“冷”设备（不联网的计算机、手机等）确保比特币私钥的安全，运用二维码通信让私钥不触网，避免了被黑客盗取私钥的风险，但是也可能面临物理安全风险（比如计算机丢失，损坏等）。\n        将私钥存储至不会与网络连线的设备上，包括打印、手抄（纸钱包），甚至自行背诵（脑钱包），以确保存储期间的绝对安全。不过上述钱包在进行交易时，仍必须将私钥输入到一般软件钱包，而最高标准的冷钱包，还必须能进行离线签署，只将签署过的交易发出来。\n        将私钥存储在额外的特制硬件设备，使用时交易需在硬件内部进行交易签署才提交，只要硬件没有被破解，就绝对安全。如果此硬件设备完全离线、只提交签署过的交易消息，那同时也是最高标准的冷钱包。";
+"WalletHotWalletInfo" = "        热钱包（Hot Wallet），与冷钱包相对应，也称在线钱包或者联网钱包（Online Wallet），区块链钱包种类之一，也就是网络能够访问到用户私钥的钱包。热钱包因其联网特性，外人可能通过互联网访问用户的私钥，因此安全性比冷钱包低，但比冷钱包更便利。另外，无论是使用冷钱包还是热钱包，私钥都是关键所在。";
+
+// JFWalletMoreController
+"WalletApplicationEdit" = "应用编辑";

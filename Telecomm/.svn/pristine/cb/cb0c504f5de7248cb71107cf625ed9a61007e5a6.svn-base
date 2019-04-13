@@ -1,0 +1,20 @@
+//
+//  Wallet+CoreDataClass.h
+//  
+//
+//  Created by 王胜利 on 2019/3/25.
+//
+//
+
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Wallet : NSManagedObject
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+#import "Wallet+CoreDataProperties.h"

@@ -1,0 +1,30 @@
+/* 
+  HealthComps.strings
+  HealthComps
+
+  Created by 赵洪壮 on 2019/1/29.
+  Copyright © 2019 SpiderMan. All rights reserved.
+*/
+
+"home" = "Home";
+"running" = "Correndo";
+"fitness" = "Fitness";
+"walking" = "Andando";
+"cycling" = "Equitação";
+
+"connection" = "Conectado";
+"watchBattery" = "Bateria de relógio";
+"today" = "Hoje";
+"step" = "Passo";
+"completed" = "Concluído";
+"target" = "Objetivo";
+"distance" = "Distância";
+"heat" = "Calor";
+"heartRate" = "Ritmo cardíaco";
+"activeStatistical" = "Estatísticas ativas";
+"sportsLevel" = "Nível de esporte";
+"noLevel" = "Sem classificação";
+"primary" = "Primário";
+"personalRecord" = "Registro pessoal";
+
+"importNewDevice"="Importar novo dispositivo";

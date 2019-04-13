@@ -1,0 +1,359 @@
+//
+//  TCInputPasswordController.m
+//  OSPTalkChain
+//
+//  Created by 王胜利 on 2018/3/10.
+//  Copyright © 2018年 wsl. All rights reserved.
+//  2.密码登录(老用户)
+
+#import "TCInputPasswordController.h"
+#import "TCLoginBaseView.h"
+#import "TCInputPhoneTextField.h"
+#import "TCSMSTextField.h"
+#import "TCSMSController.h"
+#import "TCRegisterController.h"
+#import "TCWalletTipController.h"
+#import "AppDelegate.h"
+#import "TCResetPasswordController.h"
+#import "WalletHttpManager.h"
+#import "WalletDBManager.h"
+#import "AESUtil.h"
+#import "WalletSaveChildWalletUtil.h"
+#import <ethers/SecureData.h>
+#import "WalletSaveChildWalletUtil.h"
+#import "SLAlertController.h"
+#import "JFLanguageManager.h"
+
+@interface TCInputPasswordController ()<UITextFieldDelegate>
+
+@property (nonatomic, strong) TCLoginBaseView *rootView;
+@property (nonatomic, strong) UITextField *accountTextField;
+@property (nonatomic, strong) TCSMSTextField *passwordTextField;
+@property (nonatomic, strong) UIButton *resetPasswordButton;
+
+@end
+
+@implementation TCInputPasswordController
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    [self setupForDismissKeyboard];
+    [self rootView];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.passwordTextField.SMSTextField becomeFirstResponder];
+    
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.view endEditing:YES];
+}
+
+#pragma mark - 文本框内容变化时
+- (void)textChanged{
+    BOOL isTextFieldEmpty = (self.passwordTextField.SMSTextField.text.length == 0);
+    self.rootView.nextButton.enabled = !isTextFieldEmpty;
+    self.rootView.nextButton.alpha= isTextFieldEmpty?0.4:1;
+}
+
+#pragma mark - 下一步按钮事件
+- (void)nextButtonAction:(UIButton *)sender{
+    [self.view endEditing:YES];
+    [self showTCHUDWithTitle:[JFLanguageManager stringWithKey:@"openPlanetLoggedIn" table:Table_OpenPlanet comment:@"正在登录"]];
+    WEAK(self)
+    [TCLoginManager loginWithAccount:self.account password:self.passwordTextField.SMSTextField.text success:^(id result) {
+
+        NSDictionary *userInfo = [result valueForKey:@"userInfo"];
+        NSString *walletAddress = [userInfo valueForKey:@"ethAddress"];
+        /// 存储登录用户的钱包地址
+        [EnvironmentVariable setProperty:walletAddress forKey:@"loginWalletAddress"];
+        
+        if (StringIsEmpty(walletAddress)) {
+            [weakself hiddenTCHUD];
+            TCWalletTipController *nextVc = [TCWalletTipController new];
+            nextVc.password = self.passwordTextField.SMSTextField.text;
+            nextVc.type = WalletTypeLogin;
+            [self.navigationController pushViewController:nextVc animated:YES];
+        }else{
+            
+            NSString *localWalletAddress = [EnvironmentVariable getWalletAddressWithUserID:[EnvironmentVariable getWalletUserID]];
+            
+            if (![walletAddress hasPrefix:@"0x"]) {
+                walletAddress = [@"0x" stringByAppendingString:walletAddress];
+            }
+            
+            // 本地有钱包并且和服务器钱包一致，进主界面，否则创建
+            BOOL isNotNeedCreateWallet = ![localWalletAddress isEqualToString:@""] && [[localWalletAddress uppercaseString] isEqualToString:[walletAddress uppercaseString]] && [[[WalletUtil mainWalletAddress] hexLowercaseStringFormat] isEqualToString:[walletAddress hexLowercaseStringFormat]];
+            if (isNotNeedCreateWallet) {
+                //                [weakself jianrongNotChildWalletWithAddress:localWalletAddress];
+
+                [EnvironmentVariable setProperty:@(LoginStepLoginSuccess) forKey:LOGIN_STEP];
+                // 登录成功切换主控制器
+                [(AppDelegate *)APPDELEGATE goMainView];
+            }else{
+                [weakself hiddenTCHUD];
+                TCWalletTipController *nextVc = [TCWalletTipController new];
+                nextVc.password = self.passwordTextField.SMSTextField.text;
+                nextVc.type = WalletTypeLoginBackUp;
+                [self.navigationController pushViewController:nextVc animated:YES];
+            }
+        }
+        
+        
+    } fail:^(NSString *errorDescription) {
+        [weakself hiddenTCHUD];
+        [weakself sl_showAlertWithTitle:[JFLanguageManager commonStringWithAlert] message:[JFLanguageManager stringWithKey:@"openPlanetLoginFailure" table:Table_OpenPlanet comment:@"登录失败"]];
+    }];
+}
+
+- (void)jianrongNotChildWalletWithAddress:(NSString *)address{
+
+    [self changeTCHUDTitle:[JFLanguageManager stringWithKey:@"openPlanetSynchronizingWalletInformation" table:Table_OpenPlanet comment:@"正在同步钱包信息"]];
+    WEAK(self)
+    [WalletHttpManager walletHttpForChildWalletsWithMainAddress:address success:^(id responseObject) {
+        if (responseObject && [[responseObject valueForKey:@"result"] isEqualToString:@"success"]) {
+            // 1.保存子钱包
+            NSArray *childWallet = [responseObject valueForKey:@"ChildrenWallet"];
+            [weakself handleWallet:childWallet mainWalletAddress:address];
+        }else{
+            [weakself handleWallet:@[] mainWalletAddress:address];
+        }
+    } failure:^(NSString *error) {
+        [weakself hiddenTCHUD];
+        [weakself sl_showAlertWithTitle:[JFLanguageManager commonStringWithAlert] message:[JFLanguageManager stringWithKey:@"openPlanetSynchronizingWalletFailed" table:Table_OpenPlanet comment:@"同步钱包失败"]];
+    }];
+}
+
+- (void)handleWallet:(NSArray *)childWallets mainWalletAddress:(NSString *)mainAddress{
+    [WalletDBManager removeAllWalletsWithBlockChainType:BlockChainTypeBTC];
+    [WalletDBManager removeAllWalletsWithBlockChainType:BlockChainTypeETH];
+    NSMutableArray *ethWallets = [NSMutableArray array];
+    NSMutableArray *btcWallets = [NSMutableArray array];
+    for (NSDictionary *dict in childWallets) {
+
+        WalletModel *model = [WalletModel new];
+        model.accountId = [[dict valueForKey:@"id"] integerValue];
+        model.address   = SafeString([dict valueForKey:@"accountAddress"]);
+        model.avatar    = SafeString([dict valueForKey:@"accountIcon"]);
+        model.name      = SafeString([dict valueForKey:@"accountName"]);
+        model.mainWalletAddress   = SafeString([dict valueForKey:@"mainAccountAddress"]);
+        model.balance   = @"0";
+        model.walletType = OpenWalletTypeActive;
+        model.blockChainType = [BlockChainManager blockChainByChainName:SafeString([dict valueForKey:@"blockChainName"])].chainType;
+
+        // 兼容publicKey出现十进制的情况
+        NSString *publicKey = SafeString([dict valueForKey:@"accountPublicKey"]);
+
+        model.secretPrivateKey = SafeString([dict valueForKey:@"accountPrivateKey"]);
+        model.secretSeedPhrase = SafeString([dict valueForKey:@"seedPhrase"]);
+
+
+        if (model.blockChainType == BlockChainTypeETH) {
+            model.publicKey = [WalletUtil handleWalletPublicKey:publicKey];
+            [ethWallets addObject:model];
+        }else if (model.blockChainType == BlockChainTypeBTC){
+            model.publicKey = publicKey;
+            [btcWallets addObject:model];
+        }
+    }
+
+    CloudKeychainSigner *mainSigner = [WalletUtil walletWithAddress:mainAddress];
+    if (mainSigner) {
+        WEAK(self)
+        [mainSigner unlockPassword:self.passwordTextField.SMSTextField.text callback:^(Signer *s, NSError *error) {
+            if (!error) {
+                NSMutableArray *accounts = [NSMutableArray array];
+                NSString *privateKeyString =  [(CloudKeychainSigner *)s account].privateKeyString;
+                for (WalletModel *w in ethWallets) {
+                    if(w.walletType == OpenWalletTypeSee){
+                        // 观察者钱包过滤掉
+                        continue;
+                    }
+                    // 3.使用主钱包privateKey解密子钱包
+                    NSString *walletPrivateKey = [AESUtil decryptAES:w.secretPrivateKey password:privateKeyString];
+                    walletPrivateKey = [walletPrivateKey hexLowercaseStringFormat];
+                    // 4.拿到子钱包Account
+                    NSData *data = (NSData *)[SecureData secureDataWithHexString:walletPrivateKey];
+                    Account* account = [Account accountWithPrivateKey:data];
+                    if (account) {
+                        [accounts addObject:account];
+                    }
+                    [WalletDBManager addWallet:w];
+                }
+
+
+                NSMutableArray *btcSeedPhrases = [NSMutableArray array];
+                for (WalletModel *w in btcWallets) {
+                    // 3.使用主钱包privateKey解密子钱包
+                    NSString *walletSeedPhrase = [AESUtil decryptAES:w.secretSeedPhrase password:privateKeyString];
+                    if (!StringIsEmpty(walletSeedPhrase)) {
+                        [btcSeedPhrases addObject: [BTCWalletManager btcWalletWithSeedPhrase:walletSeedPhrase]];
+                    }
+
+                    NSString *btcSecretSeedPhrase = [AESUtil encryptAES:walletSeedPhrase password:mainAddress];
+                    w.btcSecretSeedPhrase = btcSecretSeedPhrase;
+                    [WalletDBManager addWallet:w];
+                }
+
+
+                [WalletSaveChildWalletUtil addSubWalletToKeyChain:accounts password:self.passwordTextField.SMSTextField.text complete:^(id result) {
+                    [WalletSaveChildWalletUtil addBTCSubWalletToKeyChain:btcSeedPhrases password:self.passwordTextField.SMSTextField.text complete:^(id result) {
+                        if ([NSThread isMainThread]) {
+                            [weakself walletAccountAdded];
+                        }else{
+                            dispatch_async(dispatch_get_main_queue(), ^{
+                                [weakself walletAccountAdded];
+                            });
+                        }
+                    }];
+                }];
+            }else{
+                [weakself hiddenTCHUD];
+                [weakself sl_showAlertWithTitle:[JFLanguageManager commonStringWithAlert] message:[JFLanguageManager stringWithKey:@"TCInputPasswordFailureToUnlockMainWallet" table:Table_OpenPlanet comment:@"解锁主钱包失败"]];
+            }
+        }];
+    }else{
+        [self hiddenTCHUD];
+        [self sl_showAlertWithTitle:[JFLanguageManager commonStringWithAlert] message:[JFLanguageManager stringWithKey:@"openPlanetNoMainWalletWasObtained" table:Table_OpenPlanet comment:@"未获取到主钱包"]];
+    }
+}
+
+- (void)walletAccountAdded{
+    [self hiddenTCHUD];
+    [EnvironmentVariable setProperty:@(LoginStepLoginSuccess) forKey:LOGIN_STEP];
+    // 登录成功切换主控制器
+    [(AppDelegate *)APPDELEGATE goMainView];
+}
+
+
+#pragma mark - UITextFieldDelegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    if (self.passwordTextField.SMSTextField.text.length > 0) {
+        [self nextButtonAction:self.rootView.nextButton];
+    }
+    return YES;
+}
+
+#pragma mark - 返回
+- (void)backAction{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+#pragma mark - 重置密码
+- (void)resetPasswordAction{
+    [self.view endEditing:YES];
+    TCResetPasswordController *vc = [TCResetPasswordController new];
+    vc.accountType = self.accountType;
+    vc.phone = self.account;
+    vc.from = ResetPasswordFromLogin;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - lazyload
+- (TCLoginBaseView *)rootView{
+    if (!_rootView) {
+        _rootView = [TCLoginBaseView new];
+        /// 设置控件默认值
+        _rootView.topBgImageView.theme_image = [UIImage theme_bundleImageNamed:@"login/login_pwd_bg.png"];
+        _rootView.tipImageView.theme_image = [UIImage theme_bundleImageNamed:@"login/login_pwd.png"];
+        _rootView.titleLabel.text = [JFLanguageManager stringWithKey:@"openPlanetEnterPasswordToLogin" table:Table_OpenPlanet comment:@"输入密码登录"];
+        [_rootView.nextButton setTitle:[JFLanguageManager stringWithKey:@"login" table:Table_Tools comment:@"登录"] forState:UIControlStateNormal];
+        [_rootView.backButton addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+        [_rootView.nextButton addTarget:self action:@selector(nextButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+        /// 移除提示Label,节省空间
+        [_rootView.tipLabel removeFromSuperview];
+
+        [self.view addSubview:_rootView];
+        [_rootView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.view);
+        }];
+
+
+        [_rootView.customView addSubview:self.resetPasswordButton];
+        [self.resetPasswordButton mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.bottom.equalTo(_rootView.customView);
+        }];
+
+        [_rootView.customView addSubview:self.passwordTextField];
+        [self.passwordTextField mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.equalTo(_rootView.customView);
+            make.bottom.equalTo(self.resetPasswordButton.mas_top).offset(-5);
+        }];
+
+        self.accountTextField.text = self.account;
+        [_rootView.customView addSubview:self.accountTextField];
+        [self.accountTextField mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.top.right.equalTo(_rootView.customView);
+            make.height.equalTo(@45);
+            make.bottom.equalTo(self.passwordTextField.mas_top).offset(-5);
+        }];
+    }
+    return _rootView;
+}
+
+
+- (TCSMSTextField *)passwordTextField{
+    if (!_passwordTextField) {
+        _passwordTextField = [TCSMSTextField new];
+        _passwordTextField.SMSTextField.delegate = self;
+        _passwordTextField.SMSTextField.theme_attributePlaceHolder = [NSAttributedString theme_attributeStringWithString:[JFLanguageManager stringWithKey:@"openPlanetPleaseEnterPassword" table:Table_OpenPlanet comment:@"输入密码"] attributeColor:[UIColor theme_colorForKey:@"textFieldPlaceHolderColor" from:@"login"]];
+        
+        [_passwordTextField.SMSTextField addTarget:self action:@selector(textChanged) forControlEvents:UIControlEventEditingChanged];
+        _passwordTextField.SMSTextField.secureTextEntry = YES;
+        _passwordTextField.SMSTextField.returnKeyType = UIReturnKeyDone;
+        _passwordTextField.SMSTextField.keyboardType = UIKeyboardTypeDefault;
+        _passwordTextField.SMSTextField.rightViewMode = UITextFieldViewModeNever;
+        /// 设置下一步按钮默认状态
+        [self textChanged];
+    }
+    return _passwordTextField;
+}
+
+- (UIButton *)resetPasswordButton{
+    if (!_resetPasswordButton) {
+        _resetPasswordButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        _resetPasswordButton.tintColor = TCThemeColor;
+        [_resetPasswordButton setTitle:[JFLanguageManager stringWithKey:@"openPlanetResetPassword" table:Table_OpenPlanet comment:@"重置密码"] forState:UIControlStateNormal];
+        [_resetPasswordButton addTarget:self action:@selector(resetPasswordAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _resetPasswordButton;
+}
+
+- (UITextField *)accountTextField{
+    if (!_accountTextField) {
+        _accountTextField = [UITextField new];
+        _accountTextField.borderStyle = UITextBorderStyleNone;
+        _accountTextField.keyboardType = UIKeyboardTypeEmailAddress;
+        _accountTextField.font = FONT(15);
+        _accountTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
+        _accountTextField.theme_textColor = [UIColor theme_colorForKey:@"textFieldTextColor" from:@"login"];
+        _accountTextField.theme_attributePlaceHolder = [NSAttributedString theme_attributeStringWithString:[JFLanguageManager stringWithKey:@"openPlanetLoginUsingVerificationCode" table:Table_OpenPlanet comment:@"使用短信验证码登录"] attributeColor:[UIColor theme_colorForKey:@"textFieldPlaceHolderColor" from:@"login"]];
+        [_accountTextField addTarget:self action:@selector(textChanged) forControlEvents:UIControlEventEditingChanged];
+
+        UIView *bottomLine = [UIView new];
+        bottomLine.theme_backgroundColor = [UIColor theme_colorForKey:@"separatorColor" from:@"login"];
+        [_accountTextField addSubview:bottomLine];
+        [bottomLine mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.equalTo(_accountTextField).inset(-3);
+            make.bottom.equalTo(_accountTextField);
+            make.height.equalTo(@1);
+        }];
+        _accountTextField.textColor = cLightGrayColor;
+        _accountTextField.enabled = NO;
+    }
+    return _accountTextField;
+}
+
+
+
+@end

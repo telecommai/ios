@@ -1,0 +1,154 @@
+/* 
+  OpenPlanet.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/9/7.
+  Copyright © 2018年 wsl. All rights reserved.
+*/
+
+// SystemShare
+"openPlanetLoading" = "Loading";
+"openPlanetSendFriend" = "Send to a friend";
+"openPlanetShareGravitationalField" = "Share to the gravitational field";
+"openPlanetShareBack" = "Back";
+
+// login-> TCInputPhoneController
+"openPlanetWelcomeTo" = "Welcome to ";
+"openPlanetLoginTip" = "In order to provide you with better service, please enter your account";
+"openPlanetPleaseEnterPhoneNumber" = "Please enter cell phone number";
+
+// login-> TCInputPasswordController
+"openPlanetLoggedIn" = "Logged In";
+"openPlanetLoginFailure" = "Login Failure";
+"openPlanetSynchronizingWalletInformation" = "Synchronizing wallet information";
+"openPlanetSynchronizingWalletFailed" = "Synchronizing wallet failed";
+"openPlanetFailureToUnlockWallet" = "Failure to unlock main wallet";
+"openPlanetNoMainWalletWasObtained" = "No main wallet was obtained";
+"openPlanetEnterPasswordToLogin" = "Input password login";
+"openPlanetPleaseEnterEmail" = " Please enter your mobile number or email address";
+"openPlanetPleaseEnterPassword" = "Please enter password";
+"openPlanetResetPassword" = "Reset Password";
+"openPlanetResetPasswordBeing" = "Password being reset";
+"openPlanetResetPasswordResetSuccessful" = "Password reset was successful. Please log in again";
+"openPlanetLoginUsingVerificationCode" = "Login using verification code";
+
+// Wallet-> TCWalletTipController
+"openPlanetRestoreBaseAccount" = "Restore base account";
+"openPlanetCreateBaseAccount" = "Create base account";
+"openPlanetHasBeenCreatedAlert" = "The account has already created a base, creating a new base and an old base, and the wallet created and imported before will be discarded. Will the base continue to be created?";
+"openPlanetRestoreYourBaseAccount" = "Restore your base account";
+"openPlanetWalleAlertString" = "Please fill in your base account mnemonics Without them, your account will not be restored. Be sure to keep your mnemonics properly";
+"openPlanetCarefulSurroundingEnvironment" = "Fill in the memorizing words, please pay attention to the surrounding environment";
+"openPlanetCreateYourBaseAccount2" = "Create your base account";
+"openPlanetWalleAlertString2" = "Base account is your only address on the block chain. It is generated according to your private key. Please back up the private key and base account after creating the base account";
+"openPlanetKeepInformation" = "Please keep the information generated during the creation process";
+
+// Wallet-> TCInputMemoryWordController
+"openPlanetRestoreBase" = "Restoration Base";
+"openPlanetRestoreBaseFailed" = "Recovery failed, please check auxiliary words";
+"openPlanetRestoreBaseFailed2" = "Recovery failed, please check secret key";
+"openPlanetRestoreBaseFailed3" ="Recovery failed only to restore the base of the account binding";
+"openPlanetRestoringBaseAccount" = "Restoring base account...";
+"openPlanetFailureToUnlockMainWallet" = "Failure to unlock main Wallet";
+
+"openPlanetSynchronizingWalletInformation" = "Synchronizing wallet information";
+"openPlanetRecoverySuccessful" = "Recovery successful";
+"openPlanetMnemonic" = "Mnemonic";
+"openPlanetRestoreBaseByMnemonic" = "Restore base by mnemonic";
+"openPlanetUsePrivateKeyToRestoreBase" = "Restore base by private key";
+"openPlanetSavePrivateKeyFailedTryAgain" = "Failed to save the communication private key. Please try again";
+"openPlanetPleaseEnterPriviteKey" = "Please enter the base account private key";
+"openPlanetImportingFans" = "Importing Fans";
+"openPlanetSkipUploadFans" = "Skip";
+"openPlanetReadingAddressBook" = "Reading address book friends";
+"openPlanetReadAddressBookFiled" = "Friend failed to read address book";
+"openPlanetImport" = "Import";
+"openPlanetReadAddressBookToImportFans" = "Importing your phone address book will automatically set contacts in your address book to your fans";
+"openPlanetShouldImportFansToGetsilverDiamondReward" = "Click to import fans and you will get a silver diamond reward";
+"openPlanetHaveReadAndAgreed" = "I have read and agreed";
+"openPlanetServiceAndPrivacyPolicy" = "Service and Privacy Policy";
+"openPlanetSelectThePlanet" = "Please select the planet you want to stay in.";
+"openPlanetSelectionCanNotChange" = "(The selection will not be changed later)";
+"openPlanetStayingOnThePlanet" = "Staying on the planet";
+"openPlanetAlready" = "Already";
+"openPlanetSentVerificationCode" = "Sent SMS verification code";
+"openPlanetSendVerificationCodeTo" = "Send SMS verification code to";
+"openPlanetSendingTextVerifyCode" = "Sending text verify code";
+"openPlanetVerifyPhoneNumber" = "Verify phone number";
+"openPlanetEnterVerificationCode" = "Enter SMS verification code";
+"openPlanetCreateSecureAccount" = "Create a secure account";
+"openPlanetRegisteredUserFailed" = "Registered user failed";
+"openPlanetSetPasswordDescribe" = "The password is used to log in, protect the private key, and transaction authorization, and the strength is very important. The system does not store passwords and cannot retrieve them for you. Please keep in mind!";
+"openPlanetUserNickname" = "User's Nickname";
+"openPlanetResetFailedTryAgain" = "Reset failed, please try again";
+"openPlanetSetAvtar" = "Set Avatar";
+"openPlanetUploadingAvatar" = "Uploading avatar";
+"openPlanetSettingAvatarFailed" = "Setting avatar failed";
+"openPlanetUploadingAvatarFailed" = "Uploading avatar failed";
+"openPlanetNickname" = "NickName";
+"openPlanetSetPictureAsAvatar" = "Set a picture of yours as your avatar";
+"openPlanetSetAvatarAndGetSilverDiamondReward" = "Set avatar and get a silver diamond reward";
+"openPlanetFailedToDecryptWalletTryAgain" = "Failed to decrypt sub-wallet, please try again";
+"openPlanetBackupMnemonic" = "Backup mnemonic";
+"openPlanetDescribeOfMnemonic" = "The mnemonic is used to restore the base account or reset the base password, copy it accurately onto paper, and store it in a safe place that only you know";
+"openPlanetCopyDownYourBaseAccountMnemonic" = "Copy down your base account mnemonic";
+"openPlanetCopyTheAboveMnemonicAndGetSilverDiamondReward" = "Copy the above mnemonic and get a silver diamond reward";
+"openPlanetConfirmYourBaseMnemonic" = "Confirm your base mnemonic";
+"openPlanetBackingUpTheBase" = "Backing up the base";
+"openPlanetBackupFailedPleaseCheckYourMnemonic" = "Backup failed, please check your mnemonic";
+"openPlanetSavingBaseAccountFailedTryAgain" = "Saving base account failed, please try again";
+"openPlanetBaseAccountAddedSuccessfully" = "Base account added successfully";
+"openPlanetClickOnTheMnemonicInOrderToConfirmYourMnemonicIsCorrect" = "Please click on the mnemonic in order to confirm that your mnemonic is correct";
+"openPlanetBackupPrivateKey" = "Backup private key";
+"openPlanetDescribeOfPrivateKey" = "Security warning: the private key is not encrypted, the export is risky. It is recommended to use mnemonic for backup.";
+"openPlanetPrivateKeyHasBeenCopied" = "Private key has been copied";
+"openPlanetsilverDiamondRecord" = "Silver diamond record";
+"openPlanetInvitationCode" = "Invitation Code";
+"openPlanetInvitationCodeIsEmpty" = "Invitation code is empty";
+"openPlanetIAm" = "I'm ";
+"openPlanetInviteYouToJoin" = "Invite you to join";
+"openPlanetILookForwardToYourJoining" = "I look forward to your joining~~";
+"openPlanetInvitationCodeHasBeenCopied" = "Invitation code has been copied";
+"openPlanetYourInvitationCode" = "Your invitation code";
+"openPlanetAfterYouInviteFriendToRegisterYouWillReceiveSilverDiamondAwards" = "After you invite a friend to register, you will receive 1000 silver diamond awards.";
+"openPlanetScanCodeDownload" = "Scan code download";
+"openPlanetFailedToGetBaseLogInAgain" = "Failed to get the base, please log in again";
+"openPlanetFailedGetEnergyTryAgain" = "Failed to get energy, please try again";
+"openPlanetPleaseWaitForTheAnnouncement" = "Please wait for the announcement";
+"openPlanetBaseIDHasBeenCopied" = "Base ID has been copied";
+
+//+弹出框
+"openPlanetcreateTribe" = "Create A Tribe";
+"openPlanetAddFriend" = "Add Friends";
+"openPlanetScan" = "Scan";
+"openPlanetEnergyExchange" = "Energy Exchange";
+
+//
+"openPlanetUpdatingResourceFile" = "Updating resource file...";
+
+// 选择星球
+"水星" = "Mercury";
+"英文名：Mercury\n最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。\n公转轨道：距太阳57,910,000 千米 (0.387天文单位)\n水星直径：4,880 千米\n质量：3.30e23 千克" = "English name: Mercury\n closest to the sun, is the smallest planet in the solar system. Mercury is smaller in diameter than Ganymede and Titan, but its mass is larger. \n revolution track: 57,910,000 thousand from the sun Meter (0.387 astronomical unit)\n Mercury diameter: 4,880 km\n quality: 3.30e23 kg";
+"金星" = "Venus";
+"英文名：Venus\n是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。\n轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）\n行星直径：12,103.6 千米\n质量：4.869e24 千克" = "English name: Venus\n is the second closest planet to the Sun, the sixth largest planet in the solar system. Among all the planets, the orbit of Venus is closest to the circle, with a deviation of less than 1%. \n Orbital radius: 108,200,000 thousand from the sun Meter (0.723 astronomical unit)\n Planet diameter: 12,103.6 km\n mass: 4.869e24 kg ";
+"地球" = "Earth";
+"英文名：Earth\n我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。\n轨道半径：149,600,000 千米 （离太阳1.00 天文单位）\n行星直径：12,742千米\n质量：5.9736e24 千克" = "English name: Earth\n Our home is the third planet in the solar system from the inside to the outside, and the fifth largest planet in the solar system. \n Orbital radius: 149,600,000 kilometers (1.00 astronomical unit from the sun) \n Planet diameter: 12,742 thousand m\n quality: 5.9736e24 kg ";
+"火星" = "Mars";
+"英文名：Mars\n为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。\n公转轨道：离太阳227,940,000 千米 (1.52 天文单位）\n行星直径：6,794 千米\n质量：6.4219e23 千克" = "English name: Mars\n is the fourth largest from the sun, and the seventh largest planet in the solar system. It is also called the fire in ancient China. Because Mars is red, the fluorescing image is like fire, the brightness often changes; and it moves in the sky. Sometimes from the west to the east, and sometimes from the east to the west, the situation is complicated and confusing. Therefore, in ancient China, it was called flooding, and there was fluorescence and ignorance. The meaning of the \n revolution track: 227,940,000 km from the sun (1.52 astronomical units) \n planet diameter: 6,794 km \n quality: 6.4219e23 kg";
+"木星" = "Jupiter";
+"英文名：Jupiter\n是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。\n公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）\n行星直径：142,984 千米 (赤道)\n质量：1.900e27 千克" = "English name: Jupiter\n is the fifth planet from the sun, and the largest one, 2.5 times larger than the mass of all other planets (318 times the Earth). \n revolution track: 778, 330,000 km from the sun (5.20 astronomical unit) \n Planet diameter: 142,984 km (equatorial) \n quality: 1.900e27 kg";
+"土星" = "Saturn";
+"英文名：Saturn\n是离太阳第六远的行星，也是八大行星中第二大的行星。\n公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）\n行星直径：120,536 千米 （赤道）\n质量：5.68e26 千克" = "English name: Saturn\n is the planet farthest from the sun and the second largest planet among the eight planets. \n orbit: 1,429,400,000 km from the sun (9.54 astronomical units)\n Planet diameter: 120,536 km ( Equator) \n Quality: 5.68e26 kg";
+"天王星" = "Uranus";
+"英文名：Uranus\n是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。\n公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）\n行星直径：51,118 千米（赤道）\n质量：8.683e25 千克" = "English name: Uranus\n is the seventh largest planet in the solar system from the sun. From the diameter point of view, it is the third largest planet in the solar system. Uranus is larger than Neptune, but its mass is smaller than it. \n revolution track: from the sun 2,870,990,000 km (19.218 astronomical units)\n Planet diameter: 51,118 km (equator)\n quality: 8.683e25 kg";
+"海王星" = "Neptune";
+"英文名：Neptune\n是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。\n公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）\n行星直径：49,532 千米（赤道）\n质量：1.0247e26 千克" = "English name: Neptune\n is the eighth planet orbiting the sun, and the fourth largest celestial body in the solar system (diameter). Neptune is smaller in diameter than Uranus, but its mass is larger than it. \n orbit: 4,504,000,000 from the sun Kilometers (30.10 astronomical units)\n Planetary diameter: 49,532 km (equator)\n Quality: 1.0247e26 kg";
+"冥王星" = "Pluto";
+"英文名：Pluto\nPluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）\n历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。\n太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。\n公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)\n直径：2370 千米\n质量：1.27e22 千克" = "English name: Pluto\nPluto is the Pluto of ancient Roman mythology (Hadis Hades in Greek mythology)\n Historically, Pluto was considered to be the farthest and smallest planet from the sun, symbolizing in Greek mythology. Hades, the prince of Zeus, was the brother of Zeus. After being taken away by the younger brother, he fell to the underworld. Pluto has three satellites. \nThere are seven satellites in the solar system larger than Pluto (moon, Io, Europa, and Jupiter) Third, Callisto, Titan and Triton).\n orbit: average distance from the sun of 5,913,520,000 km (39.5 astronomical units)\n diameter: 2370 km\n mass: 1.27e22 kg";
+
+// tabBar
+"titleSpace" = "Space";
+"titleExplore" = "Explore";
+"titleInter" = "InterPlanet";
+"titleBase" = "Base";
+"titleNews" = "News";

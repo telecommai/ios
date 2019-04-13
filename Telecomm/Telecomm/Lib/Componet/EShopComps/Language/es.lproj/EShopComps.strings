@@ -1,0 +1,304 @@
+/*
+ EShopComps.strings
+ EShopComps
+ 
+ Created by 谢虎 on 2018/12/21.
+ Copyright © 2018 谢虎. All rights reserved.
+ */
+//导航栏
+"EShopGoods" = "Bienes";
+"EShopEvaluation" = "Evaluacion";
+"EShopDetail" = "Detalles";
+"EShopGoodsSku" = "Por favor seleccione la especificación";
+"EShopProductReview" = "Evaluación de producto";
+"EShopPraise" = "Alabanza";
+
+//底部工具栏
+
+"EShopCollection" = "Coleccion";
+"EShopCollected" = "Favorecido";
+"EShopService" = "Servicio al cliente";
+"EShopCart" = "Carrito de compras";
+"EShopAddCart" = "Agregar al carrito";
+"EShopBuyNow" = "Comprar ahora";
+"EShopNoStart" = "Aún no se ha iniciado";
+"EShopHaveEnd" = "Terminado";
+
+//分享相关
+"EShopSharFriends" = "Compartir con un amigo";
+"EShopShareGrivitationField" = "Compartir en el campo gravitacional";
+
+//购物车
+"EShopDeleteCell" = "Eliminar";
+"EShopEdit" = "Editar";
+"EShopComplete" = "Completo";
+"EShopSettleAccounts" = "Facturación";
+"EShopTotal" = "Total";
+"EShopNoGoods" = "No hay ningún artículo en el carrito de compras";
+"EShopSelected" = "Seleccionado";
+"EShopPurchaseAmount" = "Cantidad de compra";
+
+//我的商城
+"EShopMyMall" = "Mi centro comercial";
+"EShopMyOrder" = "Mi pedido";
+"EShopMyAddress" = "Mi dirección de envío";
+"EShopMyService" = "Mi servicio";
+"EShopScanAll" = "Ver todo";
+"EShopAttention" = "Seguir";
+"EShopFootprint" = "huella";
+"EShopExperience"="Experiencia";
+"EShopOrderAll" = "Todos";
+"EShopPendingPayment" = "Pago pendiente";
+"EShopToBeDelivered" = "Para ser enviado";
+"EShopRefundSuccess" = "Devolución exitosa";
+"EShopPendingReceipt" = "Bienes pendientes";
+"EShopComment" = "para ser evaluado";
+"EShopCompleted" = "Completed";
+"EShopCanceled" = "Cancelado";
+"EShopClosed" = "Closed";
+"EShopRefound" = "Devolución de devolución";
+"EShopDeleted" = "Eliminado";
+"EShopOrderWinTreasurePaySuccess" = "Exito de pago de la orden";
+"EShopOrderPayFail" = "Falló el pago de la orden";
+"EShopOrderWinTreasureWin" = "El tesoro ha sido ganado";
+"EShopOrderWinTreasurePaying" = "Pago de orden";
+"EShopOrderWinTreasurePaying2" = "El pedido se está pagando, tenga paciencia";
+"EShopOrderSubmitted" = "Su pedido ha sido enviado, complete el pago lo antes posible";
+"EShopOrderDelivering" = "Su pedido se está enviando, tenga paciencia";
+"EShopOrderDelivered" = "Su pedido ha sido enviado, espere la confirmación del recibo";
+"EShopOrderRecieved" = "Su pedido ha sido firmado, por favor califique";
+"EShopOrderRecieved2" = "Por favor califique";
+"EShopOrderCompleted" = "Transacción completada";
+"EShopOrderCancelled" = "Transacción cancelada";
+"EShopOrderReasonForShutdown" = "Cerrar motivo: cierre proactivo del usuario";
+"EShopOrderDeleted" = "Orden eliminada";
+
+//收藏
+"EShopMyCollection" = "Mis favoritos";
+"EShopNoCollection" = "No hay elementos favoritos";
+"EShopAddCartSuccessfully" = "Unirse al carrito de la compra correctamente";
+"EShopAddCartFail" = "Error al unirse al carrito de compras";
+"EShopChooseDeteted" = "Seleccione el elemento que desea eliminar";
+"EShopDeteleExpiredFail" = "Error al eliminar elementos caducados";
+"EShopNoExpired" = "No hay elementos caducados";
+"EShopChooseCollectionItem" = "Seleccione el ítem a recolectar";
+"EShopCanceledCollection" = "Colección cancelada";
+"EShopCancelCollection" = "Cancelar favoritos fallados";
+"EShopAddCollection" = "Favoritos agregados";
+"EShopCollectionSuccess" = "¡Agregar éxito de favoritos!";
+"EShopCollectionFail" = "¡Error al agregar favoritos!";
+
+//收货地址
+"EShopChooseAddress" = "Seleccione la dirección de envío";
+"EShopAddress" = "Dirección de recibo";
+"EShopAddNewAddress" = "Agregar nueva dirección";
+"EShopEditAddress" = "Modificar la dirección de entrega";
+"EShopAddAddress" = "Agregando una dirección de entrega";
+"EShopSave" = "Guardar";
+"EShopConsigneeName" = "Nombre del consignatario (use el nombre real)";
+"EShopConsigneeNameTip" = "Por favor ingrese el nombre";
+"EShopPhoneNumber" = "número de teléfono móvil";
+"EShopPhoneNumberTip" = "Introduzca el número de teléfono";
+"EShopCorrectPhoneNumberTip" = "Introduzca el número de teléfono correcto";
+"EShopArea" = "Ubicación";
+"EShopAreaTip" = "Rellene el área";
+"EShopDetailAddress" = "Dirección detallada como calle, número de casa de la comunidad";
+"EShopDetailAddressTip" = "Complete la dirección completa";
+"EShopSetDefaultAddress" = "Establecer como dirección predeterminada";
+"EShopInfomationUnsaved" = "La información que completó no se ha guardado. ¿Seguro que regresará ahora?";
+"EShopFailedUpdate" = "Error al actualizar, inténtelo de nuevo";
+"EShopProvince" = "Provincia";
+"EShopCity" = "Ciudad";
+"EShopArea2" = "Zona";
+
+//我的订单
+"EShopCancelOrder" = "Cancelar pedido";
+"EShopPayNow" = "Pago inmediato";
+"EShopBuyAgain" = "Comprar de nuevo";
+"EShopConfirmReceipt" = "Confirmar recibo";
+"EShopSureConfirmReceipt" = "¿Confirma el recibo?";
+"EShopCommentNow" = "Evaluación inmediata";
+"EShopDeleteOrder" = "Eliminar orden";
+"EShopTreasureDetails" = "Detalles del diablo";
+
+//订单详情
+"EShopOrderDetail" = "Detalles del pedido";
+"EShopTotalAmount" = "Importe total a pagar";
+"EShopTotalPayment" = "Pago total";
+"EShopMessage" = "Mensaje comercial:";
+"EShopTradingHash" = "Transaction Hash:";
+"EShopShipmentNumber" = "Número de logística";
+"EShopOrderNumber" = "Número de pedido";
+"EShopOrderTime" = "Tiempo de pedido";
+"EShopLogisticsCompany" = "Logistics Company";
+"EShopConfirmReceiptSuccess" = "Entrada de mercancías";
+"EShopEnsureDeleteOrder" = "¿Está seguro de eliminar el pedido?";
+"EShopDeleteOrderSuccess" = "Eliminar el éxito del pedido";
+"EShopEnsureCancelOrder" = "¿Está seguro de cancelar el pedido?";
+"EShopCancelOrderSuccess" = "Cancelar el pedido con éxito";
+"EShopToCart" = "Ir al carrito de compras";
+"EShopAddedCart" = "El producto se ha agregado al carrito de compras";
+"EShopFaiedToAddCart" = "Error al agregar al carrito, inténtelo de nuevo";
+"EShopCopySuccessfully" = "Copia correcta";
+"EShopClose" = "Cerrar";
+"EShopSum" = "total";
+"EShopPiece" = "Pieza";
+"EShopNoOrder" = "No hay pedidos relacionados";
+"EShopMoveToCollection" = "Mover a mi colección";
+"EShopRemove" = "Eliminar elemento";
+"EShopRemoveExpiered" = "Eliminar elementos caducados";
+"EShopDeleteFailed" = "Error al eliminar";
+"EShopUpdateFailed" = "Error de actualización";
+
+//付款
+"EShopPayMent" = "Pago";
+"EShopAliPay" = "Alipay";
+"EShopWeChat" = "WeChat";
+"EShopNeedToPay" = "Pago pendiente";
+"EShopInsufficientBalance" = "Balance insuficiente";
+"EShopRecharge" = "Ir a recargar";
+"EShopPaymentMethods" = "Método de pago";
+"EShopOtherPaymentMethods" = "Otros métodos de pago";
+"EShopPaymentAlert1" = "El pedido se ha enviado, por favor";
+"EShopPaymentAlert2" = "Pago completo dentro de";
+"EShopToBePaied" = "Pago pendiente";
+"EShopPaymentHour" = "horas";
+"EShopPaymentMinute" = "minutos";
+"EShopPaymentSecond" = "segundos";
+"EShopRMB" = "¥";
+"EShopPay" = "Pago";
+"EShopNeedToPay" = "pago requerido";
+"EShopRemain" = "Restante";
+"EShopRemainRequestFail" = "Falló la solicitud de saldo";
+"EShopReorderAlert" = "El pedido se ha cerrado debido a un tiempo de espera, vuelva a ordenar";
+"EShopChoosePayWay" = "Seleccione el método de pago";
+"EShopPayWay" = "Método de pago";
+"EShopChooseOtherPayWay" = "Otros métodos de pago";
+"EShopPayUnfinished" = "¡Pago incompleto!";
+"EShopPayAbundon" = "Abandonar";
+"EShopRechargeAgain" = "Repay";
+"EShopPaySuccess" = "El pago se realizó correctamente";
+"EShopPayFail" = "¡Falló el pago!";
+"EShopCondirmOrder" = "Confirmar orden";
+"EShopReciever" = "Destinatario";
+"EShopRecieverAddress" = "Dirección de recibo";
+"EShopBuyerMessage" = "Mensaje";
+"EShopBuyerMessageAlert" = "Introduzca su mensaje al comerciante (dentro de 50 palabras)";
+"EShopTotalAmount2" = "Cantidad total";
+"EShopOrderSubmit" = "Enviar pedido";
+"EShopOrderAlert3" = "El pedido se envió correctamente. La tienda múltiple actual no admite el pago combinado. Vaya a la página' Mis pedidos '-\' Pagos pendientes 'para completar el pago.'";
+"EShopGoPay" = "Ir a pagar";
+"EShopAddressAlert" = "Establezca la dirección de envío";
+"EShopNoAddressAlert" = "Aún no tiene una dirección de envío, haga clic en Agregar";
+"EShopAdd" = "Agregar";
+"EShopCurrent" = "current";
+"EShopGet" = "Obtener";
+"EShopFail" = "Error";
+"EShopChoose" = "Por favor seleccione";
+"EShopCurrentLess" = "Stock actual insuficiente en stock";
+"EShopOrderBlank" = "El número de pedido está vacío";
+"EShopMaxGoods" = "Se ha alcanzado el límite máximo de compra";
+"EShopAmount" = "cantidad";
+"EShopFullAmount" = "Inventario insuficiente";
+"EShopTreasureNow" = "Inmediatamente ganando el tesoro";
+"EShopChooseArea" = "Seleccione una región";
+"EShopSend" = "Distribución";
+"EShopSendTo" = "Entrega a";
+"EShopTo" = "a";
+"EShopUnknownArea" = "Área desconocida";
+
+//一元夺宝
+"EShopTreasure" = "Recuperación";
+"EShopGoodsRelated" = "Relacionados con el producto";
+"EShopGoodsPrice" = "Precio de los productos básicos";
+"EShopGoodsTitle" = "Título del producto";
+"EShopGoodsSoldOut" = "Agotado";
+"EShopEnterBrand" = "Ingrese la marca";
+"EShopSellingGoods" = "Productos en venta";
+"EShopSolded" = "sold";
+"EShopValue" = "Valor";
+"EShopShareEvluate" = "Evaluación del sol";
+"EShopCommentFailed" = "Error al cargar el comentario";
+"EShopUrFeel" = "Habla sobre tus sentimientos";
+"EShopNilCommentAlert" = "El contenido del comentario no puede estar vacío";
+"EShopEvaluateVeryPoor" = "muy malo";
+"EShopEvaluatePoor" = "Pobre";
+"EShopEvaluateGeneral" = "General";
+"EShopEvaluateGood" = "Genial";
+"EShopEvaluateVeryGood" = "Muy bueno";
+"EShopScore" = "Puntuación";
+"EShopNoComment" = "Sin evaluación del producto";
+"EShopScanMore" = "Ver más";
+"EShopStartOfActivity" = "Desde el principio de la actividad";
+"EShopApplyRefound" = "Solicitud de pago";
+"EShopGoodsState" = "Estado de los bienes";
+"EShopNoRecieved" = "Bienes no recibidos";
+"EShopRecievedGoods" = "bienes recibidos";
+"EShopRefoundReason" = "Razón de devolución";
+"EShopRefoundWithoutReason" = "Siete días no hay razón para reembolsar";
+"EShopRefoungNotLike" = "Error grave / efecto negativo / no me gusta";
+"EShopRefoundSize" = "Problema de tamaño";
+"EShopRefoundQuantity" = "Problema de calidad";
+"EShopRefoundNoLovely" = "El cliente no es suficiente amor";
+"EShopRefoundDeicribe" = "No de acuerdo con la descripción";
+"EShopRefoundSellerSendFault" = "El vendedor envió las mercancías incorrectas";
+"EShopRefoundGoodsFake" = "Productos falsos y de mala calidad";
+"EShopRefoundEmpty" = "paquete vacío";
+"EShopRefoundOther" = "Otro";
+"EShopAddDescriptions" = "Agregar descripción";
+"EShopRefoundMoney" = "Cantidad de reembolso";
+"EShopRefoundDescriptions" = "Instrucciones de reembolso";
+"EShopOptional" = "Optional";
+"EShopPhotoFail" = "Hay fotos fallidas de carga";
+"EShopSenDdirectly" = "Directamente enviado";
+"EShopMaxPhotoAlert" = "Puede agregar hasta 6 imágenes";
+"EShopUploadDocuments" = "Cargar credenciales";
+"EShopChooseWayOfService" = "Seleccionar tipo de servicio";
+"EShopRefoundOnly" = "Solo reembolso";
+"EShopNorecievedAndAgreed" = "Bienes no recibidos (incluidos los no firmados), o el vendedor acepta aceptar";
+"EShopRefoundMoney" = "Devolución de devolución";
+"EShopRecieveAndRefound" = "Las mercancías se han recibido y deben devolverse por las mercancías recibidas";
+"EShopUse" = "Usar";
+"EShopCanUse" = "Disponible";
+"EShopPressure" = "De acuerdo";
+"EShopEnterNum" = "Por favor ingrese la cantidad";
+"EShopBeyondRemain" = "Se excedió el número restante";
+"EShopBeyondMax" = "Uso máximo excedido";
+"EShopMaxNum" = "Uso máximo";
+"EShopProprietary" = "Auto operado";
+"EShopLuckyNum" = "Este número de la suerte";
+"EShopNoGuess" = "Aún no está abierto, vuelva más tarde";
+"EShopHexadecimal" = "Últimos 8 dígitos del hex";
+"EShopGetGuess" = "¡Felicitaciones, ha ganado el premio, por favor, continúe!";
+"EShopNoGetGuess" = "Desafortunadamente, no ha ganado, ¡continúe!";
+"EShopSoldOutTime" = "Tiempo agotado:";
+"EShopSoldOutBlock" = "Número de bloque de tiempo de venta:";
+"EShopSoldOutNumber" = "Lucky Block Number:";
+"EShopSoldOutHash" = "Valor de hash del bloque afortunado:";
+"EShopSoldOutPeople" = "Número total de ganadores:";
+"EShopCurrentNumber" = "Este número de la suerte:";
+"EShopMoreThan" = "Restante";
+"EShopTreasurePeople" = "Número total de ganadores";
+"EShopLuckyNumber" = "Número de la suerte";
+"EShopTheDecimal" = "girar a decimal";
+"ESShopSelectall" = "Seleccionar todo";
+"ESShopOperationFailed" = "Falló la operación, inténtelo de nuevo";
+"ESShopNeedToPay" = "Pago pendiente, aún debe pagar";
+"ESShopSignature" = "Firma";
+"ESShopSignComplete" = "La firma completada se está comprando";
+"ESShopResultConfirm" = "Confirmación de resultado de pago \n Introduzca mi lista de orden más tarde";
+"ESShopTransionFailAgain" = "Error en la transacción, inténtelo de nuevo";
+"ESShopSignFailAgain" = "Falló la firma, inténtelo de nuevo";
+"ESShopRechargeFailed" = "Falló la recarga";
+"ESShopHome" = "Inicio";
+"EShopDefault" = "[predeterminado]";
+"EShopYHHD" = "Oferta:";
+"EShopInvalid" = "Error";
+"EShopPaymentError" = "Error de pago";
+"EShopPayNotItem" = "No se han obtenido artículos";
+
+// 请求失败提示
+"EShopRequestError" = "Error de solicitud";
+"EShopReload" = "Recargar";
+"EShopStartTime" = "Hora de inicio:";
+"EShopEndTime" = "Hora de finalización:";

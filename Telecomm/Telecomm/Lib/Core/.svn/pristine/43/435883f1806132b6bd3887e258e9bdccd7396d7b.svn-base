@@ -1,0 +1,26 @@
+//
+//  DMComponent.h
+//  IOSESPBase
+//
+//  Created by JavorFeng on 13-12-13.
+//  Copyright (c) 2013年 JavorFeng. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+//#import "DataSetComponent.h"
+#import "EFDataSet.h"
+#import "EFRowSet.h"
+#import "DataSetEvent.h"
+@class DataSetComponent;
+
+@protocol DMComponent <NSObject>
+
+@property(nonatomic, retain, getter = getDataSetComponent, setter = setDataSetComponent:) id dataSetComponent;
+//@property(nonatomic, copy,   getter = getDataSetID, setter = setDataSetID:) NSString *dataSetID;
+@property(nonatomic, retain, getter = getMainRowSet) EFRowSet *mainRowSet;
+@property(nonatomic, retain, getter = getDataSet, setter = setDataSet:) EFDataSet *dataSet;
+
+-(EFRowSet *)getMainRowSet;
+-(void)dataSetChanged:(DataSetEvent *)dataSetEvent;
+
+@end

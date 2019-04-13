@@ -1,0 +1,147 @@
+/* 
+  Zone.strings
+  Zone
+
+  Created by 赵洪壮 on 2018/12/11.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+//ZoneAboutMeCell
+"zoneLikedMe" = " Սիրեց ինձ";
+"zoneForwardedWave" = " Փոխանցել ձեր գրավիտացիոն ալիքը";
+
+//ZoneAboutMeCellView
+"zoneLaunchedWave" = " Սկսել է գրավիտացիոն ալիք";
+
+//ZoneAboutMeController
+"zoneMessage" = "Հաղորդագրություն";
+
+//ZoneBlackListCell
+"zoneInterstellarID" = "Միջաստղային ID";
+"zoneRemove" = "Հեռացնել";
+"zoneBlacklist" = "Սեւ ցուցակ";
+
+//ZoneBlackListController
+"zoneRemoving" = "Հեռացում";
+
+//ZoneManager
+"zoneOriginalDeleted" = "Անցյալի գրավիտացիոն ալիքը ջնջվել է";
+"zoneEtc" = " եւ այլն: ";
+"zoneFeelGood" = " մարդ շատ լավ է զգում";
+"zoneReply" = "Պատասխան";
+"zoneLikeFailure" = "Կատարվածի նման";
+"zoneCommentSuccessful" = "Մեկնաբանությունը հաջողվեց";
+"zoneCommentFailed" = "Մեկնաբանությունը ձախողվեց";
+"zoneReplySuccessfully" = "Պատասխանել հաջողությամբ";
+"zoneReplyFailed" = "Պատասխանը ձախողվեց";
+
+//ZoneNetworkManager
+"zoneIncorrectDataFormat" = "Ձայնի սխալ ձեւաչափ";
+
+//ZoneCellOptionAlert
+"zoneDelete" = "Ջնջել";
+"zoneUnsubscribe" = "Արձագանքեք";
+"zoneAddAttention" = "Ուշադրություն";
+"zoneAttention" = "Ուշադրություն";
+"zoneAddToBlacklist" = "Սեւ ցուցակ";
+
+//ZoneAddCommentController
+"zoneComment" = "Մեկնաբանություն";
+"zoneReasonForForwarding" = "Փոխանցման պատճառ";
+"zoneAddUpToThreeImages" = "Ավելացնել մինչեւ երեք պատկեր";
+
+//ZoneImageCollectionView
+"zonePrompt" = "Արագություն";
+"zoneThereIsAnUploadFailurePhoto" = "Կա վերբեռնման ձախողման լուսանկար";
+"zoneCancel" = "Չեղարկել";
+"zoneSendDirectly" = "Անտեսել, ուղարկում ուղղակիորեն";
+"zoneAddUpTo9Images" = "Դուք կարող եք ավելացնել մինչեւ 9 նկար";
+
+//ZoneSendVideoManager
+"zoneGravitationalWaveFailure" = "Գրաֆիտացիոն ալիքի ձախողման գործարկում";
+
+//ZoneSendWebView
+"zoneDetectedURL" = "Հայտնաբերված URL";
+"zoneEnterURL" = "Մուտքագրեք URL";
+"zonePreview" = "Նախադիտում.";
+
+//ZoneSendController
+"zoneLaunchingGravitationalWaves" = "Գրաֆիտացիոն ալիքների գործարկում";
+"zoneGravitationalWaveIsEmpty" = "Գրաֆիտացիոն ալիքը դատարկ է";
+"zoneLaunching" = "Սկսելը";
+"zoneWebPageAddressCannotBeEmpty" = "Վեբ էջի հասցեն չի կարող դատարկ լինել";
+"zoneWebPageAddressFormatIsIncorrect" = "Վեբ էջի հասցեի ձեւաչափը սխալ է";
+"zoneLaunchedGravitationalWaveSuccessfully" = "Սկսվել է գրավիտացիոն ալիք";
+"zoneEmission" = "Գործարկել";
+"zoneShooting" = "Կրակոցներ";
+"zoneAlbum" = "Ալբոմ";
+"zoneSaySomething" = "Մի բան ասեք ...";
+"zoneTheMaximumVideoCannotExceed" = "Առավելագույն տեսանյութը չի կարող գերազանցել";
+
+//SystemShareToZoneController
+"zoneShareToTheGravitationalField" = "Տարածեք գրավիտացիոն դաշտում";
+"zoneSend" = "Ուղարկել";
+"zoneIsLaunchingGravitationalWaves" = "Գործարկում է գրավիտացիոն ալիք";
+"zoneUploadingImage" = "Պատկերը վերբեռնելը";
+"zoneDetermine" = "Որոշեք";
+
+//ZoneUtil
+"zoneJust" = "Պարզապես";
+"zoneMinutesAgo" = " րոպե առաջ";
+
+//ZoneAuthorHeaderView
+"zoneSilverDiamond" = " Արծաթյա ադամանդ";
+
+//ZoneCellTextView
+"zoneCopy" = "Պատճեն";
+
+//ZoneSectionHeaderView
+"zoneAlreadyInTheBlacklist" = "Մյուս կուսակցությունը արդեն սեւ ցուցակում է: Խնդրում ենք հեռացնել այն:";
+"zoneCollapse" = "Փլուզումը";
+"zoneExpand" = "Ընդլայնել";
+
+//ZoneCellFootView
+"zoneBrowse" = "Փնտրել ";
+"zoneTimes" = " անգամ";
+
+//ZoneBaseController
+"zoneDeleteOrNot" = "Ջնջել:";
+
+//ZoneBaseController+EventManager
+"zoneGravitationalWaveHasBeenDeleted" = "Բնօրինակ գրավիտացիոն ալիքը ջնջվել է եւ չի կարող փոխանցվել:";
+"zoneForwardedSuccessfully" = "Փոխանցել հաջողակ";
+"zoneForwardingFailed" = "Փոխանցումը ձախողվեց";
+"zoneGravitationalWaveDeletedSuccessfully" = "Ձգողականության ալիքը հաջողությամբ ջնջվել է";
+"zoneGravitationalWaveDeletionFailed" = "Ձգողականության ալիքի ջնջումը ձախողվեց";
+"zoneSuccess" = "Հաջողություն";
+"zoneFailure" = "Չհաջողվեց";
+"zoneJoinedTheBlacklistSuccessfully" = "Գրանցվել է սեւ ցուցակում";
+"zoneTheOtherPartyIsAlreadyOnTheBlacklist" = "Մյուս կուսակցությունը արդեն սեւ ցուցակում է";
+"zoneFailedToJoinTheBlacklist" = "Չհաջողվեց միանալ սեւ ցուցակում";
+
+//ZoneController
+"zoneGravitationalField" = "Ձգողականություն դաշտը";
+"zoneAll" = "Բոլորը";
+"zoneFriend" = "Ընկեր";
+"zoneGravitationalFieldAll" = "Բոլորը";
+"zoneGravitationalFieldFriend" = "Ընկեր";
+"zoneGravitationalFieldConcern" = "Ուշադրություն";
+
+//ZonePersonController
+"zoneMy" = "Իմ ";
+"zoneAddFriend" = "Ավելացնել ընկեր";
+
+//ZoneDetialController
+"zoneDetails" = "Մանրամասները";
+"zoneGettingGravitationalWaveFailure" = "Ստանալով գրավիտացիոն ալիքի ձախողում";
+"zoneLoading" = "Բեռնվում է";
+"zoneLoadFailedOrGravitationalWaveHasBeenDeleted" = "Բեռնումը ձախողվեց կամ ջրաչափական ալիքը ջնջվել է";
+
+//ZoneHeaderView.h
+"zoneNewNews" = " նոր նորություններ";
+"zoneChangeBackgroundImage" = "Փոխել ֆոնային պատկերը";
+"zoneTakePhoto" = "Լուսանկարեք";
+"zoneErrorMessage" = "Սխալ հաղորդագրություն";
+"zoneTheCurrentDeviceDoesNotSupportShooting" = "Ընթացիկ սարքը չի աջակցում նկարահանումներին";
+"zoneFailedToReplaceBackgroundImage" = "Չհաջողվեց փոխարինել ֆոնային պատկերը";
+

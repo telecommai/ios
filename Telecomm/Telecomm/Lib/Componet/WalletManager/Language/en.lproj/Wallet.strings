@@ -1,0 +1,388 @@
+/* 
+  Wallet.strings
+  WalletManager
+
+  Created by 赵洪壮 on 2018/12/17.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+
+// JFCardListController
+"walletCard" = "Cards";
+"balance" = "Balance";
+"walletCardRecharge" = "Top Up";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "Top-up method";
+"walletCardRechargeAmount" = "Top-up amount";
+"walletCardRechargeAliPay" = "Alipay";
+"walletCardRechargeWechat" = "WeChat";
+"walletCardRechargeMethodSelect" = "Please select a recharge method";
+"walletCardRechargeNeetToPay" = "Need to pay";
+"walletCardRechargeNext" = "Next";
+"walletCardRechargePaySuccess" = "Payment successful";
+"walletCardRechargePayFailure" = "Payment failed";
+"walletCardRechargeWrongMoney" = "The amount entered is wrong";
+"walletCardRechargeUndone" = "Unfilled";
+"walletCardRechargeAgain" = "Recharge";
+"walletCardRechargeRequest" = "The request failed, please check the network settings!";
+"walletCardRechargeGiveUp" = "Give Up";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "Confirm your wallet mnemonic";
+"walletBTCCheckAddSuccess" = "Add wallet successfully";
+"walletBTCCheckBackUpFail" = "Backup failed, please check your mnemonic";
+"walletBTCCheckConfirmOrder" = "Please click on the mnemonic in order to confirm that your mnemonic is correct";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "Create A Wallet";
+"walletBTCCreateBackUpTip" = "The wallet account is your unique address on the Blockchain. Please make a backup of the mnemonic and wallet after creating the wallet.";
+"walletBTCCreateStayTip" = "Please keep the information generated during the creation process";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "Backup Keyword";
+"walletBTCCreateSaveTip" = "The mnemonic is used to restore the wallet account or reset the wallet password, copy it accurately onto paper, and store it in a safe place that only you know.";
+"walletBTCCreateWriteDown" = "Copy and write down your wallet account mnemonic";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "Restore Wallet";
+"walletBTCPaperRecoveryChectFail" = "Recovery failed, please check the mnemonic";
+"walletBTCPaperRecoveryExistFail" = "Recovery failed, the wallet already exists";
+"walletBTCPaperRcoveryWithWords" = "Recover your wallet with mnemonics";
+"walletBTCImport" = "Import";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "Invalid transfer address";
+"walletBTCTransferNotSupport" = "This method is not supported at this time";
+"walletBTCTransferAlreadyExists" = "Wallet already contains this address";
+"walletBTCTransferLessThan" = "The amount of payment cannot be less than";
+"walletBTCTransferError" = "Transfer failed";
+"walletBTCTransferUTFOFail" = "Request UTFO failed";
+"walletBTCTransferBalanceNotEnough" = "Insufficient balance";
+"walletBTCTransferSignError" = "Transaction signature error";
+
+// DropCell
+"walletDropmsq" = "Grab right away";
+"walletDropyq" = "Has robbed";
+"walletDropyqguo" = "Has been robbed";
+"walletDropyqguang" = "Has been robbed";
+"walletDropwks" = "Has not started";
+"walletDropjks" = "From the beginning";
+"walletDropjjs" = "End of distance";
+"walletDropyjs" = "over";
+"walletDropday" = "day";
+"walletDrophour" = "hour";
+"walletDropmin" = "minute";
+"walletDropktjj" = "Airdrop introduction";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "At the end of the distance";
+"walletDropjlkshs" = "Distance left at the beginning";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "You don't have";
+"walletDropDetailCreateWallet" = "wallet yet, please create a wallet first.";
+"walletDropDetailChooseWallet" = "Choose Wallet";
+"walletDropDetailTilte" = "Airdrop Details";
+"walletDropDetaildbmc" = "Token Name";
+"walletDropDetailktzz" = "Airdrop Organization";
+"walletDropDetailhydz" = "Contract Address";
+"walletDropDetailktjs" = "Airdrop Introduction";
+
+// DropTransferController
+"walletDropTransferSuccess" = "Airdrop success";
+"walletDropTransferReceived" = "You have successfully received";
+"walletDropTransferAttension" = "Airdrops will be issued after the event, please pay attention to the wallet";
+"walletDropTransferGet" = "You have already received this airdrop";
+"walletDropTransferFail" = "Airdrop success";
+"walletDropTransfering" = "Airdrop";
+
+// DropViewController
+"walletDropMyTitle" = "My Airdrop";
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "You need to register the EOS account (12 characters) with the two public keys that have been generated, which will consume the EOS token. Think of the account name, find someone to help you register.";
+"walletEOSCreateTipActive" = "EOS account is not activated, sent to a friend or share a QR code to find a friend to activate this account";
+"walletEOSCreateShareSuccess" = "Sharing success";
+"walletEOSCreateShareFailure" = "Sharing failure";
+"walletEOSCreatePK" = "Public Key";
+"walletEOSCreatePrivateK" = "Private Key";
+"walletEOSCreateCorrentAddress" = "Please fill in the correct account address!";
+"walletEOSCreateCreateRequest" = "EOS create account request";
+"walletEOSCreateCorrectName" = "Please enter a valid account name (12-character combination of a-z and 1-5)";
+"walletEOSCreateNameStyle" = "EOS account name is a-z and 1-5 12-character characters";
+"walletEOSCreateAccountAddress" = "Account Name";
+"wannetEOSCreateSendToFriend" = "Send to friend";
+"wannetEOSCreateSendToQRCode" = "Share QR code";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "Create an EOS wallet";
+"walletEOSCreateFeeFail" = "Request to create account fee failed";
+"walletEOSCreateIsAvailable" = "Checking if account name is available";
+"walletEOSCreateChange" = "The account already exists. Please change the account name.";
+"walletEOSCreateAvailabel" = "Account name available";
+"walletEOSCreateCheckFail" = "Check failed";
+"walletEOSCreateAbnormal" = "Abnormal handling fee";
+"walletEOSCreateNoLocalWallet" = "No activated local EOS wallet";
+"walletEOSCreateCreating" = "Creating";
+"walletEOSCreateSuccess" = "Created successfully";
+"walletEOSCreateFailure" = "Creation failed";
+"walletEOSCreateSelectAccount" = "Select Account";
+"walletEOSCreateNoActiveWallet" = "No active local EOS wallet";
+"walletEOSCreate" = "Create";
+"walletEOSCreateAccountName" = "Account Name";
+"walletEOSCreateRAM" = "RAM";
+"walletEOSCreateCost" = "Cost";
+"walletEOSCreateStyle" = "Create an EOS account with a 12-character combination of a-z and 1-5";
+
+// EOSImportController
+"walletEOSImportReply" = "Complete the information before you can reply";
+"walletEOSImportErongFormatter" = "The private key format is incorrect!";
+"walletEOSImporting" = "Importing";
+"walletEOSImportSuccess" = "Successfully imported";
+"walletEOSImportRecoveryWithPrivateKey" = "Recover your wallet account with a private key";
+"walletEOSImportActivePrivateKey" = "Please enter the active private key";
+"walletEOSImportOwnerPrivateKey" = "Please enter the owner private key";
+"walletEOSImportDone" = "Carry Out";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "The wallet account is your unique address on the Blockchain. It is generated based on your private key. Please make a backup of the private key and base account after creating the base account.";
+"walletETHSign" = "Authorized Signature";
+"walletETHAddressEmpty" = "Address cannot be empty";
+"walletETHWtch" = "Observation Wallet";
+"walletETHComplete" = "Complete authorization";
+"walletETHWarning" = "1. Currently only users can observe their wallet to form a safer cold wallet with the offline wallet; the import needs to be signed once. \n2. Store a lot of money and recommend using a cold wallet";
+"walletORCode" = "Use the corresponding observation wallet to scan the QR code below to complete the authorization.";
+"walletDataNomMatch" = "Data does not match";
+"walletDataImporting" = "Importing";
+"wallerSignDetail" = "Authorized signature details";
+"wallerSignAddress" = "Authorized Address";
+"walletSignData" = "Data";
+"walletScan" = "Scan the QR code of the authorized wallet page and import the signature";
+"walletImportSign" = "Import Signature";
+"walletEnterAddress" = "Please enter the wallet address";
+
+// change
+"walletChangeCurrent" = "Switch %@ wallet";
+
+// NewWalletInfoController
+"walletNewWalletInfoSetAvatar" = "Set the wallet avatar and name";
+"walletNewWalletInfoUploadAvatar" = "Uploading avatar";
+"walletNewWalletInfoUploadAvatarFail" = "Uploading image failed";
+"walletNewWalletInfoName" = "Wallet account name";
+"walletNewWalletInfoAddAvatar" = "Click on the camera icon to add a wallet account avatar";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "Getting base ID";
+"walletOldWalletOutGettingIdRetry" = "Base ID acquisition failed, please try again";
+"walletOldWalletCorrectEnergy" = "Please enter the correct energy";
+"walletOldWalletOutEnergy" = "Power";
+"walletOldWalletOtherPlanetId" = "Please enter the interPlanet ID of the opposite side";
+"walletOldWalletNumberOfEnergy" = "Please enter the number of power";
+"walletOldWalletOtherBaseId" = "Please enter the base ID of the opposite side";
+"walletOldWalletOtherPanetId" = "Receiver's interPlanet ID:";
+"walletOldWalletRecevingBaseId" = "Receiver's base ID:";
+"walletOldWalletTransferBaseId" = "Transfer out the base ID:";
+"walletTradeMinerFee" = "Miner Cost";
+"walletOldWalletEnergyExchange" = "Power Exchange";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "Transaction Details";
+"walletOldResultSuccess" = "Successful Transaction";
+"walletOldResultId" = "Transaction ID";
+"walletOldResultTime" = "Transaction Hour";
+"walletOldResultToId" = "Transfer to base ID";
+"walletOldResultOutId" = "Sender's base ID";
+"walletOldResultFailure" = "Exchange failure";
+"walletOldResultTransing" = "In Transaction";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "Please enter the base password";
+"walletEnterPassword" = "Your Password";
+"walletWrongPassword" = "Wrong Password";
+"walletForgetPassword" = "Forget Password";
+
+// WalletCardView
+"walletCardAssets" = "Assets";
+"walletCardNoActive" = "Pending Activation";
+"walletCardSenfCoin" = "Send Tokens";
+"walletCardCopied" = "Copied";
+"walletCardTransfer" = "Transfer In";
+"walletCardDetail" = "Detail";
+"walletCardTransferout" = "Transfer Out";
+"walletImportWallet" = "Import Wallet";
+"walletWatchNotSupport" = "Observe that the wallet does not support the rollout function.";
+
+// WalletInfoController
+"walletInfoTitle"  = "Management";
+"walletChangeAvatar"= "Change Avatar";
+"walletInfoChangeWalletName" = "Change Wallet Name";
+"walletInfoSwitchaccount" = "Switch Account";
+"walletInfoActivation" = "Activation";
+"walletInfoModifyWalletName" = "Modify Wallet Name";
+"walletInfoEnterWalletName" = "Please enter the name of the wallet";
+"walletInfoModificationFailed" = "The modification failed, please try again";
+"walletInfoCannotDeleted" = "Main wallet cannot be deleted";
+"walletInfoToDelete" = "Do you want to delete the wallet?";
+"walletInfoDeleteFaild"= "Delete failed, please try again";
+"walletInfoSettingAvatar" = "Setting avatar";
+"walletInfoSettingFaild" = "Failed to set avatar, please try again";
+"walletInfoUploadFaild" = "Uploading avatar failed, please try again";
+"walletInfoPKPK"= "Owner private key: \n%@\nActive private key: \n%@";
+"walletUnfoDeleteWallet" = "Delete Wallet";
+"walletInfoChooseMain" = "Select primary account";
+"WalletModifyingWalletname" = "Modifying wallet name";
+
+// WalletAllTokenController
+"walletTypeHide" = "Hide no balance assets";
+"walletTypeSort" = "Sort by balance";
+"walletTypeAlphabetically" = "Alphabetically";
+"walletTypeRemoveAssets" = "Remove Assets";
+"walletTypeEnterToken" = "Enter the token name or contract address";
+"walletMyassets" = "    My Assets";
+
+// WalletInCoinController
+"WalletInTransfer" = "Please Transfer";
+"walletInTransferEnter" = "Enter the amount";
+"WalletInTransferPlzEnter" = "Please enter the amount";
+"walletInChangeAssets" = "Replace Assets";
+"walletInSpecAmount" = "Specify the amount";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "Remarks";
+"WalletCoinOutOptional" = "Optional";
+"WalletCoinOutEnterAddress" = "Enter the payment address";
+"WalletCoinOutCanNotNull" = "The amount cannot be empty";
+"WalletCoinOutAddressNotNull" = "Collection address cannot be empty";
+"WalletCoinOutPaymentDetail" = "Payment Details";
+"WalletCoinOutRetry" = "Failed to post transaction request, please try again";
+"walletCoinUnlockFail" = "Unlocking the wallet failed";
+"walletCinOutoperation" = "In Transaction";
+"walletGetCurrentFail" = "Failed to get current wallet";
+"walletNoData" = "No Data";
+"walletPaymentSuccess" = "Successful payment";
+"walletTransferSuccess" = "Successful transfer";
+"walletCollectionFailure" = "Collection failure";
+"walletTransferFailed" = "Transfer failed";
+
+// WalletTradeResultController
+"walletTradeBlock" = "Block";
+"walletTradeAmount" = "Amount";
+"walletTradeTradeNo" = "Transaction Number";
+"walletTradeContact" = "Contract";
+"walletTradeType" = "Transfer Type";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "Copy success";
+"walletChainInquirySure" = "Confirm and sign";
+"walletChainInquiryResult" = "Please enter the check result";
+"walletChainInquiryToSign" = "Office to be signed";
+"walletChainInquiryCompanyToSign" = "Business to be signed";
+"walletChainInquiryBankReply" = "Bank Pending";
+"walletChainInquiryBackRelied" = "Bank Has Replied";
+"walletChainInquiryBlockInfo" = "Block Information";
+"walletChainInquiryEdit" = "Edit";
+"walletChainInquiryProcessed" = "Processed";
+"walletChainInquiryToBeProcessed" = "To be processed";
+"walletChainInquiryChaininquiry" = "Chain Inquiry";
+"walletChainInquiryInquiryDetails" = "Inquiry Details";
+"walletChainInquiryAgreeandSign" = "Agree and sign";
+"walletChainInquiryViewReply" = "View Reply";
+"walletChainInquiryReply" = "Reply";
+"walletChainInquiryDoesNotMatch" = "Does not match";
+"walletChainInquiryMatch" = "Match";
+"walletChainInquiryAuditId" = "Audit signature transaction ID";
+"walletChainInquiryTradeId" = "Corporate signature transaction ID";
+"walletChainInquiryBankId" = "Bank signature transaction ID";
+"walletChainInquirySubSus" = "Submitted successfully";
+"walletChainInquiryInfoFail" = "Information acquisition failed";
+"walletChainInquiryNo" = "Inquiry Number";
+"walletChainInquiryAuditUnit" = "Audit Unit";
+"walletChainInquiryCompany" = "Inquiring Company";
+"walletChainInquiryBank" = "Inquiring Bank";
+"walletChainInquiryState" = "Status";
+"walletChainInquiryContact" = "Reply Contact";
+"walletChainInquiryPhone" = "Contact Number";
+"walletChainInquirymail" = "E-mail";
+"walletChainInquiryAccountName" = "Account Name";
+"walletChainInquiryBankNo" = "Bank Account";
+"walletChainInquiryCurrency" = "Currency";
+"walletChainInquiryRate" = "Interest Rate";
+"walletChainInquiryType" = "Account Type";
+"walletChainInquiryBalance" = "Insufficient Balance";
+"walletChainInquiryStartandenddate" = "Start and end date";
+"walletChainInquiryLimit" = "Whether it is used for guarantee or other use restrictions";
+"walletChainInquiryBanksavings" = "Bank Savings";
+"walletSwitchWallet" = "Switch Wallet (%ld)";
+"walletUtilAdding" = "Adding";
+"walletCardTop" = "Top Up";
+"WalletPayInfo" = "Payment Information";
+
+
+//Assets
+"walletTransaction" = "Transaction";
+"WalletAirdrop" = "Airdrop";
+"WalletPay" = "Pay";
+"WalletCollect" = "Collect";
+"WalletAddDevice" = "Add Device";
+"WalletCardPackage" = "Card Package";
+"WalletAddCard" = "Add Card";
+"WalletNoCard" = "No Card";
+"WalletNoDevice" = "No Equipment";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(Hold and drag to adjust the sort)";
+"WalletMyApplication" = "My Application";
+"WalletCommon" = "Common";
+"WalletOther" = "Other";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "Create a cold wallet";
+"WalletConverting" = "Converting";
+"WalletSuccessfulConversion" = "Successful conversion";
+"WalletSwitchToHotWallet" = "Switch To Hot Wallet";
+"WalletSwitchToColdWallet" = "Switch To Cold Wallet";
+
+// BluetoothController
+"deviceList" = "Device List";
+"deviceMismatch" = "Device type does not match";
+"WalletBluetoothAuthentication" = "Bluetooth Authentication";
+"WalletNewColdWallet" = "New Cold Wallet";
+"WalletConnecting" = "connecting";
+"WalletCertifyingDevice" = "Certifying device";
+"WalletAuthenticationDeviceFailed" = "Authentication device failed";
+"WalletCertifiedDeviceSuccess" = "Certified device success";
+"WalletReading" = "Reading";
+"WalletReadSuccessfully" = "Read successfully";
+"WalletReadFailed" = "Read failed";
+"WalletWriting" = "Writing";
+"WalletSuccessfullyWritten" = "Successfully written";
+"WalletWriteFailure" = "Write failure";
+"WalletCardRemoval" = "Card removal";
+"WalletDeviceDisconnected" = "Device disconnected";
+"WalletCardHasContent" = "The current card has content, do you want to continue writing?";
+"WalletNewlyCreatedSuccessfully" = "Newly created successfully";
+"WalletCardDataIsInvalid" = "Card data is invalid";
+
+// 我的智能设备
+"WalletSmartWatch" = "Smart Watch";
+"WalletSmartWristband" = "Smart Wristband";
+"WalletSmartRunningShoes" = "Smart Running Shoes";
+"WalletIntelligentBodyFatScale" = "Smart Body Weight";
+
+// 首页总资产
+"AssetHomeRequestFail"="Request failed";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "Select wallet type";
+"WalletColdWallet" = "Cold Wallet";
+"WalletHotWallet" = "Hot Wallet";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "What is a cold wallet?";
+"WalletHotWalletDescription" = "What is a hot wallet?";
+"WalletColdWalletInfo" = "Cold Wallet, corresponding to a hot wallet, also known as an offline wallet or a broken wallet, is one of the types of blockchain wallets, meaning that the network cannot access the wallet of the user's private key. Cold wallets usually rely on \"cold\" devices (computers, mobile phones, etc. that are not connected to the network) to ensure the security of the Bitcoin private key. The use of QR code communication allows the private key to not touch the network, avoiding the risk of being hacked to steal private keys, but also May face physical security risks (such as computer loss, damage, etc.). \n Store the private key on devices that are not connected to the network, including printing, handwriting (paper wallet), or even piggybacking (brain wallet) to ensure absolute security during storage. However, when the above wallet is in the process of trading, the private key must still be entered into the general software wallet, and the highest standard cold wallet must also be able to be signed offline, and only the signed transaction will be sent out. \n Store the private key in an extra special hardware device. When using the transaction, the transaction needs to be signed and submitted within the hardware. As long as the hardware is not cracked, it is absolutely safe. If this hardware device is completely offline and only submits signed transaction messages, it is also the highest standard cold wallet.";
+"WalletHotWalletInfo" = "Hot Wallet, which corresponds to a cold wallet, also known as an online wallet or an online wallet, is one of the types of blockchain wallets, that is, a wallet in which the network can access the user's private key. Because of its networking features, hot wallets may access the user's private key through the Internet, so security is lower than cold wallet, but more convenient than cold wallet. In addition, whether using a cold wallet or a hot wallet, the private key is the key.";
+
+// JFWalletMoreController
+"WalletApplicationEdit" = "App Edit";

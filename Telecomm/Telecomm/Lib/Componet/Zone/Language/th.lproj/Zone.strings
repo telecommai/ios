@@ -1,0 +1,148 @@
+/*
+ Zone.strings
+ Zone
+ 
+ Created by 赵洪壮 on 2018/12/11.
+ Copyright © 2018 pansoft. All rights reserved.
+ */
+
+//ZoneAboutMeCell
+"zoneLikedMe" = "ชอบฉัน";
+"zoneForwardedWave" = "ส่งต่อคลื่นความโน้มถ่วงของคุณ";
+
+//ZoneAboutMeCellView
+"zoneLaunchedWave" = "คลื่นความโน้มถ่วงถูกปล่อยออกมา";
+
+//ZoneAboutMeController
+"zoneMessage" = "ข้อความ";
+
+//ZoneBlackListCell
+"zoneInterstellarID" = "รหัสดาว";
+"zoneRemove" = "ลบ";
+"zoneBlacklist" = "บัญชีดำ";
+
+//ZoneBlackListController
+"zoneRemoving" = "กำลังลบ";
+
+//ZoneManager
+"zoneOriginalDeleted" = "คลื่นความโน้มถ่วงเดิมถูกลบ";
+"zoneEtc" = "ฯลฯ ";
+"zone senseGood" = "ผู้คนรู้สึกดีมาก";
+"zoneReply" = "ตอบกลับ";
+"zoneLikeFailure" = "ชอบความล้มเหลว";
+"zoneCommentSuccessful" = "ความคิดเห็นสำเร็จ";
+"zoneCommentFailed" = "ความคิดเห็นล้มเหลว";
+"zoneReplySuccessfully" = "ตอบกลับสำเร็จ";
+"zoneReplyFailed" = "การตอบล้มเหลว";
+
+//ZoneNetworkManager
+"zoneIncorrectDataFormat" = "รูปแบบข้อมูลไม่ถูกต้อง";
+
+//ZoneCellOptionAlert
+"zoneDelete" = "ลบ";
+"zoneUnsubscribe" = "เลิกติดตาม";
+"zoneAddAttention" = "เพิ่มความกังวล";
+"zoneAttention" = "ติดตาม";
+"zoneAddToBlacklist" = "เพิ่มบัญชีดำ";
+
+//ZoneAddCommentController
+"zoneComment" = "ความคิดเห็น";
+"zoneReasonForForwarding" = "เหตุผลไปข้างหน้า";
+"zoneAddUpToThreeImages" = "เพิ่มภาพได้สูงสุดสามภาพ";
+
+//ZoneImageCollectionView
+"zonePrompt" = "พรอมต์";
+"zoneThereIsAnUploadFailurePhoto" = "มีการอัปโหลดภาพถ่ายล้มเหลว";
+"zoneCancel" = "ยกเลิก";
+"zoneSendDirectly" = "ละเว้นส่งโดยตรง";
+"zoneAddUpTo9Images" = "คุณสามารถเพิ่มภาพได้สูงสุด 9 ภาพ";
+
+//ZoneSendVideoManager
+"zoneGravitationalWaveFailure" = "ไม่สามารถเปิดคลื่นความโน้มถ่วง";
+
+//ZoneSendWebView
+"zoneDetectedURL" = "ตรวจพบ URL";
+"zoneEnterURL" = "โปรดป้อน URL";
+"zonePreview" = "ดูตัวอย่าง:";
+
+//ZoneSendController
+"zoneLaunchingGravitationalWaves" = "ปล่อยคลื่นความโน้มถ่วง";
+"zoneGravitationalWaveIsEmpty" = "คลื่นความโน้มถ่วงว่างเปล่า";
+"zoneLaunching" = "เปล่ง";
+"zoneWebPageAddressCannotBeEmpty" = "ที่อยู่หน้าต้องไม่ว่างเปล่า";
+"zoneWebPageAddressFormatIsIncorrect" = "รูปแบบที่อยู่หน้าไม่ถูกต้อง";
+"zoneLaunchedGravitationalWaveSuccessfully" = "เปิดตัวคลื่นความโน้มถ่วงได้สำเร็จ";
+"zoneEmission" = "เรียกใช้งาน";
+"zoneShooting" = "การถ่ายภาพ";
+"zoneAlbum" = "อัลบั้ม";
+"zoneSaySomething" = "พูดอะไรบางอย่าง ... ";
+"zoneTheMaximumVideoCannotExceed" = "วิดีโอสูงสุดต้องไม่เกิน";
+
+//SystemShareToZoneController
+"zoneShareToTheGravitationalField" = "แบ่งปันไปยังฟิลด์แรงโน้มถ่วง";
+"zoneSend" = "ส่ง";
+"zoneIsLaunchingGravitationalWaves" = "เรืองแสงคลื่นความโน้มถ่วง";
+"zoneUploadingImage" = "กำลังอัปโหลดภาพ";
+"zoneDetermine" = "ตกลง";
+
+//ZoneUtil
+"zoneJust" = "เพิ่ง";
+"zoneMinutesAgo" = "นาทีก่อน";
+
+//ZoneAuthorHeaderView
+"zoneSilverDiamond" = "เพชรเงิน";
+
+//ZoneCellTextView
+"zoneCopy" = "คัดลอก";
+
+// ZoneSectionHeaderView
+"zoneAlreadyInTheBlacklist" = "บุคคลอื่นอยู่ในบัญชีดำแล้วโปรดลบออกและใช้งาน";
+"zoneCollapse" = "เพื่อปิด";
+"zone ขยาย" = "ขยาย";
+
+// ZoneCellFootView
+"zoneBrowse" = "เรียกดู";
+"zoneTimes" = "ครั้ง";
+
+// ZoneBaseController
+"zoneDeleteOrNot" = "คุณต้องการลบหรือไม่";
+
+// ZoneBaseController + EventManager
+"zoneGravitationalWaveHasBeenDeleted" = "คลื่นความโน้มถ่วงดั้งเดิมถูกลบและไม่สามารถส่งต่อได้";
+"zoneForwardedSuccessfully" = "การส่งต่อสำเร็จ";
+"zoneForwardingFailed" = "การส่งต่อล้มเหลว";
+"zoneGravitationalWaveDeletedSuccessfully" = "การลบคลื่นแรงโน้มถ่วงสำเร็จ";
+"zoneGravitationalWaveDeletionFailed" = "การลบคลื่นแรงโน้มถ่วงล้มเหลว";
+"zoneSuccess" = "สำเร็จ";
+"zoneFailure" = "ล้มเหลว";
+"zoneJoinedTheBlacklistSuccessfully" = "ประสบความสำเร็จในการเข้าร่วมบัญชีดำ";
+"zoneTheOtherPartyIsAlreadyOnTheBlacklist" = "บุคคลอื่นอยู่ในบัญชีดำแล้ว";
+"zoneFailedToJoinTheBlacklist" = "ไม่สามารถเข้าร่วมบัญชีดำ";
+
+// ZoneController
+"zoneGravitationalField" = "ฟิลด์ความโน้มถ่วง";
+"zoneAll" = "ทั้งหมด";
+"zoneFriend" = "เพื่อน";
+"zoneGravitationalFieldAll" = "ฟิลด์ความโน้มถ่วง (ทั้งหมด)";
+"zoneGravitationalFieldFriend" = "ฟิลด์แรงโน้มถ่วง (เพื่อน)";
+"zoneGravitationalFieldConcern" = "ฟิลด์ความโน้มถ่วง (ติดตาม)";
+
+// ZonePersonController
+"zoneMy" = "ของฉัน";
+"zoneAddFriend" = "เพิ่มเพื่อน";
+
+// ZoneDetialController
+"zoneDetails" = "รายละเอียด";
+"zoneGettingGravitationalWaveFailure" = "รับความล้มเหลวของคลื่นความโน้มถ่วง";
+"zoneLoading" = "กำลังโหลด";
+"zoneLoadFailedOrGravitationalWaveHasBeenDeleted" = "การโหลดล้มเหลวหรือคลื่นความโน้มถ่วงถูกลบ";
+
+//ZoneHeaderView.h
+"zoneNewNews" = "ข้อความใหม่";
+"zoneChangeBackgroundImage" = "เปลี่ยนภาพพื้นหลัง";
+"zoneTakePhoto" = "ภาพถ่าย";
+"zoneErrorMessage" = "ข้อความแสดงข้อผิดพลาด";
+"zoneTheCurrentDeviceDoesNotSupportShooting" = "อุปกรณ์ปัจจุบันไม่รองรับการถ่ายภาพ";
+"zoneFailedToReplaceBackgroundImage" = "ไม่สามารถแทนที่ภาพพื้นหลัง";
+
+

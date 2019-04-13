@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <ChatMenuRoot>
+        <node id="chatSingle" caption="单聊"/>
+        <node id="chatGroup" caption="群聊" />
+        <node id="chatApplication" caption="应用号聊天"/>
+    </ChatMenuRoot>
+    <chatSingle>
+        <node id="file" interTitle="titleFile" caption="文件" icon="img_EFChatViewController_keyBoard_item_file.png" show="RecentFileController" viewType="display" navigationBarHidden="false"/>
+        <node id="localtion" interTitle="titleLocation" caption="位置" icon="img_EFChatViewController_keyBoard_item_location.png" show="SendLocationController" viewType="display" navigationBarHidden="false"/>
+        <node id="redPacket" interTitle="titleRedPacket" caption="红包" icon="chat_menu_redpackage.png" show="PostRedPacketController" viewType="display" navigationBarHidden="false" redPacketType="1"/>
+        <node id="transfer" interTitle="titleEnernyChange" caption="能量交换" icon="img_EFChatViewController_keyBoard_item_transfer.png"
+        show="PWRChatOutController" viewType="display" fromType="1" navigationBarHidden="false"/>
+        <node id="eth" interTitle="titleETHTransfer" caption="ETH转账" icon="img_EFChatViewController_keyBoard_item_transfer_eth.png"
+        show="ETHChatOutController" viewType="display" navigationBarHidden="false"/>
+        <node id="btc" interTitle="titleBTCTransfer" caption="BTC转账" icon="img_EFChatViewController_keyBoard_item_transfer_btc.png"
+        show="BTCChatOutController" viewType="display" navigationBarHidden="false"/>
+        <node id="btc" interTitle="titleEOSTransfer" caption="EOS转账" icon="img_EFChatViewController_keyBoard_item_transfer_eos.png"
+        show="EOSTransferOutController" viewType="display" navigationBarHidden="false"/>
+        <node id="mixin" interTitle="titleSecretMessage" caption="密信" icon="img_EFChatViewController_keyBoard_item_mixin.png"  show="JFSecretWordController" viewType="display" navigationBarHidden="false"/>
+        <node id="mitu" interTitle="titleSecretImage" caption="密图" icon="img_EFChatViewController_keyBoard_item_mitu.png" show="JFSecretImageController" viewType="display" navigationBarHidden="false"/>
+        <node id="mijian" interTitle="titleSecretFile" caption="密件" icon="img_EFChatViewController_keyBoard_item_mijian.png" show="JFSecretFileController" viewType="display" navigationBarHidden="false"/>
+        <node id="zhifubao" interTitle="titleAliPay" caption="支付宝" icon="img_EFChatViewController_keyBoard_item_zhifubao.png" show="JFCheckPaymentCodeController" fromType="PaymentCodeTypeAliPay" viewType="display" navigationBarHidden="false"/>
+        <node id="wexin" interTitle="titleWeChat" caption="微信" icon="img_EFChatViewController_keyBoard_item_weixin.png" show="JFCheckPaymentCodeController" fromType="PaymentCodeTypeWeChat" viewType="display" navigationBarHidden="false"/>
+        <node id="notice" interTitle="titleNote" caption="通告" icon="img_EFChatViewController_keyBoard_item_notice.png" show="SendArticleController" viewType="display" navigationBarHidden="false"/>
+        <node id="recommendFriend" interTitle="titleCard" caption="名片" icon="img_EFChatViewController_keyBoard_item_shareUser.png" show="RecommedFriendController" viewType="display" navigationBarHidden="false"/>
+    </chatSingle>
+    <!--    "titleFile" = "File";-->
+    <!--    "titleLocation" = "Location";-->
+    <!--    "titleRedPacket" = "红包";-->
+    <!--    "titleEnernyChange" = "Energy XCH";-->
+    <!--    "titleETHTransfer" = "ETH XCH";-->
+    <!--    "titleBTCTransfer" = "BTC XCH";-->
+    <!--    "titleEOSTransfer" = "EOS XCH";-->
+    <!--    "titleSecretMessage" = "Secret Message";-->
+    <!--    "titleSecretImage" = "Secret Image";-->
+    <!--    "titleSecretFile" = "Secret File";-->
+    <!--    "titleAliPay" = "AliPay";-->
+    <!--    "titleWeChat" = "WeChat";-->
+    <!--    "titleNote" = "Note";-->
+    <!--    "titleRedPacket" = "Red packet";-->
+    <!--    "titleCard" = "Card";-->
+    <chatGroup>
+        <node id="file" interTitle="titleFile" caption="文件" icon="img_EFChatViewController_keyBoard_item_file.png" show="RecentFileController" viewType="display" navigationBarHidden="false"/>
+        <node id="localtion" interTitle="titleLocation" caption="位置" icon="img_EFChatViewController_keyBoard_item_location.png" show="SendLocationController" viewType="display" navigationBarHidden="false"/>
+        <node id="redPacket" interTitle="titleRedPacket" caption="红包" icon="chat_menu_redpackage.png" show="PostRedPacketController" viewType="display" navigationBarHidden="false" redPacketType="2"/>
+        <node id="zhifubao" interTitle="titleAliPay" caption="支付宝" icon="img_EFChatViewController_keyBoard_item_zhifubao.png" show="JFCheckPaymentCodeController" fromType="PaymentCodeTypeAliPay" viewType="display" navigationBarHidden="false"/>
+        <node id="wexin" interTitle="titleWeChat" caption="微信" icon="img_EFChatViewController_keyBoard_item_weixin.png" show="JFCheckPaymentCodeController" fromType="PaymentCodeTypeWeChat" viewType="display" navigationBarHidden="false"/>
+        <node id="notice" interTitle="titleNote" caption="通告" icon="img_EFChatViewController_keyBoard_item_notice.png" show="SendArticleController" viewType="display" navigationBarHidden="false"/>
+        <node id="recommendFriend" interTitle="titleCard" caption="名片" icon="img_EFChatViewController_keyBoard_item_shareUser.png" show="RecommedFriendController" viewType="display" navigationBarHidden="false"/>
+
+    </chatGroup>
+    
+    
+</package>

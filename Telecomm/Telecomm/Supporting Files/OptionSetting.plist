@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LoginAuth</key>
+	<string>https://mobile.solarsource.cn/MobileAuth</string>
+	<key>LoginType</key>
+	<string>1</string>
+	<key>RestfulInterface</key>
+	<string>https://tc.ipcom.io/tcserver</string>
+	<key>IPAUrl</key>
+	<string>https://mobile.solarsource.cn/ospstore/ydqy.html</string>
+	<key>APPID</key>
+	<string>iOSOpenPlanet</string>
+	<key>ServiceKey</key>
+	<string>WXExternalInterfaceDataService</string>
+	<key>CloudDiskURL</key>
+	<string>http://panserver.solarsource.cn:9692/panserver</string>
+	<key>CloudDiskUserID</key>
+	<string>66662</string>
+	<key>CloudDiskParentID</key>
+	<string>66662</string>
+	<key>OSPMZOneURL</key>
+	<string>http://espace.solarsource.cn:9692/espace/</string>
+	<key>OSPTaskURL</key>
+	<string>http://zsytght.solarsource.cn:9692</string>
+	<key>OSPDeviceURL</key>
+	<string>http://im.solarsource.cn:9692</string>
+	<key>ip</key>
+	<string>mobile.solarsource.cn</string>
+	<key>port</key>
+	<string>9692</string>
+	<key>TaskProduct</key>
+	<string>HTGLXT</string>
+	<key>server</key>
+	<string>ESTMobile</string>
+	<key>product</key>
+	<string>ESPTablet_ZYYT</string>
+	<key>DBName</key>
+	<string>ZYYT_DB01</string>
+	<key>DBNO</key>
+	<string>ZYHYGL01</string>
+	<key>isSafe</key>
+	<string>0</string>
+	<key>isAd</key>
+	<string>1</string>
+	<key>IMBaseUrl</key>
+	<string>https://im.ipcom.io</string>
+	<key>messageService</key>
+	<string>WXExternalInterfaceDataService</string>
+	<key>LoginCheckType</key>
+	<string>ZYPTYTH</string>
+	<key>NewsBaseUrl</key>
+	<string>http://news.openserver.cn/NewsService</string>
+	<key>AuthURL</key>
+	<string>https://mobile.solarsource.cn/MobileAuth/loginAuth/v1</string>
+	<key>ShopServer</key>
+	<string>http://211.87.224.140:8181/OSPMall</string>
+</dict>
+</plist>

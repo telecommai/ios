@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  OpenPlanet
+
+  Created by 谢虎 on 2019/2/12.
+  Copyright © 2019 wsl. All rights reserved.
+*/
+"MJRefreshHeaderIdleText" = "Puedes refrescarlo";
+"MJRefreshHeaderPullingText" = "Apártate de inmediato";
+"MJRefreshHeaderRefreshingText" = "Se están actualizando los datos...";
+
+"MJRefreshAutoFooterIdleText" = "Pulsar o subir de arriba";
+"MJRefreshAutoFooterRefreshingText" = "Se están haciendo más datos...";
+"MJRefreshAutoFooterNoMoreDataText" = "Todo está listo";
+
+"MJRefreshBackFooterIdleText" = "La alta puede cargar más";
+"MJRefreshBackFooterPullingText" = "Quitar más inmediatamente";
+"MJRefreshBackFooterRefreshingText" = "Se están haciendo más datos...";
+"MJRefreshBackFooterNoMoreDataText" = "Todo está listo";
+
+"MJRefreshHeaderLastTimeText" = "Actualización：";
+"MJRefreshHeaderDateTodayText" = "Hoy";
+"MJRefreshHeaderNoneLastDateText" = "No hay registros";

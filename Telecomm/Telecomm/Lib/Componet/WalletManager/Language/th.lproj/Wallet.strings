@@ -1,0 +1,388 @@
+/*
+  Wallet.strings
+  WalletManager
+
+  Created by 赵洪壮 on 2018/12/17.
+  Copyright © 2018 pansoft. All rights reserved.
+*/
+
+// JFCardListController
+"walletCard" = "การ์ดจุด";
+"balance" = "สมดุล";
+"walletCardRecharge" = "เพื่อเติม";
+
+// JFRechargeCardController
+"walletCardRechargeWay" = "วิธีการชำระเงิน";
+"walletCardRechargeAmount" = "จำนวนที่ชาร์จ";
+"walletCardRechargeAliPay" = "Alipay";
+"walletCardRechargeWechat" = "WeChat";
+"walletCardRechargeMethodSelect" = "โปรดเลือกวิธีการชาร์จ";
+"walletCardRechargeNeetToPay" = "จำเป็นต้องจ่าย";
+"walletCardRechargeNext" = "ถัดไป";
+"walletCardRechargePaySuccess" = "การชำระเงินสำเร็จ!";
+"walletCardRechargePayFailure" = "การชำระเงินล้มเหลว!";
+"walletCardRechargeWrongMoney" = "จำนวนเงินที่ป้อนไม่ถูกต้อง";
+"walletCardRechargeUndone" = "ไม่สำเร็จ";
+"walletCardRechargeAgain" = "เติมเงิน";
+"walletCardRechargeRequest" = "คำขอล้มเหลวโปรดตรวจสอบการตั้งค่าเครือข่าย!";
+"walletCardRechargeGiveUp" = "ละทิ้ง";
+
+// BTCCheckPharseController
+"walletBTCCheckConfirm" = "ยืนยันการจำกระเป๋าเงินของคุณ";
+"walletBTCCheckAddSuccess" = "เพิ่มความสำเร็จของ Wallet";
+"walletBTCCheckBackUpFail" = "การสำรองล้มเหลวโปรดตรวจสอบความจำของคุณ";
+"walletBTCCheckConfirmOrder" = "โปรดคลิกที่ตัวช่วยจำเพื่อยืนยันว่าตัวช่วยจำของคุณถูกต้อง";
+
+// BTCCreateController
+"walletBTCCreateWllet" = "สร้างกระเป๋าเงิน";
+"walletBTCCreateBackUpTip" = "บัญชี Wallet คือที่อยู่เฉพาะของคุณบน Blockchain กรุณาทำการสำรองข้อมูลช่วยจำและกระเป๋าเงินหลังจากสร้างกระเป๋าเงิน";
+"walletBTCCreateStayTip" = "โปรดเก็บข้อมูลที่สร้างขึ้นในระหว่างกระบวนการสร้าง";
+
+// BTCPaperPharseController
+"walletBTCBackUp" = "คำหลักสำรอง";
+"walletBTCCreateSaveTip" = "ตัวช่วยจำใช้เพื่อกู้คืนบัญชี Wallet หรือรีเซ็ตรหัสผ่านกระเป๋าเงินคัดลอกไปยังกระดาษอย่างถูกต้องและเก็บไว้ในที่ปลอดภัยที่มีเพียงคุณเท่านั้นที่รู้";
+"walletBTCCreateWriteDown" = "คัดลอกบัญชีกระเป๋าเงินของคุณช่วยจำ";
+
+// BTCImportController
+"walletBTCPaperRecovery" = "กู้คืนกระเป๋าเงิน";
+"walletBTCPaperRecoveryChectFail" = "การกู้คืนล้มเหลวโปรดตรวจสอบความจำ";
+"walletBTCPaperRecoveryExistFail" = "การกู้คืนล้มเหลวกระเป๋าเงินมีอยู่แล้ว";
+"walletBTCPaperRcoveryWithWords" = "กู้คืนกระเป๋าเงินของคุณด้วยระบบช่วยจำ";
+"walletBTCImport" = "นำเข้า";
+
+// BTCTransationManager
+"walletBTCTransferInvalid" = "ที่อยู่โอนไม่ถูกต้อง";
+"walletBTCTransferNotSupport" = "โหมดนี้ไม่รองรับ";
+"walletBTCTransferAlreadyExists" = "กระเป๋าเงินมีที่อยู่นี้แล้ว";
+"walletBTCTransferLessThan" = "จำนวนการชำระเงินต้องไม่น้อยกว่า";
+"walletBTCTransferError" = "การโอนล้มเหลว";
+"walletBTCTransferUTFOFail" = "คำขอ UTFO ล้มเหลว";
+"walletBTCTransferBalanceNotEnough" = "ยอดเงินไม่เพียงพอ";
+"walletBTCTransferSignError" = "ข้อผิดพลาดลายเซ็นธุรกรรม";
+
+// DropCell
+"walletDropmsq" = "จับทันที";
+"walletDropyq" = "ออก";
+"walletDropyqguo" = "ถูกปล้น";
+"walletDropyqguang" = "แสงถูกปล้น";
+"walletDropwks" = "ไม่ได้เริ่ม";
+"walletDropjks" = "ตั้งแต่เริ่มต้น";
+"walletDropjjs" = "จากตอนท้าย";
+"walletDropyjs" = "สิ้นสุดแล้ว";
+"walletDropday" = "วัน";
+"walletDrophour" = "ชั่วโมง";
+"walletDropmin" = "นาที";
+"walletDropktjj" = "ข้อมูลเบื้องต้นสั้น";
+
+// DropDetailHeaderView
+"walletDropjljshs" = "ยังมีที่เหลืออยู่ตอนท้าย";
+"walletDropjlkshs" = "ระยะทางคงเหลือ";
+
+// DropDetailController
+"walletDropDetailNoWallt" = "คุณยังไม่ได้";
+"walletDropDetailCreateWallet" = "กระเป๋าเงินโปรดสร้างกระเป๋าเงินก่อน";
+"walletDropDetailChooseWallet" = "เลือกกระเป๋าเงิน";
+"walletDropDetailTilte" = "รายละเอียด Airdrop";
+"walletDropDetaildbmc" = "ชื่อโทเค็น";
+"walletDropDetailktzz" = "องค์กร Airdrop";
+"walletDropDetailhydz" = "ที่อยู่สัญญา";
+"walletDropDetailktjs" = "ข้อมูลเบื้องต้นเกี่ยวกับ Airdrop";
+
+// DropTransferController
+"walletDropTransferSuccess" = "Airdrop สำเร็จ";
+"walletDropTransferReceived" = "คุณได้รับเรียบร้อยแล้ว";
+"walletDropTransferAttension" = "Airdrops จะออกหลังจากเหตุการณ์จบลงโปรดใส่ใจกับกระเป๋าเงิน";
+"walletDropTransferGet" = "คุณได้รับ airdrop นี้";
+"walletDropTransferFail" = "Airdrop ล้มเหลว";
+"walletDropTransfering" = "Airdrop";
+
+// DropViewController
+"walletDropMyTitle" = "My Airdrop";
+
+
+// EOSCreateKeyController
+"walletEOSCreateTipSave" = "คุณต้องลงทะเบียนบัญชี EOS (12 ตัวอักษร) ด้วยรหัสสาธารณะสองคีย์ที่สร้างขึ้นกระบวนการนี้จะใช้โทเค็น EOS คิดชื่อบัญชีและค้นหาคนที่จะช่วยคุณลงทะเบียน";
+"walletEOSCreateTipActive" = "บัญชี EOS ไม่ได้เปิดใช้งานส่งไปยังเพื่อนหรือแชร์ด้วยรหัส QR เพื่อค้นหาเพื่อนเพื่อเปิดใช้งานบัญชีนี้";
+"walletEOSCreateShareSuccess" = "แบ่งปันความสำเร็จ";
+"walletEOSCreateShareFailure" = "การแบ่งปันล้มเหลว";
+"walletEOSCreatePK" = "รหัสสาธารณะ";
+"walletEOSCreatePrivateK" = "รหัสส่วนตัว";
+"walletEOSCreateCorrentAddress" = "โปรดกรอกที่อยู่บัญชีที่ถูกต้อง!";
+"walletEOSCreateCreateRequest" = "EOS สร้างคำขอบัญชี";
+"walletEOSCreateCorrectName" = "โปรดป้อนชื่อบัญชีที่ถูกต้อง (ชุดอักขระ 12 ตัวของ a-z และ 1-5)";
+"walletEOSCreateNameStyle" = "ชื่อบัญชี EOS คือ a-z และ 1-5 ซึ่งประกอบด้วยอักขระ 12 บิต";
+"walletEOSCreateAccountAddress" = "ที่อยู่บัญชี";
+"wannetEOSCreateSendToFriend" = "ส่งถึงเพื่อน";
+"wannetEOSCreateSendToQRCode" = "แบ่งปันรหัส QR";
+
+// EOSCreateController
+"walletEOSCreateWallet" = "สร้าง EOS Wallet";
+"walletEOSCreateFeeFail" = "คำขอสร้างค่าธรรมเนียมบัญชีล้มเหลว";
+"walletEOSCreateIsAvailable" = "กำลังตรวจสอบว่าชื่อบัญชีว่างหรือไม่";
+"walletEOSCreateChange" = "บัญชีนี้มีอยู่แล้วโปรดเปลี่ยนชื่อบัญชี";
+"walletEOSCreateAvailabel" = "ชื่อบัญชีว่าง";
+"walletEOSCreateCheckFail" = "ตรวจสอบล้มเหลว";
+"walletEOSCreateAbnormal" = "การจัดการข้อยกเว้น";
+"walletEOSCreateNoLocalWallet" = "ไม่มีกระเป๋าเงิน EOS ในเครื่องที่เปิดใช้งาน";
+"walletEOSCreateCreating" = "กำลังสร้าง";
+"walletEOSCreateSuccess" = "สร้างสำเร็จ";
+"walletEOSCreateFailure" = "สร้างล้มเหลว";
+"walletEOSCreateSelectAccount" = "เลือกบัญชี";
+"walletEOSCreateNoActiveWallet" = "ไม่มีกระเป๋าเงิน EOS ในเครื่องที่ใช้งานอยู่";
+"walletEOSCreate" = "สร้าง";
+"walletEOSCreateAccountName" = "ชื่อบัญชี";
+"walletEOSCreateRAM" = "หน่วยความจำ";
+"walletEOSCreateCost" = "ราคา";
+"walletEOSCreateStyle" = "สร้างบัญชี EOS ด้วยชุดอักขระ 12 ตัวของ a-z และ 1-5";
+
+// EOSImportController
+"walletEOSImportReply" = "โปรดกรอกข้อมูลให้ครบถ้วนก่อนตอบกลับ";
+"walletEOSImportErongFormatter" = "รูปแบบคีย์ส่วนตัวไม่ถูกต้อง!";
+"walletEOSImporting" = "ข้อมูลเบื้องต้น";
+"walletEOSImportSuccess" = "นำเข้าสำเร็จ";
+"walletEOSImportRecoveryWithPrivateKey" = "กู้คืนบัญชีกระเป๋าเงินของคุณด้วยรหัสส่วนตัว";
+"walletEOSImportActivePrivateKey" = "โปรดป้อนรหัสส่วนตัวที่ใช้งาน";
+"walletEOSImportOwnerPrivateKey" = "โปรดป้อนรหัสส่วนตัวของเจ้าของ";
+"walletEOSImportDone" = "เสร็จสิ้น";
+
+// ETHCreateController
+"walletETHCreateOnlyOne" = "บัญชี Wallet เป็นที่อยู่ที่ไม่ซ้ำกันของคุณใน Blockchain มันถูกสร้างขึ้นโดยใช้รหัสส่วนตัวของคุณโปรดสำรองข้อมูลของรหัสส่วนตัวและบัญชีฐานหลังจากสร้างบัญชีฐาน";
+"walletETHSign" = "ลายเซ็นที่ได้รับอนุญาต";
+"walletETHAddressEmpty" = "ที่อยู่ต้องไม่ว่างเปล่า";
+"walletETHWtch" = "กำลังดูกระเป๋าเงิน";
+"walletETHComplete" = "ทำการอนุญาตให้เสร็จ";
+"walletETHWarning" = "1. ปัจจุบันผู้ใช้เท่านั้นที่สามารถสังเกตเห็นกระเป๋าเงินของพวกเขาเพื่อสร้างกระเป๋าเงินเย็นที่ปลอดภัยกว่าด้วยกระเป๋าเงินออฟไลน์การนำเข้าจะต้องลงชื่อครั้งเดียว \n2 เก็บเงินไว้จำนวนมาก";
+"walletORCode" = "ใช้กระเป๋าเงินการสังเกตที่สอดคล้องกันเพื่อสแกนรหัส QR ด้านล่างเพื่อดำเนินการอนุญาตให้เสร็จ";
+"walletDataNomMatch" = "ข้อมูลไม่ตรงกัน";
+"walletDataImporting" = "กำลังนำเข้า";
+"wallerSignDetail" = "รายละเอียดลายเซ็นที่ได้รับอนุญาต";
+"wallerSignAddress" = "ที่อยู่ที่ได้รับอนุญาต";
+"walletSignData" = "ข้อมูล";
+"walletScan" = "สแกนรหัส QR ของหน้ากระเป๋าเงินที่ได้รับอนุญาตนำเข้าลายเซ็น";
+"walletImportSign" = "นำเข้าลายเซ็น";
+"walletEnterAddress" = "โปรดป้อนที่อยู่กระเป๋าเงิน";
+
+// change
+"walletChangeCurrent" = "สลับ%@wallet";
+
+// NewWalletInfoController
+"walletNewWalletInfoSetAvatar" = "ตั้งค่าสัญลักษณ์และชื่อกระเป๋าเงิน";
+"walletNewWalletInfoUploadAvatar" = "การอัปโหลดอวาตาร์";
+"walletNewWalletInfoUploadAvatarFail" = "ไม่สามารถอัพโหลดภาพ";
+"walletNewWalletInfoName" = "ชื่อบัญชีกระเป๋าเงิน";
+"walletNewWalletInfoAddAvatar" = "คลิกไอคอนกล้องเพื่อเพิ่มสัญลักษณ์ประจำตัวของบัญชี wallet";
+
+// OldWalletOutController
+"walletOldWalletOutGettingBaseId" = "รับ ID ฐาน";
+"walletOldWalletOutGettingIdRetry" = "การรับ ID ฐานล้มเหลวโปรดลองอีกครั้ง";
+"walletOldWalletCorrectEnergy" = "โปรดป้อนพลังงานที่ถูกต้อง";
+"walletOldWalletOutEnergy" = "พลังงาน";
+"walletOldWalletOtherPlanetId" = "โปรดป้อน ID ดวงดาวของอีกฝ่าย";
+"walletOldWalletNumberOfEnergy" = "โปรดป้อนจำนวนพลังงาน";
+"walletOldWalletOtherBaseId" = "โปรดป้อน ID ฐานของอีกฝ่าย";
+"walletOldWalletOtherPanetId" = "รับ ID ดวงดาว:";
+"walletOldWalletRecevingBaseId" = "รับ ID ฐาน:";
+"walletOldWalletTransferBaseId" = "ID ฐานขาออก:";
+"walletTradeMinerFee" = "ต้นทุนตัวขุด";
+"walletOldWalletEnergyExchange" = "การแลกเปลี่ยนพลังงาน";
+
+// OldWalletOutResultController
+"walletOldResultTitle" = "รายละเอียดธุรกรรม";
+"walletOldResultSuccess" = "การทำรายการสำเร็จ";
+"walletOldResultId" = "รหัสธุรกรรม";
+"walletOldResultTime" = "เวลาธุรกรรม";
+"walletOldResultToId" = "ถ่ายโอนไปยัง ID ฐาน";
+"walletOldResultOutId" = "เปลี่ยน ID ฐาน";
+"walletOldResultFailure" = "การแลกเปลี่ยนล้มเหลว";
+"walletOldResultTransing" = "ในการทำธุรกรรม";
+
+// SurePasswordAlert
+"walletEnterBasePassword" = "โปรดป้อนรหัสผ่านพื้นฐาน";
+"walletEnterPassword" = "โปรดป้อนรหัสผ่าน";
+"walletWrongPassword" = "ข้อผิดพลาดรหัสผ่าน";
+"walletForgetPassword" = "ลืมรหัสผ่าน";
+
+// WalletCardView
+"walletCardAssets" = "เนื้อหา";
+"walletCardNoActive" = "เพื่อเปิดใช้งาน";
+"walletCardSenfCoin" = "ปุ่มเดียวเพื่อส่งเหรียญ";
+"walletCardCopied" = "คัดลอก";
+"walletCardTransfer" = "ถูกเปิด";
+"walletCardDetail" = "รายละเอียด";
+"walletCardTransferout" = "ม้วนออก";
+"walletImportWallet" = "นำเข้ากระเป๋าเงิน";
+"walletWatchNotSupport" = "กระเป๋าเงินไม่รองรับฟังก์ชั่นการเปิดใช้งาน";
+
+// WalletInfoController
+"walletInfoTitle" = "การจัดการ";
+"walletChangeAvatar" = "เปลี่ยนภาพแทนตัว";
+"walletInfoChangeWalletName" = "แทนที่ชื่อกระเป๋าเงิน";
+"walletInfoSwitchaccount" = "สลับบัญชี";
+"walletInfoActivation" = "เปิดใช้งาน";
+"walletInfoModifyWalletName" = "แก้ไขชื่อกระเป๋าเงิน";
+"walletInfoEnterWalletName" = "โปรดป้อนชื่อกระเป๋าเงิน";
+"walletInfoModificationFailed" = "การปรับเปลี่ยนล้มเหลวโปรดลองอีกครั้ง";
+"walletInfoCannotDeleted" = "ไม่สามารถลบกระเป๋าเงินหลัก";
+"walletInfoToDelete" = "คุณต้องการลบกระเป๋าเงินนี้หรือไม่";
+"walletInfoDeleteFaild" = "ลบล้มเหลวโปรดลองอีกครั้ง";
+"walletInfoSettingAvatar" = "การตั้งค่าภาพแทนตัว";
+"walletInfoSettingFaild" = "ตั้งค่ารูปแทนล้มเหลวโปรดลองอีกครั้ง";
+"walletInfoUploadFaild" = "ไม่สามารถอัปโหลด Avatar โปรดลองอีกครั้ง";
+"walletInfoPKPK" = "รหัสส่วนตัวของเจ้าของ: \n%@\nการใช้งานคีย์ส่วนตัว:\n%@";
+"walletUnfoDeleteWallet" = "ลบกระเป๋าเงิน";
+"walletInfoChooseMain" = "เลือกบัญชีหลัก";
+"WalletModifyingWalletname" = "การแก้ไขชื่อกระเป๋าเงิน";
+
+// WalletAllTokenController
+"walletTypeHide" = "ซ่อนไม่มีสินทรัพย์คงเหลือ";
+"walletTypeSort" = "จัดเรียงตามสมดุล";
+"walletTypeAlphabetically" = "ตามลำดับตัวอักษร";
+"walletTypeRemoveAssets" = "ลบเนื้อหา";
+"walletTypeEnterToken" = "ป้อนชื่อโทเค็นหรือที่อยู่สัญญา";
+"walletMyassets" = "สินทรัพย์ของฉัน";
+
+// WalletInCoinController
+"WalletInTransfer" = "โปรดเข้าไป";
+"walletInTransferEnter" = "ป้อนจำนวน";
+"WalletInTransferPlzEnter" = "โปรดป้อนจำนวน";
+"walletInChangeAssets" = "แทนที่สินทรัพย์";
+"walletInSpecAmount" = "จำนวนเงินที่ระบุ";
+
+// BTCOutController
+"WalletCoinOutRemarks" = "ข้อสังเกต";
+"WalletCoinOutOptional" = "ตัวเลือก";
+"WalletCoinOutEnterAddress" = "ป้อนที่อยู่การชำระเงิน";
+"WalletCoinOutCanNotNull" = "จำนวนเงินต้องไม่ว่างเปล่า";
+"WalletCoinOutAddressNotNull" = "ที่อยู่การชำระเงินต้องไม่ว่างเปล่า";
+"WalletCoinOutPaymentDetail" = "รายละเอียดการชำระเงิน";
+"WalletCoinOutRetry" = "การเผยแพร่คำขอธุรกรรมล้มเหลวโปรดลองอีกครั้ง";
+"walletCoinUnlockFail" = "ปลดล็อกกระเป๋าเงินล้มเหลว";
+"walletCinOutoperation" = "ในการทำธุรกรรม";
+"walletGetCurrentFail" = "รับกระเป๋าเงินปัจจุบันล้มเหลว";
+"walletNoData" = "ไม่มีข้อมูล";
+"walletPaymentSuccess" = "การรับใบเสร็จสำเร็จ";
+"walletTransferSuccess" = "การโอนสำเร็จ";
+"walletCollectionFailure" = "การรับล้มเหลว";
+"walletTransferFailed" = "การโอนล้มเหลว";
+
+// WalletTradeResultController
+"walletTradeBlock" = "บล็อก";
+"walletTradeAmount" = "จำนวนเงิน";
+"walletTradeTradeNo" = "หมายเลขธุรกรรม";
+"walletTradeContact" = "สัญญา";
+"walletTradeType" = "ประเภทการถ่ายโอน";
+
+// chain Inquiry
+"walletChainInquiryCopySuccess" = "คัดลอกความสำเร็จ";
+"walletChainInquirySure" = "ยืนยันและลงชื่อ";
+"walletChainInquiryResult" = "โปรดป้อนผลการตรวจสอบ";
+"walletChainInquiryToSign" = "บริษัท อยู่ระหว่างการลงชื่อ";
+"walletChainInquiryCompanyToSign" = "ลายเซ็นที่ค้างอยู่ขององค์กร";
+"walletChainInquiryBankReply" = "ธนาคารรอการตอบกลับ";
+"walletChainInquiryBackRelied" = "ธนาคารได้ตอบกลับ";
+"walletChainInquiryBlockInfo" = "บล็อกข้อมูล";
+"walletChainInquiryEdit" = "กำลังแก้ไข";
+"walletChainInquiryProcessed" = "ดำเนินการแล้ว";
+"walletChainInquiryToBeProcessed" = "รอดำเนินการ";
+"walletChainInquiryChaininquiry" = "การสอบถามโซ่";
+"walletChainInquiryInquiryDetails รายละเอียด" = "ขอรายละเอียด";
+"walletChainInquiryAgreeandSign" = "เห็นด้วยและลงชื่อ";
+"walletChainInquiryViewReply" = "ดูคำตอบ";
+"walletChainInquiryReply" = "ตอบกลับ";
+"walletChainInquiryDoesNotMatch" = "ข้อมูลไม่ตรงกัน";
+"walletChainInquiryMatch" = "ข้อมูลตรงกัน";
+"walletChainInquiryAuditId" = "ID ธุรกรรมลายเซ็นการตรวจสอบ";
+"walletChainInquiryTradeId" = "ID ธุรกรรมการลงนามองค์กร";
+"walletChainInquiryBankId" = "ID ธุรกรรมการลงนามธนาคาร";
+"walletChainInquirySubSus" = "ส่งสำเร็จ";
+"walletChainInquiryInfoFail" = "การรับข้อมูลล้มเหลว";
+"walletChainInquiryNo" = "หมายเลขคำถาม";
+"walletChainInquiryAuditUnit" = "หน่วยตรวจสอบ";
+"walletChainInquiryCompany" = "บริษัท สอบถาม";
+"walletChainInquiryBank" = "ธนาคารสอบถามรายละเอียดเพิ่มเติม";
+"walletChainInquiryState" = "สถานะ";
+"walletChainInquiryContact" = "กลับไปที่ผู้ติดต่อ";
+"walletChainInquiryPhone" = "โทรศัพท์ติดต่อ";
+"walletChainInquirymail" = "อีเมล";
+"walletChainInquiryAccountName" = "ชื่อบัญชี";
+"walletChainInquiryBankNo" = "หมายเลขบัญชีธนาคาร";
+"walletChainInquiryCurrency" = "สกุลเงิน";
+"walletChainInquiryRate" = "อัตราดอกเบี้ย";
+"walletChainInquiryType" = "ประเภทบัญชี";
+"walletChainInquiryBalance" = "ยอดเงินไม่เพียงพอ";
+"walletChainInquiryStartandenddate" = "วันที่เริ่มต้นและวันที่สิ้นสุด";
+"walletChainInquiryLimit" = "ว่าจะรับประกันหรือข้อ จำกัด การใช้งานอื่น ๆ ";
+"walletChainInquiryBanksavings" = "เงินฝากธนาคาร";
+"walletSwitchWallet" = "สลับกระเป๋าเงิน (%ld)";
+"walletUtilAdding" = "กำลังเพิ่ม";
+"walletCardTop" = "เติมเงิน";
+"WalletPayInfo" = "ข้อมูลการชำระเงิน";
+
+//Assets
+"walletTransaction" = "ธุรกรรม";
+"WalletAirdrop" = "กระโดดร่ม";
+"WalletPay" = "จ่ายเงิน";
+"WalletCollect" = "การรับเงิน";
+"WalletAddDevice" = "เพิ่มอุปกรณ์";
+"WalletCardPackage" = "แพคเกจบัตร";
+"WalletAddCard" = "เพิ่มการ์ด";
+"WalletNoCard" = "ไม่มีบัตร";
+"WalletNoDevice" = "ไม่มีอุปกรณ์";
+
+// JFWalletMoreTopView
+"WalletHoldOnToMove" = "(กดค้างเพื่อลากเพื่อปรับการจัดเรียง)";
+"WalletMyApplication" = "แอปของฉัน";
+"WalletCommon" = "สามัญ";
+"WalletOther" = "อื่น ๆ ";
+
+// ETHCheckPharseHDWalletSelectView
+"createHDWallet" = "สร้างกระเป๋าเงินเย็น ๆ";
+"WalletConverting" = "แปลง";
+"WalletSuccessfulConversion" = "การแปลงสำเร็จ";
+"WalletSwitchToHotWallet" = "เปลี่ยนเป็นกระเป๋าเงินร้อน";
+"WalletSwitchToColdWallet" = "เปลี่ยนเป็นกระเป๋าเงินเย็น";
+
+// BluetoothController
+"deviceList" = "รายการอุปกรณ์";
+"deviceMismatch" = "ประเภทอุปกรณ์ไม่ตรงกัน";
+"WalletNewColdWallet" = "กระเป๋าเงินใหม่ที่เย็น";
+"WalletConnecting" = "เชื่อมต่อ";
+"WalletCertifyingDevice" = "กำลังตรวจสอบอุปกรณ์";
+"WalletAuthenticationDeviceFailed" = "อุปกรณ์ที่ตรวจสอบความถูกต้องล้มเหลว";
+"WalletCertifiedDeviceSuccess" = "อุปกรณ์ที่ผ่านการรับรองความถูกต้องสำเร็จแล้ว";
+"WalletReading" = "กำลังอ่าน";
+"WalletReadSuccessfully" = "อ่านสำเร็จ";
+"WalletReadFailed" = "อ่านล้มเหลว";
+"WalletWriting" = "กำลังเขียน";
+"WalletSuccessfullyWritten" = "เขียนสำเร็จ";
+"WalletWriteFailure" = "การเขียนล้มเหลว";
+"WalletCardRemoval" = "การลบการ์ด";
+"WalletDeviceDisconnected" = "อุปกรณ์ตัดการเชื่อมต่อ";
+"WalletCardHasContent" = "การ์ดปัจจุบันมีเนื้อหาคุณต้องการเขียนต่อหรือไม่";
+"WalletNewlyCreatedSuccessfully" = "ความสำเร็จใหม่";
+"WalletCardDataIsInvalid" = "ข้อมูลบัตรไม่ถูกต้อง";
+
+// 我的智能设备
+"WalletSmartWatch" = "ดูสมาร์ท";
+"WalletSmartWristband" = "สร้อยข้อมือสมาร์ท";
+"WalletSmartRunningShoes" = "รองเท้าวิ่งสมาร์ท";
+"WalletIntelligentBodyFatScale" = "สมาร์ทบอดี้เครื่องชั่งไขมัน";
+
+// 首页总资产
+"AssetHomeRequestFail"="คำขอล้มเหลวรีเฟรชแบบหล่นลง";
+
+// HDChoseWalletTypeController
+"WalletSelectWalletType" = "เลือกประเภทกระเป๋าเงิน";
+"WalletColdWallet" = "กระเป๋าเงินเย็น";
+"WalletHotWallet" = "กระเป๋าเงินร้อน";
+"WalletChoseWalletType" = "โปรดเลือกประเภทกระเป๋าเงิน";
+"WalletBuyColdWallet" = "ซื้อกระเป๋าเงินเย็น";
+
+// HDWalletTypeInfoController
+"WalletColdWalletDescription" = "กระเป๋าเงินเย็นคืออะไร?";
+"WalletHotWalletDescription" = "กระเป๋าเงินร้อนคืออะไร?";
+"WalletColdWalletInfo" = "Cold Wallet ซึ่งเป็นกระเป๋าเงินร้อนหรือที่รู้จักกันในชื่อกระเป๋าเงินออฟไลน์หรือกระเป๋าเงินหักเป็นหนึ่งในประเภทของกระเป๋าสตางค์ blockchain ซึ่งหมายความว่าเครือข่ายไม่สามารถเข้าถึงกระเป๋าเงินของรหัสส่วนตัวของผู้ใช้ กระเป๋าเงินเย็นมักใช้อุปกรณ์ \"เย็น\" (คอมพิวเตอร์โทรศัพท์มือถือ ฯลฯ ที่ไม่ได้เชื่อมต่อกับเครือข่าย) เพื่อรับประกันความปลอดภัยของรหัสส่วนตัว Bitcoin การใช้การสื่อสารรหัส QR ช่วยให้รหัสส่วนตัวไม่ได้สัมผัสกับเครือข่าย อาจเผชิญกับความเสี่ยงด้านความปลอดภัยทางกายภาพ (เช่นการสูญหายของคอมพิวเตอร์ความเสียหาย ฯลฯ ) \n เก็บคีย์ส่วนตัวไว้ในอุปกรณ์ที่ไม่ได้เชื่อมต่อกับเครือข่ายรวมถึงการพิมพ์ลายมือ (กระเป๋าเงินกระดาษ) หรือแม้กระทั่ง piggybacking (กระเป๋าเงินสมอง) เพื่อความปลอดภัยในระหว่างการจัดเก็บ อย่างไรก็ตามเมื่อกระเป๋าเงินด้านบนอยู่ในขั้นตอนการซื้อขายจะต้องใส่รหัสส่วนตัวในกระเป๋าเงินซอฟต์แวร์ทั่วไปและกระเป๋าเงินเย็นมาตรฐานสูงสุดจะต้องสามารถลงชื่อแบบออฟไลน์ได้และจะส่งเฉพาะธุรกรรมที่เซ็นชื่อเท่านั้น \n เก็บคีย์ส่วนตัวในอุปกรณ์ฮาร์ดแวร์พิเศษพิเศษเมื่อใช้ธุรกรรมธุรกรรมจะต้องมีการเซ็นชื่อและส่งภายในฮาร์ดแวร์ตราบใดที่ฮาร์ดแวร์ไม่ได้แตกจะปลอดภัยอย่างแน่นอน หากอุปกรณ์ฮาร์ดแวร์นี้ออฟไลน์โดยสมบูรณ์และส่งข้อความการทำธุรกรรมที่ลงนามแล้วเท่านั้นมันยังเป็นกระเป๋าเงินเย็นมาตรฐานที่สูงที่สุด";
+"WalletHotWalletInfo" = "กระเป๋าเงินร้อนซึ่งสอดคล้องกับกระเป๋าเงินเย็นหรือที่รู้จักกันว่ากระเป๋าเงินออนไลน์หรือกระเป๋าเงินออนไลน์เป็นหนึ่งในกระเป๋าเงิน blockchain ประเภทหนึ่งคือกระเป๋าเงินที่เครือข่ายสามารถเข้าถึงรหัสส่วนตัวของผู้ใช้ เนื่องจากคุณสมบัติด้านเครือข่ายกระเป๋าเงินร้อนอาจเข้าถึงรหัสส่วนตัวของผู้ใช้ผ่านทางอินเทอร์เน็ตดังนั้นการรักษาความปลอดภัยต่ำกว่ากระเป๋าเงินเย็น แต่สะดวกกว่ากระเป๋าเงินเย็น นอกจากนี้ไม่ว่าจะใช้กระเป๋าเงินเย็นหรือกระเป๋าเงินร้อนคีย์ส่วนตัวคือกุญแจ";
+
+// JFWalletMoreController
+"WalletApplicationEdit" = "การแก้ไขแอป";

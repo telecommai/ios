@@ -1,0 +1,171 @@
+/* 
+  StockMarket.strings
+  StockMarket
+
+  Created by 赵洪壮 on 2018/12/10.
+  Copyright © 2018 SpiderMan. All rights reserved.
+*/
+
+
+"stockSelectCurrency" = "选择币种";
+"stockSelectExchange" = "选择交易所";
+
+//JFStockMarketHomeController
+"stockCustom" = "自选";
+"stockMarketCap" = "市值";
+"stockChg" = "涨跌幅";
+"stockExchange" = "交易所";
+"stockReload" = "重新加载";
+
+//JFStockRiseFallController
+"stockGainers" = "涨幅榜";
+"stockLosers" = "跌幅榜";
+
+//JFStockSelfSelectCell
+"stockVol" = "量";
+"stockB" = "亿";
+"stockM" = "万";
+
+//JFStockExchangeHeader
+"stockRank" = "排名";
+"stockName" = "名称";
+"stockTurnover" = "成交额";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "今日资金净流入";
+
+//JFStockAllCoinFristCell
+"stockHigh" = "高";
+"stockLow" = "低";
+
+//JFExchangeHomeController
+"stockAll" = "全部";
+
+//JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "加入自选成功";
+"stockAddedCustomFailure" = "加入自选失败";
+"stockDeleteCustomSuccessful" = "删除自选成功";
+"stockDeleteCustomFailure" = "删除自选失败";
+
+//JFStockShareController
+"stockSharePicture" = "分享图片";
+"stockCancel" = "取消";
+"stockSave" = "保存";
+"stockSavedToAlbum" = "已保存到相册";
+"stockSavedToAlbumFailed" = "保存到相册失败";
+
+//JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "委单量";
+"stockBid" = "买一价";
+"stockAsk" = "卖一价";
+
+//JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "挂单量";
+"stockBidScale10" = "买盘10档";
+"stockAskScale10" = "卖盘10档";
+
+//JFStockAnalysisVolumeHeaderView
+"stockVolume" = "成交量";
+"stockTime" = "成交时间";
+"stockStrike" = "成交价";
+
+//JFDepthChartCell
+"stockDepthChart" = "市场深度图";
+
+//JFCoinCapitalController
+"stockTurnoverDistribution" = "资金成交分布";
+"stockMoneyFlowTrend" = "资金流向趋势";
+"stockMoneyFlowWithin5Days" = "近5日资金净流入";
+"stockBigOrdersMonitor" = "成交大单监控";
+"stockBuy" = "买入";
+"stockSell" = "卖出";
+"stockNetInflow" = "净流入";
+"stockToday" = "今天";
+"stock3minAgo" = "3分钟";
+"stock10minAgo" = "10分钟";
+"stock1hAgo" = "1小时";
+"stock24hAgo" = "24小时";
+"stockAmount" = "金额";
+"stockPrice" = "价格";
+"stockNumber" = "数量";
+"stockCoinTime" = "时间";
+
+//JFCoinSimpleIntroController
+"stockRecommendMarkets" = "市场推荐";
+
+//JFCoinSimpleIntroManager
+"stockChineseName" = "中文名";
+"stockEnglishName" = "英文名";
+"stockType" = "类型";
+"stockIssueTime" = "发行时间";
+"stockCirculatingSupply" = "流通总量";
+"stockTotalSupply" = "发行总量";
+"stockGlobalMarketCapShare" = "全球总市场占比";
+"stockCirculatingRate" = "流通率";
+"stockTurnoverRate" = "换手率";
+"stockICOCost" = "ICO成本";
+"stockFundRaising" = "募集资金";
+"stockTokenDistribution" = "代币分配";
+"stockWhitePaper" = "白皮书";
+"stockNumberOfOnlineExchanges" = "上架交易所数量";
+"stockWEBSite" = "官网";
+
+//RecommendMarketCell
+"stockVolume" = "交易量";
+
+//JFDepthChartView
+"stockDepthAsk" = "卖盘";
+"stockDepthBid" = "买盘";
+
+//JFPieChartView
+"stockInflow" = "流入";
+"stockOutflow" = "流出";
+"stockUnit" = "单位";
+"stockCNY" = "元";
+"stockUSD" = "美元";
+"stockVOL" = "成交分布";
+
+//JFStockMarketController
+"stockMoneyFlow" = "资金";
+"stockAnalysis" = "分析";
+"stockIntroduction" = "简况";
+"stockCustomAdd" = "加入自选";
+"stockCustomRemove" = "删除自选";
+
+//BottomOperationView
+"stockAdd" = "加自选";
+"stockAlerts" = "提醒";
+"stockOrginal" = "原始";
+"stockShare" = "分享";
+
+//JFStockMarketCurrentInfoView
+"stockInfoHigh" = "最 高";
+"stockInfoLow" = "最 低";
+"stockInfoBid" = "买 一";
+"stockInfoAsk" = "卖 一";
+"stockInfoFee" = "费 率";
+
+//JFStockChartToolbar
+"stockChartLine" = "分时";
+"stockChart15mins" = "15分钟";
+"stockChart1hour" = "1小时";
+"stockChart1day" = "日K";
+"stockChart3days" = "3天K";
+"stockChart1min" = "1分K";
+"stockChart3mins" = "3分K";
+"stockChart5mins" = "5分K";
+"stockChart10mins" = "10分K";
+"stockChart30mins" = "30分K";
+"stockChart2hours" = "2小时K";
+"stockChart4hours" = "4小时K";
+"stockChart6hours" = "6小时K";
+"stockChart12hours" = "12小时K";
+"stockChart1week" = "周K";
+"stockChart1mon" = "月K";
+"stockChartIndex" = "指标";
+"stockChartMajor" = "主图";
+"stockChartMinor" = "副图";
+
+//JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "未能获取当前市场数据";
+

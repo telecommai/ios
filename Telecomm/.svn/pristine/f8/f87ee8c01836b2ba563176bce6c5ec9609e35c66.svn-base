@@ -1,0 +1,156 @@
+/* 
+  OpenPlanet.strings
+  OpenPlanet
+
+  Created by 赵洪壮 on 2018/9/7.
+  Copyright © 2018年 wsl. All rights reserved.
+*/
+
+// SystemShare
+"openPlanetLoading" = "正在加载";
+"openPlanetSendFriend" = "发送给好友";
+"openPlanetShareGravitationalField" = "分享到引力场";
+"openPlanetShareBack" = "返回";
+
+// login-> TCInputPhoneController
+"openPlanetWelcomeTo" = "欢迎使用";
+"openPlanetLoginTip" = "为方便给您提供更优质的服务，请输入您的账号";
+"openPlanetPleaseEnterPhoneNumber" = "请输入手机号";
+
+// login-> TCInputPasswordController
+"openPlanetLoggedIn" = "正在登录";
+"openPlanetLoginFailure" = "登录失败";
+"openPlanetSynchronizingWalletInformation" = "正在同步钱包信息";
+"openPlanetSynchronizingWalletFailed" = "同步钱包失败";
+"openPlanetFailureToUnlockWallet" = "解锁主钱包失败";
+"openPlanetNoMainWalletWasObtained" = "未获取到主钱包";
+"openPlanetEnterPasswordToLogin" = "输入密码登录";
+"openPlanetPleaseEnterEmail" = "请输入手机号或邮箱";
+"openPlanetPleaseEnterPassword" = "请输入密码";
+"openPlanetResetPassword" = "重置密码";
+"openPlanetResetPasswordBeing" = "正在重置密码";
+"openPlanetResetPasswordResetSuccessful" = "重置密码成功，请重新登录";
+"openPlanetLoginUsingVerificationCode" = "使用短信验证码登录";
+
+// Wallet-> TCWalletTipController
+"openPlanetRestoreBaseAccount" = "恢复基地账户";
+"openPlanetCreateBaseAccount" = "创建基地账户";
+"openPlanetHasBeenCreatedAlert" = "该账号已创建基地，创建新基地旧基地和之前创建和导入的钱包将作废，是否继续创建基地？";
+"openPlanetRestoreYourBaseAccount" = "恢复您的基地账户";
+"openPlanetWalleAlertString" = "请填写您的基地账户”助记词“，没有他们您的账户将没法恢复，务必妥善保管好您的助记词";
+"openPlanetCarefulSurroundingEnvironment" = "填写助记词请留意周边环境";
+"openPlanetCreateYourBaseAccount2" = "创建您的基地账户";
+"openPlanetWalleAlertString2" = "基地账户是您在区块链上的唯一地址，它根据您的私钥生成，请在创建完基地账户后，做好私钥和基地账户的备份";
+"openPlanetKeepInformation" = "请保留创建过程中生成的信息";
+
+// Wallet-> TCInputMemoryWordController
+"openPlanetRestoreBase" = "恢复基地";
+"openPlanetRestoreBaseFailed" = "恢复失败，请检查助记词";
+"openPlanetRestoreBaseFailed2" = "恢复失败，请检查秘钥";
+"openPlanetRestoreBaseFailed3" = "恢复失败，只能恢复该账号绑定的基地";
+"openPlanetRestoringBaseAccount" = "恢复基地账户中...";
+"openPlanetFailureToUnlockMainWallet" = "解锁主钱包失败";
+"openPlanetSynchronizingWalletInformation" = "正在同步钱包信息";
+
+"openPlanetRecoverySuccessful" = "恢复成功";
+"openPlanetMnemonic" = "助记词";
+"openPlanetRestoreBaseByMnemonic" = "通过助记词恢复您的基地账户";
+"openPlanetUsePrivateKeyToRestoreBase" = "通过私钥恢复您的基地账户";
+"openPlanetSavePrivateKeyFailedTryAgain" = "保存通讯私钥失败,请重试";
+"openPlanetPleaseEnterPriviteKey" = "请输入基地账户私钥";
+"openPlanetImportingFans" = "导入粉丝";
+"openPlanetSkipUploadFans" = "跳过";
+"openPlanetReadingAddressBook" = "正在读取通讯录好友";
+"openPlanetReadAddressBookFiled" = "读取通讯录好友失败";
+"openPlanetImport" = "导入";
+"openPlanetReadAddressBookToImportFans" = "导入您的手机通讯录，将把通讯录中的联系人自动设置为您的粉丝";
+"openPlanetShouldImportFansToGetsilverDiamondReward" = "点击导入粉丝，将获得银钻奖励";
+"openPlanetHaveReadAndAgreed" = "我已经仔细阅读并同意";
+"openPlanetServiceAndPrivacyPolicy" = "服务与隐私条款";
+"openPlanetSelectThePlanet" = "请选择您要入住的星球";
+"openPlanetSelectionCanNotChange" = "(选择以后将不可更改)";
+"openPlanetStayingOnThePlanet" = "入住星球";
+"openPlanetAlready" = "已向";
+"openPlanetSentVerificationCode" = "发送了短信验证码";
+"openPlanetSendVerificationCodeTo" = "通过点击“获取验证码”按钮，向";
+"openPlanetSendingTextVerifyCode" = "发送短信验证码";
+"openPlanetVerifyPhoneNumber" = "验证手机号";
+"openPlanetEnterVerificationCode" = "输入短信验证码";
+"openPlanetCreateSecureAccount" = "创建安全账户";
+"openPlanetRegisteredUserFailed" = "注册用户失败";
+"openPlanetSetPasswordDescribe" = "密码用于登录、保护私钥和交易授权，强度非常重要。系统不存储密码，也无法帮您找回，请务必牢记！";
+"openPlanetUserNickname" = "用户昵称";
+"openPlanetResetFailedTryAgain" = "重置失败，请重试";
+"openPlanetSetAvtar" = "设置头像";
+"openPlanetUploadingAvatar" = "正在上传头像";
+"openPlanetSettingAvatarFailed" = "设置头像失败";
+"openPlanetUploadingAvatarFailed" = "上传头像失败";
+"openPlanetNickname" = "昵称";
+"openPlanetSetPictureAsAvatar" = "设置一张您的图片作为您的头像";
+"openPlanetSetAvatarAndGetSilverDiamondReward" = "设置好用户头像,将获得银钻奖励";
+"openPlanetFailedToDecryptWalletTryAgain" = "解密子钱包失败，请重试";
+"openPlanetBackupMnemonic" = "备份助记词";
+"openPlanetDescribeOfMnemonic" = "助记词用于恢复基地账户或重置基地密码，将它准确的抄写到纸上，并存放在只有您自己知道的安全地方";
+"openPlanetCopyDownYourBaseAccountMnemonic" = "抄写下您的基地账户助记词";
+"openPlanetCopyTheAboveMnemonicAndGetSilverDiamondReward" = "抄写下上面的助记词，将获得银钻奖励";
+"openPlanetConfirmYourBaseMnemonic" = "确认您的基地助记词";
+"openPlanetBackingUpTheBase" = "正在备份基地";
+"openPlanetBackupFailedPleaseCheckYourMnemonic" = "备份失败，请检查您的助记词";
+"openPlanetSavingBaseAccountFailedTryAgain" = "保存基地账户失败，请重试";
+"openPlanetBaseAccountAddedSuccessfully" = "基地账户添加成功";
+"openPlanetClickOnTheMnemonicInOrderToConfirmYourMnemonicIsCorrect" = "请按顺序点击助记词，以确认您的助记词正确";
+"openPlanetBackupPrivateKey" = "备份私钥";
+"openPlanetDescribeOfPrivateKey" = "安全警告：私钥未经加密，导出存在风险，建议使用助记词进行备份";
+"openPlanetPrivateKeyHasBeenCopied" = "私钥已复制";
+"openPlanetsilverDiamondRecord" = "银钻记录";
+"openPlanetInvitationCode" = "邀请码";
+"openPlanetInvitationCodeIsEmpty" = "邀请码为空";
+"openPlanetIAm" = "我是";
+"openPlanetInviteYouToJoin" = "邀请您加入";
+"openPlanetILookForwardToYourJoining" = "期待您的加入哦～～";
+"openPlanetInvitationCodeHasBeenCopied" = "邀请码已复制";
+"openPlanetYourInvitationCode" = "您的邀请码";
+"openPlanetAfterYouInviteFriendToRegisterYouWillReceiveSilverDiamondAwards" = "每邀请一位好友注册后，您将获取1000银钻奖励";
+"openPlanetScanCodeDownload" = "扫码下载";
+"openPlanetFailedToGetBaseLogInAgain" = "获取基地失败,请重新登录";
+"openPlanetFailedGetEnergyTryAgain" = "获取能量失败,请重试";
+"openPlanetPleaseWaitForTheAnnouncement" = "请等待开通公告";
+"openPlanetBaseIDHasBeenCopied" = "基地ID已复制";
+
+//+弹出框
+"openPlanetcreateTribe" = "创建部落";
+"openPlanetAddFriend" = "添加好友";
+"openPlanetScan" = "扫一扫";
+"openPlanetEnergyExchange" = "能量交换";
+
+// 更新提醒
+"openPlanetUpdatingResourceFile" = "正在更新资源文件...";
+
+// 选择星球
+"水星" = "水星";
+"英文名：Mercury\n最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。\n公转轨道：距太阳57,910,000 千米 (0.387天文单位)\n水星直径：4,880 千米\n质量：3.30e23 千克" = "英文名：Mercury\n最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。\n公转轨道：距太阳57,910,000 千米 (0.387天文单位)\n水星直径：4,880 千米\n质量：3.30e23 千克";
+"金星" = "金星";
+"英文名：Venus\n是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。\n轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）\n行星直径：12,103.6 千米\n质量：4.869e24 千克" = "英文名：Venus\n是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。\n轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）\n行星直径：12,103.6 千米\n质量：4.869e24 千克";
+"地球" = "地球";
+"英文名：Earth\n我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。\n轨道半径：149,600,000 千米 （离太阳1.00 天文单位）\n行星直径：12,742千米\n质量：5.9736e24 千克" = "英文名：Earth\n我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。\n轨道半径：149,600,000 千米 （离太阳1.00 天文单位）\n行星直径：12,742千米\n质量：5.9736e24 千克";
+"火星" = "火星";
+"英文名：Mars\n为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。\n公转轨道：离太阳227,940,000 千米 (1.52 天文单位）\n行星直径：6,794 千米\n质量：6.4219e23 千克" = "英文名：Mars\n为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。\n公转轨道：离太阳227,940,000 千米 (1.52 天文单位）\n行星直径：6,794 千米\n质量：6.4219e23 千克";
+"木星" = "木星";
+"英文名：Jupiter\n是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。\n公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）\n行星直径：142,984 千米 (赤道)\n质量：1.900e27 千克" = "英文名：Jupiter\n是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。\n公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）\n行星直径：142,984 千米 (赤道)\n质量：1.900e27 千克";
+"土星" = "土星";
+"英文名：Saturn\n是离太阳第六远的行星，也是八大行星中第二大的行星。\n公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）\n行星直径：120,536 千米 （赤道）\n质量：5.68e26 千克" = "英文名：Saturn\n是离太阳第六远的行星，也是八大行星中第二大的行星。\n公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）\n行星直径：120,536 千米 （赤道）\n质量：5.68e26 千克";
+"天王星" = "天王星";
+"英文名：Uranus\n是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。\n公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）\n行星直径：51,118 千米（赤道）\n质量：8.683e25 千克" = "英文名：Uranus\n是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。\n公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）\n行星直径：51,118 千米（赤道）\n质量：8.683e25 千克";
+"海王星" = "海王星";
+"英文名：Neptune\n是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。\n公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）\n行星直径：49,532 千米（赤道）\n质量：1.0247e26 千克" = "英文名：Neptune\n是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。\n公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）\n行星直径：49,532 千米（赤道）\n质量：1.0247e26 千克";
+"冥王星" = "冥王星";
+"英文名：Pluto\nPluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）\n历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。\n太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。\n公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)\n直径：2370 千米\n质量：1.27e22 千克" = "英文名：Pluto\nPluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）\n历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。\n太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。\n公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)\n直径：2370 千米\n质量：1.27e22 千克";
+
+// tabBar
+"titleSpace" = "空间";
+"titleExplore" = "探索";
+"titleInter" = "星际";
+"titleBase" = "基地";
+"titleNews" = "资讯";
+
+

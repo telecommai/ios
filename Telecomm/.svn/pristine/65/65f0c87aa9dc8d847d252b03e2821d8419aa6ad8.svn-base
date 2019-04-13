@@ -1,0 +1,25 @@
+//
+//  Wallet+CoreDataProperties.h
+//  
+//
+//  Created by 王胜利 on 2019/3/25.
+//
+//
+
+#import "Wallet+CoreDataClass.h"
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Wallet (CoreDataProperties)
+
++ (NSFetchRequest<Wallet *> *)fetchRequest;
+
+@property (nullable, nonatomic, copy) NSString *account;
+@property (nullable, nonatomic, copy) NSString *addr;
+@property (nullable, nonatomic, copy) NSString *chainId;
+@property (nullable, nonatomic, copy) NSString *privKey;
+
+@end
+
+NS_ASSUME_NONNULL_END

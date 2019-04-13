@@ -1,0 +1,160 @@
+//
+//  InterfaceController.m
+//  WatchApp Extension
+//
+//  Created by 王胜利 on 2019/3/15.
+//  Copyright © 2019 wsl. All rights reserved.
+//
+
+#import "InterfaceController.h"
+#import "WalletRow.h"
+#import "WalletDetailController.h"
+#import <WatchConnectivity/WatchConnectivity.h>
+#import "CoreDataManager.h"
+#import "Wallet+CoreDataClass.h"
+#import "Wallet+CoreDataProperties.h"
+
+@interface InterfaceController ()<WCSessionDelegate>
+
+@property (weak, nonatomic) IBOutlet WKInterfaceTable *table;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceLabel *tipLabel;
+@property (strong, nonatomic) NSMutableArray *wallets;
+@property (nonatomic,strong) WCSession *session;
+
+@end
+
+
+@implementation InterfaceController
+
+//init和awakeWithContext:方法是用来加载页面所必须的数据和初始化页面配置的。 而不要在willActivate方法中去初始化页面配置, 但它可以做一些页面更新的事情。
+//willActivate:程序激活
+//didAppear: 页面已经显
+//willDisappear: 页面将要消失
+//didDeactivate: 这个方法与willActivate是相反的, 页面失活。它需要注意的是, 当此方法被调用时Controller已经失活了, 且不在安全了, 所以不要再进行页面上的更新等操作了。但它负责一些像NSTimer停用之类的处理是最合适不过了。
+
+// WatchOS控制器生命周期
+//当你进入一个页面时, 设备会经历init->awakeWithContext->willActivate->didAppear。
+//当你退出当前页面时, 设备会经历willDisappear->didDeactivate->deinit。
+//再举个例子, 当你进入一个页面时, 设备会经历init->awakeWithContext->willActivate->didAppear。然后停止所有用户交互使其进入失活状态, 设备会经历didDeactivate。直到你再次与其交互, 设备会经历willActivate。所以, 这才是它们本质的区别。
+
+
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
+    
+    [self.tipLabel setHidden:YES];
+    [self.table setHidden:NO];
+
+    self.wallets = @[
+                     @{
+                         @"chainId":@"ETH钱包",
+                         @"addr":@"0xadf57dec585ca48c994e8e80f62f8f45a8b883d8",
+                         @"privkey":@"钱包私钥",
+                         @"account":@"用户ID",
+                         },
+                     @{
+                         @"chainId":@"BTC钱包",
+                         @"addr":@"0x631c4aa15abae756b9e078997b593f650f4be8cd",
+                         @"privkey":@"钱包私钥",
+                         @"account":@"用户ID",
+                         },
+                     @{
+                         @"chainId":@"EOS钱包",
+                         @"addr":@"18xHLPEpw4rCAB8TZW58XmrnxC3nWRN8L",
+                         @"privkey":@"钱包私钥",
+                         @"account":@"用户ID",
+                         },
+                     ].mutableCopy;
+    
+    [self.table setNumberOfRows:self.wallets.count withRowType:@"WalletRow"];
+    
+    
+    for (int i = 0; i < self.wallets.count; i++) {
+        NSDictionary *obj = self.wallets[i];
+        WalletRow *cell = [self.table rowControllerAtIndex:i];
+        [cell.name setText:obj[@"addr"]];
+        [cell.subName setText:obj[@"chainId"]];
+    }
+    
+    WCSession *session = [WCSession defaultSession];
+    session.delegate = self;
+    [session activateSession];
+    self.session = session;
+}
+
+
+- (void)willActivate {
+    // This method is called when watch view controller is about to be visible to user
+    [super willActivate];
+    
+}
+
+- (void)didDeactivate {
+    // This method is called when watch view controller is no longer visible
+    [super didDeactivate];
+}
+
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex{
+    //    NSDictionary *dict = self.wallets[rowIndex];
+    //    [self pushControllerWithName:@"WalletDetailController" context:dict];
+    //手表端发送数据
+    //    [[WCSession defaultSession] sendMessage:@{@"type":@"手表数据"} replyHandler:nil errorHandler:nil];
+    
+    Wallet *wallet = [NSEntityDescription insertNewObjectForEntityForName:@"Wallet" inManagedObjectContext:kCoreDataManager.persistentContainer.viewContext];
+    //赋值
+    wallet.chainId = 4;
+    wallet.addr = @"18xHLPEpw4rCAB8TZW58XmrnxC3nWRN8L";
+    wallet.privKey = @"钱包私钥";
+    wallet.account = @"用户ID";
+    //保存到数据库
+    [kCoreDataManager save];
+    
+    
+    NSFetchRequest *request = [Wallet fetchRequest];
+    
+    //2.创建查询谓词（查询条件）
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"chainId == %ld",4];
+    //3.给查询请求设置谓词
+    request.predicate = predicate;
+    //4.查询数据
+    NSArray<Wallet*> *arr = [kCoreDataManager.persistentContainer.viewContext executeFetchRequest:request error:nil];
+    
+    NSLog(@"%@",arr.firstObject.addr);
+    
+    NSLog(@"arr:%@",arr);
+}
+
+
+
+
+/** Called when the session has completed activation. If session state is WCSessionActivationStateNotActivated there will be an error with more details. */
+- (void)session:(WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error{
+    NSLog(@"Watch-activationDidCompleteWithState");
+}
+
+- (void)session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message{
+    [self.wallets addObject:message];
+    //* 新增数据 */
+    [self.table insertRowsAtIndexes:[NSIndexSet indexSetWithIndex:0]  withRowType:@"WalletRow"];
+    WalletRow *cell = [self.table rowControllerAtIndex:0];
+    [cell.name setText:message[@"addr"]];
+    [cell.subName setText:message[@"chainId"]];
+}
+
+- (void)session:(WCSession *)session didReceiveMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * _Nonnull))replyHandler{
+    //* 新增数据 */
+    [self.table insertRowsAtIndexes:[NSIndexSet indexSetWithIndex:0]  withRowType:@"WalletRow"];
+    WalletRow *cell = [self.table rowControllerAtIndex:0];
+    [cell.name setText:message[@"addr"]];
+    [cell.subName setText:message[@"chainId"]];
+
+    if (replyHandler) {
+        replyHandler(@{@"result":@"保存成功"});
+    }
+
+}
+
+
+@end
+
+
+

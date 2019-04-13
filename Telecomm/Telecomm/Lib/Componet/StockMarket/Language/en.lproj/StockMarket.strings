@@ -1,0 +1,171 @@
+/*
+ StockMarket.strings
+ StockMarket
+ 
+ Created by 赵洪壮 on 2018/12/10.
+ Copyright © 2018 SpiderMan. All rights reserved.
+ */
+
+"stockSelectCurrency" = "Select currency";
+"stockSelectExchange" = "Select exchange";
+
+//JFStockMarketHomeController
+"stockCustom" = "Custom";
+"stockMarketCap" = "Market Cap";
+"stockChg" = "Chg";
+"stockExchange" = "Exchange";
+"stockReload" = "Reload";
+
+//JFStockRiseFallController
+"stockGainers" = "Gainers";
+"stockLosers" = "Losers";
+
+//JFStockSelfSelectCell
+"stockVol" = "Vol ";
+"stockB" = "B";
+"stockM" = "M";
+
+//JFStockExchangeHeader
+"stockRank" = "Rank";
+"stockName" = "Name";
+"stockTurnover" = "Turnover";
+
+//JFStockExchangeChartCell
+"stockIntradayNetCapitalInflow" = "Intraday Net Capital Inflow";
+
+//JFStockAllCoinFristCell
+"stockHigh" = "High";
+"stockLow" = "Low";
+
+//JFExchangeHomeController
+"stockAll" = "All";
+
+//JFSelfSelectOperation
+"stockAddedCustomSuccessful" = "Added your custom successful";
+"stockAddedCustomFailure" = "Added your custom failure";
+"stockDeleteCustomSuccessful" = "Delete your custom successful";
+"stockDeleteCustomFailure" = "Delete your custom failure";
+
+//JFStockShareController
+"stockSharePicture" = "Share Picture";
+"stockCancel" = "Cancel";
+"stockSave" = "Save";
+"stockSavedToAlbum" = "Saved to album";
+"stockSavedToAlbumFailed" = "Saving to album failed";
+
+//JFStockAnalysisCommissionsHeaderView
+"stockOrders" = "Orders";
+"stockBid" = "Bid";
+"stockAsk" = "Ask";
+
+//JFStockAnalysisListAmountHeaderView
+"stockOrderBooks" = "OrderBooks";
+"stockBidScale10" = "Bid scale 10";
+"stockAskScale10" = "Ask scale 10";
+
+//JFStockAnalysisVolumeHeaderView
+"stockVolume" = "Volume";
+"stockTime" = "Time";
+"stockStrike" = "Strike";
+
+//JFDepthChartCell
+"stockDepthChart" = "Depth Chart";
+
+//JFCoinCapitalController
+"stockTurnoverDistribution" = "Turnover Distribution";
+"stockMoneyFlowTrend" = "Money Flow Trend";
+"stockMoneyFlowWithin5Days" = "Money Flow Within 5 Days";
+"stockBigOrdersMonitor" = "Big Orders Monitor";
+"stockBuy" = "Buy";
+"stockSell" = "Sell";
+"stockNetInflow" = "Net Inflow";
+"stockToday" = "Today";
+"stock3minAgo" = "3min ago";
+"stock10minAgo" = "10min ago";
+"stock1hAgo" = "1h ago";
+"stock24hAgo" = "24h ago";
+"stockAmount" = "Amount";
+"stockPrice" = "Price";
+"stockNumber" = "Amount";
+"stockCoinTime" = "Time";
+
+//JFCoinSimpleIntroController
+"stockRecommendMarkets" = "Recommend Markets";
+
+//JFCoinSimpleIntroManager
+"stockChineseName" = "Chinese Name";
+"stockEnglishName" = "English Name";
+"stockType" = "Type";
+"stockIssueTime" = "Issue Time";
+"stockCirculatingSupply" = "Circulating Supply";
+"stockTotalSupply" = "Total Supply";
+"stockGlobalMarketCapShare" = "Global Market Cap Share";
+"stockCirculatingRate" = "Circulating Rate";
+"stockTurnoverRate" = "Turnover Rate";
+"stockICOCost" = "ICO Cost";
+"stockFundRaising" = "Fund-raising";
+"stockTokenDistribution" = "Token Distribution";
+"stockWhitePaper" = "White Paper";
+"stockNumberOfOnlineExchanges" = "Number of Online Exchanges";
+"stockWEBSite" = "WEB Site";
+
+//RecommendMarketCell
+"stockVolume" = "Volume";
+
+//JFDepthChartView
+"stockDepthAsk" = "Ask";
+"stockDepthBid" = "Bid";
+
+//JFPieChartView
+"stockInflow" = "Inflow";
+"stockOutflow" = "Outflow";
+"stockUnit" = "Unit";
+"stockCNY" = "CNY";
+"stockUSD" = "USD";
+"stockVOL" = "VOL";
+
+//JFStockMarketController
+"stockMoneyFlow" = "Money Flow";
+"stockAnalysis" = "Analysis";
+"stockIntroduction" = "Introduction";
+"stockCustomAdd" = "Add";
+"stockCustomRemove" = "Remove";
+
+////BottomOperationView
+"stockAdd" = "Add";
+"stockAlerts" = "Alerts";
+"stockOrginal" = "Orginal";
+"stockShare" = "Share";
+
+//JFStockMarketCurrentInfoView
+"stockInfoHigh" = "High";
+"stockInfoLow" = "Low";
+"stockInfoBid" = "Bid";
+"stockInfoAsk" = "Ask";
+"stockInfoFee" = "Fee";
+
+//JFStockChartToolbar
+"stockChartLine" = "Line";
+"stockChart15mins" = "15mins";
+"stockChart1hour" = "1hour";
+"stockChart1day" = "1day";
+"stockChart3days" = "3days";
+"stockChart1min" = "1min";
+"stockChart3mins" = "3mins";
+"stockChart5mins" = "5mins";
+"stockChart10mins" = "10mins";
+"stockChart30mins" = "30mins";
+"stockChart2hours" = "2hours";
+"stockChart4hours" = "4hours";
+"stockChart6hours" = "6hours";
+"stockChart12hours" = "12hours";
+"stockChart1week" = "1week";
+"stockChart1mon" = "1mon";
+"stockChartIndex" = "Index";
+"stockChartMajor" = "Major";
+"stockChartMinor" = "Minor";
+
+//JFStockAnalysisNoDataCell
+"stockFailedToGetCurrentMarketData" = "Failed to get current market data";
+
+

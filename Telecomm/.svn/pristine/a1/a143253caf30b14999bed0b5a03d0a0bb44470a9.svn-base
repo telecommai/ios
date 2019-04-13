@@ -1,0 +1,23 @@
+//
+//  Wallet+CoreDataProperties.m
+//  Watch Extension
+//
+//  Created by 赵洪壮 on 2019/3/27.
+//  Copyright © 2019 wsl. All rights reserved.
+//
+//
+
+#import "Wallet+CoreDataProperties.h"
+
+@implementation Wallet (CoreDataProperties)
+
++ (NSFetchRequest<Wallet *> *)fetchRequest {
+	return [NSFetchRequest fetchRequestWithEntityName:@"Wallet"];
+}
+
+@dynamic account;
+@dynamic addr;
+@dynamic chainId;
+@dynamic privKey;
+
+@end

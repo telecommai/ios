@@ -1,0 +1,30 @@
+/* 
+  HealthComps.strings
+  HealthComps
+
+  Created by 赵洪壮 on 2019/1/29.
+  Copyright © 2019 SpiderMan. All rights reserved.
+*/
+
+"home" = "Գլխավոր էջ";
+"running" = "Վազում";
+"fitness" = "Ֆիտնես";
+"walking" = "Քայլելով";
+"cycling" = "Հեծանվավազք";
+
+"connection" = "Կապված";
+"watchBattery" = "Դիտեք մարտկոցը";
+"today" = "Այսօր";
+"step" = "Քայլ";
+"completed" = "Ավարտվեց";
+"target" = "Նպատակը";
+"distance" = "Հեռավորությունը";
+"heat" = "Ջերմություն";
+"heartRate" = "Սրտի տոկոսադրույքը";
+"activeStatistical" = "Ակտիվ վիճակագրություն";
+"sportsLevel" = "Սպորտի մակարդակը";
+"noLevel" = "Ոչ վարկանիշ";
+"primary" = "Առաջնային";
+"personalRecord" = "Անձնական գրառում";
+
+"importNewDevice"="Ներմուծեք նոր սարքը";

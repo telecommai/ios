@@ -1,0 +1,704 @@
+/*
+ ChatComps.strings
+ ChatComps
+ 
+ Created by 赵洪壮 on 2018/9/10.
+ Copyright © 2018年 Javor Feng. All rights reserved.
+ */
+// Chatlist-> EFChatListViewController
+"chatHaveNoMessageData" = "Você ainda não tem mensagens!";
+"chatAnythingCanHappen" = "Tudo pode acontecer!";
+"chatIsDelete" = "Deseja apagar?";
+"chatMarkedAsRead" = "Marcar como lida";
+
+// chat-> EFChatStartGounpChatViewController
+"chatSelectContacts" = "Selecionar contato";
+"chatDeleteMember" = "Excluir membro";
+"chatNoContactsWere" = "Nenhum contato selecionado";
+"chatGroupStart" = "Por favor, aguarde ...";
+"chatAddingGroupMembers" = "Adicionando membros do grupo ...";
+"chatFailedToAddMember" = "Adicionar membro falhou";
+"chatInvite" = "Convidado";
+"chatJoinTheTribe" = "Junte-se à Horda";
+"chatCreateGroupFailed" = "Criar grupo falhou";
+"chatDeleteMemberFailed" = "Falha ao excluir membro do grupo";
+
+// ChatAnimationView
+"chatGoldCoin" = "Moedas de ouro";
+
+// EFMessageService
+"chatOfflineNotice" = "Notificação off-line";
+"ChatYourAccountIsForcedToGoOffline" = "Sua conta foi forçado a sair da linha de montagem";
+"chatOriginalImage" = "Imagem original";
+"chatPhotos" = "fotos";
+"chatUnableToRecord" = "Não foi possível gravar";
+"ChatAllowAccessToTheMicrophone" = "em\" Configurações - \"permite o acesso ao microfone.\" Microfone - Privacidade";
+"chatTalk" = "espera e fala";
+"chatRecording" = "Clique para gravar";
+"chatChangeSound" = "segure o som";
+"chatReleaseToListen" = "Vamos experimentar";
+"chatUnlockToSend" = "Remover para cancelar o envio";
+"chatTalkingTimeIsTooShort" = "O tempo de conversação é muito curto";
+"chatEveryoneCanNotTalk" = "Todos os membros são banidos";
+
+// JFChatTipsContentUtil
+"chatTheOtherPartyHasSuccessfullyReceivedFile" = "do outro lado recebeu o arquivo com êxito";
+"chatYouHaveSuccessfullyReceivedTheFile" = "Você recebeu o arquivo com sucesso";
+"chatSelfRecallMessage" = "Você retirou uma mensagem";
+"chatSomeOneRecallMessage" = "Retraído uma mensagem";
+
+// SendArticleController
+"chatAnnouncement" = "Anúncio";
+"chatClickTeSelectImage" = "Clique para selecionar a imagem";
+"chatPleaseEnterAPictureTitle" = "Por favor, insira um título de imagem";
+"chatPleaseEnterAPageTitle" = "Por favor, digite o título da página";
+"chatPleaseEnterAWebLink" = "Por favor, insira um link da web";
+"chatSelectImageSource" = "Selecionar fonte da imagem";
+"chatBackgroundImageCannotBeEmpty" = "A imagem de fundo não pode estar vazia";
+"chatTheTitleCanNotBeBlank" = "O título não pode estar vazio";
+"chatInformedLinkFormatError" = "O formato do link de notificação está incorreto";
+
+// EFMessageWebItem
+"chatPageTitle" = "tema da página";
+
+// JFVoiceAudioPlayer
+"chatAnErrorOccurredWhileCreatingAPlaybackObjectErrorMessage" = "Erro, mensagem de erro ocorre ao criar um objeto play";
+
+// JFSpeechRecognitionItem
+"chatUnrecognized" = "(não reconhecido)";
+
+// JFSecretManager
+"chatBasePasswordIsUsedToDecryptThePasswordOfTheMessage" = "password base para a senha para descriptografar a mensagem";
+"chatDecrypting" = "Descriptografando";
+
+// JFTransferDetailsController
+"chatInterstellarID" = "ID interestelar da outra parte:";
+"chatexchangeID" = "ID do Exchange:";
+
+// JFTransferItem
+"chatTransactionTransfer" = "Transferência de transação";
+"chatHasBeenTransferredToYourBase" = "foi transferido para sua base";
+"chatTransactionOut" = "saída da transação";
+"chatHasBeenTransferredToTheOtherBase" = "foi transferido para a outra base";
+
+// SelectRecentFriendController
+"chatSendTo" = "enviar para";
+"chatForwardTo" = "Encaminhar para";
+"chatShareTo" = "Compartilhar para";
+"chatShareTo2" = "Compartilhar para";
+
+// JFChatListCluesStatement
+"chatYouWereMentioned" = "[algum @ Eu]";
+
+// EFChatAddFriendDetailViewController
+"chatPersonalDetails" = "Detalhes pessoais";
+"chatAddToAddressBook" = "Adicionar ao livro de endereços";
+"chatUnableToAddYourselfToYourContacts" = "eles não podem adicionar a si mesmo como um amigo";
+"chatTheOtherPartyIsAlreadyYourFriend" = "A outra parte já é sua amiga";
+"chatFriendRequestIsBeingSent" = "O pedido de amizade está sendo enviado ...";
+"chatFriendRequestSentSuccessfully" = "Pedido de amizade enviado com sucesso";
+"chatFriendRequestFailedToSendReason" = "Pedido de amizade falhou ao enviar razão";
+
+// EFChatAddFriendViewController
+"chatAddFriends" = "Adicionar um amigo";
+"chatUsernameOrMobileNumber" = "nome de usuário / número de telefone";
+"chatFindTheTribe" = "Encontre a Horda";
+"chatScanQRCodeBusinessCard" = "Digitalizar cartão de QR code";
+"chatGetMoreInformationAndServices" = "Obtenha mais informações e serviços";
+"chatFindMoreTribes" = "Encontre mais tribos";
+"chatSearch" = "Pesquisar:";
+"chatSearchCriteriaCannotBeEmpty" = "O critério de pesquisa não pode estar vazio!";
+"chatLookingForContacts" = "Encontrando contatos ...";
+"chatFindFailure" = "Localizar falhou";
+"chatUnableToFindUser" = "Não foi possível encontrar usuário";
+
+// EFChatAddGroupViewController
+"chatTribeIDAndTribeName" = "ID da Tribo / Nome Tribal";
+"chatLookingForTribes" = "Encontrando a Horda ...";
+"chatUnableToFindTribe" = "Não foi possível encontrar a tribo";
+"chatTheDataServiceCannotBeAccessedPleaseContactTheAdministrator" = "O serviço de dados não pode ser acessado, entre em contato com o administrador!";
+
+// EFChatAddServiceAndApplicationViewController
+"chatSearchForApplicationAccountsAndServiceAccounts" = "Procurar por número de aplicativo e número de serviço";
+"chatTheApplicationAccountsDoesNotExist" = "O número do aplicativo não existe!";
+
+// ServiceAndApplicationInfoViewController
+"chatFeatures" = "Introdução da função:";
+"chatConsumerTel" = "Telefone de Atendimento ao Cliente:";
+"chatViewHistoryNews" = "Exibir mensagem do histórico";
+"chatAttention" = "Seguir";
+"chatFollowing" = "Atenção ...";
+"chatFollowed" = "Siga o sucesso";
+"chatFollwedApplicationSucdessfulTip" = "Envie o aplicativo com sucesso, aguarde o administrador revisar, o número do aplicativo será seguido automaticamente após a aprovação";
+"chatFollowedFailure" = "Siga a falha ...";
+
+// GroupChatViewController
+"chatInterPlanetTribe" = "tribo interestelar";
+"chatInterPlanetTribeNumber" = "Uma tribo interestelar";
+
+// GroupNoticeViewController
+"chatNotice" = "Notificação";
+
+// NewFriendViewController
+"chatNewFriend" = "novo amigo";
+"chatThisUserDoesNotExist" = "Este usuário não existe";
+"chatYouCanNotAddYourselfToYourContacts" = "Você não pode se adicionar ao catálogo de endereços";
+"chatAdded" = "Adicionado";
+"chatWeAreAlreadyFriendsChatTogether" = "Já somos amigos, conversamos juntos!";
+
+// JFGroupNoticeCell
+"chatNoVerificationInformation" = "Nenhuma informação de verificação";
+"chatApplicationsForMembership" = "Inscrever-se para participar";
+"chatAgree" = "Concordo";
+"chatApproved" = "Já concordou";
+"chatRejected" = "Rejeitado";
+"chatBeRejected" = "Rejeitado";
+
+// JFGroupNoticeController
+"chatAgreed2" = "Concordo";
+"chatJoinTheTribeApplication" = "Aplicativo para ingressar na tribo";
+"chatTribalApplication" = "Aplicativo tribal";
+
+// JFGroupNoticeDetailController
+"chatAdditionalMessage" = "Mensagem adicional";
+
+// JFNewFriendCell
+"chatRefuse" = "Rejeitar";
+"chatAgreedToTheApplication" = "Já concorda com a aplicação";
+"chatSentTheApplication" = "O aplicativo foi enviado";
+"chatTheApplicationHasBeenRejected" = "O aplicativo foi rejeitado";
+"chatTheApplicationWasRejected" = "O aplicativo foi rejeitado";
+"chatYouHaveDeclinedTheRequest" = "Você rejeitou o pedido";
+"chatFriendRequests" = "Aplicativo Amigo";
+
+// JFNewFriendDetailController
+"chatYouHaveRejectedThisFriendRequest" = "Você rejeitou a solicitação de amizade";
+"chatNumber" = "número";
+"chatNickname" = "apelido";
+"chatChangeRemark" = "Modificar nome do memorando";
+"chatAddRemark" = "Por favor introduza um nome de nota";
+
+// NewFriendDetailCellOthers
+"chatDoShareMyMoments" = "Não deixe que ele veja meu círculo de amigos";
+"chatHideHisMoments" = "Não olhe para o círculo de amigos dele";
+
+// NewFriendDetailViewController
+"chatDetails" = "Detalhes";
+"chatBlock" = "Adicionar lista negra";
+"chatApprovedd" = "verificação passada";
+
+// DetailViewController
+"chatSignature" = "assinatura pessoal";
+"chatSetRemark" = "Definir Notas";
+"chatDeleteFriend" = "Excluir um amigo";
+"chatSetGroupNickname" = "Definir apelido do grupo";
+"chatDeletingFriendFailed" = "Excluir amigo falhou";
+"chatAddFriend" = "Adicionar um amigo";
+"chatSendMessage" = "enviar mensagem";
+
+// RemarkFriendNameViewController
+"chatRemarks" = "Comentários";
+"chatAddRemarks" = "Adicionar um nome de nota";
+"chatRemarksTip" = "Nome da observação (o nome não deve ser muito longo, dentro de dez caracteres chineses ~)";
+"chatRemarksAreTooLong" = "O nome da nota é muito longo";
+"chatModifyingGroupNickname" = "Modificando o apelido do grupo";
+"chatModifyGroupNicknameFailed" = "Falha na modificação do apelido do grupo";
+"chatRemarkNameCantNotBeEmpty" = "O nome da nota não pode estar vazio";
+"chatModifyingRemarkName" = "Modificando notas";
+"chatModifyRemarkNameFailed" = "Modificar as Notas com Falha";
+
+// AddressPersonDeailCell
+"chatBaseCoordinatesHaveBeenCopied" = "As coordenadas da base foram copiadas";
+"chatGroup" = "grupo";
+
+// JoinGroupRequestUserCell
+"chatJoined" = "juntou-se";
+"chatWaitingForVerification" = "Aguardando verificação";
+"chatAgree3" = "Aceitar";
+"chatRequestToAddYouAsFriend" = "Pedido para adicionar você como amigo";
+
+// NewFriendCell
+"chatHaveBecomeFriendsWithYou" = "Com você se tornou amigo";
+"chatFriendRequestHasBeenSent" = "Pedido de amizade foi enviado";
+"chatHasBeenSent" = "enviado";
+"chatDownloadTheApplicationAccountsResourceFile" = "Baixar arquivo de recurso do número do aplicativo";
+
+// EFApplicationJumpUtil
+"chatDownload" = "Baixar agora";
+"chatFailedToDownloadResourceFileCanNotEnterApplicationAccounts" = "Falha ao baixar o arquivo de recursos, não é possível inserir o número do aplicativo, tente novamente";
+"chatDownloadingMasterData" = "Baixando dados mestre";
+"chatMasterDataDownloadFailed" = "Falha no download dos dados principais, tente novamente";
+
+// DetailedInfomationViewController
+"chatReceiveMessage" = "Receber mensagem";
+"chatTopApplicationAccounts" = "número do aplicativo superior";
+"chatEnterTheApplicationAccounts" = "Digite o número do aplicativo";
+"chatUnsubscribe" = "Deixar de seguir";
+"chatAreYouSureYouWantToCancelTheApplicationAccounts" = "Tem certeza de que você deixou de seguir o número do aplicativo?";
+"chatUnfollowSuccess" = "Deixar de seguir o sucesso";
+"chatUnfollowFailure" = "Deixar de seguir a falha";
+
+// ChatInterstellarApplication
+"chatInterstellarApplication" = "aplicativo interestelar";
+
+// EFApplicationSidebarViewController
+"chatMuteNotifications" = "Mensagem não perturbe";
+"chatVersionUpDate" = "Detectar nova versão";
+"chatResourceFileUpdate" = "atualização do arquivo de recursos";
+
+// ChatDetailViewController
+"chatChatDetails" = "Detalhes do bate-papo";
+"chatTopChat" = "top chat";
+"chatPleaseEnterInformation" = "Por favor, insira informações";
+"chatExpression" = "expressão";
+
+// EFChatViewController
+"chatSkipUpToCancelSending" = "Deslizar o dedo, cancelar o envio";
+"chatResendTheMessage" = "Reenviar a mensagem?";
+"chatResend" = "reenviar";
+
+// chatNetworkUnavailable
+"chatNetworkUnavailable" = "(rede não disponível)";
+
+// JFChatViewController
+"chatUnreadMessage" = "barra de mensagem não lida";
+
+// JFPersonChatViewController
+"chatTyping" = "A outra parte está digitando ...";
+
+// EFMessageListCell
+"chatDraft" = "rascunho";
+
+// EFChatListViewController
+"chatCurrentAccountIsInOther" = "A conta corrente está conectada em outros%@ devices";
+
+// JFChatSearchResultListController
+"chatContact" = "contato";
+
+// JFChatSearchGroupCell
+"chatTribeID" = "ID da Tribo:";
+
+// BTCTransferOutController
+"chatFailedToGetFriendInformationPleaseTryAgain" = "Falha na aquisição da mensagem, tente novamente";
+
+// EFChatStartGounpChatViewController controlador de transferência relacionado
+"chatFaceToFaceGrouping" = "agrupamento face a face";
+"chatChooseGroup" = "Selecione um grupo";
+"chatMakeSureYouWantToDeleteTheGroupMember" = "OK para excluir membros do grupo";
+"chatWhetherToRemove" = "Será";
+"chatFromTheGroup" = "Remover do grupo";
+
+// GroupIntroduceCell
+"chatThisGroupWasCreatedIn" = "Este grupo foi fundado";
+
+// GroupApplicantViewController
+"chatGettingTribalData" = "Obtendo dados .. tribo";
+"chatTribalIntroduction" = "Descrição tribal";
+"chatGroupOwnerAndAdministrator" = "grupo principal / administrador";
+"chatApplyToJoinTheTribe" = "inscrever tribo";
+"chatEnterTheTribeToChat" = "na tribo de chat";
+"chatJoiningTheTribe" = "estão se unindo à tribo";
+"chatYouHaveJoinedThisTribe" = "Você se juntou a tribo";
+"chatAddGroupFailed" = "grupo mais falhou, por favor tente novamente mais tarde";
+"chatJoinedTheTribe" = "se juntou a tribo";
+
+// GroupMemberListViewController
+"chatTribalMember" = "membros da tribo";
+"chatGroupOwner" = "grupo principal";
+"chatAdministrator" = "administradores";
+"chatSetUpTribalAdministrator" = "Definir administrador tribal";
+"chatDeleteTribalMembers" = "Excluir membros da tribo";
+"chatCancelTribalAdministrator" = "cancelar administrador tribal";
+"chatDeleteTribalMembersFailed" = "Excluir membros de tribos falhou";
+"chatSettingUpAdministrator" = "é definido administrador";
+"chatSettingAdministratorFailed" = "Definir o administrador falhou";
+"chatUnregisteringAdministrator" = "Cancelar administrador";
+"chatCancellationOfAdministratorStatusFailed" = "cancelar falha administrador";
+
+// GroupQRCodeCardViewController
+"chatQRCodeBusinessCard" = "cartão de código bidimensional";
+"chatTribalName" = "nome tribal";
+"chatSweepTheQRCodeAboveAndJoinTheTribe" = "varrer o código bidimensional acima adicionado do tribo";
+
+// JFAddGroupController
+"chatJoinTheTribeToApplySuccessfully" = "juntar-se a aplicação Horde é bem sucedida";
+"chatTheApplicationFailedPleaseTryAgainLater" = "application falhou, por favor tente novamente mais tarde";
+"chatFillInTheVerificationInformation" = "preencher a informação de verificação";
+"chatIAm" = "I";
+
+// JFGroupDetailController
+"chatFailedToGetGroupMember" = "obter membros do grupo falhou";
+"chatFailedToGetAddress" = "endereço de trabalho tribal falhar";
+"chatOnlyOwnersAndManagersCanDoThis" = "Somente os proprietários e administradores podem fazer isso";
+"chatPleaseEnterANewTribalName" = "Digite um nome novo tribo";
+"chatModifyingTheTribalNameFailed" = "modificar o nome tribal falhou";
+"chatTribalEnglishName" = "nome tribal Inglês";
+"chatPleaseEnterAnEnglishName" = "Digite o nome";
+"chatSettingEnglishNameFailed" = "falhou em definir o nome Inglês";
+"chatPleaseEnterTheCorrectEnglishCharacters" = "Digite os caracteres ingleses corretas";
+"chatMyAliasInGroup" = "Meu apelido nesta tribo";
+"chatPleaseEnterANewTribalNickname" = "Digite uma nova tribo apelido";
+"chatModifyingTheNoteNameFailed" = "Editar nome Nota falhou!";
+"chatTribalAddressAlreadyExists" = "Endereço Tribal já existe";
+"chatAddTribalAddressSuccessfully" = "Adicionar endereço de sucesso tribal";
+"chatAddingTribalAddressFailed" = "Adicionando endereço falhou tribo";
+"chatMakeSureDelete" = "Excluir OK";
+"chatMakeSureDelete2" = "-lo?";
+"chatComeJoinThe" = "Venha participar";
+"chatTribe" = "ele tribal";
+"chatMakeSureToDissolveTheTribe" = "determinação da tribo dissolução";
+"chatMakeSureToQuitTheTribe" = "OK para sair tribo";
+"chatDissolvingTheTribe" = "representa a dissolução desta tribo";
+"chatExitingTheTribe" = "Sair desta tribo";
+
+// JFInputController
+"chatSetupFailedPleaseTryAgainLater" = "A configuração falhou, tente novamente mais tarde";
+
+// JFGroupDetailManager
+"chatTribalName2" = "nome tribal";
+"chatFreeGroup" = "Livre para entrar no grupo";
+"chatAllMembersAreBanned" = "Todos os membros são banidos";
+"chatTribalWorkAddress" = "Endereço do trabalho tribal";
+"chatCreationTime" = "Criar hora";
+"chatSharingTribe" = "Compartilhe a Horda";
+"chatNotSet" = "Ainda não definido";
+
+// DeleteTableViewCell
+"chatDeleteAndExit" = "Excluir e sair";
+
+// GroupMemberCell
+"chatGroupMember" = "membro do grupo";
+
+// GroupMemberDetailCell
+"chatGroupOwner2" = "dono do grupo";
+"chatAdministrator2" = "Administrador";
+
+// ChangeNickNameViewController
+"chatPleaseEnterNewNickname" = "Por favor, digite um novo apelido";
+"chatGoodNamesCanMakeItEasierForYourFriendsToRememberYou" = "O bom nome torna mais fácil para seus amigos se lembrarem de você";
+"chatChangeNickname" = "Alterar apelido";
+"chatSubmitting" = "Enviando ...";
+"chatNicknameModifiedSuccessfully" = "O apelido foi modificado com sucesso";
+"chatNicknameModificationFailed" = "modificação do apelido falhou";
+
+// MineInformationViewController
+"chatPersonalInformation" = "Informações Pessoais";
+"chatUnfilled" = "não preenchido";
+"chatReceiveStrangerNews" = "Receber mensagens estranhas";
+"chatMyReceiptCode" = "Meu código de coleção";
+"chatUnderRevision" = "Modificando ...";
+
+// SigNatureViewController
+"chatPleaseEnterNewSignature" = "Por favor, digite uma nova assinatura";
+"chatPersonalSignatureChangedSuccessfully" = "Modificação de assinatura pessoal bem-sucedida";
+"chatPersonalSignatureModificationFailed" = "Falha na modificação da assinatura pessoal";
+
+// MyLoginDeviceController
+"chatGoingOffline" = "Abaixo da linha";
+"chatSendOfflineMessageSuccessfully" = "Enviar mensagem off-line com sucesso";
+"chatDownlineFailed" = "Falha no sublinhado, tente novamente mais tarde";
+"chatUnderline" = "downline";
+
+// JFCheckPaymentCodeController
+"chatTheOtherPartyHasNotSetTheReceiptCode" = "A outra parte ainda não definiu o código de recibo";
+"chatRemindHim" = "Lembre-o";
+//
+"chatHas" = "de";
+"chatCollectionCode" = "Código de Recebimento";
+"chatIdentificationReceiptCode" = "Identifique o código de recebimento";
+"chatSaveTheReceiptCode" = "Salvar código de recebimento";
+"chatTheRecognitionResultHasBeenCopiedToTheClipboard" = "O resultado do reconhecimento foi copiado para a área de transferência";
+"chatScanResult" = "resultado da verificação";
+"chatYouHaveNotYetGeneratedQRCode" = "Você ainda não gerou um código QR";
+
+// JFMyPaymentCodeController
+"chatSetMyWeChatCollectionCode" = "Definir meu código de coleta do WeChat";
+"chatSetMyAlipayCollectionCode" = "Definir meu código de coleção Alipay";
+"chatThisImageDoesNotContainQRCode" = "A imagem não contém um código QR!";
+"chatFailedToSetThePaymentCodePleaseTryAgain" = "Falha ao definir o código do recibo, por favor tente novamente";
+
+// EFMyQRCodeViewController
+"chatScanQRCodeAndAddMeAsFriend" = "Escaneie o código QR, adicione-me como amigo";
+
+// EFQRCodeViewController
+"chatCurrentVersion" = "versão atual";
+"chatScanTheQRCodeAboveToDownload" = "Digitalize o código QR acima, faça o download";
+
+// EnergyExchangeViewController
+"chatScanQRCodeForEnergyExchange" = "Verificar código QR para troca de energia";
+"chatSeTheNumberOfExchanges" = "Definir o número de trocas";
+"chatPleaseEnterTheCorrectEnergy" = "Por favor, digite a energia correta";
+
+// ExchangeRecordCell
+"chatTransferEnergy" = "transferir para energia";
+"chatTransferOutEnergy" = "ligar energia";
+
+// QRCodeCardViewController
+"chatSweepTheQRCodeAboveAndFollowTheApplicationAccounts" = "Varra o código QR acima e siga o número do aplicativo";
+"chatSweepTheQRCodeOnTheTopAndAddMeAsFriend" = "Varrer o código QR acima e me adicionar como amigo";
+
+// RichScanResultViewController
+"chatQRCodeScanResult" = "Resultado da verificação do código QR";
+"chatTheFollowingContentIsTheScanResultPleaseClickIfYouWantToUse" = "O seguinte é os resultados da verificação, clique para o uso de";
+
+// RichScanViewController
+"chatAutomaticallyScanTheQRCodeByPlacingItInTheViewfinder" = "bidimensional código vai ser colocada automaticamente na verificação de quadro";
+"chatTheDeviceDoesNotSupportAccessToTheAlbum" = "! Dispositivo não suporta o acesso ao álbum, nas Configurações -> Privacidade -> definir a foto";
+
+// SetExchangeCountViewController
+"chatExchangeQuantity" = "Quantidade do Exchange";
+"chatPleaseEnterTheNumberOfExchanges" = "Por favor digite o número de trocas";
+
+// ShowWebViewController
+"chatWebsiteLoading" = "Carregamento de página ...";
+
+// RecentFileController
+"chatRecentFile" = "Arquivos recentes";
+
+// RecentFileListController
+"chatCanOnlyChooseAfterDownloadingTheFile" = "Selecione o arquivo após o download";
+"chatGoDowmload" = "Ir para download";
+"chatAreYouSureToDeleteTheFile" = "Tem certeza de que apagou o arquivo?";
+
+// RecommedFriendController
+"chatReferralContact" = "Contato recomendado";
+"chatTribalBusinessCard" = "Cartão de visita tribal";
+"chatPersonalBusinessCard" = "Cartão de visita pessoal";
+
+// JFCoinChosenController
+"chatSelectCurrency" = "Selecionar moeda";
+
+// JFMyRedPacketController
+"chatMyReceived" = "Eu recebi";
+"chatMySentOut" = "Eu enviei";
+
+// JFRedPacketPosterController
+"chatRedEnvelopePoster" = "Cartaz envelope vermelho";
+"chatBlockchainBasedInstantMessagingAndDigitalAssetOpenPlatform" = "cadeia de bloco baseado mensagens instantâneas e ativos digitais de plataforma aberta";
+"chatScanCodeImmediatelyLeadRedPacket" = "O código de verificação leva imediatamente um envelope vermelho";
+"chatHowToGetRedPacket" = "Como receber pacotes vermelhos";
+"chatScanCodeToReceiveRedPacket" = "1. código de verificação para receber um envelope vermelho \ download n2.\" Comunicações interplanetárias \"APP \n3 entrar. Página, clique sobre a\" ativos \"do menu para ver obter envelopes vermelhos Custódia conta";
+"chatSendYouRedPacket" = "Envie-lhe um envelope vermelho";
+
+// JFTokenChosenController
+"chatChooseRedPacketTokens" = "Selecione o Red Packet Token";
+
+// PostRedPacketController
+"chatRedPacketRecord" = "registro de envelope vermelho";
+"chatRedPacketToken" = "token de envelope vermelho";
+"chatEscrowBalance" = "Saldo alojado";
+"chatTotalCurrency" = "total da moeda";
+"charCurrentlyHandyRedPacket" = "Atualmente, um envelope vermelho de feitiço";
+"chatChangeToOrdinaryRedPacket" = "Mudar para envelope vermelho normal";
+"chatNumberOfRedPackets" = "número de pacotes vermelhos";
+// 不确定是否需要翻译
+"chatCount" = "um";
+"chatEnterNumber" = "preencha o número";
+"chatLeaveMessage" = "mensagem";
+"chatCongratulationsToGetRich" = "Comunicação interestelar, parabéns por ficar rico";
+"chatTotalCurrency2" = "Total da moeda";
+
+// RedPacketController
+"chatRedPacketDetail" = "detalhes do envelope vermelho";
+
+// JFAddAccountController
+"chatAddAccountTitle" = "Adicionar ativo";
+
+// JFAccountDetailController
+"chatAccountDetailRecharge" = "Recarregue";
+"chatAccountDetailWithdraw" = "dinheiro";
+"chatAccountWalletBalance" = "saldo da carteira";
+"chatAccountWalletBalanceInsufficient" = "Saldo de carteira insuficiente";
+"chatAccountEnterAmout" = "Por favor, informe o valor da recarga";
+"chatAccountRecharging" = "Recarregando";
+"chatAccountRechargeSuccessful" = "Recarregar com sucesso";
+"chatAccountDetailRechargeRetry" = "Falha na recarga, tente novamente mais tarde";
+"chatAccountDetailSignFail" = "Assinatura falhou";
+"chatAccountDetailAvailable" = "A conta de depósito está disponível";
+"chatAccountDetailInsufficientFee" = "Taxas insuficientes";
+"chatAccountDetailToWallet" = "Transferir para a carteira";
+"chatAccountDetailWithDrawFailed" = "A retirada falhou, por favor, tente novamente mais tarde";
+"chatAccountDetailWithDrawSuccess" = "Sucesso do saque";
+"chatAccountDetailFullWithdrawal" = "Todas as retiradas";
+"chatAccountTransferOut" = "Por favor digite o número de transferências";
+"chatAccountTransferOutTip" = "Por favor digite o número de transferências";
+"chatAccountDetailExtracting" = "Extraindo";
+"chatPutCoinInTheRedPacket" = "Syce no envelope vermelho";
+"chatUnclaimedRedPacketWillBeRefundedAfter24Hours" = "não recebeu um envelope vermelho, irá iniciar um reembolso no prazo de 24 horas";
+"chatTotalAmount" = "valor total";
+"chatAmount" = "quantidade";
+"chatASingleAmountOfAtLeast" = "Uma única quantia é pelo menos 0.00001";
+"chatInsufficientBalance" = "Saldo insuficiente";
+"chatPleaseEnterTheAmount" = "Por favor, informe o valor";
+"chatRedPacketAmountCannotBe0" = "A quantidade de envelope vermelho não pode ser 0";
+"chatPleaseEnterTheCorrectNumberOfRedPacket" = "Por favor, digite o número correto de pacotes vermelhos";
+"chatFailingToPutMoneyIntoTheRedPacketPleaseTryAgainLater" = "envelopes vermelhos recheados dinheiro em falhou, por favor tente novamente mais tarde";
+"chatRedPacket" = "Um envelope vermelho";
+"chatTheRedPacketIsReady" = "O envelope vermelho está pronto";
+"chatFrom" = "de";
+
+// JFAccountDetailcell
+"chatConfirmed" = "confirmed";
+"chatReceiveRedPacket" = "Pacote Vermelho";
+"chatRedPacketReturned" = "envelope vermelho retornado";
+
+// JFMyRedPacketRecordHeaderView
+"chatTheRedPacketReceivedHasBeenDepositedIntoYourEscrowAccountAndCanBeTransferredToYourLocalWallet" = "envelopes vermelhos recebidos foram creditados na sua conta de custódia pode ser transferido para uma carteira local";
+
+// JFRedPackedISendCell
+"chatFightingRedPacket" = "falsificando pacotes vermelhos";
+"chatOrdinaryRedPacket" = "Pacote vermelho comum";
+
+// OpenRedPacketView
+"chatSentARedPacket" = "Enviar um envelope vermelho";
+"chatCheckEveryoneLuck" = "Ver a sorte de todos>";
+"chatRedPacketHasExpired" = "O envelope vermelho expirou";
+"chatTheHandIsSlowTheRedPacketIsFinished" = "A mão está lenta, o envelope vermelho está pronto";
+
+// PostRedPacketChooseView
+"chatWallet" = "carteira";
+
+// PostRedPacketWriteView // Não tenho certeza se a tradução é necessária
+"chatLuck" = "ortografia";
+"chatSingleCurrency" = "moeda única";
+"chatCurrentlyACommonRedPacket" = "Atualmente, um envelope vermelho normal";
+"chatChangeToAHandRedPacket" = "Mudar para um envelope vermelho de feitiço";
+
+// RedPacketCell
+"chatBestLuck" = "Melhor sorte";
+
+// RedPacketHeaderView
+"chatReceived" = "Recebido";
+
+// RedPacketHistoryHeader
+"chatReceivedARedPacket" = "envelope vermelho recebido";
+
+// EFAdaptationAlert
+"chatForcedUpgrade" = "upgrade forçado";
+"chatPauseDownload" = "Pausar download";
+"chatDownloadCompletedExtracting" = "Download concluído Extraindo ...";
+"chatDecompressionSucceeded" = "Descompressão bem-sucedida";
+"chatDecompressionError" = "Erro de descompactação";
+"chatFileOpenError" = "Erro de abertura do arquivo";
+"chatDownloadFileSuccessfully" = "Baixar arquivo com sucesso";
+
+// JFSecretFileDisplayController
+"chatViewThePrivateFile" = "Ver Cco";
+"chatPrivateFileDownload" = "Download da Cco";
+
+// JFSecretBaseDisplayController
+"chatDecryptionFailed" = "Falha na decodificação";
+
+// JFSecretInputPasswordController
+"chatEnterYourPasswordToViewTheContent" = "Digite a senha para visualizar o conteúdo";
+
+// JFSecretPasswordController
+"chatViewPassword" = "Ver senha";
+"chatPleaseRememberThePassword" = "Por favor, lembre-se da senha, o sistema não salvará a senha";
+
+// JFSecretPasswordTipController
+"chatSafetyWarning" = "Dicas de segurança";
+"chatchatSafetyWarningDetail" = "antes de ver a senha, por favor, observar o ambiente circundante, para evitar vazamento da tela senha apenas uma vez, certifique-se de salvar sua senha.";
+
+// JFSecretWordController
+"chatAFriendDoesNotHavePublicKeyInformationAndCannotSendEncryptedMessages" = "amigo não tem a informação de chave pública, mensagens criptografadas não pode ser enviado";
+"chatPleaseEnterTheContentOfThePrivateMessage" = "Digite o conteúdo secretos da letra";
+"chatPleaseEnterYourPassword" = "Por favor, digite uma senha";
+"chatEncryptingPassword" = "Criptografando senha";
+
+// JFSecretImageController
+"chatPleaseSelectAnImage" = "Por favor, selecione uma imagem";
+"chatPleaseSelectTheFileYouWantToSend" = "Por favor, selecione o arquivo que deseja enviar";
+"chatUpTo9PicturesCanBeSelected" = "Até 9 fotos podem ser selecionadas";
+
+// JFSecretFileController
+"chatAddPrivateFile" = "Adicionar Cco";
+
+// JFSecretBaseSendController
+"chatGettingFriendPublicKey" = "Obtendo a chave pública de um amigo";
+
+// AboutMeViewController
+"chatFunctionIntroduction" = "Introdução à funcionalidade>";
+"chatFullChain" = "cadeia completa";
+"chatFullPlatform" = "plataforma completa";
+"chatMining" = "mineração";
+"chatEncryptedCommunication" = "Comunicação criptografada";
+"chatDigitalAssets" = "Ativos Digitais";
+
+// EFChatLeftViewController
+"themeLight" = "Modo dia";
+"themeDark" = "Modo noturno";
+"chatClearCache" = "Limpar cache";
+"chatClearCacheSuccess" = "Limpar cache com sucesso!";
+"chatClearCacheFail" = "Limpar cache falhou!";
+"chatCheckUpdate" = "Verificar nova versão";
+"chatSignOut" = "Sair do Login";
+"chatIsTheCacheCleared" = "Deseja limpar o cache?";
+"chatTesting" = "Detectando ...";
+"chatAreYouSureToQuitTheCurrentUser" = "OK para sair do usuário atual?";
+"chatSigningOut" = "Sair do login ...";
+"chatSignOutFailedPleaseTryAgain" = "para sair do usuário atual falhou Por favor tente novamente..";
+
+// EFLeftOperationView
+"chatCircular" = "círculo";
+"chatSquare" = "square";
+
+// chataccount
+"chatAccountAvailabel" = "Disponível";
+"chatAccountFreeze" = "Congelar";
+"chatAccountAllRecords" = "Todos os registros";
+"chatAccountOther" = "Outro";
+"chatAccountAddress" = "endereço";
+"chatAccountManagedAddress" = "Endereço hospedado";
+"chatAccountPleasechoose" = "Por favor, selecione";
+"chatAccountLocalwallet" = "Carteira local";
+"chatAccountTransferQuantity" = "Quantidade de saída";
+"chatAccountHandlingFee" = "Taxa de tratamento";
+"chatAccountTotalAssets" = "total de ativos";
+"chatShareContact" = "Compartilhar contato";
+"chatProfile" = "Detalhes do usuário";
+
+// chatUpLoad
+"chatUpLoad" = "Enviar imagem";
+"chatUpLoadTips" = "detectado pela comunicação interestelar PC não estiver online, fazer upload de cada imagem só pode obter 50 pontos, cada um upload de imagens disponíveis após o fim de login PC comunicação interestelar com 100 pontos";
+"chatUpLoadFail" = "Upload falhou";
+"chatUpLoadSuccess" = "Upload bem sucedido";
+"chatUpLoadDocumentNumber" = "número do documento";
+"chatUpLoadSliverScore" = "Pontos de diamante em prata";
+"chatUpLoadSelect" = "Por favor, selecione fazer upload da imagem";
+"chatUpLoadUnuse" = "A rede atual não está disponível";
+"chatUploadGetError" = "Obter Silver Diamond Failed";
+
+// smallVideo
+"chatSamllVideo" = "pequeno vídeo";
+"chatSmallVideoDLRwetry" = "O download falhou, fez o download novamente?";
+
+// discurso
+"chatSpeechTooShort" = "Falando muito curto";
+"chatSpeechRecoding" = "A voz está sendo reconhecida";
+"chatSpeechAgain" = "Você ainda pode dizer% ld segundos";
+"chatSpeechWrong" = "Erro de ditado de voz:%@";
+"chatSpeechFail" = "O ditado de voz falhou ao abrir";
+"chatSpeechEnd" = "O reconhecimento de voz terminou";
+"chatCopied" = "Copiado";
+
+// JFMessageCell
+"chatWhetherToResendTheMessage" = "Deseja reenviar a mensagem?";
+
+// JFRecentFileManager
+"chatNotDownloaded" = "Não baixado";
+"chatDownloaded" = "Transferido";
+"chatDownloading" = "Baixando";
+"chatDownloadFailed" = "Falha no download";
+"chatTo" = "emitido";
+"chatFrom" = "de";
+"chatToGroup" = "enviar para o grupo";
+"chatFromGroup" = "do grupo";
+
+"chatNoWifiLoadimage" = "Não Wi-Fi, clique para baixar";
+"stayTuned" = "Fique atento";
+
+//JFSlideSetting
+"chatSetting" = "Configuração";
+"chatUnit" = "Unidade monetária";
+"chatExchange" = "Troca padrão";
