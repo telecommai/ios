@@ -1,3 +1,5 @@
+#import "ReadPlistFile.h"
+
 /// 主题色(淘米链)
 #define TCThemeColor HEX_COLOR(0x008ee9)
 /// 颜色重一点的主题色
@@ -8,7 +10,7 @@
 #define PlanetBundle            @"Planet.bundle"
 
 /// 滔米链Url
-#define TCUrl @"https://tc.ipcom.io"
+#define TCUrl [ReadPlistFile readValueFromPlistName:@"OptionSetting.plist" valueKey:@"WalletUrl"]
 
 /// 其他常用类
 #import "Masonry.h"

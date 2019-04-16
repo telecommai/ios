@@ -7,7 +7,7 @@
 	<key>LoginType</key>
 	<string>1</string>
 	<key>RestfulInterface</key>
-	<string>https://tc.ipcom.io/tcserver</string>
+	<string>https://tc.telecomm.io/tcserver</string>
 	<key>IPAUrl</key>
 	<string>https://mobile.solarsource.cn/ospstore/ydqy.html</string>
 	<key>APPID</key>
@@ -15,13 +15,11 @@
 	<key>ServiceKey</key>
 	<string>WXExternalInterfaceDataService</string>
 	<key>CloudDiskURL</key>
-	<string>http://panserver.solarsource.cn:9692/panserver</string>
+	<string>https://panserver.telecomm.io/panserver</string>
 	<key>CloudDiskUserID</key>
 	<string>66662</string>
 	<key>CloudDiskParentID</key>
 	<string>66662</string>
-	<key>OSPMZOneURL</key>
-	<string>http://espace.solarsource.cn:9692/espace/</string>
 	<key>OSPTaskURL</key>
 	<string>http://zsytght.solarsource.cn:9692</string>
 	<key>OSPDeviceURL</key>
@@ -45,7 +43,7 @@
 	<key>isAd</key>
 	<string>1</string>
 	<key>IMBaseUrl</key>
-	<string>https://im.ipcom.io</string>
+	<string>https://im.telecomm.io</string>
 	<key>messageService</key>
 	<string>WXExternalInterfaceDataService</string>
 	<key>LoginCheckType</key>
@@ -54,7 +52,13 @@
 	<string>http://news.openserver.cn/NewsService</string>
 	<key>AuthURL</key>
 	<string>https://mobile.solarsource.cn/MobileAuth/loginAuth/v1</string>
-	<key>ShopServer</key>
+	<key>ShopUrl</key>
 	<string>http://211.87.224.140:8181/OSPMall</string>
+	<key>StockMarketUrl</key>
+	<string>https://x.szsing.com:443</string>
+	<key>WalletUrl</key>
+	<string>https://tc.telecomm.io</string>
+	<key>ZoneUrl</key>
+	<string>https://espace.telecomm.io/espace</string>
 </dict>
 </plist>
